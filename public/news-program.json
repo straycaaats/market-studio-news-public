@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-26T22:05:44.236Z",
-  "asOf": "2026/09/27 7:05",
+  "generatedAt": "2026-09-26T22:07:00.574Z",
+  "asOf": "2026/09/27 7:07",
   "edition": "MORNING",
   "heading": "今日見る材料",
   "presenterLine": "今日は休場ですが、次の営業日につながるニュースを確認しておきましょう。",
@@ -14,15 +14,15 @@
       "source": "総務省統計局",
       "status": "FETCHED",
       "read": 15,
-      "added": 15,
-      "fetchedAt": "2026-09-26T22:05:44.236Z"
+      "added": 0,
+      "fetchedAt": "2026-09-26T22:07:00.574Z"
     },
     {
       "source": "日本銀行",
       "status": "FETCHED",
       "read": 67,
-      "added": 67,
-      "fetchedAt": "2026-09-26T22:05:44.236Z"
+      "added": 0,
+      "fetchedAt": "2026-09-26T22:07:00.574Z"
     }
   ],
   "cards": [],
