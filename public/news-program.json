@@ -1,13 +1,14 @@
 {
-  "generatedAt": "2026-09-27T14:24:50.248Z",
-  "asOf": "2026/09/27 23:24",
-  "edition": "EVENING",
-  "heading": "今日の振り返り",
-  "presenterLine": "今日は休場ですが、次の営業日につながるニュースを確認しておきましょう。",
+  "generatedAt": "2026-09-27T22:44:08.762Z",
+  "asOf": "2026-09-28",
+  "edition": "MORNING",
+  "heading": "今日見る材料",
   "counts": {
-    "newsMemoryTotal": 82,
+    "fetchedToday": 181,
+    "newsMemoryTotal": 263,
+    "considered": 1,
     "adoptedCards": 0,
-    "failedSources": 0
+    "failedSources": 1
   },
   "sourceResults": [
     {
@@ -15,16 +16,85 @@
       "status": "FETCHED",
       "read": 15,
       "added": 0,
-      "fetchedAt": "2026-09-27T14:24:50.248Z"
+      "fetchedAt": "2026-09-27T22:44:08.762Z"
     },
     {
       "source": "日本銀行",
       "status": "FETCHED",
       "read": 66,
+      "added": 66,
+      "fetchedAt": "2026-09-27T22:44:08.762Z"
+    },
+    {
+      "source": "金融庁",
+      "status": "FETCHED",
+      "read": 15,
+      "added": 15,
+      "fetchedAt": "2026-09-27T22:44:08.762Z"
+    },
+    {
+      "source": "財務省",
+      "status": "FETCHED",
+      "read": 100,
+      "added": 100,
+      "fetchedAt": "2026-09-27T22:44:08.762Z"
+    },
+    {
+      "source": "経済産業省",
+      "status": "FAILED",
+      "read": 0,
       "added": 0,
-      "fetchedAt": "2026-09-27T14:24:50.248Z"
+      "fetchedAt": "2026-09-27T22:44:08.762Z",
+      "error": "HTTP 403"
     }
   ],
+  "sourceAudit": [
+    {
+      "formalName": "総務省統計局",
+      "url": "https://www.stat.go.jp/whatsnew/news.rdf",
+      "method": "公式RSS",
+      "status": "VERIFIED"
+    },
+    {
+      "formalName": "日本銀行",
+      "url": "https://www.boj.or.jp/rss/whatsnew.xml",
+      "method": "公式RSS",
+      "status": "VERIFIED"
+    },
+    {
+      "formalName": "金融庁",
+      "url": "https://www.fsa.go.jp/fsaNewsListAll_rss2.xml",
+      "method": "公式RSS",
+      "status": "VERIFIED"
+    },
+    {
+      "formalName": "財務省",
+      "url": "https://www.mof.go.jp/news.rss",
+      "method": "公式RSS",
+      "status": "VERIFIED"
+    },
+    {
+      "formalName": "経済産業省",
+      "url": "https://www.meti.go.jp/ml_index_release_atom.xml",
+      "method": "公式Atom",
+      "status": "VERIFIED"
+    },
+    {
+      "formalName": "経済産業省 統計新着",
+      "url": "https://www.meti.go.jp/statistics/st_news.xml",
+      "method": "公式RSS",
+      "status": "UNAVAILABLE",
+      "reason": "自動取得に対してHTTP 403。制限を回避せず収集対象外とする。"
+    }
+  ],
+  "aiStatus": {
+    "configured": false,
+    "used": false,
+    "model": "gemini-3.5-flash",
+    "mode": "RULE_BASED_VERIFIED_TEXT"
+  },
+  "summaryMode": "RULE_BASED_VERIFIED_TEXT",
   "cards": [],
-  "qualityNote": "公式RSSの本文要約が確認できた情報だけを掲載。見出ししかない情報は内容を推測しない。株価予想・売買推奨は行わない。"
+  "summary": [],
+  "qualityNote": "NEWS MEMORYへの保存と表示用編集を分離。公式本文を確認できない情報は、見出し以上に補完しない。株価予想・売買推奨は行わない。"
 }
