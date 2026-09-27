@@ -1,2 +1,11 @@
-# market-studio-news-public
-MARKET STUDIO 60秒ニュースの公開データ（公式情報のみ）
+# MARKET STUDIO Cloud News
+
+PC・Excel・MarketSpeed IIから独立して、総務省統計局、日本銀行、金融庁、財務省、経済産業省の公式RSS/Atomを毎日07:00/18:00 JSTに取得します。
+
+- `data/news-memory.json`: 初回確認時刻を含む継続記録（最大5,000件）
+- `public/news-program.json`: MARKET STUDIOが読む60秒ニュース
+- `public/status.json`: 最終実行と取得成否
+- Geminiキー未設定・障害時は、取得できた公式本文だけを使うルールベース編集へフォールバック
+- `public/status.json` の `aiStatus.configured` と `aiStatus.used` で、Geminiの設定有無と実使用を区別
+
+GitHub PagesのSourceは「GitHub Actions」を選択します。APIキーを使う場合だけRepository secret `GEMINI_API_KEY` を登録します。キーはコードや公開JSONへ保存しません。
