@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-09-28T00:22:56.278Z",
-  "asOf": "2026-09-28",
+  "generatedAt": "2026-09-28T17:11:05.958Z",
+  "asOf": "2026-09-29",
   "edition": "MORNING",
   "heading": "今日見る材料",
   "counts": {
-    "fetchedToday": 183,
-    "newsMemoryTotal": 265,
-    "considered": 1,
-    "adoptedCards": 0,
+    "fetchedToday": 5,
+    "newsMemoryTotal": 270,
+    "considered": 3,
+    "adoptedCards": 1,
     "failedSources": 1
   },
   "sourceResults": [
@@ -16,35 +16,35 @@
       "status": "FETCHED",
       "read": 15,
       "added": 0,
-      "fetchedAt": "2026-09-28T00:22:56.278Z"
+      "fetchedAt": "2026-09-28T17:11:05.958Z"
     },
     {
       "source": "日本銀行",
       "status": "FETCHED",
-      "read": 68,
-      "added": 2,
-      "fetchedAt": "2026-09-28T00:22:56.278Z"
+      "read": 66,
+      "added": 0,
+      "fetchedAt": "2026-09-28T17:11:05.958Z"
     },
     {
       "source": "金融庁",
       "status": "FETCHED",
       "read": 15,
-      "added": 0,
-      "fetchedAt": "2026-09-28T00:22:56.278Z"
+      "added": 1,
+      "fetchedAt": "2026-09-28T17:11:05.958Z"
     },
     {
       "source": "財務省",
       "status": "FETCHED",
       "read": 100,
-      "added": 0,
-      "fetchedAt": "2026-09-28T00:22:56.278Z"
+      "added": 4,
+      "fetchedAt": "2026-09-28T17:11:05.958Z"
     },
     {
       "source": "経済産業省",
       "status": "FAILED",
       "read": 0,
       "added": 0,
-      "fetchedAt": "2026-09-28T00:22:56.278Z",
+      "fetchedAt": "2026-09-28T17:11:05.958Z",
       "error": "HTTP 403"
     }
   ],
@@ -94,7 +94,34 @@
     "mode": "RULE_BASED_VERIFIED_TEXT"
   },
   "summaryMode": "RULE_BASED_VERIFIED_TEXT",
-  "cards": [],
-  "summary": [],
+  "cards": [
+    {
+      "id": "bc4be94f731ef489f2ea43a45e94b1194e01da338a5ca77c9bbacc0931bbdb9a",
+      "category": "財政・国債",
+      "title": "進藤副大臣、若林副大臣就任記者会見の概要(令和8年9月24日(木曜日))",
+      "summary": "片山大臣からは税制改正、関税の改正、国際問題を担当するように指示を受けているところです。",
+      "whatHappened": "進藤副大臣、若林副大臣就任記者会見の概要(令和8年9月24日(木曜日))",
+      "whatChanged": "片山大臣からは税制改正、関税の改正、国際問題を担当するように指示を受けているところです。",
+      "relatedThemes": [
+        "銀行・保険",
+        "国債・円相場"
+      ],
+      "status": "NEW",
+      "source": "財務省",
+      "publishedAt": "2026-09-28T07:45:00.000Z",
+      "firstSeenAt": "2026-09-28T17:11:05.958Z",
+      "contentStatus": "VERIFIED_TEXT",
+      "links": [
+        {
+          "title": "進藤副大臣、若林副大臣就任記者会見の概要(令和8年9月24日(木曜日))",
+          "url": "https://www.mof.go.jp/public_relations/conference/my20260924a.html",
+          "source": "財務省"
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "片山大臣からは税制改正、関税の改正、国際問題を担当するように指示を受けているところです。"
+  ],
   "qualityNote": "NEWS MEMORYへの保存と表示用編集を分離。公式本文を確認できない情報は、見出し以上に補完しない。株価予想・売買推奨は行わない。"
 }
