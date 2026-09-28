@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-28T22:46:58.322Z",
+  "generatedAt": "2026-09-28T22:51:48.903Z",
   "asOf": "2026-09-29",
   "edition": "MORNING",
   "heading": "今日見る材料",
@@ -7,7 +7,7 @@
     "fetchedToday": 5,
     "newsMemoryTotal": 270,
     "considered": 3,
-    "adoptedCards": 1,
+    "adoptedCards": 3,
     "failedSources": 1
   },
   "sourceResults": [
@@ -16,35 +16,35 @@
       "status": "FETCHED",
       "read": 15,
       "added": 0,
-      "fetchedAt": "2026-09-28T22:46:58.322Z"
+      "fetchedAt": "2026-09-28T22:51:48.903Z"
     },
     {
       "source": "日本銀行",
       "status": "FETCHED",
       "read": 66,
       "added": 0,
-      "fetchedAt": "2026-09-28T22:46:58.322Z"
+      "fetchedAt": "2026-09-28T22:51:48.903Z"
     },
     {
       "source": "金融庁",
       "status": "FETCHED",
       "read": 15,
       "added": 0,
-      "fetchedAt": "2026-09-28T22:46:58.322Z"
+      "fetchedAt": "2026-09-28T22:51:48.903Z"
     },
     {
       "source": "財務省",
       "status": "FETCHED",
       "read": 100,
       "added": 0,
-      "fetchedAt": "2026-09-28T22:46:58.322Z"
+      "fetchedAt": "2026-09-28T22:51:48.903Z"
     },
     {
       "source": "経済産業省",
       "status": "FAILED",
       "read": 0,
       "added": 0,
-      "fetchedAt": "2026-09-28T22:46:58.322Z",
+      "fetchedAt": "2026-09-28T22:51:48.903Z",
       "error": "HTTP 403"
     }
   ],
@@ -89,22 +89,22 @@
   ],
   "aiStatus": {
     "configured": true,
-    "used": false,
-    "model": "gemini-3.5-flash",
-    "mode": "RULE_BASED_AFTER_GEMINI_FAILURE:Gemini HTTP 503"
+    "used": true,
+    "model": "gemini-3.5-flash-lite",
+    "mode": "GEMINI_GROUNDED_EDITORIAL"
   },
-  "summaryMode": "RULE_BASED_AFTER_GEMINI_FAILURE:Gemini HTTP 503",
+  "summaryMode": "GEMINI_GROUNDED_EDITORIAL",
   "cards": [
     {
       "id": "bc4be94f731ef489f2ea43a45e94b1194e01da338a5ca77c9bbacc0931bbdb9a",
       "category": "財政・国債",
-      "title": "進藤副大臣、若林副大臣就任記者会見の概要(令和8年9月24日(木曜日))",
-      "summary": "片山大臣からは税制改正、関税の改正、国際問題を担当するように指示を受けているところです。",
-      "whatHappened": "進藤副大臣、若林副大臣就任記者会見の概要(令和8年9月24日(木曜日))",
-      "whatChanged": "片山大臣からは税制改正、関税の改正、国際問題を担当するように指示を受けているところです。",
+      "title": "財務副大臣就任記者会見が行われた。",
+      "summary": "進藤金日子氏と若林健太氏が財務副大臣に就任した。",
+      "whatHappened": "財務副大臣就任記者会見が行われた。",
+      "whatChanged": "進藤金日子氏と若林健太氏が財務副大臣に就任した。",
       "relatedThemes": [
-        "銀行・保険",
-        "国債・円相場"
+        "財政政策",
+        "人事"
       ],
       "status": "NEW",
       "source": "財務省",
@@ -118,10 +118,60 @@
           "source": "財務省"
         }
       ]
+    },
+    {
+      "id": "bded7074a3e5b31f70015f17a68da3f4a7ae4ade5d46a3b9c65671a4ae4e70ec",
+      "category": "産業・エネルギー",
+      "title": "財務大臣政務官就任記者会見が行われた。",
+      "summary": "山口晋氏と白坂亜紀氏が財務大臣政務官に就任した。",
+      "whatHappened": "財務大臣政務官就任記者会見が行われた。",
+      "whatChanged": "山口晋氏と白坂亜紀氏が財務大臣政務官に就任した。",
+      "relatedThemes": [
+        "財政政策",
+        "人事"
+      ],
+      "status": "NEW",
+      "source": "財務省",
+      "publishedAt": "2026-09-28T07:45:00.000Z",
+      "firstSeenAt": "2026-09-28T17:11:05.958Z",
+      "contentStatus": "VERIFIED_TEXT",
+      "links": [
+        {
+          "title": "山口政務官、白坂政務官就任記者会見の概要(令和8年9月24日(木曜日))",
+          "url": "https://www.mof.go.jp/public_relations/conference/my20260924b.html",
+          "source": "財務省"
+        }
+      ]
+    },
+    {
+      "id": "bafb4ef58841c4af17c812d1b0d8dc9f09286ad4afa29bfac1715123f9c04b7a",
+      "category": "金融政策・市場",
+      "title": "2026年9月の金融政策決定会合における金融市場調節方針の変更に関する参考情報が公表された。",
+      "summary": "金融市場調節方針が変更された。",
+      "whatHappened": "2026年9月の金融政策決定会合における金融市場調節方針の変更に関する参考情報が公表された。",
+      "whatChanged": "金融市場調節方針が変更された。",
+      "relatedThemes": [
+        "金融政策",
+        "日本銀行"
+      ],
+      "status": "FOLLOW_UP",
+      "source": "日本銀行",
+      "publishedAt": "Fri, 18 Sep 2026 12:10:00 +0900",
+      "firstSeenAt": "2026-09-26T22:05:44.236Z",
+      "contentStatus": "TITLE_ONLY",
+      "links": [
+        {
+          "title": "（参考）金融市場調節方針の変更（2026年9月金融政策決定会合）",
+          "url": "http://www.boj.or.jp/mopo/mpmdeci/mpr_2026/k260918b.pdf",
+          "source": "日本銀行"
+        }
+      ]
     }
   ],
   "summary": [
-    "片山大臣からは税制改正、関税の改正、国際問題を担当するように指示を受けているところです。"
+    "進藤金日子氏と若林健太氏が財務副大臣に就任した。",
+    "山口晋氏と白坂亜紀氏が財務大臣政務官に就任した。",
+    "金融市場調節方針が変更された。"
   ],
   "qualityNote": "NEWS MEMORYへの保存と表示用編集を分離。公式本文を確認できない情報は、見出し以上に補完しない。株価予想・売買推奨は行わない。"
 }
