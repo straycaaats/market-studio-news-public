@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-09-28T22:51:48.903Z",
+  "generatedAt": "2026-09-29T01:34:17.070Z",
   "asOf": "2026-09-29",
   "edition": "MORNING",
   "heading": "今日見る材料",
   "counts": {
-    "fetchedToday": 5,
-    "newsMemoryTotal": 270,
-    "considered": 3,
-    "adoptedCards": 3,
+    "fetchedToday": 11,
+    "newsMemoryTotal": 276,
+    "considered": 6,
+    "adoptedCards": 5,
     "failedSources": 1
   },
   "sourceResults": [
@@ -16,35 +16,35 @@
       "status": "FETCHED",
       "read": 15,
       "added": 0,
-      "fetchedAt": "2026-09-28T22:51:48.903Z"
+      "fetchedAt": "2026-09-29T01:34:17.070Z"
     },
     {
       "source": "日本銀行",
       "status": "FETCHED",
       "read": 66,
       "added": 0,
-      "fetchedAt": "2026-09-28T22:51:48.903Z"
+      "fetchedAt": "2026-09-29T01:34:17.070Z"
     },
     {
       "source": "金融庁",
       "status": "FETCHED",
       "read": 15,
       "added": 0,
-      "fetchedAt": "2026-09-28T22:51:48.903Z"
+      "fetchedAt": "2026-09-29T01:34:17.070Z"
     },
     {
       "source": "財務省",
       "status": "FETCHED",
       "read": 100,
-      "added": 0,
-      "fetchedAt": "2026-09-28T22:51:48.903Z"
+      "added": 6,
+      "fetchedAt": "2026-09-29T01:34:17.070Z"
     },
     {
       "source": "経済産業省",
       "status": "FAILED",
       "read": 0,
       "added": 0,
-      "fetchedAt": "2026-09-28T22:51:48.903Z",
+      "fetchedAt": "2026-09-29T01:34:17.070Z",
       "error": "HTTP 403"
     }
   ],
@@ -98,12 +98,12 @@
     {
       "id": "bc4be94f731ef489f2ea43a45e94b1194e01da338a5ca77c9bbacc0931bbdb9a",
       "category": "財政・国債",
-      "title": "財務副大臣就任記者会見が行われた。",
-      "summary": "進藤金日子氏と若林健太氏が財務副大臣に就任した。",
-      "whatHappened": "財務副大臣就任記者会見が行われた。",
-      "whatChanged": "進藤金日子氏と若林健太氏が財務副大臣に就任した。",
+      "title": "財務副大臣に就任した進藤金日子氏と若林健太氏の就任記者会見の概要が公開された。",
+      "summary": "財務副大臣の担当業務や就任に関する抱負が示された。",
+      "whatHappened": "財務副大臣に就任した進藤金日子氏と若林健太氏の就任記者会見の概要が公開された。",
+      "whatChanged": "財務副大臣の担当業務や就任に関する抱負が示された。",
       "relatedThemes": [
-        "財政政策",
+        "財務省",
         "人事"
       ],
       "status": "NEW",
@@ -122,12 +122,12 @@
     {
       "id": "bded7074a3e5b31f70015f17a68da3f4a7ae4ade5d46a3b9c65671a4ae4e70ec",
       "category": "産業・エネルギー",
-      "title": "財務大臣政務官就任記者会見が行われた。",
-      "summary": "山口晋氏と白坂亜紀氏が財務大臣政務官に就任した。",
-      "whatHappened": "財務大臣政務官就任記者会見が行われた。",
-      "whatChanged": "山口晋氏と白坂亜紀氏が財務大臣政務官に就任した。",
+      "title": "財務大臣政務官に就任した山口晋氏と白坂亜紀氏の就任記者会見の概要が公開された。",
+      "summary": "財務大臣政務官の担当業務や就任に関する抱負が示された。",
+      "whatHappened": "財務大臣政務官に就任した山口晋氏と白坂亜紀氏の就任記者会見の概要が公開された。",
+      "whatChanged": "財務大臣政務官の担当業務や就任に関する抱負が示された。",
       "relatedThemes": [
-        "財政政策",
+        "財務省",
         "人事"
       ],
       "status": "NEW",
@@ -144,34 +144,83 @@
       ]
     },
     {
-      "id": "bafb4ef58841c4af17c812d1b0d8dc9f09286ad4afa29bfac1715123f9c04b7a",
-      "category": "金融政策・市場",
-      "title": "2026年9月の金融政策決定会合における金融市場調節方針の変更に関する参考情報が公表された。",
-      "summary": "金融市場調節方針が変更された。",
-      "whatHappened": "2026年9月の金融政策決定会合における金融市場調節方針の変更に関する参考情報が公表された。",
-      "whatChanged": "金融市場調節方針が変更された。",
+      "id": "90253ef5095cd5b2749ac1de2aafd4ca072be49a1a2f0430cda316e59ab45bc9",
+      "category": "財政・国債",
+      "title": "財務省は、令和8年10月1日以降に適用される財政融資資金預託金利について公表した。",
+      "summary": "令和8年10月1日以降の預託の約定期間に応じた利率の適用が決定された。",
+      "whatHappened": "財務省は、令和8年10月1日以降に適用される財政融資資金預託金利について公表した。",
+      "whatChanged": "令和8年10月1日以降の預託の約定期間に応じた利率の適用が決定された。",
       "relatedThemes": [
-        "金融政策",
-        "日本銀行"
+        "財政投融資",
+        "財務省"
       ],
-      "status": "FOLLOW_UP",
-      "source": "日本銀行",
-      "publishedAt": "Fri, 18 Sep 2026 12:10:00 +0900",
-      "firstSeenAt": "2026-09-26T22:05:44.236Z",
-      "contentStatus": "TITLE_ONLY",
+      "status": "NEW",
+      "source": "財務省",
+      "publishedAt": "2026-09-29T00:30:00.000Z",
+      "firstSeenAt": "2026-09-29T01:34:17.070Z",
+      "contentStatus": "VERIFIED_TEXT",
       "links": [
         {
-          "title": "（参考）金融市場調節方針の変更（2026年9月金融政策決定会合）",
-          "url": "http://www.boj.or.jp/mopo/mpmdeci/mpr_2026/k260918b.pdf",
-          "source": "日本銀行"
+          "title": "財政融資資金預託金利（令和8年10月1日以降適用）",
+          "url": "https://www.mof.go.jp/policy/filp/reference/flf_interest_rate/kinrir8/yotaku20260929.html",
+          "source": "財務省"
+        }
+      ]
+    },
+    {
+      "id": "57033fd59a45d3559fe54ee8583f463e81579c582328e839cabcc050a63e32d5",
+      "category": "財政・国債",
+      "title": "財務省は、令和8年10月1日以降に貸し付ける財政融資資金の貸付金利について公表した。",
+      "summary": "令和8年10月1日以降の貸付期間及び据置期間に応じた利率（年利）の適用が決定された。",
+      "whatHappened": "財務省は、令和8年10月1日以降に貸し付ける財政融資資金の貸付金利について公表した。",
+      "whatChanged": "令和8年10月1日以降の貸付期間及び据置期間に応じた利率（年利）の適用が決定された。",
+      "relatedThemes": [
+        "財政投融資",
+        "財務省"
+      ],
+      "status": "NEW",
+      "source": "財務省",
+      "publishedAt": "2026-09-29T00:30:00.000Z",
+      "firstSeenAt": "2026-09-29T01:34:17.070Z",
+      "contentStatus": "VERIFIED_TEXT",
+      "links": [
+        {
+          "title": "財政融資資金貸付金利（令和8年10月1日以降適用）",
+          "url": "https://www.mof.go.jp/policy/filp/reference/flf_interest_rate/kinrir8/kashi20260929.html",
+          "source": "財務省"
+        }
+      ]
+    },
+    {
+      "id": "fbe63b948ecb88cd425b59e20c55a655c83965bf0d1814554ccd8cbebf333543",
+      "category": "財政・国債",
+      "title": "財務省は40年利付国債（第19回）の入札発行を実施し、表面利率年3.8パーセント、発行予定額は額面金額で3,000億円程度と通知した。",
+      "summary": "40年利付国債（第19回）の入札が実施され、申込締切や払込期日などのスケジュールが示された。",
+      "whatHappened": "財務省は40年利付国債（第19回）の入札発行を実施し、表面利率年3.8パーセント、発行予定額は額面金額で3,000億円程度と通知した。",
+      "whatChanged": "40年利付国債（第19回）の入札が実施され、申込締切や払込期日などのスケジュールが示された。",
+      "relatedThemes": [
+        "国債",
+        "財務省",
+        "金利・債券"
+      ],
+      "status": "NEW",
+      "source": "財務省",
+      "publishedAt": "2026-09-29T01:30:00.000Z",
+      "firstSeenAt": "2026-09-29T01:34:17.070Z",
+      "contentStatus": "VERIFIED_TEXT",
+      "links": [
+        {
+          "title": "40年利付国債（第19回）の入札発行（令和8年9月29日入札）",
+          "url": "https://www.mof.go.jp/jgbs/auction/calendar/nyusatsu/offer20260929.htm",
+          "source": "財務省"
         }
       ]
     }
   ],
   "summary": [
-    "進藤金日子氏と若林健太氏が財務副大臣に就任した。",
-    "山口晋氏と白坂亜紀氏が財務大臣政務官に就任した。",
-    "金融市場調節方針が変更された。"
+    "財務副大臣の担当業務や就任に関する抱負が示された。",
+    "財務大臣政務官の担当業務や就任に関する抱負が示された。",
+    "令和8年10月1日以降の預託の約定期間に応じた利率の適用が決定された。"
   ],
   "qualityNote": "NEWS MEMORYへの保存と表示用編集を分離。公式本文を確認できない情報は、見出し以上に補完しない。株価予想・売買推奨は行わない。"
 }
