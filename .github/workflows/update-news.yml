@@ -2,8 +2,13 @@ name: Update 60-second news
 
 on:
   schedule:
-    - cron: '0 22 * * *' # 07:00 JST
-    - cron: '0 9 * * *' # 18:00 JST
+    # GitHubの定期実行は遅延することがあるため、混雑しやすい毎時00分を避け、
+    # 朝夕それぞれ予備実行を置く。同じ記事はNEWS MEMORY側で重複保存しない。
+    - cron: '55 21 * * *' # 06:55 JST（朝の本実行）
+    - cron: '25 22 * * *' # 07:25 JST（朝の未更新回収）
+    - cron: '55 8 * * *'  # 17:55 JST（夕方の本実行）
+    - cron: '25 9 * * *'  # 18:25 JST（夕方の未更新回収）
+    - cron: '5 10 * * *'  # 19:05 JST（夕方の最終回収）
   workflow_dispatch:
 
 permissions:
@@ -18,11 +23,14 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: actions/setup-node@v4
         with:
           node-version: '24'
@@ -37,6 +45,7 @@ jobs:
           git config user.email "market-studio-news-bot@users.noreply.github.com"
           git add data/news-memory.json public/news-program.json public/status.json
           git diff --cached --quiet || git commit -m "news: update $(date -u +%FT%TZ)"
+          git pull --rebase origin main
           git push
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
