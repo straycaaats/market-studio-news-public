@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-09-29T01:34:17.070Z",
+  "generatedAt": "2026-09-29T11:23:36.879Z",
   "asOf": "2026-09-29",
-  "edition": "MORNING",
-  "heading": "今日見る材料",
+  "edition": "EVENING",
+  "heading": "今日の振り返り",
   "counts": {
-    "fetchedToday": 11,
-    "newsMemoryTotal": 276,
-    "considered": 6,
+    "fetchedToday": 27,
+    "newsMemoryTotal": 292,
+    "considered": 10,
     "adoptedCards": 5,
     "failedSources": 1
   },
@@ -15,36 +15,36 @@
       "source": "総務省統計局",
       "status": "FETCHED",
       "read": 15,
-      "added": 0,
-      "fetchedAt": "2026-09-29T01:34:17.070Z"
+      "added": 2,
+      "fetchedAt": "2026-09-29T11:23:36.879Z"
     },
     {
       "source": "日本銀行",
       "status": "FETCHED",
-      "read": 66,
+      "read": 65,
       "added": 0,
-      "fetchedAt": "2026-09-29T01:34:17.070Z"
+      "fetchedAt": "2026-09-29T11:23:36.879Z"
     },
     {
       "source": "金融庁",
       "status": "FETCHED",
       "read": 15,
-      "added": 0,
-      "fetchedAt": "2026-09-29T01:34:17.070Z"
+      "added": 5,
+      "fetchedAt": "2026-09-29T11:23:36.879Z"
     },
     {
       "source": "財務省",
       "status": "FETCHED",
       "read": 100,
-      "added": 6,
-      "fetchedAt": "2026-09-29T01:34:17.070Z"
+      "added": 9,
+      "fetchedAt": "2026-09-29T11:23:36.879Z"
     },
     {
       "source": "経済産業省",
       "status": "FAILED",
       "read": 0,
       "added": 0,
-      "fetchedAt": "2026-09-29T01:34:17.070Z",
+      "fetchedAt": "2026-09-29T11:23:36.879Z",
       "error": "HTTP 403"
     }
   ],
@@ -96,131 +96,130 @@
   "summaryMode": "GEMINI_GROUNDED_EDITORIAL",
   "cards": [
     {
-      "id": "bc4be94f731ef489f2ea43a45e94b1194e01da338a5ca77c9bbacc0931bbdb9a",
-      "category": "財政・国債",
-      "title": "財務副大臣に就任した進藤金日子氏と若林健太氏の就任記者会見の概要が公開された。",
-      "summary": "財務副大臣の担当業務や就任に関する抱負が示された。",
-      "whatHappened": "財務副大臣に就任した進藤金日子氏と若林健太氏の就任記者会見の概要が公開された。",
-      "whatChanged": "財務副大臣の担当業務や就任に関する抱負が示された。",
+      "id": "9a81e46568717121b54ab644bc11476c78a113b972b97d0d1a3a40c173ecf150",
+      "category": "金融政策・市場",
+      "title": "片山財務大臣の閣議後記者会見が開催され、飲食料品消費税率の臨時的引下げおよび就業者負担軽減支援金の導入に向けた総額1,119億円の予備費使用の閣議決定などが報告された。",
+      "summary": "飲食料品にかかる消費税率の引下げに向けたスマートレジ導入やPOSレジ改修等（781億円）、地方公共団体の税務システム等の改修等（338億円）のための予備費が措置された。",
+      "whatHappened": "片山財務大臣の閣議後記者会見が開催され、飲食料品消費税率の臨時的引下げおよび就業者負担軽減支援金の導入に向けた総額1,119億円の予備費使用の閣議決定などが報告された。",
+      "whatChanged": "飲食料品にかかる消費税率の引下げに向けたスマートレジ導入やPOSレジ改修等（781億円）、地方公共団体の税務システム等の改修等（338億円）のための予備費が措置された。",
       "relatedThemes": [
-        "財務省",
-        "人事"
+        "財政政策",
+        "消費税",
+        "決済高度化"
       ],
       "status": "NEW",
       "source": "財務省",
-      "publishedAt": "2026-09-28T07:45:00.000Z",
-      "firstSeenAt": "2026-09-28T17:11:05.958Z",
+      "publishedAt": "2026-09-29T09:50:00.000Z",
+      "firstSeenAt": "2026-09-29T11:23:36.879Z",
       "contentStatus": "VERIFIED_TEXT",
       "links": [
         {
-          "title": "進藤副大臣、若林副大臣就任記者会見の概要(令和8年9月24日(木曜日))",
-          "url": "https://www.mof.go.jp/public_relations/conference/my20260924a.html",
+          "title": "片山財務大臣兼内閣府特命担当大臣閣議後記者会見の概要(令和8年9月29日(火曜日))",
+          "url": "https://www.mof.go.jp/public_relations/conference/my20260929.html",
           "source": "財務省"
         }
       ]
     },
     {
-      "id": "bded7074a3e5b31f70015f17a68da3f4a7ae4ade5d46a3b9c65671a4ae4e70ec",
-      "category": "産業・エネルギー",
-      "title": "財務大臣政務官に就任した山口晋氏と白坂亜紀氏の就任記者会見の概要が公開された。",
-      "summary": "財務大臣政務官の担当業務や就任に関する抱負が示された。",
-      "whatHappened": "財務大臣政務官に就任した山口晋氏と白坂亜紀氏の就任記者会見の概要が公開された。",
-      "whatChanged": "財務大臣政務官の担当業務や就任に関する抱負が示された。",
+      "id": "3e927a3bc8586d299c08c9be8e245f77a26bd4008a65457c10bc38ccb6801b86",
+      "category": "金融政策・市場",
+      "title": "財務省はシリアのアル・アサド大統領及びその関係者等に対する資産凍結等の措置について、指定されている16団体を削除し措置を解除すると発表した。",
+      "summary": "シリア関連の資産凍結対象から16団体が削除された。",
+      "whatHappened": "財務省はシリアのアル・アサド大統領及びその関係者等に対する資産凍結等の措置について、指定されている16団体を削除し措置を解除すると発表した。",
+      "whatChanged": "シリア関連の資産凍結対象から16団体が削除された。",
       "relatedThemes": [
-        "財務省",
-        "人事"
-      ],
-      "status": "NEW",
-      "source": "財務省",
-      "publishedAt": "2026-09-28T07:45:00.000Z",
-      "firstSeenAt": "2026-09-28T17:11:05.958Z",
-      "contentStatus": "VERIFIED_TEXT",
-      "links": [
-        {
-          "title": "山口政務官、白坂政務官就任記者会見の概要(令和8年9月24日(木曜日))",
-          "url": "https://www.mof.go.jp/public_relations/conference/my20260924b.html",
-          "source": "財務省"
-        }
-      ]
-    },
-    {
-      "id": "90253ef5095cd5b2749ac1de2aafd4ca072be49a1a2f0430cda316e59ab45bc9",
-      "category": "財政・国債",
-      "title": "財務省は、令和8年10月1日以降に適用される財政融資資金預託金利について公表した。",
-      "summary": "令和8年10月1日以降の預託の約定期間に応じた利率の適用が決定された。",
-      "whatHappened": "財務省は、令和8年10月1日以降に適用される財政融資資金預託金利について公表した。",
-      "whatChanged": "令和8年10月1日以降の預託の約定期間に応じた利率の適用が決定された。",
-      "relatedThemes": [
-        "財政投融資",
-        "財務省"
-      ],
-      "status": "NEW",
-      "source": "財務省",
-      "publishedAt": "2026-09-29T00:30:00.000Z",
-      "firstSeenAt": "2026-09-29T01:34:17.070Z",
-      "contentStatus": "VERIFIED_TEXT",
-      "links": [
-        {
-          "title": "財政融資資金預託金利（令和8年10月1日以降適用）",
-          "url": "https://www.mof.go.jp/policy/filp/reference/flf_interest_rate/kinrir8/yotaku20260929.html",
-          "source": "財務省"
-        }
-      ]
-    },
-    {
-      "id": "57033fd59a45d3559fe54ee8583f463e81579c582328e839cabcc050a63e32d5",
-      "category": "財政・国債",
-      "title": "財務省は、令和8年10月1日以降に貸し付ける財政融資資金の貸付金利について公表した。",
-      "summary": "令和8年10月1日以降の貸付期間及び据置期間に応じた利率（年利）の適用が決定された。",
-      "whatHappened": "財務省は、令和8年10月1日以降に貸し付ける財政融資資金の貸付金利について公表した。",
-      "whatChanged": "令和8年10月1日以降の貸付期間及び据置期間に応じた利率（年利）の適用が決定された。",
-      "relatedThemes": [
-        "財政投融資",
-        "財務省"
-      ],
-      "status": "NEW",
-      "source": "財務省",
-      "publishedAt": "2026-09-29T00:30:00.000Z",
-      "firstSeenAt": "2026-09-29T01:34:17.070Z",
-      "contentStatus": "VERIFIED_TEXT",
-      "links": [
-        {
-          "title": "財政融資資金貸付金利（令和8年10月1日以降適用）",
-          "url": "https://www.mof.go.jp/policy/filp/reference/flf_interest_rate/kinrir8/kashi20260929.html",
-          "source": "財務省"
-        }
-      ]
-    },
-    {
-      "id": "fbe63b948ecb88cd425b59e20c55a655c83965bf0d1814554ccd8cbebf333543",
-      "category": "財政・国債",
-      "title": "財務省は40年利付国債（第19回）の入札発行を実施し、表面利率年3.8パーセント、発行予定額は額面金額で3,000億円程度と通知した。",
-      "summary": "40年利付国債（第19回）の入札が実施され、申込締切や払込期日などのスケジュールが示された。",
-      "whatHappened": "財務省は40年利付国債（第19回）の入札発行を実施し、表面利率年3.8パーセント、発行予定額は額面金額で3,000億円程度と通知した。",
-      "whatChanged": "40年利付国債（第19回）の入札が実施され、申込締切や払込期日などのスケジュールが示された。",
-      "relatedThemes": [
-        "国債",
-        "財務省",
-        "金利・債券"
+        "経済制裁",
+        "外国為替及び外国貿易法"
       ],
       "status": "NEW",
       "source": "財務省",
       "publishedAt": "2026-09-29T01:30:00.000Z",
-      "firstSeenAt": "2026-09-29T01:34:17.070Z",
+      "firstSeenAt": "2026-09-29T11:23:36.879Z",
       "contentStatus": "VERIFIED_TEXT",
       "links": [
         {
-          "title": "40年利付国債（第19回）の入札発行（令和8年9月29日入札）",
-          "url": "https://www.mof.go.jp/jgbs/auction/calendar/nyusatsu/offer20260929.htm",
+          "title": "「シリアのアル・アサド大統領及びその関係者等に対する資産凍結等の措置」の対象者の削除を実施します",
+          "url": "https://www.mof.go.jp/policy/international_policy/gaitame_kawase/gaitame/economic_sanctions/20260928103657.html",
           "source": "財務省"
+        }
+      ]
+    },
+    {
+      "id": "75be0fb262383f602176986800023f103919b6922a4d0ad96e08fcc14576c0b3",
+      "category": "財政・国債",
+      "title": "40年利付国債（第19回）の第II非価格競争入札結果（令和8年9月29日入札）",
+      "summary": "X ポスト --> 40年利付国債（第19回）の第Ⅱ非価格競争入札結果 令和8年9月29日 財務省 本日、40年利付国債（第19回）の第Ⅱ非価格競争入札について、下記のように募入の決定を行いました。",
+      "whatHappened": "40年利付国債（第19回）の第II非価格競争入札結果（令和8年9月29日入札）",
+      "whatChanged": "X ポスト --> 40年利付国債（第19回）の第Ⅱ非価格競争入札結果 令和8年9月29日 財務省 本日、40年利付国債（第19回）の第Ⅱ非価格競争入札について、下記のように募入の決定を行いました。",
+      "relatedThemes": [
+        "国債・円相場"
+      ],
+      "status": "NEW",
+      "source": "財務省",
+      "publishedAt": "2026-09-29T06:15:00.000Z",
+      "firstSeenAt": "2026-09-29T11:23:36.879Z",
+      "contentStatus": "VERIFIED_TEXT",
+      "links": [
+        {
+          "title": "40年利付国債（第19回）の第II非価格競争入札結果（令和8年9月29日入札）",
+          "url": "https://www.mof.go.jp/jgbs/auction/calendar/nyusatsu/resul20260929a.htm",
+          "source": "財務省"
+        }
+      ]
+    },
+    {
+      "id": "8442dd0a94a7c9f5bfec773de735d8c10928414c30e4664eb9b18d5bd8128f50",
+      "category": "財政・国債",
+      "title": "財務省は40年利付国債（第19回）の入札結果を公表した。",
+      "summary": "応募額9,280億円に対し、募入決定額は2,997億円、応募者利回りは4.125％、発行価格は93円69銭となった。",
+      "whatHappened": "財務省は40年利付国債（第19回）の入札結果を公表した。",
+      "whatChanged": "応募額9,280億円に対し、募入決定額は2,997億円、応募者利回りは4.125％、発行価格は93円69銭となった。",
+      "relatedThemes": [
+        "国債入札",
+        "金利"
+      ],
+      "status": "NEW",
+      "source": "財務省",
+      "publishedAt": "2026-09-29T03:35:00.000Z",
+      "firstSeenAt": "2026-09-29T11:23:36.879Z",
+      "contentStatus": "VERIFIED_TEXT",
+      "links": [
+        {
+          "title": "40年利付国債（第19回）の入札結果（令和8年9月29日入札）",
+          "url": "https://www.mof.go.jp/jgbs/auction/calendar/nyusatsu/resul20260929.htm",
+          "source": "財務省"
+        }
+      ]
+    },
+    {
+      "id": "4a4d2e049f5976a39f6ee2ffc94eac1986f002fb393666890be9c835fe6ee487",
+      "category": "暮らし・消費",
+      "title": "総務省統計局は住民基本台帳人口移動報告の2026年8月分を公表した。",
+      "summary": "全国の市区町村間移動者数が前年同月比2.4％増の35万6920人となったことが示された。",
+      "whatHappened": "総務省統計局は住民基本台帳人口移動報告の2026年8月分を公表した。",
+      "whatChanged": "全国の市区町村間移動者数が前年同月比2.4％増の35万6920人となったことが示された。",
+      "relatedThemes": [
+        "人口移動",
+        "統計"
+      ],
+      "status": "NEW",
+      "source": "総務省統計局",
+      "publishedAt": "2026-09-29",
+      "firstSeenAt": "2026-09-29T11:23:36.879Z",
+      "contentStatus": "VERIFIED_TEXT",
+      "links": [
+        {
+          "title": "住民基本台帳人口移動報告 2026年（令和8年）8月分",
+          "url": "https://www.stat.go.jp/data/idou/sokuhou/tsuki/index.html",
+          "source": "総務省統計局"
         }
       ]
     }
   ],
   "summary": [
-    "財務副大臣の担当業務や就任に関する抱負が示された。",
-    "財務大臣政務官の担当業務や就任に関する抱負が示された。",
-    "令和8年10月1日以降の預託の約定期間に応じた利率の適用が決定された。"
+    "飲食料品にかかる消費税率の引下げに向けたスマートレジ導入やPOSレジ改修等（781億円）、地方公共団体の税務システム等の改修等（338億円）のための予備費が措置された。",
+    "シリア関連の資産凍結対象から16団体が削除された。",
+    "X ポスト --> 40年利付国債（第19回）の第Ⅱ非価格競争入札結果 令和8年9月29日 財務省 本日、40年利付国債（第19回）の第Ⅱ非価格競争入札について、下記のように募入の決定を行いました。"
   ],
   "qualityNote": "NEWS MEMORYへの保存と表示用編集を分離。公式本文を確認できない情報は、見出し以上に補完しない。株価予想・売買推奨は行わない。"
 }
