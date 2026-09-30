@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-09-30T01:21:05.737Z",
-  "asOf": "2026-09-30",
+  "generatedAt": "2026-09-30T15:23:29.546Z",
+  "asOf": "2026-10-01",
   "edition": "MORNING",
   "heading": "今日見る材料",
   "counts": {
-    "fetchedToday": 3,
-    "newsMemoryTotal": 295,
-    "considered": 6,
-    "adoptedCards": 3,
+    "fetchedToday": 23,
+    "newsMemoryTotal": 318,
+    "considered": 8,
+    "adoptedCards": 5,
     "failedSources": 1
   },
   "sourceResults": [
@@ -16,35 +16,35 @@
       "status": "FETCHED",
       "read": 15,
       "added": 0,
-      "fetchedAt": "2026-09-30T01:21:05.737Z"
+      "fetchedAt": "2026-09-30T15:23:29.546Z"
     },
     {
       "source": "日本銀行",
       "status": "FETCHED",
-      "read": 65,
-      "added": 0,
-      "fetchedAt": "2026-09-30T01:21:05.737Z"
+      "read": 70,
+      "added": 5,
+      "fetchedAt": "2026-09-30T15:23:29.546Z"
     },
     {
       "source": "金融庁",
       "status": "FETCHED",
       "read": 15,
-      "added": 0,
-      "fetchedAt": "2026-09-30T01:21:05.737Z"
+      "added": 7,
+      "fetchedAt": "2026-09-30T15:23:29.546Z"
     },
     {
       "source": "財務省",
       "status": "FETCHED",
       "read": 100,
-      "added": 3,
-      "fetchedAt": "2026-09-30T01:21:05.737Z"
+      "added": 11,
+      "fetchedAt": "2026-09-30T15:23:29.546Z"
     },
     {
       "source": "経済産業省",
       "status": "FAILED",
       "read": 0,
       "added": 0,
-      "fetchedAt": "2026-09-30T01:21:05.737Z",
+      "fetchedAt": "2026-09-30T15:23:29.546Z",
       "error": "HTTP 403"
     }
   ],
@@ -96,83 +96,129 @@
   "summaryMode": "GEMINI_GROUNDED_EDITORIAL",
   "cards": [
     {
-      "id": "9a81e46568717121b54ab644bc11476c78a113b972b97d0d1a3a40c173ecf150",
+      "id": "b3cec1a88a664b0ed14224070aaafb06408f3143ccdb368126e9efcba7b6ddc2",
       "category": "金融政策・市場",
-      "title": "片山財務大臣が閣議後記者会見を行い、飲食料品消費税率の臨時的な引下げ及び就業者負担軽減支援金の円滑な実施に向けた総額1,119億円の予備費使用の閣議決定や、金融庁の決済高度化プロジェクト（PIP）にお",
-      "summary": "飲食料品消費税率の引下げに向けたスマートレジ導入やPOSレジ改修等に781億円、税務システム等改修に338億円の予備費が措置された。また、貿易関係書類のオンチェーン化とステーブルコイン連携を検証する実証実験が金融庁の支援案件として決定された。",
-      "whatHappened": "片山財務大臣が閣議後記者会見を行い、飲食料品消費税率の臨時的な引下げ及び就業者負担軽減支援金の円滑な実施に向けた総額1,119億円の予備費使用の閣議決定や、金融庁の決済高度化プロジェクト（PIP）にお",
-      "whatChanged": "飲食料品消費税率の引下げに向けたスマートレジ導入やPOSレジ改修等に781億円、税務システム等改修に338億円の予備費が措置された。また、貿易関係書類のオンチェーン化とステーブルコイン連携を検証する実証実験が金融庁の支援案件として決定された。",
+      "title": "令和8年8月27日から令和8年9月28日までの外国為替平衡操作の実施状況が公表された。",
+      "summary": "同期間の外国為替平衡操作額が0円であることが発表された。",
+      "whatHappened": "令和8年8月27日から令和8年9月28日までの外国為替平衡操作の実施状況が公表された。",
+      "whatChanged": "同期間の外国為替平衡操作額が0円であることが発表された。",
       "relatedThemes": [
-        "消費税",
-        "予備費",
-        "金融庁"
+        "為替介入",
+        "財務省"
       ],
-      "status": "FOLLOW_UP",
+      "status": "NEW",
       "source": "財務省",
-      "publishedAt": "2026-09-29T09:50:00.000Z",
-      "firstSeenAt": "2026-09-29T11:23:36.879Z",
+      "publishedAt": "2026-09-30T10:00:00.000Z",
+      "firstSeenAt": "2026-09-30T15:23:29.546Z",
       "contentStatus": "VERIFIED_TEXT",
       "links": [
         {
-          "title": "片山財務大臣兼内閣府特命担当大臣閣議後記者会見の概要(令和8年9月29日(火曜日))",
-          "url": "https://www.mof.go.jp/public_relations/conference/my20260929.html",
+          "title": "外国為替平衡操作の実施状況(令和8年8月27日～令和8年9月28日)",
+          "url": "https://www.mof.go.jp/policy/international_policy/reference/feio/data/monthly/20260930.html",
           "source": "財務省"
         }
       ]
     },
     {
-      "id": "632ce24280b68bb3fda7c7057f5d0e50b50f950f965c7c7318c18148d202d0fa",
-      "category": "暮らし・消費",
-      "title": "総務省統計局が令和7年国勢調査の人口等基本集計結果を公表した。",
-      "summary": "人口、世帯、住居に関する結果や外国人、高齢者世帯等に関する結果の概要が公表された。",
-      "whatHappened": "総務省統計局が令和7年国勢調査の人口等基本集計結果を公表した。",
-      "whatChanged": "人口、世帯、住居に関する結果や外国人、高齢者世帯等に関する結果の概要が公表された。",
+      "id": "2b7bfb94cf5da6ef9e6c0755be7111a1536e738805ecc67ac02e0b693e5b02b9",
+      "category": "産業・エネルギー",
+      "title": "エネルギー対策特別会計の借入金に関する入札予定が公表された。",
+      "summary": "令和8年10月7日に実施予定の借入金入札の概要が示された。",
+      "whatHappened": "エネルギー対策特別会計の借入金に関する入札予定が公表された。",
+      "whatChanged": "令和8年10月7日に実施予定の借入金入札の概要が示された。",
       "relatedThemes": [
-        "国勢調査",
-        "人口統計"
+        "国債・借入金",
+        "財務省"
       ],
-      "status": "FOLLOW_UP",
-      "source": "総務省統計局",
-      "publishedAt": "2026-09-29",
-      "firstSeenAt": "2026-09-29T11:23:36.879Z",
+      "status": "NEW",
+      "source": "財務省",
+      "publishedAt": "2026-09-30T01:30:00.000Z",
+      "firstSeenAt": "2026-09-30T15:23:29.546Z",
       "contentStatus": "VERIFIED_TEXT",
       "links": [
         {
-          "title": "令和7年国勢調査 人口等基本集計結果",
-          "url": "https://www.stat.go.jp/data/kokusei/2025/kekka.html",
-          "source": "総務省統計局"
+          "title": "エネルギー対策特別会計の借入金の入札予定（令和8年9月30日公表）",
+          "url": "https://www.mof.go.jp/jgbs/auction/calendar/kariire/energy-offer260930.htm",
+          "source": "財務省"
         }
       ]
     },
     {
-      "id": "4a4d2e049f5976a39f6ee2ffc94eac1986f002fb393666890be9c835fe6ee487",
-      "category": "暮らし・消費",
-      "title": "総務省統計局が2026年8月分の住民基本台帳人口移動報告を公表した。",
-      "summary": "全国の市区町村間移動者数が35万6920人となり、前年同月に比べ2.4％増加した。",
-      "whatHappened": "総務省統計局が2026年8月分の住民基本台帳人口移動報告を公表した。",
-      "whatChanged": "全国の市区町村間移動者数が35万6920人となり、前年同月に比べ2.4％増加した。",
+      "id": "feb4dda7ae7206c279c4ec0dc20ae41ac483db17b82a952546c9717c027d234d",
+      "category": "財政・国債",
+      "title": "2年利付国債（第489回）の第II非価格競争入札の募入決定が行われた。",
+      "summary": "第II非価格競争入札の募入決定額が2,289億円に決定した。",
+      "whatHappened": "2年利付国債（第489回）の第II非価格競争入札の募入決定が行われた。",
+      "whatChanged": "第II非価格競争入札の募入決定額が2,289億円に決定した。",
       "relatedThemes": [
-        "人口移動",
-        "住民基本台帳"
+        "国債入札",
+        "財務省"
       ],
-      "status": "FOLLOW_UP",
-      "source": "総務省統計局",
-      "publishedAt": "2026-09-29",
-      "firstSeenAt": "2026-09-29T11:23:36.879Z",
+      "status": "NEW",
+      "source": "財務省",
+      "publishedAt": "2026-09-30T06:15:00.000Z",
+      "firstSeenAt": "2026-09-30T15:23:29.546Z",
       "contentStatus": "VERIFIED_TEXT",
       "links": [
         {
-          "title": "住民基本台帳人口移動報告 2026年（令和8年）8月分",
-          "url": "https://www.stat.go.jp/data/idou/sokuhou/tsuki/index.html",
-          "source": "総務省統計局"
+          "title": "2年利付国債（第489回）の第II非価格競争入札結果（令和8年9月30日入札）",
+          "url": "https://www.mof.go.jp/jgbs/auction/calendar/nyusatsu/resul20260930a.htm",
+          "source": "財務省"
+        }
+      ]
+    },
+    {
+      "id": "c5caf4db653f8c705b385466e3787d09af73a74e730fa3aeed79110ef0135a43",
+      "category": "財政・国債",
+      "title": "2年利付国債（第489回）の価格競争入札、非競争入札、国債市場特別参加者・第Ⅰ非価格競争入札の募入決定が行われた。",
+      "summary": "第489回2年利付国債の入札結果が確定した。",
+      "whatHappened": "2年利付国債（第489回）の価格競争入札、非競争入札、国債市場特別参加者・第Ⅰ非価格競争入札の募入決定が行われた。",
+      "whatChanged": "第489回2年利付国債の入札結果が確定した。",
+      "relatedThemes": [
+        "国債入札",
+        "財務省"
+      ],
+      "status": "NEW",
+      "source": "財務省",
+      "publishedAt": "2026-09-30T03:35:00.000Z",
+      "firstSeenAt": "2026-09-30T15:23:29.546Z",
+      "contentStatus": "VERIFIED_TEXT",
+      "links": [
+        {
+          "title": "2年利付国債（第489回）の入札結果（令和8年9月30日入札）",
+          "url": "https://www.mof.go.jp/jgbs/auction/calendar/nyusatsu/resul20260930.htm",
+          "source": "財務省"
+        }
+      ]
+    },
+    {
+      "id": "0bb7da81f5f82f3d958a29217943443c35a53149f92980df824d8853087a55c0",
+      "category": "財政・国債",
+      "title": "2年利付国債（第489回）の入札発行（令和8年9月30日入札）",
+      "summary": "） 9． 応募額一口の金額 （1）価格競争入札 1億円又はその整数倍 （2）非競争入札 百万円又はその整数倍 （3）国債市場特別参加者 ・第Ⅰ非価格競争入札 1億円又はその整数倍 10． 募入決定の方法 （1）価格競争入札 コンベンショナル方式 （2）非競争入札 案分による割り当て （ただし、応募限",
+      "whatHappened": "2年利付国債（第489回）の入札発行（令和8年9月30日入札）",
+      "whatChanged": "） 9． 応募額一口の金額 （1）価格競争入札 1億円又はその整数倍 （2）非競争入札 百万円又はその整数倍 （3）国債市場特別参加者 ・第Ⅰ非価格競争入札 1億円又はその整数倍 10． 募入決定の方法 （1）価格競争入札 コンベンショナル方式 （2）非競争入札 案分による割り当て （ただし、応募限",
+      "relatedThemes": [
+        "国債・円相場"
+      ],
+      "status": "NEW",
+      "source": "財務省",
+      "publishedAt": "2026-09-30T01:30:00.000Z",
+      "firstSeenAt": "2026-09-30T15:23:29.546Z",
+      "contentStatus": "VERIFIED_TEXT",
+      "links": [
+        {
+          "title": "2年利付国債（第489回）の入札発行（令和8年9月30日入札）",
+          "url": "https://www.mof.go.jp/jgbs/auction/calendar/nyusatsu/offer20260930.htm",
+          "source": "財務省"
         }
       ]
     }
   ],
   "summary": [
-    "飲食料品消費税率の引下げに向けたスマートレジ導入やPOSレジ改修等に781億円、税務システム等改修に338億円の予備費が措置された。また、貿易関係書類のオンチェーン化とステーブルコイン連携を検証する実証実験が金融庁の支援案件として決定された。",
-    "人口、世帯、住居に関する結果や外国人、高齢者世帯等に関する結果の概要が公表された。",
-    "全国の市区町村間移動者数が35万6920人となり、前年同月に比べ2.4％増加した。"
+    "同期間の外国為替平衡操作額が0円であることが発表された。",
+    "令和8年10月7日に実施予定の借入金入札の概要が示された。",
+    "第II非価格競争入札の募入決定額が2,289億円に決定した。"
   ],
   "qualityNote": "NEWS MEMORYへの保存と表示用編集を分離。公式本文を確認できない情報は、見出し以上に補完しない。株価予想・売買推奨は行わない。"
 }
