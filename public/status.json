@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "generatedAt": "2026-09-30T15:23:29.546Z",
+  "generatedAt": "2026-09-30T15:59:32.138Z",
   "asOf": "2026-10-01",
   "edition": "MORNING",
   "sourceResults": [
@@ -9,35 +9,35 @@
       "status": "FETCHED",
       "read": 15,
       "added": 0,
-      "fetchedAt": "2026-09-30T15:23:29.546Z"
+      "fetchedAt": "2026-09-30T15:59:32.138Z"
     },
     {
       "source": "日本銀行",
       "status": "FETCHED",
       "read": 70,
-      "added": 5,
-      "fetchedAt": "2026-09-30T15:23:29.546Z"
+      "added": 0,
+      "fetchedAt": "2026-09-30T15:59:32.138Z"
     },
     {
       "source": "金融庁",
       "status": "FETCHED",
       "read": 15,
-      "added": 7,
-      "fetchedAt": "2026-09-30T15:23:29.546Z"
+      "added": 0,
+      "fetchedAt": "2026-09-30T15:59:32.138Z"
     },
     {
       "source": "財務省",
       "status": "FETCHED",
       "read": 100,
-      "added": 11,
-      "fetchedAt": "2026-09-30T15:23:29.546Z"
+      "added": 0,
+      "fetchedAt": "2026-09-30T15:59:32.138Z"
     },
     {
       "source": "経済産業省",
       "status": "FAILED",
       "read": 0,
       "added": 0,
-      "fetchedAt": "2026-09-30T15:23:29.546Z",
+      "fetchedAt": "2026-09-30T15:59:32.138Z",
       "error": "HTTP 403"
     }
   ],
