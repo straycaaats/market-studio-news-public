@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-09-30T16:22:39.033Z",
+  "generatedAt": "2026-10-01T00:52:10.371Z",
   "asOf": "2026-10-01",
   "edition": "MORNING",
   "heading": "今日見る材料",
   "counts": {
-    "fetchedToday": 23,
-    "newsMemoryTotal": 318,
-    "considered": 8,
-    "adoptedCards": 5,
+    "fetchedToday": 26,
+    "newsMemoryTotal": 321,
+    "considered": 2,
+    "adoptedCards": 1,
     "failedSources": 1
   },
   "sourceResults": [
@@ -16,35 +16,35 @@
       "status": "FETCHED",
       "read": 15,
       "added": 0,
-      "fetchedAt": "2026-09-30T16:22:39.033Z"
+      "fetchedAt": "2026-10-01T00:52:10.371Z"
     },
     {
       "source": "日本銀行",
       "status": "FETCHED",
-      "read": 70,
-      "added": 0,
-      "fetchedAt": "2026-09-30T16:22:39.033Z"
+      "read": 72,
+      "added": 2,
+      "fetchedAt": "2026-10-01T00:52:10.371Z"
     },
     {
       "source": "金融庁",
       "status": "FETCHED",
       "read": 15,
       "added": 0,
-      "fetchedAt": "2026-09-30T16:22:39.033Z"
+      "fetchedAt": "2026-10-01T00:52:10.371Z"
     },
     {
       "source": "財務省",
       "status": "FETCHED",
       "read": 100,
-      "added": 0,
-      "fetchedAt": "2026-09-30T16:22:39.033Z"
+      "added": 1,
+      "fetchedAt": "2026-10-01T00:52:10.371Z"
     },
     {
       "source": "経済産業省",
       "status": "FAILED",
       "read": 0,
       "added": 0,
-      "fetchedAt": "2026-09-30T16:22:39.033Z",
+      "fetchedAt": "2026-10-01T00:52:10.371Z",
       "error": "HTTP 403"
     }
   ],
@@ -98,12 +98,12 @@
     {
       "id": "b3cec1a88a664b0ed14224070aaafb06408f3143ccdb368126e9efcba7b6ddc2",
       "category": "金融政策・市場",
-      "title": "財務省が令和8年8月27日から令和8年9月28日までの外国為替平衡操作の実施状況を公表した。",
-      "summary": "同期間における外国為替平衡操作額が0円であることが発表された。",
-      "whatHappened": "財務省が令和8年8月27日から令和8年9月28日までの外国為替平衡操作の実施状況を公表した。",
-      "whatChanged": "同期間における外国為替平衡操作額が0円であることが発表された。",
+      "title": "財務省は令和8年8月27日から9月28日までの外国為替平衡操作の実施状況を発表した。",
+      "summary": "期間中の外国為替平衡操作額が0円であることが公表された。",
+      "whatHappened": "財務省は令和8年8月27日から9月28日までの外国為替平衡操作の実施状況を発表した。",
+      "whatChanged": "期間中の外国為替平衡操作額が0円であることが公表された。",
       "relatedThemes": [
-        "為替介入",
+        "為替",
         "財務省"
       ],
       "status": "NEW",
@@ -118,107 +118,10 @@
           "source": "財務省"
         }
       ]
-    },
-    {
-      "id": "2b7bfb94cf5da6ef9e6c0755be7111a1536e738805ecc67ac02e0b693e5b02b9",
-      "category": "産業・エネルギー",
-      "title": "財務省がエネルギー対策特別会計の借入金入札予定を公表した。",
-      "summary": "令和8年10月7日に実施予定の借入金入札の概要が明らかになった。",
-      "whatHappened": "財務省がエネルギー対策特別会計の借入金入札予定を公表した。",
-      "whatChanged": "令和8年10月7日に実施予定の借入金入札の概要が明らかになった。",
-      "relatedThemes": [
-        "特別会計",
-        "財務省"
-      ],
-      "status": "NEW",
-      "source": "財務省",
-      "publishedAt": "2026-09-30T01:30:00.000Z",
-      "firstSeenAt": "2026-09-30T15:23:29.546Z",
-      "contentStatus": "VERIFIED_TEXT",
-      "links": [
-        {
-          "title": "エネルギー対策特別会計の借入金の入札予定（令和8年9月30日公表）",
-          "url": "https://www.mof.go.jp/jgbs/auction/calendar/kariire/energy-offer260930.htm",
-          "source": "財務省"
-        }
-      ]
-    },
-    {
-      "id": "feb4dda7ae7206c279c4ec0dc20ae41ac483db17b82a952546c9717c027d234d",
-      "category": "財政・国債",
-      "title": "財務省が2年利付国債（第489回）の第II非価格競争入札における募入の決定を行った。",
-      "summary": "第II非価格競争入札の募入決定額および発行価格が公表された。",
-      "whatHappened": "財務省が2年利付国債（第489回）の第II非価格競争入札における募入の決定を行った。",
-      "whatChanged": "第II非価格競争入札の募入決定額および発行価格が公表された。",
-      "relatedThemes": [
-        "国債入札",
-        "財務省"
-      ],
-      "status": "NEW",
-      "source": "財務省",
-      "publishedAt": "2026-09-30T06:15:00.000Z",
-      "firstSeenAt": "2026-09-30T15:23:29.546Z",
-      "contentStatus": "VERIFIED_TEXT",
-      "links": [
-        {
-          "title": "2年利付国債（第489回）の第II非価格競争入札結果（令和8年9月30日入札）",
-          "url": "https://www.mof.go.jp/jgbs/auction/calendar/nyusatsu/resul20260930a.htm",
-          "source": "財務省"
-        }
-      ]
-    },
-    {
-      "id": "c5caf4db653f8c705b385466e3787d09af73a74e730fa3aeed79110ef0135a43",
-      "category": "財政・国債",
-      "title": "財務省が2年利付国債（第489回）の価格競争入札、非競争入札、国債市場特別参加者・第I非価格競争入札の募入決定を行った。",
-      "summary": "2年利付国債（第489回）の入札結果（応募額や募入決定額、募入平均価格など）が公表された。",
-      "whatHappened": "財務省が2年利付国債（第489回）の価格競争入札、非競争入札、国債市場特別参加者・第I非価格競争入札の募入決定を行った。",
-      "whatChanged": "2年利付国債（第489回）の入札結果（応募額や募入決定額、募入平均価格など）が公表された。",
-      "relatedThemes": [
-        "国債入札",
-        "財務省"
-      ],
-      "status": "NEW",
-      "source": "財務省",
-      "publishedAt": "2026-09-30T03:35:00.000Z",
-      "firstSeenAt": "2026-09-30T15:23:29.546Z",
-      "contentStatus": "VERIFIED_TEXT",
-      "links": [
-        {
-          "title": "2年利付国債（第489回）の入札結果（令和8年9月30日入札）",
-          "url": "https://www.mof.go.jp/jgbs/auction/calendar/nyusatsu/resul20260930.htm",
-          "source": "財務省"
-        }
-      ]
-    },
-    {
-      "id": "0bb7da81f5f82f3d958a29217943443c35a53149f92980df824d8853087a55c0",
-      "category": "財政・国債",
-      "title": "2年利付国債（第489回）の入札発行（令和8年9月30日入札）",
-      "summary": "） 9． 応募額一口の金額 （1）価格競争入札 1億円又はその整数倍 （2）非競争入札 百万円又はその整数倍 （3）国債市場特別参加者 ・第Ⅰ非価格競争入札 1億円又はその整数倍 10． 募入決定の方法 （1）価格競争入札 コンベンショナル方式 （2）非競争入札 案分による割り当て （ただし、応募限",
-      "whatHappened": "2年利付国債（第489回）の入札発行（令和8年9月30日入札）",
-      "whatChanged": "） 9． 応募額一口の金額 （1）価格競争入札 1億円又はその整数倍 （2）非競争入札 百万円又はその整数倍 （3）国債市場特別参加者 ・第Ⅰ非価格競争入札 1億円又はその整数倍 10． 募入決定の方法 （1）価格競争入札 コンベンショナル方式 （2）非競争入札 案分による割り当て （ただし、応募限",
-      "relatedThemes": [
-        "国債・円相場"
-      ],
-      "status": "NEW",
-      "source": "財務省",
-      "publishedAt": "2026-09-30T01:30:00.000Z",
-      "firstSeenAt": "2026-09-30T15:23:29.546Z",
-      "contentStatus": "VERIFIED_TEXT",
-      "links": [
-        {
-          "title": "2年利付国債（第489回）の入札発行（令和8年9月30日入札）",
-          "url": "https://www.mof.go.jp/jgbs/auction/calendar/nyusatsu/offer20260930.htm",
-          "source": "財務省"
-        }
-      ]
     }
   ],
   "summary": [
-    "同期間における外国為替平衡操作額が0円であることが発表された。",
-    "令和8年10月7日に実施予定の借入金入札の概要が明らかになった。",
-    "第II非価格競争入札の募入決定額および発行価格が公表された。"
+    "期間中の外国為替平衡操作額が0円であることが公表された。"
   ],
   "qualityNote": "NEWS MEMORYへの保存と表示用編集を分離。公式本文を確認できない情報は、見出し以上に補完しない。株価予想・売買推奨は行わない。"
 }
