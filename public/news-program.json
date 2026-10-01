@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-10-01T01:20:31.326Z",
-  "asOf": "2026-10-01",
+  "generatedAt": "2026-10-01T15:43:31.049Z",
+  "asOf": "2026-10-02",
   "edition": "MORNING",
   "heading": "今日見る材料",
   "counts": {
-    "fetchedToday": 29,
-    "newsMemoryTotal": 324,
-    "considered": 2,
-    "adoptedCards": 1,
+    "fetchedToday": 13,
+    "newsMemoryTotal": 337,
+    "considered": 3,
+    "adoptedCards": 2,
     "failedSources": 1
   },
   "sourceResults": [
@@ -16,35 +16,35 @@
       "status": "FETCHED",
       "read": 15,
       "added": 0,
-      "fetchedAt": "2026-10-01T01:20:31.326Z"
+      "fetchedAt": "2026-10-01T15:43:31.049Z"
     },
     {
       "source": "日本銀行",
       "status": "FETCHED",
-      "read": 72,
-      "added": 0,
-      "fetchedAt": "2026-10-01T01:20:31.326Z"
+      "read": 76,
+      "added": 4,
+      "fetchedAt": "2026-10-01T15:43:31.049Z"
     },
     {
       "source": "金融庁",
       "status": "FETCHED",
       "read": 15,
       "added": 2,
-      "fetchedAt": "2026-10-01T01:20:31.326Z"
+      "fetchedAt": "2026-10-01T15:43:31.049Z"
     },
     {
       "source": "財務省",
       "status": "FETCHED",
       "read": 100,
-      "added": 1,
-      "fetchedAt": "2026-10-01T01:20:31.326Z"
+      "added": 7,
+      "fetchedAt": "2026-10-01T15:43:31.049Z"
     },
     {
       "source": "経済産業省",
       "status": "FAILED",
       "read": 0,
       "added": 0,
-      "fetchedAt": "2026-10-01T01:20:31.326Z",
+      "fetchedAt": "2026-10-01T15:43:31.049Z",
       "error": "HTTP 403"
     }
   ],
@@ -96,32 +96,59 @@
   "summaryMode": "GEMINI_GROUNDED_EDITORIAL",
   "cards": [
     {
-      "id": "b3cec1a88a664b0ed14224070aaafb06408f3143ccdb368126e9efcba7b6ddc2",
+      "id": "a5b0fb2763265581d4756e9426097c3ae1a6bf57948b00dc8705d268747538f4",
       "category": "金融政策・市場",
-      "title": "財務省は令和8年8月27日から9月28日までの外国為替平衡操作額が0円であったと公表した。",
-      "summary": "直近の介入実施状況が0円であることが新たに確認された。",
-      "whatHappened": "財務省は令和8年8月27日から9月28日までの外国為替平衡操作額が0円であったと公表した。",
-      "whatChanged": "直近の介入実施状況が0円であることが新たに確認された。",
+      "title": "バーゼル銀行監督委員会が「バーゼルIIIモニタリングレポート」を公表した。",
+      "summary": "2025年12月末等を基準日とした自己資本比率等の分析結果が公表された。",
+      "whatHappened": "バーゼル銀行監督委員会が「バーゼルIIIモニタリングレポート」を公表した。",
+      "whatChanged": "2025年12月末等を基準日とした自己資本比率等の分析結果が公表された。",
       "relatedThemes": [
-        "外国為替",
+        "金融規制",
+        "バーゼルIII",
+        "銀行"
+      ],
+      "status": "NEW",
+      "source": "日本銀行",
+      "publishedAt": "2026-10-01T08:00:00.000Z",
+      "firstSeenAt": "2026-10-01T15:43:31.049Z",
+      "contentStatus": "VERIFIED_TEXT",
+      "links": [
+        {
+          "title": "バーゼル銀行監督委員会による「バーゼルIIIモニタリングレポート」の公表について",
+          "url": "https://www.boj.or.jp/finsys/intlact_fs/kisei/kis261001a.htm",
+          "source": "日本銀行"
+        }
+      ]
+    },
+    {
+      "id": "bae2fec6853e08afcef4fba9f9df6ed42655770a9403885952b0c753c8053d9a",
+      "category": "財政・国債",
+      "title": "交付税及び譲与税配付金特別会計の借入金入札が行われ、募入決定額や利率が発表された。",
+      "summary": "募入決定額1兆2,000億円、募入平均利率1.504％で借入金の入札が実施された。",
+      "whatHappened": "交付税及び譲与税配付金特別会計の借入金入札が行われ、募入決定額や利率が発表された。",
+      "whatChanged": "募入決定額1兆2,000億円、募入平均利率1.504％で借入金の入札が実施された。",
+      "relatedThemes": [
+        "国債",
+        "特別会計",
         "財務省"
       ],
       "status": "NEW",
       "source": "財務省",
-      "publishedAt": "2026-09-30T10:00:00.000Z",
-      "firstSeenAt": "2026-09-30T15:23:29.546Z",
+      "publishedAt": "2026-10-01T04:00:00.000Z",
+      "firstSeenAt": "2026-10-01T15:43:31.049Z",
       "contentStatus": "VERIFIED_TEXT",
       "links": [
         {
-          "title": "外国為替平衡操作の実施状況(令和8年8月27日～令和8年9月28日)",
-          "url": "https://www.mof.go.jp/policy/international_policy/reference/feio/data/monthly/20260930.html",
+          "title": "交付税及び譲与税配付金特別会計の借入金の入札結果（令和8年10月1日入札）",
+          "url": "https://www.mof.go.jp/jgbs/auction/calendar/kariire/kari-result261001.htm",
           "source": "財務省"
         }
       ]
     }
   ],
   "summary": [
-    "直近の介入実施状況が0円であることが新たに確認された。"
+    "2025年12月末等を基準日とした自己資本比率等の分析結果が公表された。",
+    "募入決定額1兆2,000億円、募入平均利率1.504％で借入金の入札が実施された。"
   ],
   "qualityNote": "NEWS MEMORYへの保存と表示用編集を分離。公式本文を確認できない情報は、見出し以上に補完しない。株価予想・売買推奨は行わない。"
 }
