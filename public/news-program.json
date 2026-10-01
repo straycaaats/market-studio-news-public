@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-01T00:52:10.371Z",
+  "generatedAt": "2026-10-01T01:20:31.326Z",
   "asOf": "2026-10-01",
   "edition": "MORNING",
   "heading": "今日見る材料",
   "counts": {
-    "fetchedToday": 26,
-    "newsMemoryTotal": 321,
+    "fetchedToday": 29,
+    "newsMemoryTotal": 324,
     "considered": 2,
     "adoptedCards": 1,
     "failedSources": 1
@@ -16,35 +16,35 @@
       "status": "FETCHED",
       "read": 15,
       "added": 0,
-      "fetchedAt": "2026-10-01T00:52:10.371Z"
+      "fetchedAt": "2026-10-01T01:20:31.326Z"
     },
     {
       "source": "日本銀行",
       "status": "FETCHED",
       "read": 72,
-      "added": 2,
-      "fetchedAt": "2026-10-01T00:52:10.371Z"
+      "added": 0,
+      "fetchedAt": "2026-10-01T01:20:31.326Z"
     },
     {
       "source": "金融庁",
       "status": "FETCHED",
       "read": 15,
-      "added": 0,
-      "fetchedAt": "2026-10-01T00:52:10.371Z"
+      "added": 2,
+      "fetchedAt": "2026-10-01T01:20:31.326Z"
     },
     {
       "source": "財務省",
       "status": "FETCHED",
       "read": 100,
       "added": 1,
-      "fetchedAt": "2026-10-01T00:52:10.371Z"
+      "fetchedAt": "2026-10-01T01:20:31.326Z"
     },
     {
       "source": "経済産業省",
       "status": "FAILED",
       "read": 0,
       "added": 0,
-      "fetchedAt": "2026-10-01T00:52:10.371Z",
+      "fetchedAt": "2026-10-01T01:20:31.326Z",
       "error": "HTTP 403"
     }
   ],
@@ -98,12 +98,12 @@
     {
       "id": "b3cec1a88a664b0ed14224070aaafb06408f3143ccdb368126e9efcba7b6ddc2",
       "category": "金融政策・市場",
-      "title": "財務省は令和8年8月27日から9月28日までの外国為替平衡操作の実施状況を発表した。",
-      "summary": "期間中の外国為替平衡操作額が0円であることが公表された。",
-      "whatHappened": "財務省は令和8年8月27日から9月28日までの外国為替平衡操作の実施状況を発表した。",
-      "whatChanged": "期間中の外国為替平衡操作額が0円であることが公表された。",
+      "title": "財務省は令和8年8月27日から9月28日までの外国為替平衡操作額が0円であったと公表した。",
+      "summary": "直近の介入実施状況が0円であることが新たに確認された。",
+      "whatHappened": "財務省は令和8年8月27日から9月28日までの外国為替平衡操作額が0円であったと公表した。",
+      "whatChanged": "直近の介入実施状況が0円であることが新たに確認された。",
       "relatedThemes": [
-        "為替",
+        "外国為替",
         "財務省"
       ],
       "status": "NEW",
@@ -121,7 +121,7 @@
     }
   ],
   "summary": [
-    "期間中の外国為替平衡操作額が0円であることが公表された。"
+    "直近の介入実施状況が0円であることが新たに確認された。"
   ],
   "qualityNote": "NEWS MEMORYへの保存と表示用編集を分離。公式本文を確認できない情報は、見出し以上に補完しない。株価予想・売買推奨は行わない。"
 }
