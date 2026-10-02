@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-01T16:59:48.312Z",
+  "generatedAt": "2026-10-02T01:06:56.277Z",
   "asOf": "2026-10-02",
   "edition": "MORNING",
   "heading": "今日見る材料",
   "counts": {
-    "fetchedToday": 13,
-    "newsMemoryTotal": 337,
+    "fetchedToday": 16,
+    "newsMemoryTotal": 340,
     "considered": 3,
     "adoptedCards": 2,
     "failedSources": 1
@@ -15,36 +15,36 @@
       "source": "総務省統計局",
       "status": "FETCHED",
       "read": 15,
-      "added": 0,
-      "fetchedAt": "2026-10-01T16:59:48.312Z"
+      "added": 1,
+      "fetchedAt": "2026-10-02T01:06:56.277Z"
     },
     {
       "source": "日本銀行",
       "status": "FETCHED",
       "read": 76,
-      "added": 0,
-      "fetchedAt": "2026-10-01T16:59:48.312Z"
+      "added": 2,
+      "fetchedAt": "2026-10-02T01:06:56.277Z"
     },
     {
       "source": "金融庁",
       "status": "FETCHED",
       "read": 15,
       "added": 0,
-      "fetchedAt": "2026-10-01T16:59:48.312Z"
+      "fetchedAt": "2026-10-02T01:06:56.277Z"
     },
     {
       "source": "財務省",
       "status": "FETCHED",
       "read": 100,
       "added": 0,
-      "fetchedAt": "2026-10-01T16:59:48.312Z"
+      "fetchedAt": "2026-10-02T01:06:56.277Z"
     },
     {
       "source": "経済産業省",
       "status": "FAILED",
       "read": 0,
       "added": 0,
-      "fetchedAt": "2026-10-01T16:59:48.312Z",
+      "fetchedAt": "2026-10-02T01:06:56.277Z",
       "error": "HTTP 403"
     }
   ],
@@ -96,16 +96,39 @@
   "summaryMode": "GEMINI_GROUNDED_EDITORIAL",
   "cards": [
     {
+      "id": "522f482a39f5b939752b7244fe9698c4c95e2416c0bf5b920a6d07daf0cc2dd1",
+      "category": "物価・金利",
+      "title": "総務省統計局が2025年基準の消費者物価指数（東京都区部2026年9月分中旬速報値）を公表した。",
+      "summary": "東京都区部の9月中旬速報値のデータが新たに開示された。",
+      "whatHappened": "総務省統計局が2025年基準の消費者物価指数（東京都区部2026年9月分中旬速報値）を公表した。",
+      "whatChanged": "東京都区部の9月中旬速報値のデータが新たに開示された。",
+      "relatedThemes": [
+        "経済指標",
+        "物価"
+      ],
+      "status": "NEW",
+      "source": "総務省統計局",
+      "publishedAt": "2026-10-02",
+      "firstSeenAt": "2026-10-02T01:06:56.277Z",
+      "contentStatus": "VERIFIED_TEXT",
+      "links": [
+        {
+          "title": "消費者物価指数（東京都区部－2026年（令和8年）9月分中旬速報値）（2025年基準）",
+          "url": "https://www.stat.go.jp/data/cpi/sokuhou/tsuki/index-t.html",
+          "source": "総務省統計局"
+        }
+      ]
+    },
+    {
       "id": "a5b0fb2763265581d4756e9426097c3ae1a6bf57948b00dc8705d268747538f4",
       "category": "金融政策・市場",
       "title": "日本銀行が、バーゼル銀行監督委員会による「バーゼルIIIモニタリングレポート」の公表について伝えた。",
-      "summary": "バーゼルIII適用対象の金融機関に関する自己資本比率等のモニタリングレポートが公表された。",
+      "summary": "2025年12月末等を基準日とした自己資本比率等のバーゼルIII関連指標の分析結果が公表された。",
       "whatHappened": "日本銀行が、バーゼル銀行監督委員会による「バーゼルIIIモニタリングレポート」の公表について伝えた。",
-      "whatChanged": "バーゼルIII適用対象の金融機関に関する自己資本比率等のモニタリングレポートが公表された。",
+      "whatChanged": "2025年12月末等を基準日とした自己資本比率等のバーゼルIII関連指標の分析結果が公表された。",
       "relatedThemes": [
-        "日本銀行",
         "金融規制",
-        "バーゼルIII"
+        "中央銀行"
       ],
       "status": "NEW",
       "source": "日本銀行",
@@ -119,36 +142,11 @@
           "source": "日本銀行"
         }
       ]
-    },
-    {
-      "id": "bae2fec6853e08afcef4fba9f9df6ed42655770a9403885952b0c753c8053d9a",
-      "category": "財政・国債",
-      "title": "財務省が交付税及び譲与税配付金特別会計の借入金入札結果を公表した。",
-      "summary": "募入決定額1兆2,000億円、募入平均利率1.504％で借入金が決定された。",
-      "whatHappened": "財務省が交付税及び譲与税配付金特別会計の借入金入札結果を公表した。",
-      "whatChanged": "募入決定額1兆2,000億円、募入平均利率1.504％で借入金が決定された。",
-      "relatedThemes": [
-        "財務省",
-        "国債",
-        "特別会計"
-      ],
-      "status": "NEW",
-      "source": "財務省",
-      "publishedAt": "2026-10-01T04:00:00.000Z",
-      "firstSeenAt": "2026-10-01T15:43:31.049Z",
-      "contentStatus": "VERIFIED_TEXT",
-      "links": [
-        {
-          "title": "交付税及び譲与税配付金特別会計の借入金の入札結果（令和8年10月1日入札）",
-          "url": "https://www.mof.go.jp/jgbs/auction/calendar/kariire/kari-result261001.htm",
-          "source": "財務省"
-        }
-      ]
     }
   ],
   "summary": [
-    "バーゼルIII適用対象の金融機関に関する自己資本比率等のモニタリングレポートが公表された。",
-    "募入決定額1兆2,000億円、募入平均利率1.504％で借入金が決定された。"
+    "東京都区部の9月中旬速報値のデータが新たに開示された。",
+    "2025年12月末等を基準日とした自己資本比率等のバーゼルIII関連指標の分析結果が公表された。"
   ],
   "qualityNote": "NEWS MEMORYへの保存と表示用編集を分離。公式本文を確認できない情報は、見出し以上に補完しない。株価予想・売買推奨は行わない。"
 }
