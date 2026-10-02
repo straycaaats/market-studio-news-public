@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-10-02T01:43:25.304Z",
-  "asOf": "2026-10-02",
+  "generatedAt": "2026-10-02T15:04:44.052Z",
+  "asOf": "2026-10-03",
   "edition": "MORNING",
   "heading": "今日見る材料",
   "counts": {
-    "fetchedToday": 18,
-    "newsMemoryTotal": 342,
-    "considered": 4,
-    "adoptedCards": 3,
+    "fetchedToday": 17,
+    "newsMemoryTotal": 359,
+    "considered": 7,
+    "adoptedCards": 5,
     "failedSources": 1
   },
   "sourceResults": [
@@ -16,35 +16,35 @@
       "status": "FETCHED",
       "read": 15,
       "added": 0,
-      "fetchedAt": "2026-10-02T01:43:25.304Z"
+      "fetchedAt": "2026-10-02T15:04:44.052Z"
     },
     {
       "source": "日本銀行",
       "status": "FETCHED",
-      "read": 76,
-      "added": 0,
-      "fetchedAt": "2026-10-02T01:43:25.304Z"
+      "read": 75,
+      "added": 2,
+      "fetchedAt": "2026-10-02T15:04:44.052Z"
     },
     {
       "source": "金融庁",
       "status": "FETCHED",
       "read": 15,
-      "added": 0,
-      "fetchedAt": "2026-10-02T01:43:25.304Z"
+      "added": 6,
+      "fetchedAt": "2026-10-02T15:04:44.052Z"
     },
     {
       "source": "財務省",
       "status": "FETCHED",
       "read": 100,
-      "added": 2,
-      "fetchedAt": "2026-10-02T01:43:25.304Z"
+      "added": 9,
+      "fetchedAt": "2026-10-02T15:04:44.052Z"
     },
     {
       "source": "経済産業省",
       "status": "FAILED",
       "read": 0,
       "added": 0,
-      "fetchedAt": "2026-10-02T01:43:25.304Z",
+      "fetchedAt": "2026-10-02T15:04:44.052Z",
       "error": "HTTP 403"
     }
   ],
@@ -96,41 +96,115 @@
   "summaryMode": "GEMINI_GROUNDED_EDITORIAL",
   "cards": [
     {
-      "id": "522f482a39f5b939752b7244fe9698c4c95e2416c0bf5b920a6d07daf0cc2dd1",
-      "category": "物価・金利",
-      "title": "総務省統計局が2025年基準の消費者物価指数東京都区部2026年9月分中旬速報値を公表した。",
-      "summary": "2026年9月中旬速報値のデータが新たに開示された。",
-      "whatHappened": "総務省統計局が2025年基準の消費者物価指数東京都区部2026年9月分中旬速報値を公表した。",
-      "whatChanged": "2026年9月中旬速報値のデータが新たに開示された。",
+      "id": "6f72c366cf5470eb8b79e6271200b37b70206c3feb65098787a4aad9809dc662",
+      "category": "財政・国債",
+      "title": "片山財務相が閣議後会見で、日本版DOGEの取組について10月9日に関係閣僚等及び副大臣会議を開催し、補助金・基金見直しの具体的な方向性を示す方針を述べた。",
+      "summary": "日本版DOGEの取組を強化・深掘りするため、10月9日の会議で各府省庁への具体的な指示や施策の優先順位の洗い出しを行う方針が示された。",
+      "whatHappened": "片山財務相が閣議後会見で、日本版DOGEの取組について10月9日に関係閣僚等及び副大臣会議を開催し、補助金・基金見直しの具体的な方向性を示す方針を述べた。",
+      "whatChanged": "日本版DOGEの取組を強化・深掘りするため、10月9日の会議で各府省庁への具体的な指示や施策の優先順位の洗い出しを行う方針が示された。",
       "relatedThemes": [
-        "経済指標",
-        "物価"
+        "日本版DOGE",
+        "予算編成",
+        "補助金・基金見直し"
       ],
       "status": "NEW",
-      "source": "総務省統計局",
-      "publishedAt": "2026-10-02",
-      "firstSeenAt": "2026-10-02T01:06:56.277Z",
+      "source": "財務省",
+      "publishedAt": "2026-10-02T10:30:00.000Z",
+      "firstSeenAt": "2026-10-02T15:04:44.052Z",
       "contentStatus": "VERIFIED_TEXT",
       "links": [
         {
-          "title": "消費者物価指数（東京都区部－2026年（令和8年）9月分中旬速報値）（2025年基準）",
-          "url": "https://www.stat.go.jp/data/cpi/sokuhou/tsuki/index-t.html",
-          "source": "総務省統計局"
+          "title": "片山財務大臣兼内閣府特命担当大臣閣議後記者会見の概要(令和8年10月2日(金曜日))",
+          "url": "https://www.mof.go.jp/public_relations/conference/my20261002.html",
+          "source": "財務省"
+        }
+      ]
+    },
+    {
+      "id": "c274496d7f1f204b37b8001aede63b9037c6d4bf3c783bb5bf8cb8c25d64db9a",
+      "category": "金融政策・市場",
+      "title": "政府はウクライナ情勢に鑑み、外為法に基づくロシア連邦関係者に対する資産凍結等の措置を実施することを発表した。",
+      "summary": "主要国が講ずる措置を踏まえ、ロシア連邦関係者に対する資産凍結等の追加的な制裁措置が実行された。",
+      "whatHappened": "政府はウクライナ情勢に鑑み、外為法に基づくロシア連邦関係者に対する資産凍結等の措置を実施することを発表した。",
+      "whatChanged": "主要国が講ずる措置を踏まえ、ロシア連邦関係者に対する資産凍結等の追加的な制裁措置が実行された。",
+      "relatedThemes": [
+        "ウクライナ情勢",
+        "経済制裁",
+        "外国為替及び外国貿易法"
+      ],
+      "status": "NEW",
+      "source": "財務省",
+      "publishedAt": "2026-10-02T08:00:00.000Z",
+      "firstSeenAt": "2026-10-02T15:04:44.052Z",
+      "contentStatus": "VERIFIED_TEXT",
+      "links": [
+        {
+          "title": "ウクライナ情勢に関する外国為替及び外国貿易法に基づく措置について（令和8年10月2日）",
+          "url": "https://www.mof.go.jp/policy/international_policy/gaitame_kawase/gaitame/economic_sanctions/20261001205921.html",
+          "source": "財務省"
+        }
+      ]
+    },
+    {
+      "id": "e4163a09511d105b4a4ae84dcb3c0b69d481f9bdabbcb7d1aa593530b48311e1",
+      "category": "産業・エネルギー",
+      "title": "財務省は令和8年9月の財政資金対民間収支の実績を公表し、4.9兆円の受入超過となった。",
+      "summary": "前年同月比で受入超過幅が4.6兆円減少した。",
+      "whatHappened": "財務省は令和8年9月の財政資金対民間収支の実績を公表し、4.9兆円の受入超過となった。",
+      "whatChanged": "前年同月比で受入超過幅が4.6兆円減少した。",
+      "relatedThemes": [
+        "財政資金収支",
+        "国債",
+        "税収"
+      ],
+      "status": "NEW",
+      "source": "財務省",
+      "publishedAt": "2026-10-02T06:00:00.000Z",
+      "firstSeenAt": "2026-10-02T15:04:44.052Z",
+      "contentStatus": "VERIFIED_TEXT",
+      "links": [
+        {
+          "title": "財政資金対民間収支（令和8年9月中実績）の概要",
+          "url": "https://www.mof.go.jp/policy/exchequer/reference/receipts_payments/202609gaiyo.htm",
+          "source": "財務省"
+        }
+      ]
+    },
+    {
+      "id": "90487dd79d0fd42e8ab8a894c82997feadd87f4452bd39cf8d222e625370eccf",
+      "category": "財政・国債",
+      "title": "財務省は第1410回国庫短期証券の価格競争入札等の結果を公表した。",
+      "summary": "募入決定額総額や平均利回り（1.2793％）などが確定した。",
+      "whatHappened": "財務省は第1410回国庫短期証券の価格競争入札等の結果を公表した。",
+      "whatChanged": "募入決定額総額や平均利回り（1.2793％）などが確定した。",
+      "relatedThemes": [
+        "国庫短期証券",
+        "入札結果"
+      ],
+      "status": "NEW",
+      "source": "財務省",
+      "publishedAt": "2026-10-02T03:30:00.000Z",
+      "firstSeenAt": "2026-10-02T15:04:44.052Z",
+      "contentStatus": "VERIFIED_TEXT",
+      "links": [
+        {
+          "title": "国庫短期証券（第1410回）の入札結果",
+          "url": "https://www.mof.go.jp/jgbs/auction/calendar/tbill/tbill_nyusatsu/resul20261002.htm",
+          "source": "財務省"
         }
       ]
     },
     {
       "id": "f6a2997571a79685b50771ca706dc5328e1f0335556ac4599a87ce5cbc47e70f",
       "category": "財政・国債",
-      "title": "財務省が国庫短期証券（第1410回）の入札発行実施を通知した。",
-      "summary": "発行予定額3兆5,000億円程度の国庫短期証券の入札手続きが開始された。",
-      "whatHappened": "財務省が国庫短期証券（第1410回）の入札発行実施を通知した。",
-      "whatChanged": "発行予定額3兆5,000億円程度の国庫短期証券の入札手続きが開始された。",
+      "title": "国庫短期証券（第1410回）の入札発行",
+      "summary": "） 8． 申込締切日時 令和8年10月2日 午前11時30分 9． 募入決定通知日 令和8年10月2日 10． 払込期日 令和8年10月5日 連絡・問い合わせ先 理財局国債業務課短期国債係 電話（代表）03(3581)4111 (内線5583） 夜間直通 03(3581)4159 財務省ホームページ",
+      "whatHappened": "国庫短期証券（第1410回）の入札発行",
+      "whatChanged": "） 8． 申込締切日時 令和8年10月2日 午前11時30分 9． 募入決定通知日 令和8年10月2日 10． 払込期日 令和8年10月5日 連絡・問い合わせ先 理財局国債業務課短期国債係 電話（代表）03(3581)4111 (内線5583） 夜間直通 03(3581)4159 財務省ホームページ",
       "relatedThemes": [
-        "国債",
-        "財政"
+        "国債・円相場"
       ],
-      "status": "NEW",
+      "status": "FOLLOW_UP",
       "source": "財務省",
       "publishedAt": "2026-10-02T01:20:00.000Z",
       "firstSeenAt": "2026-10-02T01:43:25.304Z",
@@ -142,36 +216,12 @@
           "source": "財務省"
         }
       ]
-    },
-    {
-      "id": "a5b0fb2763265581d4756e9426097c3ae1a6bf57948b00dc8705d268747538f4",
-      "category": "金融政策・市場",
-      "title": "日本銀行がバーゼル銀行監督委員会による「バーゼルIIIモニタリングレポート」の公表について案内した。",
-      "summary": "2025年12月末基準などのバーゼルIII関連指標の分析結果が示された。",
-      "whatHappened": "日本銀行がバーゼル銀行監督委員会による「バーゼルIIIモニタリングレポート」の公表について案内した。",
-      "whatChanged": "2025年12月末基準などのバーゼルIII関連指標の分析結果が示された。",
-      "relatedThemes": [
-        "金融規制",
-        "銀行"
-      ],
-      "status": "NEW",
-      "source": "日本銀行",
-      "publishedAt": "2026-10-01T08:00:00.000Z",
-      "firstSeenAt": "2026-10-01T15:43:31.049Z",
-      "contentStatus": "VERIFIED_TEXT",
-      "links": [
-        {
-          "title": "バーゼル銀行監督委員会による「バーゼルIIIモニタリングレポート」の公表について",
-          "url": "https://www.boj.or.jp/finsys/intlact_fs/kisei/kis261001a.htm",
-          "source": "日本銀行"
-        }
-      ]
     }
   ],
   "summary": [
-    "2026年9月中旬速報値のデータが新たに開示された。",
-    "発行予定額3兆5,000億円程度の国庫短期証券の入札手続きが開始された。",
-    "2025年12月末基準などのバーゼルIII関連指標の分析結果が示された。"
+    "日本版DOGEの取組を強化・深掘りするため、10月9日の会議で各府省庁への具体的な指示や施策の優先順位の洗い出しを行う方針が示された。",
+    "主要国が講ずる措置を踏まえ、ロシア連邦関係者に対する資産凍結等の追加的な制裁措置が実行された。",
+    "前年同月比で受入超過幅が4.6兆円減少した。"
   ],
   "qualityNote": "NEWS MEMORYへの保存と表示用編集を分離。公式本文を確認できない情報は、見出し以上に補完しない。株価予想・売買推奨は行わない。"
 }
