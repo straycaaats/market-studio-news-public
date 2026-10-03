@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-10-03T01:14:38.054Z",
+  "generatedAt": "2026-10-03T13:57:17.242Z",
   "asOf": "2026-10-03",
-  "edition": "MORNING",
-  "heading": "今日見る材料",
+  "edition": "EVENING",
+  "heading": "今日の振り返り",
   "counts": {
     "fetchedToday": 17,
     "newsMemoryTotal": 359,
-    "considered": 4,
-    "adoptedCards": 3,
+    "considered": 1,
+    "adoptedCards": 0,
     "failedSources": 1
   },
   "sourceResults": [
@@ -16,35 +16,35 @@
       "status": "FETCHED",
       "read": 15,
       "added": 0,
-      "fetchedAt": "2026-10-03T01:14:38.054Z"
+      "fetchedAt": "2026-10-03T13:57:17.242Z"
     },
     {
       "source": "日本銀行",
       "status": "FETCHED",
-      "read": 75,
+      "read": 72,
       "added": 0,
-      "fetchedAt": "2026-10-03T01:14:38.054Z"
+      "fetchedAt": "2026-10-03T13:57:17.242Z"
     },
     {
       "source": "金融庁",
       "status": "FETCHED",
       "read": 15,
       "added": 0,
-      "fetchedAt": "2026-10-03T01:14:38.054Z"
+      "fetchedAt": "2026-10-03T13:57:17.242Z"
     },
     {
       "source": "財務省",
       "status": "FETCHED",
       "read": 100,
       "added": 0,
-      "fetchedAt": "2026-10-03T01:14:38.054Z"
+      "fetchedAt": "2026-10-03T13:57:17.242Z"
     },
     {
       "source": "経済産業省",
       "status": "FAILED",
       "read": 0,
       "added": 0,
-      "fetchedAt": "2026-10-03T01:14:38.054Z",
+      "fetchedAt": "2026-10-03T13:57:17.242Z",
       "error": "HTTP 403"
     }
   ],
@@ -94,87 +94,7 @@
     "mode": "GEMINI_GROUNDED_EDITORIAL"
   },
   "summaryMode": "GEMINI_GROUNDED_EDITORIAL",
-  "cards": [
-    {
-      "id": "6f72c366cf5470eb8b79e6271200b37b70206c3feb65098787a4aad9809dc662",
-      "category": "財政・国債",
-      "title": "日本版DOGEの取組について、10月9日に副大臣会議等を開き方針を示すことや、来年度末の予想残高が約7兆円ある基金の見直しを進める方針が語られた。",
-      "summary": "日本版DOGEの具体的な取組方針や、基金の国庫返納ルール整備に向けた議論のスケジュールが示された。",
-      "whatHappened": "日本版DOGEの取組について、10月9日に副大臣会議等を開き方針を示すことや、来年度末の予想残高が約7兆円ある基金の見直しを進める方針が語られた。",
-      "whatChanged": "日本版DOGEの具体的な取組方針や、基金の国庫返納ルール整備に向けた議論のスケジュールが示された。",
-      "relatedThemes": [
-        "日本版DOGE",
-        "予算編成",
-        "基金見直し"
-      ],
-      "status": "NEW",
-      "source": "財務省",
-      "publishedAt": "2026-10-02T10:30:00.000Z",
-      "firstSeenAt": "2026-10-02T15:04:44.052Z",
-      "contentStatus": "VERIFIED_TEXT",
-      "links": [
-        {
-          "title": "片山財務大臣兼内閣府特命担当大臣閣議後記者会見の概要(令和8年10月2日(金曜日))",
-          "url": "https://www.mof.go.jp/public_relations/conference/my20261002.html",
-          "source": "財務省"
-        }
-      ]
-    },
-    {
-      "id": "522f482a39f5b939752b7244fe9698c4c95e2416c0bf5b920a6d07daf0cc2dd1",
-      "category": "物価・金利",
-      "title": "2025年基準の東京都区部消費者物価指数（2026年9月分中旬速報値）が公表された。",
-      "summary": "東京都区部の9月中旬時点の物価動向の速報値が明らかになった。",
-      "whatHappened": "2025年基準の東京都区部消費者物価指数（2026年9月分中旬速報値）が公表された。",
-      "whatChanged": "東京都区部の9月中旬時点の物価動向の速報値が明らかになった。",
-      "relatedThemes": [
-        "消費者物価指数",
-        "物価動向",
-        "経済指標"
-      ],
-      "status": "FOLLOW_UP",
-      "source": "総務省統計局",
-      "publishedAt": "2026-10-02",
-      "firstSeenAt": "2026-10-02T01:06:56.277Z",
-      "contentStatus": "VERIFIED_TEXT",
-      "links": [
-        {
-          "title": "消費者物価指数（東京都区部－2026年（令和8年）9月分中旬速報値）（2025年基準）",
-          "url": "https://www.stat.go.jp/data/cpi/sokuhou/tsuki/index-t.html",
-          "source": "総務省統計局"
-        }
-      ]
-    },
-    {
-      "id": "c274496d7f1f204b37b8001aede63b9037c6d4bf3c783bb5bf8cb8c25d64db9a",
-      "category": "金融政策・市場",
-      "title": "ウクライナをめぐる国際情勢に鑑み、外為法に基づくロシア連邦関係者に対する資産凍結等の措置が実施された。",
-      "summary": "ロシア連邦関係者に対する資産凍結等の制裁措置が新たに追加・実施された。",
-      "whatHappened": "ウクライナをめぐる国際情勢に鑑み、外為法に基づくロシア連邦関係者に対する資産凍結等の措置が実施された。",
-      "whatChanged": "ロシア連邦関係者に対する資産凍結等の制裁措置が新たに追加・実施された。",
-      "relatedThemes": [
-        "ウクライナ情勢",
-        "経済制裁",
-        "外国為替及び外国貿易法"
-      ],
-      "status": "NEW",
-      "source": "財務省",
-      "publishedAt": "2026-10-02T08:00:00.000Z",
-      "firstSeenAt": "2026-10-02T15:04:44.052Z",
-      "contentStatus": "VERIFIED_TEXT",
-      "links": [
-        {
-          "title": "ウクライナ情勢に関する外国為替及び外国貿易法に基づく措置について（令和8年10月2日）",
-          "url": "https://www.mof.go.jp/policy/international_policy/gaitame_kawase/gaitame/economic_sanctions/20261001205921.html",
-          "source": "財務省"
-        }
-      ]
-    }
-  ],
-  "summary": [
-    "日本版DOGEの具体的な取組方針や、基金の国庫返納ルール整備に向けた議論のスケジュールが示された。",
-    "東京都区部の9月中旬時点の物価動向の速報値が明らかになった。",
-    "ロシア連邦関係者に対する資産凍結等の制裁措置が新たに追加・実施された。"
-  ],
+  "cards": [],
+  "summary": [],
   "qualityNote": "NEWS MEMORYへの保存と表示用編集を分離。公式本文を確認できない情報は、見出し以上に補完しない。株価予想・売買推奨は行わない。"
 }
