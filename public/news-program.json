@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-10-05T00:15:02.640Z",
+  "generatedAt": "2026-10-05T01:02:57.543Z",
   "asOf": "2026-10-05",
   "edition": "MORNING",
   "heading": "今日見る材料",
   "counts": {
-    "fetchedToday": 1,
-    "newsMemoryTotal": 360,
-    "considered": 1,
-    "adoptedCards": 0,
+    "fetchedToday": 3,
+    "newsMemoryTotal": 362,
+    "considered": 2,
+    "adoptedCards": 1,
     "failedSources": 1
   },
   "sourceResults": [
@@ -16,35 +16,35 @@
       "status": "FETCHED",
       "read": 15,
       "added": 0,
-      "fetchedAt": "2026-10-05T00:15:02.640Z"
+      "fetchedAt": "2026-10-05T01:02:57.543Z"
     },
     {
       "source": "日本銀行",
       "status": "FETCHED",
-      "read": 69,
+      "read": 70,
       "added": 1,
-      "fetchedAt": "2026-10-05T00:15:02.640Z"
+      "fetchedAt": "2026-10-05T01:02:57.543Z"
     },
     {
       "source": "金融庁",
       "status": "FETCHED",
       "read": 15,
-      "added": 0,
-      "fetchedAt": "2026-10-05T00:15:02.640Z"
+      "added": 1,
+      "fetchedAt": "2026-10-05T01:02:57.543Z"
     },
     {
       "source": "財務省",
       "status": "FETCHED",
       "read": 100,
       "added": 0,
-      "fetchedAt": "2026-10-05T00:15:02.640Z"
+      "fetchedAt": "2026-10-05T01:02:57.543Z"
     },
     {
       "source": "経済産業省",
       "status": "FAILED",
       "read": 0,
       "added": 0,
-      "fetchedAt": "2026-10-05T00:15:02.640Z",
+      "fetchedAt": "2026-10-05T01:02:57.543Z",
       "error": "HTTP 403"
     }
   ],
@@ -94,7 +94,35 @@
     "mode": "GEMINI_GROUNDED_EDITORIAL"
   },
   "summaryMode": "GEMINI_GROUNDED_EDITORIAL",
-  "cards": [],
-  "summary": [],
+  "cards": [
+    {
+      "id": "d93017d2c26286e2002db6327b0591de0b8273b1b7176c90e10357ddf4c11b3b",
+      "category": "金融政策・市場",
+      "title": "日本銀行の内田副総裁がECONDAT 2026 Fall Meetingにて「AI、ビッグデータと金融政策」と題した開会挨拶を行った。",
+      "summary": "内田副総裁によるAIやビッグデータ、金融政策に関する挨拶の邦訳が公開された。",
+      "whatHappened": "日本銀行の内田副総裁がECONDAT 2026 Fall Meetingにて「AI、ビッグデータと金融政策」と題した開会挨拶を行った。",
+      "whatChanged": "内田副総裁によるAIやビッグデータ、金融政策に関する挨拶の邦訳が公開された。",
+      "relatedThemes": [
+        "日本銀行",
+        "金融政策",
+        "AI・ビッグデータ"
+      ],
+      "status": "NEW",
+      "source": "日本銀行",
+      "publishedAt": "2026-10-05T00:20:00.000Z",
+      "firstSeenAt": "2026-10-05T01:02:57.543Z",
+      "contentStatus": "VERIFIED_TEXT",
+      "links": [
+        {
+          "title": "【挨拶】内田副総裁「AI、ビッグデータと金融政策」（ECONDAT 2026 Fall Meetingにおける開会挨拶の邦訳）",
+          "url": "https://www.boj.or.jp/about/press/koen_2026/ko261005a.htm",
+          "source": "日本銀行"
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "内田副総裁によるAIやビッグデータ、金融政策に関する挨拶の邦訳が公開された。"
+  ],
   "qualityNote": "NEWS MEMORYへの保存と表示用編集を分離。公式本文を確認できない情報は、見出し以上に補完しない。株価予想・売買推奨は行わない。"
 }
