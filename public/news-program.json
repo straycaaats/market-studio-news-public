@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-10-05T01:02:57.543Z",
-  "asOf": "2026-10-05",
+  "generatedAt": "2026-10-05T17:27:07.378Z",
+  "asOf": "2026-10-06",
   "edition": "MORNING",
   "heading": "今日見る材料",
   "counts": {
-    "fetchedToday": 3,
-    "newsMemoryTotal": 362,
-    "considered": 2,
-    "adoptedCards": 1,
+    "fetchedToday": 10,
+    "newsMemoryTotal": 372,
+    "considered": 6,
+    "adoptedCards": 5,
     "failedSources": 1
   },
   "sourceResults": [
@@ -16,35 +16,35 @@
       "status": "FETCHED",
       "read": 15,
       "added": 0,
-      "fetchedAt": "2026-10-05T01:02:57.543Z"
+      "fetchedAt": "2026-10-05T17:27:07.378Z"
     },
     {
       "source": "日本銀行",
       "status": "FETCHED",
-      "read": 70,
+      "read": 69,
       "added": 1,
-      "fetchedAt": "2026-10-05T01:02:57.543Z"
+      "fetchedAt": "2026-10-05T17:27:07.378Z"
     },
     {
       "source": "金融庁",
       "status": "FETCHED",
       "read": 15,
-      "added": 1,
-      "fetchedAt": "2026-10-05T01:02:57.543Z"
+      "added": 4,
+      "fetchedAt": "2026-10-05T17:27:07.378Z"
     },
     {
       "source": "財務省",
       "status": "FETCHED",
       "read": 100,
-      "added": 0,
-      "fetchedAt": "2026-10-05T01:02:57.543Z"
+      "added": 5,
+      "fetchedAt": "2026-10-05T17:27:07.378Z"
     },
     {
       "source": "経済産業省",
       "status": "FAILED",
       "read": 0,
       "added": 0,
-      "fetchedAt": "2026-10-05T01:02:57.543Z",
+      "fetchedAt": "2026-10-05T17:27:07.378Z",
       "error": "HTTP 403"
     }
   ],
@@ -96,18 +96,43 @@
   "summaryMode": "GEMINI_GROUNDED_EDITORIAL",
   "cards": [
     {
+      "id": "084fcbb7fe11ed681d94ed2eb12c81bfa77f2ac67537bfbbdfeed2bc4b2c0fb9",
+      "category": "金融政策・市場",
+      "title": "日本銀行は、需給ギャップや潜在成長率の推計値に加え、労働需給関連指標の公表を開始した。",
+      "summary": "経済・物価情勢の判断において、労働需給関連指標を需給ギャップと補完的にモニタリングする対象として四半期ごとの公表に追加した。",
+      "whatHappened": "日本銀行は、需給ギャップや潜在成長率の推計値に加え、労働需給関連指標の公表を開始した。",
+      "whatChanged": "経済・物価情勢の判断において、労働需給関連指標を需給ギャップと補完的にモニタリングする対象として四半期ごとの公表に追加した。",
+      "relatedThemes": [
+        "日本銀行",
+        "需給ギャップ",
+        "労働需給"
+      ],
+      "status": "NEW",
+      "source": "日本銀行",
+      "publishedAt": "2026-10-05T05:00:00.000Z",
+      "firstSeenAt": "2026-10-05T17:27:07.378Z",
+      "contentStatus": "VERIFIED_TEXT",
+      "links": [
+        {
+          "title": "需給ギャップ・潜在成長率および労働需給関連指標",
+          "url": "https://www.boj.or.jp/research/research_data/gap/index.htm",
+          "source": "日本銀行"
+        }
+      ]
+    },
+    {
       "id": "d93017d2c26286e2002db6327b0591de0b8273b1b7176c90e10357ddf4c11b3b",
       "category": "金融政策・市場",
-      "title": "日本銀行の内田副総裁がECONDAT 2026 Fall Meetingにて「AI、ビッグデータと金融政策」と題した開会挨拶を行った。",
-      "summary": "内田副総裁によるAIやビッグデータ、金融政策に関する挨拶の邦訳が公開された。",
-      "whatHappened": "日本銀行の内田副総裁がECONDAT 2026 Fall Meetingにて「AI、ビッグデータと金融政策」と題した開会挨拶を行った。",
-      "whatChanged": "内田副総裁によるAIやビッグデータ、金融政策に関する挨拶の邦訳が公開された。",
+      "title": "日本銀行の内田副総裁による会合での開会挨拶の邦訳が公開された。",
+      "summary": "AIやビッグデータと金融政策に関する挨拶文が公表された。",
+      "whatHappened": "日本銀行の内田副総裁による会合での開会挨拶の邦訳が公開された。",
+      "whatChanged": "AIやビッグデータと金融政策に関する挨拶文が公表された。",
       "relatedThemes": [
         "日本銀行",
         "金融政策",
         "AI・ビッグデータ"
       ],
-      "status": "NEW",
+      "status": "FOLLOW_UP",
       "source": "日本銀行",
       "publishedAt": "2026-10-05T00:20:00.000Z",
       "firstSeenAt": "2026-10-05T01:02:57.543Z",
@@ -119,10 +144,86 @@
           "source": "日本銀行"
         }
       ]
+    },
+    {
+      "id": "e818fcb62d051aacb38a6f9f1f3059394de8e8a9b5a7680cffdf6553907c2a6d",
+      "category": "財政・国債",
+      "title": "財務省が第120回国債市場特別参加者会合の議事要旨を公表した。",
+      "summary": "令和8年10-12月期の物価連動債の発行額等について、多くの参加者から現状維持を希望する意見が寄せられたことなどが報告された。",
+      "whatHappened": "財務省が第120回国債市場特別参加者会合の議事要旨を公表した。",
+      "whatChanged": "令和8年10-12月期の物価連動債の発行額等について、多くの参加者から現状維持を希望する意見が寄せられたことなどが報告された。",
+      "relatedThemes": [
+        "財務省",
+        "国債市場",
+        "物価連動債"
+      ],
+      "status": "NEW",
+      "source": "財務省",
+      "publishedAt": "2026-10-05T08:00:00.000Z",
+      "firstSeenAt": "2026-10-05T17:27:07.378Z",
+      "contentStatus": "VERIFIED_TEXT",
+      "links": [
+        {
+          "title": "国債市場特別参加者会合（第120回）議事要旨",
+          "url": "https://www.mof.go.jp/about_mof/councils/meeting_of_jgbsp/proceedings/260928.html",
+          "source": "財務省"
+        }
+      ]
+    },
+    {
+      "id": "3f25ad5d767af218ca3206bb031d0d1bac37dd90e9bf642bdbaabbffbc18f338",
+      "category": "財政・国債",
+      "title": "財務省が交付税及び譲与税配付金特別会計の借入金入札結果を公表した。",
+      "summary": "応募額4兆7,850億円に対し、募入決定額1兆2,000億円、募入平均利率1.511％で入札が実施された。",
+      "whatHappened": "財務省が交付税及び譲与税配付金特別会計の借入金入札結果を公表した。",
+      "whatChanged": "応募額4兆7,850億円に対し、募入決定額1兆2,000億円、募入平均利率1.511％で入札が実施された。",
+      "relatedThemes": [
+        "財務省",
+        "国債・借入金"
+      ],
+      "status": "NEW",
+      "source": "財務省",
+      "publishedAt": "2026-10-05T04:00:00.000Z",
+      "firstSeenAt": "2026-10-05T17:27:07.378Z",
+      "contentStatus": "VERIFIED_TEXT",
+      "links": [
+        {
+          "title": "交付税及び譲与税配付金特別会計の借入金の入札結果（令和8年10月5日入札）",
+          "url": "https://www.mof.go.jp/jgbs/auction/calendar/kariire/kari-result261005.htm",
+          "source": "財務省"
+        }
+      ]
+    },
+    {
+      "id": "11bd7049e472852eaaa4a1f8b1d115d4fc41d3b60e031760966aa70a85ce8f7a",
+      "category": "金融政策・市場",
+      "title": "財務省・外務省・経済産業省が豪州側との間で日豪共同戦略金融協力覚書への署名を行った。",
+      "summary": "経済安全保障上の目標推進に向けた戦略金融の重要性を踏まえ、日豪両国の関係機関の連携強化を目的としたフォーラムが開催された。",
+      "whatHappened": "財務省・外務省・経済産業省が豪州側との間で日豪共同戦略金融協力覚書への署名を行った。",
+      "whatChanged": "経済安全保障上の目標推進に向けた戦略金融の重要性を踏まえ、日豪両国の関係機関の連携強化を目的としたフォーラムが開催された。",
+      "relatedThemes": [
+        "財務省",
+        "経済安全保障",
+        "日豪関係"
+      ],
+      "status": "NEW",
+      "source": "財務省",
+      "publishedAt": "2026-10-05T03:00:00.000Z",
+      "firstSeenAt": "2026-10-05T17:27:07.378Z",
+      "contentStatus": "VERIFIED_TEXT",
+      "links": [
+        {
+          "title": "日豪共同戦略金融協力覚書への署名及び日豪戦略投資ネットワーキングフォーラム（SINF）の開催について（令和8年10月2日（金））",
+          "url": "https://www.mof.go.jp/policy/international_policy/convention/dialogue/20260925182123.html",
+          "source": "財務省"
+        }
+      ]
     }
   ],
   "summary": [
-    "内田副総裁によるAIやビッグデータ、金融政策に関する挨拶の邦訳が公開された。"
+    "経済・物価情勢の判断において、労働需給関連指標を需給ギャップと補完的にモニタリングする対象として四半期ごとの公表に追加した。",
+    "AIやビッグデータと金融政策に関する挨拶文が公表された。",
+    "令和8年10-12月期の物価連動債の発行額等について、多くの参加者から現状維持を希望する意見が寄せられたことなどが報告された。"
   ],
   "qualityNote": "NEWS MEMORYへの保存と表示用編集を分離。公式本文を確認できない情報は、見出し以上に補完しない。株価予想・売買推奨は行わない。"
 }
