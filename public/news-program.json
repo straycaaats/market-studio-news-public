@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-10-06T01:57:07.332Z",
+  "generatedAt": "2026-10-06T02:21:11.014Z",
   "asOf": "2026-10-06",
   "edition": "MORNING",
   "heading": "今日見る材料",
   "counts": {
     "fetchedToday": 11,
     "newsMemoryTotal": 373,
-    "considered": 3,
-    "adoptedCards": 2,
+    "considered": 2,
+    "adoptedCards": 1,
     "failedSources": 1
   },
   "sourceResults": [
@@ -16,35 +16,35 @@
       "status": "FETCHED",
       "read": 15,
       "added": 0,
-      "fetchedAt": "2026-10-06T01:57:07.332Z"
+      "fetchedAt": "2026-10-06T02:21:11.014Z"
     },
     {
       "source": "日本銀行",
       "status": "FETCHED",
       "read": 69,
       "added": 0,
-      "fetchedAt": "2026-10-06T01:57:07.332Z"
+      "fetchedAt": "2026-10-06T02:21:11.014Z"
     },
     {
       "source": "金融庁",
       "status": "FETCHED",
       "read": 15,
       "added": 0,
-      "fetchedAt": "2026-10-06T01:57:07.332Z"
+      "fetchedAt": "2026-10-06T02:21:11.014Z"
     },
     {
       "source": "財務省",
       "status": "FETCHED",
       "read": 100,
-      "added": 1,
-      "fetchedAt": "2026-10-06T01:57:07.332Z"
+      "added": 0,
+      "fetchedAt": "2026-10-06T02:21:11.014Z"
     },
     {
       "source": "経済産業省",
       "status": "FAILED",
       "read": 0,
       "added": 0,
-      "fetchedAt": "2026-10-06T01:57:07.332Z",
+      "fetchedAt": "2026-10-06T02:21:11.014Z",
       "error": "HTTP 403"
     }
   ],
@@ -96,41 +96,15 @@
   "summaryMode": "GEMINI_GROUNDED_EDITORIAL",
   "cards": [
     {
-      "id": "e818fcb62d051aacb38a6f9f1f3059394de8e8a9b5a7680cffdf6553907c2a6d",
-      "category": "財政・国債",
-      "title": "第120回国債市場特別参加者会合の議事要旨が公表され、令和8年10-12月期の物価連動債の発行額等を現状維持とする方針などが説明された。",
-      "summary": "市場参加者から物価連動債の増額や第Ⅱ非価格競争入札の再開に関する意見や慎重な見方が示されたことが明らかにされた。",
-      "whatHappened": "第120回国債市場特別参加者会合の議事要旨が公表され、令和8年10-12月期の物価連動債の発行額等を現状維持とする方針などが説明された。",
-      "whatChanged": "市場参加者から物価連動債の増額や第Ⅱ非価格競争入札の再開に関する意見や慎重な見方が示されたことが明らかにされた。",
-      "relatedThemes": [
-        "国債市場特別参加者会合",
-        "物価連動債",
-        "財務省"
-      ],
-      "status": "NEW",
-      "source": "財務省",
-      "publishedAt": "2026-10-05T08:00:00.000Z",
-      "firstSeenAt": "2026-10-05T17:27:07.378Z",
-      "contentStatus": "VERIFIED_TEXT",
-      "links": [
-        {
-          "title": "国債市場特別参加者会合（第120回）議事要旨",
-          "url": "https://www.mof.go.jp/about_mof/councils/meeting_of_jgbsp/proceedings/260928.html",
-          "source": "財務省"
-        }
-      ]
-    },
-    {
       "id": "eadb43f93031908f41c64a2bf7acebc938988eb3234c28c6a2a2da8150cf3368",
       "category": "財政・国債",
-      "title": "財務省が10年利付国債（第384回）の入札発行を実施し、発行予定額は約2兆6,000億円、表面利率は年3.1パーセントと通知した。",
-      "summary": "本日午前11時50分の申込締切を経て、午後には第Ⅱ非価格競争入札が実施される予定となった。",
-      "whatHappened": "財務省が10年利付国債（第384回）の入札発行を実施し、発行予定額は約2兆6,000億円、表面利率は年3.1パーセントと通知した。",
-      "whatChanged": "本日午前11時50分の申込締切を経て、午後には第Ⅱ非価格競争入札が実施される予定となった。",
+      "title": "財務省が10年利付国債（第384回）の入札発行の実施を通知した。",
+      "summary": "発行予定額2兆6,000億円程度の10年利付国債入札が10月6日に行われることになった。",
+      "whatHappened": "財務省が10年利付国債（第384回）の入札発行の実施を通知した。",
+      "whatChanged": "発行予定額2兆6,000億円程度の10年利付国債入札が10月6日に行われることになった。",
       "relatedThemes": [
         "国債入札",
-        "財務省",
-        "金利・債券"
+        "財務省"
       ],
       "status": "NEW",
       "source": "財務省",
@@ -147,8 +121,7 @@
     }
   ],
   "summary": [
-    "市場参加者から物価連動債の増額や第Ⅱ非価格競争入札の再開に関する意見や慎重な見方が示されたことが明らかにされた。",
-    "本日午前11時50分の申込締切を経て、午後には第Ⅱ非価格競争入札が実施される予定となった。"
+    "発行予定額2兆6,000億円程度の10年利付国債入札が10月6日に行われることになった。"
   ],
   "qualityNote": "NEWS MEMORYへの保存と表示用編集を分離。公式本文を確認できない情報は、見出し以上に補完しない。株価予想・売買推奨は行わない。"
 }
