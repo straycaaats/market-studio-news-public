@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-06T16:41:18.137Z",
+  "generatedAt": "2026-10-07T01:03:04.700Z",
   "asOf": "2026-10-07",
   "edition": "MORNING",
   "heading": "今日見る材料",
   "counts": {
-    "fetchedToday": 7,
-    "newsMemoryTotal": 380,
-    "considered": 6,
-    "adoptedCards": 5,
-    "failedSources": 1
+    "fetchedToday": 11,
+    "newsMemoryTotal": 384,
+    "considered": 3,
+    "adoptedCards": 2,
+    "failedSources": 2
   },
   "sourceResults": [
     {
@@ -16,35 +16,36 @@
       "status": "FETCHED",
       "read": 15,
       "added": 0,
-      "fetchedAt": "2026-10-06T16:41:18.137Z"
+      "fetchedAt": "2026-10-07T01:03:04.700Z"
     },
     {
       "source": "日本銀行",
       "status": "FETCHED",
-      "read": 70,
-      "added": 0,
-      "fetchedAt": "2026-10-06T16:41:18.137Z"
+      "read": 74,
+      "added": 4,
+      "fetchedAt": "2026-10-07T01:03:04.700Z"
     },
     {
       "source": "金融庁",
       "status": "FETCHED",
       "read": 15,
       "added": 0,
-      "fetchedAt": "2026-10-06T16:41:18.137Z"
+      "fetchedAt": "2026-10-07T01:03:04.700Z"
     },
     {
       "source": "財務省",
-      "status": "FETCHED",
-      "read": 100,
+      "status": "FAILED",
+      "read": 0,
       "added": 0,
-      "fetchedAt": "2026-10-06T16:41:18.137Z"
+      "fetchedAt": "2026-10-07T01:03:04.700Z",
+      "error": "HTTP 404"
     },
     {
       "source": "経済産業省",
       "status": "FAILED",
       "read": 0,
       "added": 0,
-      "fetchedAt": "2026-10-06T16:41:18.137Z",
+      "fetchedAt": "2026-10-07T01:03:04.700Z",
       "error": "HTTP 403"
     }
   ],
@@ -96,63 +97,39 @@
   "summaryMode": "GEMINI_GROUNDED_EDITORIAL",
   "cards": [
     {
-      "id": "953fdfbda914672d1ae3733983338587e09bcbec65c4a70e1a4a29cfe16bbc5b",
+      "id": "985359089e171009df4d894deb07378b534c48e005fec3abf6288a954e317380",
       "category": "財政・国債",
-      "title": "財務省が第384回10年利付国債の入札結果を発表し、募入決定額や応募額などを公表した。",
-      "summary": "第384回10年国債の発行条件および応募・募入額が確定した。",
-      "whatHappened": "財務省が第384回10年利付国債の入札結果を発表し、募入決定額や応募額などを公表した。",
-      "whatChanged": "第384回10年国債の発行条件および応募・募入額が確定した。",
+      "title": "9月末の日本銀行の総資産残高が625.0兆円となり、前年同月比で10.1%減少した。",
+      "summary": "長期国債の買入減額や貸出支援基金による貸付けの減少等により、国債や当座預金、貸付金が前年比で減少した。",
+      "whatHappened": "9月末の日本銀行の総資産残高が625.0兆円となり、前年同月比で10.1%減少した。",
+      "whatChanged": "長期国債の買入減額や貸出支援基金による貸付けの減少等により、国債や当座預金、貸付金が前年比で減少した。",
       "relatedThemes": [
-        "国債入札",
-        "金利・債券"
+        "日本銀行",
+        "金融統計"
       ],
       "status": "NEW",
-      "source": "財務省",
-      "publishedAt": "2026-10-06T03:35:00.000Z",
-      "firstSeenAt": "2026-10-06T15:29:08.757Z",
+      "source": "日本銀行",
+      "publishedAt": "2026-10-07T01:00:00.000Z",
+      "firstSeenAt": "2026-10-07T01:03:04.700Z",
       "contentStatus": "VERIFIED_TEXT",
       "links": [
         {
-          "title": "10年利付国債（第384回）の入札結果（令和8年10月6日入札）",
-          "url": "https://www.mof.go.jp/jgbs/auction/calendar/nyusatsu/resul20261006.htm",
-          "source": "財務省"
-        }
-      ]
-    },
-    {
-      "id": "a53639dfb0fb532c0cb267ffadd512d7374c063e44c21c894b3d4e4b680d7195",
-      "category": "財政・国債",
-      "title": "財務省が関税・外国為替等審議会関税分科会の配付資料を公開した。",
-      "summary": "最近の関税政策や税関行政、HS条約改正に応じた関税率表の改正等の資料が一般に開示された。",
-      "whatHappened": "財務省が関税・外国為替等審議会関税分科会の配付資料を公開した。",
-      "whatChanged": "最近の関税政策や税関行政、HS条約改正に応じた関税率表の改正等の資料が一般に開示された。",
-      "relatedThemes": [
-        "関税政策",
-        "財政・税制"
-      ],
-      "status": "NEW",
-      "source": "財務省",
-      "publishedAt": "2026-10-06T03:00:00.000Z",
-      "firstSeenAt": "2026-10-06T15:29:08.757Z",
-      "contentStatus": "VERIFIED_TEXT",
-      "links": [
-        {
-          "title": "関税・外国為替等審議会 関税分科会（令和８年10月６日開催）配付資料",
-          "url": "https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/proceedings_customs/material/kana20261006.html",
-          "source": "財務省"
+          "title": "営業毎旬報告（9月30日現在）",
+          "url": "https://www.boj.or.jp/statistics/boj/other/acmai/release/2026/ac260930.htm",
+          "source": "日本銀行"
         }
       ]
     },
     {
       "id": "70f9fef7af299b4c82fc1620bd88a2d6c3ddd405506ef86b241490d3194f351d",
       "category": "金融政策・市場",
-      "title": "日本銀行がバーゼル銀行監督委員会の会合議事要旨の公表について伝えた。",
-      "summary": "グローバルな銀行システムを巡るAI動向や健全性基準に関する議論の討議内容が明らかになった。",
-      "whatHappened": "日本銀行がバーゼル銀行監督委員会の会合議事要旨の公表について伝えた。",
-      "whatChanged": "グローバルな銀行システムを巡るAI動向や健全性基準に関する議論の討議内容が明らかになった。",
+      "title": "バーゼル銀行監督委員会が9月28日・29日開催会合の議事要旨を公表した。",
+      "summary": "AIを巡る動向やグローバル銀行の年次評価、暗号資産エクスポージャーに係る健全性基準のレビューなどについて意見交換や合意が行われた。",
+      "whatHappened": "バーゼル銀行監督委員会が9月28日・29日開催会合の議事要旨を公表した。",
+      "whatChanged": "AIを巡る動向やグローバル銀行の年次評価、暗号資産エクスポージャーに係る健全性基準のレビューなどについて意見交換や合意が行われた。",
       "relatedThemes": [
         "金融規制",
-        "中央銀行"
+        "バーゼル委員会"
       ],
       "status": "NEW",
       "source": "日本銀行",
@@ -166,59 +143,11 @@
           "source": "日本銀行"
         }
       ]
-    },
-    {
-      "id": "aa633b3e1fce717bb9ecadfe4f01a541de80a6e59eab489b6b297dd32393a1b7",
-      "category": "財政・国債",
-      "title": "財務省が第384回10年利付国債の第II非価格競争入札の募入決定額を発表した。",
-      "summary": "第II非価格競争入札における募入決定額（1,551億円）が決定した。",
-      "whatHappened": "財務省が第384回10年利付国債の第II非価格競争入札の募入決定額を発表した。",
-      "whatChanged": "第II非価格競争入札における募入決定額（1,551億円）が決定した。",
-      "relatedThemes": [
-        "国債入札",
-        "金利・債券"
-      ],
-      "status": "NEW",
-      "source": "財務省",
-      "publishedAt": "2026-10-06T06:15:00.000Z",
-      "firstSeenAt": "2026-10-06T15:29:08.757Z",
-      "contentStatus": "VERIFIED_TEXT",
-      "links": [
-        {
-          "title": "10年利付国債（第384回）の第II非価格競争入札結果（令和8年10月6日入札）",
-          "url": "https://www.mof.go.jp/jgbs/auction/calendar/nyusatsu/resul20261006a.htm",
-          "source": "財務省"
-        }
-      ]
-    },
-    {
-      "id": "eadb43f93031908f41c64a2bf7acebc938988eb3234c28c6a2a2da8150cf3368",
-      "category": "財政・国債",
-      "title": "10年利付国債（第384回）の入札発行（令和8年10月6日入札）",
-      "summary": "） 9． 応募額一口の金額 （1）価格競争入札 1億円又はその整数倍 （2）非競争入札 百万円又はその整数倍 （3）国債市場特別参加者 ・第Ⅰ非価格競争入札 1億円又はその整数倍 10． 募入決定の方法 （1）価格競争入札 コンベンショナル方式 （2）非競争入札 案分による割り当て （ただし、応募限",
-      "whatHappened": "10年利付国債（第384回）の入札発行（令和8年10月6日入札）",
-      "whatChanged": "） 9． 応募額一口の金額 （1）価格競争入札 1億円又はその整数倍 （2）非競争入札 百万円又はその整数倍 （3）国債市場特別参加者 ・第Ⅰ非価格競争入札 1億円又はその整数倍 10． 募入決定の方法 （1）価格競争入札 コンベンショナル方式 （2）非競争入札 案分による割り当て （ただし、応募限",
-      "relatedThemes": [
-        "国債・円相場"
-      ],
-      "status": "FOLLOW_UP",
-      "source": "財務省",
-      "publishedAt": "2026-10-06T01:30:00.000Z",
-      "firstSeenAt": "2026-10-06T01:57:07.332Z",
-      "contentStatus": "VERIFIED_TEXT",
-      "links": [
-        {
-          "title": "10年利付国債（第384回）の入札発行（令和8年10月6日入札）",
-          "url": "https://www.mof.go.jp/jgbs/auction/calendar/nyusatsu/offer20261006.htm",
-          "source": "財務省"
-        }
-      ]
     }
   ],
   "summary": [
-    "第384回10年国債の発行条件および応募・募入額が確定した。",
-    "最近の関税政策や税関行政、HS条約改正に応じた関税率表の改正等の資料が一般に開示された。",
-    "グローバルな銀行システムを巡るAI動向や健全性基準に関する議論の討議内容が明らかになった。"
+    "長期国債の買入減額や貸出支援基金による貸付けの減少等により、国債や当座預金、貸付金が前年比で減少した。",
+    "AIを巡る動向やグローバル銀行の年次評価、暗号資産エクスポージャーに係る健全性基準のレビューなどについて意見交換や合意が行われた。"
   ],
   "qualityNote": "NEWS MEMORYへの保存と表示用編集を分離。公式本文を確認できない情報は、見出し以上に補完しない。株価予想・売買推奨は行わない。"
 }
