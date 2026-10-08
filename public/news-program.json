@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-10-07T17:23:38.067Z",
+  "generatedAt": "2026-10-08T01:22:00.599Z",
   "asOf": "2026-10-08",
   "edition": "MORNING",
   "heading": "今日見る材料",
   "counts": {
-    "fetchedToday": 10,
-    "newsMemoryTotal": 400,
-    "considered": 7,
-    "adoptedCards": 5,
+    "fetchedToday": 13,
+    "newsMemoryTotal": 403,
+    "considered": 3,
+    "adoptedCards": 2,
     "failedSources": 1
   },
   "sourceResults": [
@@ -16,35 +16,35 @@
       "status": "FETCHED",
       "read": 15,
       "added": 0,
-      "fetchedAt": "2026-10-07T17:23:38.067Z"
+      "fetchedAt": "2026-10-08T01:22:00.599Z"
     },
     {
       "source": "日本銀行",
       "status": "FETCHED",
-      "read": 73,
-      "added": 0,
-      "fetchedAt": "2026-10-07T17:23:38.067Z"
+      "read": 74,
+      "added": 1,
+      "fetchedAt": "2026-10-08T01:22:00.599Z"
     },
     {
       "source": "金融庁",
       "status": "FETCHED",
       "read": 15,
       "added": 0,
-      "fetchedAt": "2026-10-07T17:23:38.067Z"
+      "fetchedAt": "2026-10-08T01:22:00.599Z"
     },
     {
       "source": "財務省",
       "status": "FETCHED",
       "read": 100,
-      "added": 0,
-      "fetchedAt": "2026-10-07T17:23:38.067Z"
+      "added": 2,
+      "fetchedAt": "2026-10-08T01:22:00.599Z"
     },
     {
       "source": "経済産業省",
       "status": "FAILED",
       "read": 0,
       "added": 0,
-      "fetchedAt": "2026-10-07T17:23:38.067Z",
+      "fetchedAt": "2026-10-08T01:22:00.599Z",
       "error": "HTTP 403"
     }
   ],
@@ -96,131 +96,58 @@
   "summaryMode": "GEMINI_GROUNDED_EDITORIAL",
   "cards": [
     {
-      "id": "1be8b01a403de2403d7b0cc7c5de88e577b3544ee28a676e9e1be8ce3f3fc483",
+      "id": "4caf7b2298a7031c97ff6fc9012c0e78be4303db2c532a8fc2968e102860286b",
       "category": "産業・エネルギー",
-      "title": "財務省がエネルギー対策特別会計の借入金入札結果を公表し、応募額2兆1,420億円に対し募入決定額5,415億円、募入平均利率1.751％となった。",
-      "summary": "エネルギー対策特別会計における借入金の条件と調達額が確定した。",
-      "whatHappened": "財務省がエネルギー対策特別会計の借入金入札結果を公表し、応募額2兆1,420億円に対し募入決定額5,415億円、募入平均利率1.751％となった。",
-      "whatChanged": "エネルギー対策特別会計における借入金の条件と調達額が確定した。",
+      "title": "令和8年8月中の国際収支速報が公表され、経常収支は第一次所得収支の黒字幅拡大などにより4兆0,620億円の黒字（前年同月比＋4,339億円）となった。",
+      "summary": "貿易収支が6,877億円の赤字に転化した一方、第一次所得収支が5兆1,332億円の黒字となり、全体として経常収支の黒字幅が拡大した。",
+      "whatHappened": "令和8年8月中の国際収支速報が公表され、経常収支は第一次所得収支の黒字幅拡大などにより4兆0,620億円の黒字（前年同月比＋4,339億円）となった。",
+      "whatChanged": "貿易収支が6,877億円の赤字に転化した一方、第一次所得収支が5兆1,332億円の黒字となり、全体として経常収支の黒字幅が拡大した。",
       "relatedThemes": [
-        "国債・借入金",
-        "財務省"
+        "国際収支",
+        "貿易収支",
+        "経常収支"
       ],
       "status": "NEW",
       "source": "財務省",
-      "publishedAt": "2026-10-07T04:00:00.000Z",
-      "firstSeenAt": "2026-10-07T15:48:32.761Z",
+      "publishedAt": "2026-10-07T23:50:00.000Z",
+      "firstSeenAt": "2026-10-08T01:22:00.599Z",
       "contentStatus": "VERIFIED_TEXT",
       "links": [
         {
-          "title": "エネルギー対策特別会計の借入金の入札結果（令和8年10月7日入札）",
-          "url": "https://www.mof.go.jp/jgbs/auction/calendar/kariire/energy-result261007.htm",
+          "title": "令和8年8月中 国際収支状況（速報）の概要",
+          "url": "https://www.mof.go.jp/policy/international_policy/reference/balance_of_payments/preliminary/pg202608.htm",
           "source": "財務省"
         }
       ]
     },
     {
-      "id": "e87d3c745e15d8585cd5417134160608f03626b069b9ff37e4fc223698ce207b",
-      "category": "金融政策・市場",
-      "title": "財務省が令和8年9月末時点の外貨準備等の状況を発表し、外貨準備高は1兆1,783億96百万ドルとなり前月末比で29,128百万ドル減少した。",
-      "summary": "我が国の外貨準備高の月末残高および内訳が更新された。",
-      "whatHappened": "財務省が令和8年9月末時点の外貨準備等の状況を発表し、外貨準備高は1兆1,783億96百万ドルとなり前月末比で29,128百万ドル減少した。",
-      "whatChanged": "我が国の外貨準備高の月末残高および内訳が更新された。",
-      "relatedThemes": [
-        "外貨準備",
-        "財務省"
-      ],
-      "status": "FOLLOW_UP",
-      "source": "財務省",
-      "publishedAt": "2026-10-06T23:50:00.000Z",
-      "firstSeenAt": "2026-10-07T01:39:45.367Z",
-      "contentStatus": "VERIFIED_TEXT",
-      "links": [
-        {
-          "title": "外貨準備等の状況（令和8年9月末現在）",
-          "url": "https://www.mof.go.jp/policy/international_policy/reference/official_reserve_assets/data/0809.html",
-          "source": "財務省"
-        }
-      ]
-    },
-    {
-      "id": "093814ec2f66fc03e405059ac4f4ed8a044863e2da4fd88f390ef78a3996aaac",
+      "id": "c709b0f31c86d5106e869292da000cc10073e26957afac86b461ee74ae4378bd",
       "category": "財政・国債",
-      "title": "片山財務大臣が閣議後記者会見を行い、消費税減税の財源確保や予算編成改革、大和証券の顧客情報漏洩事案、越境ECに関するワーキンググループ設置などについて言及した。",
-      "summary": "特例公債に頼らない財源確保や、越境EC・少額輸入貨物への対応方針が示された。",
-      "whatHappened": "片山財務大臣が閣議後記者会見を行い、消費税減税の財源確保や予算編成改革、大和証券の顧客情報漏洩事案、越境ECに関するワーキンググループ設置などについて言及した。",
-      "whatChanged": "特例公債に頼らない財源確保や、越境EC・少額輸入貨物への対応方針が示された。",
+      "title": "財務省が国庫短期証券（第1411回）の入札発行実施を通知した。",
+      "summary": "発行予定額が額面金額で3兆円程度、発行日が令和8年10月13日とする国庫短期証券の入札手続きが開始された。",
+      "whatHappened": "財務省が国庫短期証券（第1411回）の入札発行実施を通知した。",
+      "whatChanged": "発行予定額が額面金額で3兆円程度、発行日が令和8年10月13日とする国庫短期証券の入札手続きが開始された。",
       "relatedThemes": [
-        "財政政策",
-        "税制・予算",
-        "金融行政"
+        "国庫短期証券",
+        "国債発行"
       ],
       "status": "NEW",
       "source": "財務省",
-      "publishedAt": "2026-10-07T03:25:00.000Z",
-      "firstSeenAt": "2026-10-07T15:48:32.761Z",
+      "publishedAt": "2026-10-08T01:20:00.000Z",
+      "firstSeenAt": "2026-10-08T01:22:00.599Z",
       "contentStatus": "VERIFIED_TEXT",
       "links": [
         {
-          "title": "片山財務大臣兼内閣府特命担当大臣閣議後記者会見の概要(令和8年10月6日(火曜日))",
-          "url": "https://www.mof.go.jp/public_relations/conference/my20261006.html",
+          "title": "国庫短期証券（第1411回）の入札発行",
+          "url": "https://www.mof.go.jp/jgbs/auction/calendar/tbill/tbill_nyusatsu/offer20261008.htm",
           "source": "財務省"
-        }
-      ]
-    },
-    {
-      "id": "dadd29bb7a8ea4a75752b8271d442a62b2d77ffb966db09de98c077f8f7c7114",
-      "category": "財政・国債",
-      "title": "財務省が国債整理基金による買入消却の入札結果を公表し、応募額907億円に対して買入決定額151億円となった。",
-      "summary": "国債整理基金による買入消却の落札結果が確定した。",
-      "whatHappened": "財務省が国債整理基金による買入消却の入札結果を公表し、応募額907億円に対して買入決定額151億円となった。",
-      "whatChanged": "国債整理基金による買入消却の落札結果が確定した。",
-      "relatedThemes": [
-        "国債市場",
-        "財務省"
-      ],
-      "status": "NEW",
-      "source": "財務省",
-      "publishedAt": "2026-10-07T03:35:00.000Z",
-      "firstSeenAt": "2026-10-07T15:48:32.761Z",
-      "contentStatus": "VERIFIED_TEXT",
-      "links": [
-        {
-          "title": "国債整理基金による買入消却に係る国債の買入れのための入札結果（令和8年10月7日）",
-          "url": "https://www.mof.go.jp/jgbs/auction/calendar/syokyaku/resul418.htm",
-          "source": "財務省"
-        }
-      ]
-    },
-    {
-      "id": "985359089e171009df4d894deb07378b534c48e005fec3abf6288a954e317380",
-      "category": "財政・国債",
-      "title": "日本銀行が9月30日現在の営業毎旬報告を公表し、総資産残高が625.0兆円となり前年同月に比べ70.2兆円減少した。",
-      "summary": "長期国債の買入減額等を背景に、日銀の総資産や国債保有額等の残高が前年比で減少した。",
-      "whatHappened": "日本銀行が9月30日現在の営業毎旬報告を公表し、総資産残高が625.0兆円となり前年同月に比べ70.2兆円減少した。",
-      "whatChanged": "長期国債の買入減額等を背景に、日銀の総資産や国債保有額等の残高が前年比で減少した。",
-      "relatedThemes": [
-        "日本銀行",
-        "金融政策"
-      ],
-      "status": "FOLLOW_UP",
-      "source": "日本銀行",
-      "publishedAt": "2026-10-07T01:00:00.000Z",
-      "firstSeenAt": "2026-10-07T01:03:04.700Z",
-      "contentStatus": "VERIFIED_TEXT",
-      "links": [
-        {
-          "title": "営業毎旬報告（9月30日現在）",
-          "url": "https://www.boj.or.jp/statistics/boj/other/acmai/release/2026/ac260930.htm",
-          "source": "日本銀行"
         }
       ]
     }
   ],
   "summary": [
-    "エネルギー対策特別会計における借入金の条件と調達額が確定した。",
-    "我が国の外貨準備高の月末残高および内訳が更新された。",
-    "特例公債に頼らない財源確保や、越境EC・少額輸入貨物への対応方針が示された。"
+    "貿易収支が6,877億円の赤字に転化した一方、第一次所得収支が5兆1,332億円の黒字となり、全体として経常収支の黒字幅が拡大した。",
+    "発行予定額が額面金額で3兆円程度、発行日が令和8年10月13日とする国庫短期証券の入札手続きが開始された。"
   ],
   "qualityNote": "NEWS MEMORYへの保存と表示用編集を分離。公式本文を確認できない情報は、見出し以上に補完しない。株価予想・売買推奨は行わない。"
 }
