@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-10-08T02:04:34.224Z",
-  "asOf": "2026-10-08",
+  "generatedAt": "2026-10-08T15:53:24.585Z",
+  "asOf": "2026-10-09",
   "edition": "MORNING",
   "heading": "今日見る材料",
   "counts": {
-    "fetchedToday": 15,
-    "newsMemoryTotal": 405,
-    "considered": 4,
-    "adoptedCards": 3,
+    "fetchedToday": 13,
+    "newsMemoryTotal": 418,
+    "considered": 10,
+    "adoptedCards": 6,
     "failedSources": 1
   },
   "sourceResults": [
@@ -16,35 +16,35 @@
       "status": "FETCHED",
       "read": 15,
       "added": 0,
-      "fetchedAt": "2026-10-08T02:04:34.224Z"
+      "fetchedAt": "2026-10-08T15:53:24.585Z"
     },
     {
       "source": "日本銀行",
       "status": "FETCHED",
-      "read": 74,
-      "added": 0,
-      "fetchedAt": "2026-10-08T02:04:34.224Z"
+      "read": 79,
+      "added": 5,
+      "fetchedAt": "2026-10-08T15:53:24.585Z"
     },
     {
       "source": "金融庁",
       "status": "FETCHED",
       "read": 15,
-      "added": 0,
-      "fetchedAt": "2026-10-08T02:04:34.224Z"
+      "added": 3,
+      "fetchedAt": "2026-10-08T15:53:24.585Z"
     },
     {
       "source": "財務省",
       "status": "FETCHED",
       "read": 100,
-      "added": 2,
-      "fetchedAt": "2026-10-08T02:04:34.224Z"
+      "added": 5,
+      "fetchedAt": "2026-10-08T15:53:24.585Z"
     },
     {
       "source": "経済産業省",
       "status": "FAILED",
       "read": 0,
       "added": 0,
-      "fetchedAt": "2026-10-08T02:04:34.224Z",
+      "fetchedAt": "2026-10-08T15:53:24.585Z",
       "error": "HTTP 403"
     }
   ],
@@ -98,16 +98,16 @@
     {
       "id": "4caf7b2298a7031c97ff6fc9012c0e78be4303db2c532a8fc2968e102860286b",
       "category": "産業・エネルギー",
-      "title": "財務省が令和8年8月中の国際収支状況（速報）を公表し、経常収支は第一次所得収支の黒字幅拡大等により4兆0,620億円の黒字となった。",
-      "summary": "貿易収支が赤字に転化した一方、第一次所得収支の黒字幅拡大により経常収支全体の黒字幅が前年同月比で拡大した。",
-      "whatHappened": "財務省が令和8年8月中の国際収支状況（速報）を公表し、経常収支は第一次所得収支の黒字幅拡大等により4兆0,620億円の黒字となった。",
-      "whatChanged": "貿易収支が赤字に転化した一方、第一次所得収支の黒字幅拡大により経常収支全体の黒字幅が前年同月比で拡大した。",
+      "title": "令和8年8月中の国際収支状況（速報）が公表され、経常収支は4兆0,620億円の黒字で黒字幅を拡大した。",
+      "summary": "貿易収支が赤字に転化した一方、第一次所得収支の黒字幅が拡大した。",
+      "whatHappened": "令和8年8月中の国際収支状況（速報）が公表され、経常収支は4兆0,620億円の黒字で黒字幅を拡大した。",
+      "whatChanged": "貿易収支が赤字に転化した一方、第一次所得収支の黒字幅が拡大した。",
       "relatedThemes": [
         "国際収支",
         "貿易収支",
         "経常収支"
       ],
-      "status": "NEW",
+      "status": "FOLLOW_UP",
       "source": "財務省",
       "publishedAt": "2026-10-07T23:50:00.000Z",
       "firstSeenAt": "2026-10-08T01:22:00.599Z",
@@ -121,60 +121,133 @@
       ]
     },
     {
-      "id": "6eb572e44c7f94451ded5bd7490efc5983fd84117d3b54c03962ace7e435ea88",
-      "category": "財政・国債",
-      "title": "財務省が30年利付国債（第92回）の価格競争入札等の実施を通知した。",
-      "summary": "発行予定額額面金額6,000億円程度、表面利率年4.2パーセントの30年利付国債の入札日が設定された。",
-      "whatHappened": "財務省が30年利付国債（第92回）の価格競争入札等の実施を通知した。",
-      "whatChanged": "発行予定額額面金額6,000億円程度、表面利率年4.2パーセントの30年利付国債の入札日が設定された。",
+      "id": "0947eec1f67307534b1049910a71ed0d47eaf0ca594f486396df0fda3642b609",
+      "category": "金融政策・市場",
+      "title": "財務省がコンゴ民主共和国に対する武器禁輸措置等に違反した者等に対する資産凍結等措置の対象者の追加を発表した。",
+      "summary": "国連安保理制裁委員会の追加指定に伴い、6個人・2団体に対する資産凍結等の措置を実施する。",
+      "whatHappened": "財務省がコンゴ民主共和国に対する武器禁輸措置等に違反した者等に対する資産凍結等措置の対象者の追加を発表した。",
+      "whatChanged": "国連安保理制裁委員会の追加指定に伴い、6個人・2団体に対する資産凍結等の措置を実施する。",
       "relatedThemes": [
-        "国債入札",
-        "財務省",
-        "債券"
+        "資産凍結",
+        "外国為替及び外国貿易法",
+        "財務省"
       ],
       "status": "NEW",
       "source": "財務省",
-      "publishedAt": "2026-10-08T01:30:00.000Z",
-      "firstSeenAt": "2026-10-08T02:04:34.224Z",
+      "publishedAt": "2026-10-08T09:00:00.000Z",
+      "firstSeenAt": "2026-10-08T15:53:24.585Z",
       "contentStatus": "VERIFIED_TEXT",
       "links": [
         {
-          "title": "30年利付国債（第92回）の入札発行（令和8年10月8日入札）",
-          "url": "https://www.mof.go.jp/jgbs/auction/calendar/nyusatsu/offer20261008.htm",
+          "title": "コンゴ民主共和国に対する武器禁輸措置等に違反した者等に対する資産凍結等措置の対象者の追加を実施します",
+          "url": "https://www.mof.go.jp/policy/international_policy/gaitame_kawase/gaitame/economic_sanctions/congohoudou_20261009.html",
           "source": "財務省"
         }
       ]
     },
     {
-      "id": "c709b0f31c86d5106e869292da000cc10073e26957afac86b461ee74ae4378bd",
+      "id": "b37fbdac597fa0df38a0d42e6ff405346827f72ff98e7301500c8f3ba9b6d1ff",
       "category": "財政・国債",
-      "title": "財務省が国庫短期証券（第1411回）の価格競争入札等の実施を通知した。",
-      "summary": "発行予定額額面金額3兆円程度の国庫短期証券の入札日が設定された。",
-      "whatHappened": "財務省が国庫短期証券（第1411回）の価格競争入札等の実施を通知した。",
-      "whatChanged": "発行予定額額面金額3兆円程度の国庫短期証券の入札日が設定された。",
+      "title": "30年利付国債（第92回）の第II非価格競争入札結果（令和8年10月8日入札）",
+      "summary": "X ポスト --> 30年利付国債（第92回）の第Ⅱ非価格競争入札結果 令和8年10月8日 財務省 本日、30年利付国債（第92回）の第Ⅱ非価格競争入札について、下記のように募入の決定を行いました。",
+      "whatHappened": "30年利付国債（第92回）の第II非価格競争入札結果（令和8年10月8日入札）",
+      "whatChanged": "X ポスト --> 30年利付国債（第92回）の第Ⅱ非価格競争入札結果 令和8年10月8日 財務省 本日、30年利付国債（第92回）の第Ⅱ非価格競争入札について、下記のように募入の決定を行いました。",
       "relatedThemes": [
-        "国庫短期証券",
-        "財務省",
-        "短期金融市場"
+        "国債・円相場"
       ],
       "status": "NEW",
       "source": "財務省",
-      "publishedAt": "2026-10-08T01:20:00.000Z",
-      "firstSeenAt": "2026-10-08T01:22:00.599Z",
+      "publishedAt": "2026-10-08T06:15:00.000Z",
+      "firstSeenAt": "2026-10-08T15:53:24.585Z",
       "contentStatus": "VERIFIED_TEXT",
       "links": [
         {
-          "title": "国庫短期証券（第1411回）の入札発行",
-          "url": "https://www.mof.go.jp/jgbs/auction/calendar/tbill/tbill_nyusatsu/offer20261008.htm",
+          "title": "30年利付国債（第92回）の第II非価格競争入札結果（令和8年10月8日入札）",
+          "url": "https://www.mof.go.jp/jgbs/auction/calendar/nyusatsu/resul20261008a.htm",
+          "source": "財務省"
+        }
+      ]
+    },
+    {
+      "id": "870694b5e7313de16e1551a92d98c13360ab8a2f70de75a07ce3c23ef8e25d19",
+      "category": "金融政策・市場",
+      "title": "日本銀行が2026年10月の「地域経済報告（さくらレポート）」を公表した。",
+      "summary": "すべての地域で景気は「緩やかに回復」「持ち直し」「緩やかに持ち直し」としている。",
+      "whatHappened": "日本銀行が2026年10月の「地域経済報告（さくらレポート）」を公表した。",
+      "whatChanged": "すべての地域で景気は「緩やかに回復」「持ち直し」「緩やかに持ち直し」としている。",
+      "relatedThemes": [
+        "地域経済",
+        "日本銀行",
+        "さくらレポート"
+      ],
+      "status": "NEW",
+      "source": "日本銀行",
+      "publishedAt": "2026-10-08T05:00:00.000Z",
+      "firstSeenAt": "2026-10-08T15:53:24.585Z",
+      "contentStatus": "VERIFIED_TEXT",
+      "links": [
+        {
+          "title": "地域経済報告（さくらレポート、2026年10月）",
+          "url": "https://www.boj.or.jp/research/brp/rer/rer261008.htm",
+          "source": "日本銀行"
+        }
+      ]
+    },
+    {
+      "id": "40a7d46c42b8547c407c61d11dcf8654b6e8750b96c16ee8fe23905b31d672c9",
+      "category": "財政・国債",
+      "title": "財務省が30年利付国債（第92回）の入札結果を公表した。",
+      "summary": "応募額1兆7,472億円に対し募入決定額は4,507億円となった。",
+      "whatHappened": "財務省が30年利付国債（第92回）の入札結果を公表した。",
+      "whatChanged": "応募額1兆7,472億円に対し募入決定額は4,507億円となった。",
+      "relatedThemes": [
+        "国債入札",
+        "財務省",
+        "長期国債"
+      ],
+      "status": "NEW",
+      "source": "財務省",
+      "publishedAt": "2026-10-08T03:35:00.000Z",
+      "firstSeenAt": "2026-10-08T15:53:24.585Z",
+      "contentStatus": "VERIFIED_TEXT",
+      "links": [
+        {
+          "title": "30年利付国債（第92回）の入札結果（令和8年10月8日入札）",
+          "url": "https://www.mof.go.jp/jgbs/auction/calendar/nyusatsu/resul20261008.htm",
+          "source": "財務省"
+        }
+      ]
+    },
+    {
+      "id": "d2379fa55dd639df0245a1d7b51e67719c1231c9d14a4b50fc604d862877e43a",
+      "category": "財政・国債",
+      "title": "財務省が国庫短期証券（第1411回）の入札結果を公表した。",
+      "summary": "応募額9兆3,605億円に対し募入決定額は2兆3,214億5,000万円となった。",
+      "whatHappened": "財務省が国庫短期証券（第1411回）の入札結果を公表した。",
+      "whatChanged": "応募額9兆3,605億円に対し募入決定額は2兆3,214億5,000万円となった。",
+      "relatedThemes": [
+        "国庫短期証券",
+        "財務省",
+        "入札結果"
+      ],
+      "status": "NEW",
+      "source": "財務省",
+      "publishedAt": "2026-10-08T03:30:00.000Z",
+      "firstSeenAt": "2026-10-08T15:53:24.585Z",
+      "contentStatus": "VERIFIED_TEXT",
+      "links": [
+        {
+          "title": "国庫短期証券（第1411回）の入札結果",
+          "url": "https://www.mof.go.jp/jgbs/auction/calendar/tbill/tbill_nyusatsu/resul20261008.htm",
           "source": "財務省"
         }
       ]
     }
   ],
   "summary": [
-    "貿易収支が赤字に転化した一方、第一次所得収支の黒字幅拡大により経常収支全体の黒字幅が前年同月比で拡大した。",
-    "発行予定額額面金額6,000億円程度、表面利率年4.2パーセントの30年利付国債の入札日が設定された。",
-    "発行予定額額面金額3兆円程度の国庫短期証券の入札日が設定された。"
+    "貿易収支が赤字に転化した一方、第一次所得収支の黒字幅が拡大した。",
+    "国連安保理制裁委員会の追加指定に伴い、6個人・2団体に対する資産凍結等の措置を実施する。",
+    "X ポスト --> 30年利付国債（第92回）の第Ⅱ非価格競争入札結果 令和8年10月8日 財務省 本日、30年利付国債（第92回）の第Ⅱ非価格競争入札について、下記のように募入の決定を行いました。"
   ],
   "qualityNote": "NEWS MEMORYへの保存と表示用編集を分離。公式本文を確認できない情報は、見出し以上に補完しない。株価予想・売買推奨は行わない。"
 }
