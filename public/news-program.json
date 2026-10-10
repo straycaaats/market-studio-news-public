@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-10-10T01:49:03.437Z",
+  "generatedAt": "2026-10-10T14:48:08.518Z",
   "asOf": "2026-10-10",
-  "edition": "MORNING",
-  "heading": "今日見る材料",
+  "edition": "EVENING",
+  "heading": "今日の振り返り",
   "counts": {
     "fetchedToday": 13,
     "newsMemoryTotal": 439,
-    "considered": 2,
-    "adoptedCards": 1,
+    "considered": 1,
+    "adoptedCards": 0,
     "failedSources": 1
   },
   "sourceResults": [
@@ -16,35 +16,35 @@
       "status": "FETCHED",
       "read": 15,
       "added": 0,
-      "fetchedAt": "2026-10-10T01:49:03.437Z"
+      "fetchedAt": "2026-10-10T14:48:08.518Z"
     },
     {
       "source": "日本銀行",
       "status": "FETCHED",
       "read": 77,
       "added": 0,
-      "fetchedAt": "2026-10-10T01:49:03.437Z"
+      "fetchedAt": "2026-10-10T14:48:08.518Z"
     },
     {
       "source": "金融庁",
       "status": "FETCHED",
       "read": 15,
       "added": 0,
-      "fetchedAt": "2026-10-10T01:49:03.437Z"
+      "fetchedAt": "2026-10-10T14:48:08.518Z"
     },
     {
       "source": "財務省",
       "status": "FETCHED",
       "read": 100,
       "added": 0,
-      "fetchedAt": "2026-10-10T01:49:03.437Z"
+      "fetchedAt": "2026-10-10T14:48:08.518Z"
     },
     {
       "source": "経済産業省",
       "status": "FAILED",
       "read": 0,
       "added": 0,
-      "fetchedAt": "2026-10-10T01:49:03.437Z",
+      "fetchedAt": "2026-10-10T14:48:08.518Z",
       "error": "HTTP 403"
     }
   ],
@@ -94,35 +94,7 @@
     "mode": "GEMINI_GROUNDED_EDITORIAL"
   },
   "summaryMode": "GEMINI_GROUNDED_EDITORIAL",
-  "cards": [
-    {
-      "id": "46cdb9fb5b2e22ac15588fc621fba0f29ea2803ca0023a24c9c4853f93ffd4ec",
-      "category": "財政・国債",
-      "title": "消費税・支援金法案の閣議決定や、租特・補助金・基金の徹底見直しに関する副大臣会議の開催、金融機関へのサイバーセキュリティ対策の注意喚起などが発表された。",
-      "summary": "「消費税・支援金法案」が閣議決定され、関係府省庁連絡会議の設置や、副大臣会議の名称変更・幹事会の設置などが行われた。",
-      "whatHappened": "消費税・支援金法案の閣議決定や、租特・補助金・基金の徹底見直しに関する副大臣会議の開催、金融機関へのサイバーセキュリティ対策の注意喚起などが発表された。",
-      "whatChanged": "「消費税・支援金法案」が閣議決定され、関係府省庁連絡会議の設置や、副大臣会議の名称変更・幹事会の設置などが行われた。",
-      "relatedThemes": [
-        "経済政策",
-        "税制・予算",
-        "金融庁"
-      ],
-      "status": "NEW",
-      "source": "財務省",
-      "publishedAt": "2026-10-09T10:30:00.000Z",
-      "firstSeenAt": "2026-10-09T15:35:43.127Z",
-      "contentStatus": "VERIFIED_TEXT",
-      "links": [
-        {
-          "title": "片山財務大臣兼内閣府特命担当大臣閣議後記者会見の概要(令和8年10月9日(金曜日))",
-          "url": "https://www.mof.go.jp/public_relations/conference/my20261009.html",
-          "source": "財務省"
-        }
-      ]
-    }
-  ],
-  "summary": [
-    "「消費税・支援金法案」が閣議決定され、関係府省庁連絡会議の設置や、副大臣会議の名称変更・幹事会の設置などが行われた。"
-  ],
+  "cards": [],
+  "summary": [],
   "qualityNote": "NEWS MEMORYへの保存と表示用編集を分離。公式本文を確認できない情報は、見出し以上に補完しない。株価予想・売買推奨は行わない。"
 }
