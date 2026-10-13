@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-10-13T03:04:49.023Z",
-  "asOf": "2026-10-13",
-  "edition": "EVENING",
-  "heading": "今日の振り返り",
+  "generatedAt": "2026-10-13T16:29:04.354Z",
+  "asOf": "2026-10-14",
+  "edition": "MORNING",
+  "heading": "今日見る材料",
   "counts": {
-    "fetchedToday": 4,
-    "newsMemoryTotal": 443,
-    "considered": 1,
-    "adoptedCards": 0,
+    "fetchedToday": 11,
+    "newsMemoryTotal": 454,
+    "considered": 3,
+    "adoptedCards": 2,
     "failedSources": 1
   },
   "sourceResults": [
@@ -15,36 +15,36 @@
       "source": "総務省統計局",
       "status": "FETCHED",
       "read": 15,
-      "added": 0,
-      "fetchedAt": "2026-10-13T03:04:49.023Z"
+      "added": 1,
+      "fetchedAt": "2026-10-13T16:29:04.354Z"
     },
     {
       "source": "日本銀行",
       "status": "FETCHED",
       "read": 72,
-      "added": 0,
-      "fetchedAt": "2026-10-13T03:04:49.023Z"
+      "added": 4,
+      "fetchedAt": "2026-10-13T16:29:04.354Z"
     },
     {
       "source": "金融庁",
       "status": "FETCHED",
       "read": 15,
-      "added": 0,
-      "fetchedAt": "2026-10-13T03:04:49.023Z"
+      "added": 5,
+      "fetchedAt": "2026-10-13T16:29:04.354Z"
     },
     {
       "source": "財務省",
       "status": "FETCHED",
       "read": 100,
-      "added": 0,
-      "fetchedAt": "2026-10-13T03:04:49.023Z"
+      "added": 1,
+      "fetchedAt": "2026-10-13T16:29:04.354Z"
     },
     {
       "source": "経済産業省",
       "status": "FAILED",
       "read": 0,
       "added": 0,
-      "fetchedAt": "2026-10-13T03:04:49.023Z",
+      "fetchedAt": "2026-10-13T16:29:04.354Z",
       "error": "HTTP 403"
     }
   ],
@@ -94,7 +94,61 @@
     "mode": "GEMINI_GROUNDED_EDITORIAL"
   },
   "summaryMode": "GEMINI_GROUNDED_EDITORIAL",
-  "cards": [],
-  "summary": [],
+  "cards": [
+    {
+      "id": "2b2dab55a1956ec11af2d13c5c4ba47fa6d65206ad2c77c0193b02bbce9f6e9c",
+      "category": "物価・金利",
+      "title": "日本銀行が「生活意識に関するアンケート調査」（第107回）の結果を公表した。",
+      "summary": "景況感や物価に対する実感・見通しに関する個人意識のデータが更新された。",
+      "whatHappened": "日本銀行が「生活意識に関するアンケート調査」（第107回）の結果を公表した。",
+      "whatChanged": "景況感や物価に対する実感・見通しに関する個人意識のデータが更新された。",
+      "relatedThemes": [
+        "日本銀行",
+        "アンケート調査",
+        "物価"
+      ],
+      "status": "NEW",
+      "source": "日本銀行",
+      "publishedAt": "2026-10-13T04:30:00.000Z",
+      "firstSeenAt": "2026-10-13T16:29:04.354Z",
+      "contentStatus": "VERIFIED_TEXT",
+      "links": [
+        {
+          "title": "「生活意識に関するアンケート調査」（第107回）の結果",
+          "url": "https://www.boj.or.jp/research/o_survey/ishiki2610.htm",
+          "source": "日本銀行"
+        }
+      ]
+    },
+    {
+      "id": "9003e6ed133ec43d0225f3a054eca4af2cef1b2ec0c21e7730ed1cd4ef1d8340",
+      "category": "財政・国債",
+      "title": "片山財務大臣兼内閣府特命担当大臣が閣議後記者会見を実施した。",
+      "summary": "世銀・IMF合同開発委員会の次期議長への指名や、予算編成改革・財政見直しに関する方針が示された。",
+      "whatHappened": "片山財務大臣兼内閣府特命担当大臣が閣議後記者会見を実施した。",
+      "whatChanged": "世銀・IMF合同開発委員会の次期議長への指名や、予算編成改革・財政見直しに関する方針が示された。",
+      "relatedThemes": [
+        "財務省",
+        "経済政策",
+        "予算編成"
+      ],
+      "status": "NEW",
+      "source": "財務省",
+      "publishedAt": "2026-10-13T11:35:00.000Z",
+      "firstSeenAt": "2026-10-13T16:29:04.354Z",
+      "contentStatus": "VERIFIED_TEXT",
+      "links": [
+        {
+          "title": "片山財務大臣兼内閣府特命担当大臣閣議後記者会見の概要(令和8年10月13日(火曜日))",
+          "url": "https://www.mof.go.jp/public_relations/conference/my20261013.html",
+          "source": "財務省"
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "景況感や物価に対する実感・見通しに関する個人意識のデータが更新された。",
+    "世銀・IMF合同開発委員会の次期議長への指名や、予算編成改革・財政見直しに関する方針が示された。"
+  ],
   "qualityNote": "NEWS MEMORYへの保存と表示用編集を分離。公式本文を確認できない情報は、見出し以上に補完しない。株価予想・売買推奨は行わない。"
 }
