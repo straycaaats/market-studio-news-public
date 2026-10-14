@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-14T01:16:57.015Z",
+  "generatedAt": "2026-10-14T14:05:16.652Z",
   "asOf": "2026-10-14",
-  "edition": "MORNING",
-  "heading": "今日見る材料",
+  "edition": "EVENING",
+  "heading": "今日の振り返り",
   "counts": {
-    "fetchedToday": 13,
-    "newsMemoryTotal": 456,
+    "fetchedToday": 19,
+    "newsMemoryTotal": 462,
     "considered": 3,
     "adoptedCards": 2,
     "failedSources": 1
@@ -16,35 +16,35 @@
       "status": "FETCHED",
       "read": 15,
       "added": 0,
-      "fetchedAt": "2026-10-14T01:16:57.015Z"
+      "fetchedAt": "2026-10-14T14:05:16.652Z"
     },
     {
       "source": "日本銀行",
       "status": "FETCHED",
-      "read": 74,
-      "added": 1,
-      "fetchedAt": "2026-10-14T01:16:57.015Z"
+      "read": 75,
+      "added": 2,
+      "fetchedAt": "2026-10-14T14:05:16.652Z"
     },
     {
       "source": "金融庁",
       "status": "FETCHED",
       "read": 15,
-      "added": 0,
-      "fetchedAt": "2026-10-14T01:16:57.015Z"
+      "added": 1,
+      "fetchedAt": "2026-10-14T14:05:16.652Z"
     },
     {
       "source": "財務省",
       "status": "FETCHED",
       "read": 100,
-      "added": 0,
-      "fetchedAt": "2026-10-14T01:16:57.015Z"
+      "added": 3,
+      "fetchedAt": "2026-10-14T14:05:16.652Z"
     },
     {
       "source": "経済産業省",
       "status": "FAILED",
       "read": 0,
       "added": 0,
-      "fetchedAt": "2026-10-14T01:16:57.015Z",
+      "fetchedAt": "2026-10-14T14:05:16.652Z",
       "error": "HTTP 403"
     }
   ],
@@ -96,57 +96,57 @@
   "summaryMode": "GEMINI_GROUNDED_EDITORIAL",
   "cards": [
     {
-      "id": "9003e6ed133ec43d0225f3a054eca4af2cef1b2ec0c21e7730ed1cd4ef1d8340",
+      "id": "dbebd1c991b093f4c4d5a3dbd0b4affa1884f38a8a3390cb7742a922adf71af7",
       "category": "財政・国債",
-      "title": "片山財務大臣兼内閣府特命担当大臣が世界銀行・IMF合同開発委員会の次期議長に指名されたこと、および閣議後記者会見で予算編成改革や日本版DOGE等について述べた。",
-      "summary": "日本の財務大臣が世銀・IMF合同開発委員会の次期議長に指名された（1974年の設置以降初、任期は2028年10月まで）。",
-      "whatHappened": "片山財務大臣兼内閣府特命担当大臣が世界銀行・IMF合同開発委員会の次期議長に指名されたこと、および閣議後記者会見で予算編成改革や日本版DOGE等について述べた。",
-      "whatChanged": "日本の財務大臣が世銀・IMF合同開発委員会の次期議長に指名された（1974年の設置以降初、任期は2028年10月まで）。",
+      "title": "財務省が5年利付国債（第188回）の第II非価格競争入札の募入決定を行った。",
+      "summary": "第II非価格競争入札の募入決定額が2,188億円に決定された。",
+      "whatHappened": "財務省が5年利付国債（第188回）の第II非価格競争入札の募入決定を行った。",
+      "whatChanged": "第II非価格競争入札の募入決定額が2,188億円に決定された。",
       "relatedThemes": [
-        "財務省",
-        "国際金融"
+        "国債入札",
+        "財務省"
       ],
       "status": "NEW",
       "source": "財務省",
-      "publishedAt": "2026-10-13T11:35:00.000Z",
-      "firstSeenAt": "2026-10-13T16:29:04.354Z",
+      "publishedAt": "2026-10-14T06:15:00.000Z",
+      "firstSeenAt": "2026-10-14T14:05:16.652Z",
       "contentStatus": "VERIFIED_TEXT",
       "links": [
         {
-          "title": "片山財務大臣兼内閣府特命担当大臣閣議後記者会見の概要(令和8年10月13日(火曜日))",
-          "url": "https://www.mof.go.jp/public_relations/conference/my20261013.html",
+          "title": "5年利付国債（第188回）の第II非価格競争入札結果（令和8年10月14日入札）",
+          "url": "https://www.mof.go.jp/jgbs/auction/calendar/nyusatsu/resul20261014a.htm",
           "source": "財務省"
         }
       ]
     },
     {
-      "id": "f3b608257bb9af93029d4669f33bfce42d9c9576651d249b73d0dd5c56960463",
+      "id": "1c005dd62237ba39a36cbb4aec1a4c19f678571b9e7dab887a20269be22358a4",
       "category": "財政・国債",
-      "title": "日本銀行が10月10日現在の営業毎旬報告を公表した。",
-      "summary": "資産・負債および純資産の状況（国債や発行銀行券などの残高）が10月10日現在で報告された。",
-      "whatHappened": "日本銀行が10月10日現在の営業毎旬報告を公表した。",
-      "whatChanged": "資産・負債および純資産の状況（国債や発行銀行券などの残高）が10月10日現在で報告された。",
+      "title": "財務省が5年利付国債（第188回）の価格競争入札および非競争入札などの結果を発表した。",
+      "summary": "第188回5年国債の価格競争入札で応募額6兆8,182億円、募入決定額1兆9,151億円などが決定された。",
+      "whatHappened": "財務省が5年利付国債（第188回）の価格競争入札および非競争入札などの結果を発表した。",
+      "whatChanged": "第188回5年国債の価格競争入札で応募額6兆8,182億円、募入決定額1兆9,151億円などが決定された。",
       "relatedThemes": [
-        "日本銀行",
-        "金融市場"
+        "国債入札",
+        "財務省"
       ],
       "status": "NEW",
-      "source": "日本銀行",
-      "publishedAt": "2026-10-14T01:00:00.000Z",
-      "firstSeenAt": "2026-10-14T01:16:57.015Z",
+      "source": "財務省",
+      "publishedAt": "2026-10-14T03:35:00.000Z",
+      "firstSeenAt": "2026-10-14T14:05:16.652Z",
       "contentStatus": "VERIFIED_TEXT",
       "links": [
         {
-          "title": "営業毎旬報告（10月10日現在）",
-          "url": "https://www.boj.or.jp/statistics/boj/other/acmai/release/2026/ac261010.htm",
-          "source": "日本銀行"
+          "title": "5年利付国債（第188回）の入札結果（令和8年10月14日入札）",
+          "url": "https://www.mof.go.jp/jgbs/auction/calendar/nyusatsu/resul20261014.htm",
+          "source": "財務省"
         }
       ]
     }
   ],
   "summary": [
-    "日本の財務大臣が世銀・IMF合同開発委員会の次期議長に指名された（1974年の設置以降初、任期は2028年10月まで）。",
-    "資産・負債および純資産の状況（国債や発行銀行券などの残高）が10月10日現在で報告された。"
+    "第II非価格競争入札の募入決定額が2,188億円に決定された。",
+    "第188回5年国債の価格競争入札で応募額6兆8,182億円、募入決定額1兆9,151億円などが決定された。"
   ],
   "qualityNote": "NEWS MEMORYへの保存と表示用編集を分離。公式本文を確認できない情報は、見出し以上に補完しない。株価予想・売買推奨は行わない。"
 }
