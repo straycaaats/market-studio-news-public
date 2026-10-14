@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-10-13T17:32:24.211Z",
+  "generatedAt": "2026-10-14T00:39:55.568Z",
   "asOf": "2026-10-14",
   "edition": "MORNING",
   "heading": "今日見る材料",
   "counts": {
-    "fetchedToday": 11,
-    "newsMemoryTotal": 454,
-    "considered": 3,
+    "fetchedToday": 12,
+    "newsMemoryTotal": 455,
+    "considered": 2,
     "adoptedCards": 1,
     "failedSources": 1
   },
@@ -16,35 +16,35 @@
       "status": "FETCHED",
       "read": 15,
       "added": 0,
-      "fetchedAt": "2026-10-13T17:32:24.211Z"
+      "fetchedAt": "2026-10-14T00:39:55.568Z"
     },
     {
       "source": "日本銀行",
       "status": "FETCHED",
-      "read": 72,
-      "added": 0,
-      "fetchedAt": "2026-10-13T17:32:24.211Z"
+      "read": 73,
+      "added": 1,
+      "fetchedAt": "2026-10-14T00:39:55.568Z"
     },
     {
       "source": "金融庁",
       "status": "FETCHED",
       "read": 15,
       "added": 0,
-      "fetchedAt": "2026-10-13T17:32:24.211Z"
+      "fetchedAt": "2026-10-14T00:39:55.568Z"
     },
     {
       "source": "財務省",
       "status": "FETCHED",
       "read": 100,
       "added": 0,
-      "fetchedAt": "2026-10-13T17:32:24.211Z"
+      "fetchedAt": "2026-10-14T00:39:55.568Z"
     },
     {
       "source": "経済産業省",
       "status": "FAILED",
       "read": 0,
       "added": 0,
-      "fetchedAt": "2026-10-13T17:32:24.211Z",
+      "fetchedAt": "2026-10-14T00:39:55.568Z",
       "error": "HTTP 403"
     }
   ],
@@ -89,39 +89,40 @@
   ],
   "aiStatus": {
     "configured": true,
-    "used": false,
+    "used": true,
     "model": "gemini-3.5-flash-lite",
-    "mode": "RULE_BASED_AFTER_GEMINI_FAILURE:Gemini HTTP 503"
+    "mode": "GEMINI_GROUNDED_EDITORIAL"
   },
-  "summaryMode": "RULE_BASED_AFTER_GEMINI_FAILURE:Gemini HTTP 503",
+  "summaryMode": "GEMINI_GROUNDED_EDITORIAL",
   "cards": [
     {
-      "id": "2b2dab55a1956ec11af2d13c5c4ba47fa6d65206ad2c77c0193b02bbce9f6e9c",
-      "category": "物価・金利",
-      "title": "「生活意識に関するアンケート調査」（第107回）の結果",
-      "summary": "「生活意識に関するアンケート調査」（第107回＜2026年9月調査＞）の結果 2026年10月13日 日本銀行情報サービス局 全文 [PDF 665KB] 調査概要 調査実施期間：2026年8月3日 ～ から 9月4日 調査対象：全国の満20歳以上の個人 標本数：4,000人（有効回答者数1,972",
-      "whatHappened": "「生活意識に関するアンケート調査」（第107回）の結果",
-      "whatChanged": "「生活意識に関するアンケート調査」（第107回＜2026年9月調査＞）の結果 2026年10月13日 日本銀行情報サービス局 全文 [PDF 665KB] 調査概要 調査実施期間：2026年8月3日 ～ から 9月4日 調査対象：全国の満20歳以上の個人 標本数：4,000人（有効回答者数1,972",
+      "id": "9003e6ed133ec43d0225f3a054eca4af2cef1b2ec0c21e7730ed1cd4ef1d8340",
+      "category": "財政・国債",
+      "title": "片山財務大臣が世界銀行・IMF合同開発委員会の次期議長に指名されたこと、および15日にタイ・バンコクで開催される同委員会で正式選任される予定であることが発表された。また、租税特別措置・補助金・基金の見",
+      "summary": "日本の財務大臣が世銀・IMF合同開発委員会の議長に就任する見通しとなり、任期は委員会の終了後から2028年10月までの2年間となる点。",
+      "whatHappened": "片山財務大臣が世界銀行・IMF合同開発委員会の次期議長に指名されたこと、および15日にタイ・バンコクで開催される同委員会で正式選任される予定であることが発表された。また、租税特別措置・補助金・基金の見",
+      "whatChanged": "日本の財務大臣が世銀・IMF合同開発委員会の議長に就任する見通しとなり、任期は委員会の終了後から2028年10月までの2年間となる点。",
       "relatedThemes": [
-        "銀行・保険",
-        "小売・消費"
+        "世界銀行・IMF",
+        "日本版DOGE",
+        "予算編成改革"
       ],
       "status": "NEW",
-      "source": "日本銀行",
-      "publishedAt": "2026-10-13T04:30:00.000Z",
+      "source": "財務省",
+      "publishedAt": "2026-10-13T11:35:00.000Z",
       "firstSeenAt": "2026-10-13T16:29:04.354Z",
       "contentStatus": "VERIFIED_TEXT",
       "links": [
         {
-          "title": "「生活意識に関するアンケート調査」（第107回）の結果",
-          "url": "https://www.boj.or.jp/research/o_survey/ishiki2610.htm",
-          "source": "日本銀行"
+          "title": "片山財務大臣兼内閣府特命担当大臣閣議後記者会見の概要(令和8年10月13日(火曜日))",
+          "url": "https://www.mof.go.jp/public_relations/conference/my20261013.html",
+          "source": "財務省"
         }
       ]
     }
   ],
   "summary": [
-    "「生活意識に関するアンケート調査」（第107回＜2026年9月調査＞）の結果 2026年10月13日 日本銀行情報サービス局 全文 [PDF 665KB] 調査概要 調査実施期間：2026年8月3日 ～ から 9月4日 調査対象：全国の満20歳以上の個人 標本数：4,000人（有効回答者数1,972"
+    "日本の財務大臣が世銀・IMF合同開発委員会の議長に就任する見通しとなり、任期は委員会の終了後から2028年10月までの2年間となる点。"
   ],
   "qualityNote": "NEWS MEMORYへの保存と表示用編集を分離。公式本文を確認できない情報は、見出し以上に補完しない。株価予想・売買推奨は行わない。"
 }
