@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-10-15T00:09:24.191Z",
+  "generatedAt": "2026-10-15T00:37:03.810Z",
   "asOf": "2026-10-15",
   "edition": "MORNING",
   "heading": "今日見る材料",
   "counts": {
     "fetchedToday": 1,
     "newsMemoryTotal": 463,
-    "considered": 2,
-    "adoptedCards": 1,
+    "considered": 1,
+    "adoptedCards": 0,
     "failedSources": 1
   },
   "sourceResults": [
@@ -16,35 +16,35 @@
       "status": "FETCHED",
       "read": 15,
       "added": 0,
-      "fetchedAt": "2026-10-15T00:09:24.191Z"
+      "fetchedAt": "2026-10-15T00:37:03.810Z"
     },
     {
       "source": "日本銀行",
       "status": "FETCHED",
       "read": 73,
       "added": 0,
-      "fetchedAt": "2026-10-15T00:09:24.191Z"
+      "fetchedAt": "2026-10-15T00:37:03.810Z"
     },
     {
       "source": "金融庁",
       "status": "FETCHED",
       "read": 15,
       "added": 0,
-      "fetchedAt": "2026-10-15T00:09:24.191Z"
+      "fetchedAt": "2026-10-15T00:37:03.810Z"
     },
     {
       "source": "財務省",
       "status": "FETCHED",
       "read": 100,
-      "added": 1,
-      "fetchedAt": "2026-10-15T00:09:24.191Z"
+      "added": 0,
+      "fetchedAt": "2026-10-15T00:37:03.810Z"
     },
     {
       "source": "経済産業省",
       "status": "FAILED",
       "read": 0,
       "added": 0,
-      "fetchedAt": "2026-10-15T00:09:24.191Z",
+      "fetchedAt": "2026-10-15T00:37:03.810Z",
       "error": "HTTP 403"
     }
   ],
@@ -94,34 +94,7 @@
     "mode": "GEMINI_GROUNDED_EDITORIAL"
   },
   "summaryMode": "GEMINI_GROUNDED_EDITORIAL",
-  "cards": [
-    {
-      "id": "dbebd1c991b093f4c4d5a3dbd0b4affa1884f38a8a3390cb7742a922adf71af7",
-      "category": "財政・国債",
-      "title": "財務省が5年利付国債（第188回）の第II非価格競争入札結果を公表した。",
-      "summary": "募入決定額が2,188億円、発行価格が100円09銭に決定された。",
-      "whatHappened": "財務省が5年利付国債（第188回）の第II非価格競争入札結果を公表した。",
-      "whatChanged": "募入決定額が2,188億円、発行価格が100円09銭に決定された。",
-      "relatedThemes": [
-        "国債入札",
-        "財務省"
-      ],
-      "status": "FOLLOW_UP",
-      "source": "財務省",
-      "publishedAt": "2026-10-14T06:15:00.000Z",
-      "firstSeenAt": "2026-10-14T14:05:16.652Z",
-      "contentStatus": "VERIFIED_TEXT",
-      "links": [
-        {
-          "title": "5年利付国債（第188回）の第II非価格競争入札結果（令和8年10月14日入札）",
-          "url": "https://www.mof.go.jp/jgbs/auction/calendar/nyusatsu/resul20261014a.htm",
-          "source": "財務省"
-        }
-      ]
-    }
-  ],
-  "summary": [
-    "募入決定額が2,188億円、発行価格が100円09銭に決定された。"
-  ],
+  "cards": [],
+  "summary": [],
   "qualityNote": "NEWS MEMORYへの保存と表示用編集を分離。公式本文を確認できない情報は、見出し以上に補完しない。株価予想・売買推奨は行わない。"
 }
