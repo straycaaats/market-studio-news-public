@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-10-15T00:37:03.810Z",
+  "generatedAt": "2026-10-15T13:43:38.353Z",
   "asOf": "2026-10-15",
-  "edition": "MORNING",
-  "heading": "今日見る材料",
+  "edition": "EVENING",
+  "heading": "今日の振り返り",
   "counts": {
-    "fetchedToday": 1,
-    "newsMemoryTotal": 463,
-    "considered": 1,
-    "adoptedCards": 0,
+    "fetchedToday": 13,
+    "newsMemoryTotal": 475,
+    "considered": 4,
+    "adoptedCards": 3,
     "failedSources": 1
   },
   "sourceResults": [
@@ -16,35 +16,35 @@
       "status": "FETCHED",
       "read": 15,
       "added": 0,
-      "fetchedAt": "2026-10-15T00:37:03.810Z"
+      "fetchedAt": "2026-10-15T13:43:38.353Z"
     },
     {
       "source": "日本銀行",
       "status": "FETCHED",
-      "read": 73,
-      "added": 0,
-      "fetchedAt": "2026-10-15T00:37:03.810Z"
+      "read": 77,
+      "added": 4,
+      "fetchedAt": "2026-10-15T13:43:38.353Z"
     },
     {
       "source": "金融庁",
       "status": "FETCHED",
       "read": 15,
-      "added": 0,
-      "fetchedAt": "2026-10-15T00:37:03.810Z"
+      "added": 2,
+      "fetchedAt": "2026-10-15T13:43:38.353Z"
     },
     {
       "source": "財務省",
       "status": "FETCHED",
       "read": 100,
-      "added": 0,
-      "fetchedAt": "2026-10-15T00:37:03.810Z"
+      "added": 6,
+      "fetchedAt": "2026-10-15T13:43:38.353Z"
     },
     {
       "source": "経済産業省",
       "status": "FAILED",
       "read": 0,
       "added": 0,
-      "fetchedAt": "2026-10-15T00:37:03.810Z",
+      "fetchedAt": "2026-10-15T13:43:38.353Z",
       "error": "HTTP 403"
     }
   ],
@@ -94,7 +94,86 @@
     "mode": "GEMINI_GROUNDED_EDITORIAL"
   },
   "summaryMode": "GEMINI_GROUNDED_EDITORIAL",
-  "cards": [],
-  "summary": [],
+  "cards": [
+    {
+      "id": "353f629fa20a6ab60f5fa499ff11df194f760462b3727768dc86419941631e90",
+      "category": "産業・エネルギー",
+      "title": "タイ・バンコクで開催された第114回世銀・IMF合同開発委員会において、日本国ステートメントが発表された。",
+      "summary": "開発課題への対応や世界銀行グループ（WBG）の役割強化、重要鉱物のサプライチェーン多様化に向けた日本の姿勢が示された。",
+      "whatHappened": "タイ・バンコクで開催された第114回世銀・IMF合同開発委員会において、日本国ステートメントが発表された。",
+      "whatChanged": "開発課題への対応や世界銀行グループ（WBG）の役割強化、重要鉱物のサプライチェーン多様化に向けた日本の姿勢が示された。",
+      "relatedThemes": [
+        "国際金融",
+        "世界銀行",
+        "重要鉱物"
+      ],
+      "status": "NEW",
+      "source": "財務省",
+      "publishedAt": "2026-10-15T13:30:00.000Z",
+      "firstSeenAt": "2026-10-15T13:43:38.353Z",
+      "contentStatus": "VERIFIED_TEXT",
+      "links": [
+        {
+          "title": "第 114 回世銀・IMF 合同開発委員会における日本国ステートメント （2026 年 10 月 15 日 於：タイ・バンコク）",
+          "url": "https://www.mof.go.jp/policy/international_policy/imf/dc/20261014151844.html",
+          "source": "財務省"
+        }
+      ]
+    },
+    {
+      "id": "8ee2a4f69dc23c305b31eb73417e3b047b896fddfa4935a42ef6291aaca660e7",
+      "category": "産業・エネルギー",
+      "title": "日米政府の「戦略的投資イニシアティブ」において、米国ニューヨーク州での半導体製造プロジェクトの実施で一致した。",
+      "summary": "事業総額約100億ドル規模のプロジェクトが2026年内に着工予定となり、成熟ノード半導体のサプライチェーン強靭化に向けた具体的な協力が動き出した。",
+      "whatHappened": "日米政府の「戦略的投資イニシアティブ」において、米国ニューヨーク州での半導体製造プロジェクトの実施で一致した。",
+      "whatChanged": "事業総額約100億ドル規模のプロジェクトが2026年内に着工予定となり、成熟ノード半導体のサプライチェーン強靭化に向けた具体的な協力が動き出した。",
+      "relatedThemes": [
+        "半導体",
+        "経済安全保障",
+        "日米関係"
+      ],
+      "status": "NEW",
+      "source": "財務省",
+      "publishedAt": "2026-10-15T03:00:00.000Z",
+      "firstSeenAt": "2026-10-15T13:43:38.353Z",
+      "contentStatus": "VERIFIED_TEXT",
+      "links": [
+        {
+          "title": "日米政府の「戦略的投資イニシアティブ」において半導体製造プロジェクトを実施します（令和8年10月15日）",
+          "url": "https://www.mof.go.jp/policy/international_policy/convention/dialogue/20261013163537.html",
+          "source": "財務省"
+        }
+      ]
+    },
+    {
+      "id": "d4572de019bda8e4f0ae4a4ea3e192a4af895a5e812dcb5ee23075d2fb9c05ae",
+      "category": "財政・国債",
+      "title": "財務省が交付税及び譲与税配付金特別会計の借入金の入札結果を発表した。",
+      "summary": "募入決定額1兆1,999億9,900万円、募入平均利率1.526％で借入金の入札が実施された。",
+      "whatHappened": "財務省が交付税及び譲与税配付金特別会計の借入金の入札結果を発表した。",
+      "whatChanged": "募入決定額1兆1,999億9,900万円、募入平均利率1.526％で借入金の入札が実施された。",
+      "relatedThemes": [
+        "国債",
+        "財政"
+      ],
+      "status": "NEW",
+      "source": "財務省",
+      "publishedAt": "2026-10-15T04:00:00.000Z",
+      "firstSeenAt": "2026-10-15T13:43:38.353Z",
+      "contentStatus": "VERIFIED_TEXT",
+      "links": [
+        {
+          "title": "交付税及び譲与税配付金特別会計の借入金の入札結果（令和8年10月15日入札）",
+          "url": "https://www.mof.go.jp/jgbs/auction/calendar/kariire/kari-result261015.htm",
+          "source": "財務省"
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "開発課題への対応や世界銀行グループ（WBG）の役割強化、重要鉱物のサプライチェーン多様化に向けた日本の姿勢が示された。",
+    "事業総額約100億ドル規模のプロジェクトが2026年内に着工予定となり、成熟ノード半導体のサプライチェーン強靭化に向けた具体的な協力が動き出した。",
+    "募入決定額1兆1,999億9,900万円、募入平均利率1.526％で借入金の入札が実施された。"
+  ],
   "qualityNote": "NEWS MEMORYへの保存と表示用編集を分離。公式本文を確認できない情報は、見出し以上に補完しない。株価予想・売買推奨は行わない。"
 }
