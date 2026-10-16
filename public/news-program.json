@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-16T00:30:17.003Z",
+  "generatedAt": "2026-10-16T13:33:31.971Z",
   "asOf": "2026-10-16",
-  "edition": "MORNING",
-  "heading": "今日見る材料",
+  "edition": "EVENING",
+  "heading": "今日の振り返り",
   "counts": {
-    "fetchedToday": 0,
-    "newsMemoryTotal": 478,
-    "considered": 2,
-    "adoptedCards": 1,
-    "failedSources": 2
+    "fetchedToday": 17,
+    "newsMemoryTotal": 495,
+    "considered": 3,
+    "adoptedCards": 2,
+    "failedSources": 1
   },
   "sourceResults": [
     {
@@ -16,36 +16,35 @@
       "status": "FETCHED",
       "read": 15,
       "added": 0,
-      "fetchedAt": "2026-10-16T00:30:17.003Z"
+      "fetchedAt": "2026-10-16T13:33:31.971Z"
     },
     {
       "source": "日本銀行",
       "status": "FETCHED",
-      "read": 77,
-      "added": 0,
-      "fetchedAt": "2026-10-16T00:30:17.003Z"
+      "read": 78,
+      "added": 3,
+      "fetchedAt": "2026-10-16T13:33:31.971Z"
     },
     {
       "source": "金融庁",
       "status": "FETCHED",
       "read": 15,
-      "added": 0,
-      "fetchedAt": "2026-10-16T00:30:17.003Z"
+      "added": 6,
+      "fetchedAt": "2026-10-16T13:33:31.971Z"
     },
     {
       "source": "財務省",
-      "status": "FAILED",
-      "read": 0,
-      "added": 0,
-      "fetchedAt": "2026-10-16T00:30:17.003Z",
-      "error": "HTTP 503"
+      "status": "FETCHED",
+      "read": 100,
+      "added": 8,
+      "fetchedAt": "2026-10-16T13:33:31.971Z"
     },
     {
       "source": "経済産業省",
       "status": "FAILED",
       "read": 0,
       "added": 0,
-      "fetchedAt": "2026-10-16T00:30:17.003Z",
+      "fetchedAt": "2026-10-16T13:33:31.971Z",
       "error": "HTTP 403"
     }
   ],
@@ -97,33 +96,58 @@
   "summaryMode": "GEMINI_GROUNDED_EDITORIAL",
   "cards": [
     {
-      "id": "353f629fa20a6ab60f5fa499ff11df194f760462b3727768dc86419941631e90",
-      "category": "産業・エネルギー",
-      "title": "財務省がタイ・バンコクで開催された第114回世銀・IMF合同開発委員会における日本国ステートメントを公表した。",
-      "summary": "世界経済の不確実性や地政学的危機、長期的な開発課題に対する世界銀行グループ（WBG）の機能強化や日本の貢献について方針が示された。",
-      "whatHappened": "財務省がタイ・バンコクで開催された第114回世銀・IMF合同開発委員会における日本国ステートメントを公表した。",
-      "whatChanged": "世界経済の不確実性や地政学的危機、長期的な開発課題に対する世界銀行グループ（WBG）の機能強化や日本の貢献について方針が示された。",
+      "id": "e258ed3a57605545e9c016565ec6cd7e1c19185e28ac3fd9ee60f321b909f4ec",
+      "category": "財政・国債",
+      "title": "片山財務大臣がG20およびG7の財務相・中央銀行総裁会議や世銀・IMF合同開発委員会の成果等について記者会見を行った。",
+      "summary": "G20等の場でサプライチェーンの多様化やAIリスクへの対応、グローバルインバランスの是正などについて日本側の考え方を表明したほか、韓国との通貨スワップ延長やインドとの二国間協議への格上げなどが合意された。",
+      "whatHappened": "片山財務大臣がG20およびG7の財務相・中央銀行総裁会議や世銀・IMF合同開発委員会の成果等について記者会見を行った。",
+      "whatChanged": "G20等の場でサプライチェーンの多様化やAIリスクへの対応、グローバルインバランスの是正などについて日本側の考え方を表明したほか、韓国との通貨スワップ延長やインドとの二国間協議への格上げなどが合意された。",
       "relatedThemes": [
-        "国際金融",
-        "世銀・IMF",
-        "サプライチェーン"
+        "G20",
+        "G7",
+        "為替"
       ],
-      "status": "FOLLOW_UP",
+      "status": "NEW",
       "source": "財務省",
-      "publishedAt": "2026-10-15T13:30:00.000Z",
-      "firstSeenAt": "2026-10-15T13:43:38.353Z",
+      "publishedAt": "2026-10-16T11:00:00.000Z",
+      "firstSeenAt": "2026-10-16T13:33:31.971Z",
       "contentStatus": "VERIFIED_TEXT",
       "links": [
         {
-          "title": "第 114 回世銀・IMF 合同開発委員会における日本国ステートメント （2026 年 10 月 15 日 於：タイ・バンコク）",
-          "url": "https://www.mof.go.jp/policy/international_policy/imf/dc/20261014151844.html",
+          "title": "片山財務大臣兼内閣府特命担当大臣閣議後記者会見の概要(令和8年10月16日(金曜日))",
+          "url": "https://www.mof.go.jp/public_relations/conference/my20261016.html",
+          "source": "財務省"
+        }
+      ]
+    },
+    {
+      "id": "aa4f371b3030a6290ab33697b9c5fc9abcf9a4d2084fa1245f199bb339f1df04",
+      "category": "財政・国債",
+      "title": "財務省が国庫短期証券（第1413回）の入札結果を発表した。",
+      "summary": "価格競争入札における応募額や募入決定額、平均利回りなどが決定された。",
+      "whatHappened": "財務省が国庫短期証券（第1413回）の入札結果を発表した。",
+      "whatChanged": "価格競争入札における応募額や募入決定額、平均利回りなどが決定された。",
+      "relatedThemes": [
+        "国債",
+        "入札"
+      ],
+      "status": "NEW",
+      "source": "財務省",
+      "publishedAt": "2026-10-16T03:30:00.000Z",
+      "firstSeenAt": "2026-10-16T13:33:31.971Z",
+      "contentStatus": "VERIFIED_TEXT",
+      "links": [
+        {
+          "title": "国庫短期証券（第1413回）の入札結果",
+          "url": "https://www.mof.go.jp/jgbs/auction/calendar/tbill/tbill_nyusatsu/resul20261016.htm",
           "source": "財務省"
         }
       ]
     }
   ],
   "summary": [
-    "世界経済の不確実性や地政学的危機、長期的な開発課題に対する世界銀行グループ（WBG）の機能強化や日本の貢献について方針が示された。"
+    "G20等の場でサプライチェーンの多様化やAIリスクへの対応、グローバルインバランスの是正などについて日本側の考え方を表明したほか、韓国との通貨スワップ延長やインドとの二国間協議への格上げなどが合意された。",
+    "価格競争入札における応募額や募入決定額、平均利回りなどが決定された。"
   ],
   "qualityNote": "NEWS MEMORYへの保存と表示用編集を分離。公式本文を確認できない情報は、見出し以上に補完しない。株価予想・売買推奨は行わない。"
 }
