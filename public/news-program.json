@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-17T00:35:52.979Z",
+  "generatedAt": "2026-10-17T12:28:33.116Z",
   "asOf": "2026-10-17",
-  "edition": "MORNING",
-  "heading": "今日見る材料",
+  "edition": "EVENING",
+  "heading": "今日の振り返り",
   "counts": {
-    "fetchedToday": 0,
-    "newsMemoryTotal": 495,
+    "fetchedToday": 3,
+    "newsMemoryTotal": 498,
     "considered": 2,
     "adoptedCards": 1,
     "failedSources": 1
@@ -16,35 +16,35 @@
       "status": "FETCHED",
       "read": 15,
       "added": 0,
-      "fetchedAt": "2026-10-17T00:35:52.979Z"
+      "fetchedAt": "2026-10-17T12:28:33.116Z"
     },
     {
       "source": "日本銀行",
       "status": "FETCHED",
-      "read": 78,
+      "read": 77,
       "added": 0,
-      "fetchedAt": "2026-10-17T00:35:52.979Z"
+      "fetchedAt": "2026-10-17T12:28:33.116Z"
     },
     {
       "source": "金融庁",
       "status": "FETCHED",
       "read": 15,
       "added": 0,
-      "fetchedAt": "2026-10-17T00:35:52.979Z"
+      "fetchedAt": "2026-10-17T12:28:33.116Z"
     },
     {
       "source": "財務省",
       "status": "FETCHED",
       "read": 100,
-      "added": 0,
-      "fetchedAt": "2026-10-17T00:35:52.979Z"
+      "added": 3,
+      "fetchedAt": "2026-10-17T12:28:33.116Z"
     },
     {
       "source": "経済産業省",
       "status": "FAILED",
       "read": 0,
       "added": 0,
-      "fetchedAt": "2026-10-17T00:35:52.979Z",
+      "fetchedAt": "2026-10-17T12:28:33.116Z",
       "error": "HTTP 403"
     }
   ],
@@ -96,33 +96,33 @@
   "summaryMode": "GEMINI_GROUNDED_EDITORIAL",
   "cards": [
     {
-      "id": "e258ed3a57605545e9c016565ec6cd7e1c19185e28ac3fd9ee60f321b909f4ec",
-      "category": "財政・国債",
-      "title": "片山財務大臣がG20およびG7の財務相・中央銀行総裁会議等への出席に関する閣議後記者会見を行った。",
-      "summary": "G20・G7会議での議論やバイ会談での成果（韓国との通貨スワップ延長合意など）が公表された。",
-      "whatHappened": "片山財務大臣がG20およびG7の財務相・中央銀行総裁会議等への出席に関する閣議後記者会見を行った。",
-      "whatChanged": "G20・G7会議での議論やバイ会談での成果（韓国との通貨スワップ延長合意など）が公表された。",
+      "id": "2c45b91cc9c433acab21c909148dd25f89b4f77ced066aef67a8063cd31b122b",
+      "category": "産業・エネルギー",
+      "title": "片山財務大臣が第81回IMF・世界銀行年次総会の総務演説を行い、世界経済の現状やIMF・世界銀行への期待について述べた。",
+      "summary": "世界経済が直面する不確実性や構造課題への対応、日本国内の経済成長と財政の持続可能性の両立に関する方針が示された。",
+      "whatHappened": "片山財務大臣が第81回IMF・世界銀行年次総会の総務演説を行い、世界経済の現状やIMF・世界銀行への期待について述べた。",
+      "whatChanged": "世界経済が直面する不確実性や構造課題への対応、日本国内の経済成長と財政の持続可能性の両立に関する方針が示された。",
       "relatedThemes": [
-        "G20",
-        "G7",
-        "為替"
+        "IMF",
+        "世界銀行",
+        "日本経済"
       ],
-      "status": "FOLLOW_UP",
+      "status": "NEW",
       "source": "財務省",
-      "publishedAt": "2026-10-16T11:00:00.000Z",
-      "firstSeenAt": "2026-10-16T13:33:31.971Z",
+      "publishedAt": "2026-10-17T09:00:00.000Z",
+      "firstSeenAt": "2026-10-17T12:28:33.116Z",
       "contentStatus": "VERIFIED_TEXT",
       "links": [
         {
-          "title": "片山財務大臣兼内閣府特命担当大臣閣議後記者会見の概要(令和8年10月16日(金曜日))",
-          "url": "https://www.mof.go.jp/public_relations/conference/my20261016.html",
+          "title": "第81回IMF・世界銀行年次総会 片山財務大臣総務演説（令和8年10月16日 於：バンコク）",
+          "url": "https://www.mof.go.jp/policy/international_policy/imf/annual_meeting/20261017045147.html",
           "source": "財務省"
         }
       ]
     }
   ],
   "summary": [
-    "G20・G7会議での議論やバイ会談での成果（韓国との通貨スワップ延長合意など）が公表された。"
+    "世界経済が直面する不確実性や構造課題への対応、日本国内の経済成長と財政の持続可能性の両立に関する方針が示された。"
   ],
   "qualityNote": "NEWS MEMORYへの保存と表示用編集を分離。公式本文を確認できない情報は、見出し以上に補完しない。株価予想・売買推奨は行わない。"
 }
