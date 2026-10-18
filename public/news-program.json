@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-10-18T00:06:36.704Z",
+  "generatedAt": "2026-10-18T12:48:45.287Z",
   "asOf": "2026-10-18",
-  "edition": "MORNING",
-  "heading": "今日見る材料",
+  "edition": "EVENING",
+  "heading": "今日の振り返り",
   "counts": {
     "fetchedToday": 0,
     "newsMemoryTotal": 499,
-    "considered": 2,
-    "adoptedCards": 1,
+    "considered": 1,
+    "adoptedCards": 0,
     "failedSources": 1
   },
   "sourceResults": [
@@ -16,35 +16,35 @@
       "status": "FETCHED",
       "read": 15,
       "added": 0,
-      "fetchedAt": "2026-10-18T00:06:36.704Z"
+      "fetchedAt": "2026-10-18T12:48:45.287Z"
     },
     {
       "source": "日本銀行",
       "status": "FETCHED",
       "read": 77,
       "added": 0,
-      "fetchedAt": "2026-10-18T00:06:36.704Z"
+      "fetchedAt": "2026-10-18T12:48:45.287Z"
     },
     {
       "source": "金融庁",
       "status": "FETCHED",
       "read": 15,
       "added": 0,
-      "fetchedAt": "2026-10-18T00:06:36.704Z"
+      "fetchedAt": "2026-10-18T12:48:45.287Z"
     },
     {
       "source": "財務省",
       "status": "FETCHED",
       "read": 100,
       "added": 0,
-      "fetchedAt": "2026-10-18T00:06:36.704Z"
+      "fetchedAt": "2026-10-18T12:48:45.287Z"
     },
     {
       "source": "経済産業省",
       "status": "FAILED",
       "read": 0,
       "added": 0,
-      "fetchedAt": "2026-10-18T00:06:36.704Z",
+      "fetchedAt": "2026-10-18T12:48:45.287Z",
       "error": "HTTP 403"
     }
   ],
@@ -94,35 +94,7 @@
     "mode": "GEMINI_GROUNDED_EDITORIAL"
   },
   "summaryMode": "GEMINI_GROUNDED_EDITORIAL",
-  "cards": [
-    {
-      "id": "2c45b91cc9c433acab21c909148dd25f89b4f77ced066aef67a8063cd31b122b",
-      "category": "産業・エネルギー",
-      "title": "片山財務大臣が第81回IMF・世界銀行年次総会で総務演説を行った。",
-      "summary": "世界経済の不確実性や構造課題に対する日本の立場とIMF・世界銀行に対する期待が示された。",
-      "whatHappened": "片山財務大臣が第81回IMF・世界銀行年次総会で総務演説を行った。",
-      "whatChanged": "世界経済の不確実性や構造課題に対する日本の立場とIMF・世界銀行に対する期待が示された。",
-      "relatedThemes": [
-        "国際経済",
-        "IMF",
-        "世界銀行"
-      ],
-      "status": "FOLLOW_UP",
-      "source": "財務省",
-      "publishedAt": "2026-10-17T09:00:00.000Z",
-      "firstSeenAt": "2026-10-17T12:28:33.116Z",
-      "contentStatus": "VERIFIED_TEXT",
-      "links": [
-        {
-          "title": "第81回IMF・世界銀行年次総会 片山財務大臣総務演説（令和8年10月16日 於：バンコク）",
-          "url": "https://www.mof.go.jp/policy/international_policy/imf/annual_meeting/20261017045147.html",
-          "source": "財務省"
-        }
-      ]
-    }
-  ],
-  "summary": [
-    "世界経済の不確実性や構造課題に対する日本の立場とIMF・世界銀行に対する期待が示された。"
-  ],
+  "cards": [],
+  "summary": [],
   "qualityNote": "NEWS MEMORYへの保存と表示用編集を分離。公式本文を確認できない情報は、見出し以上に補完しない。株価予想・売買推奨は行わない。"
 }
