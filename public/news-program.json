@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-10-19T00:15:28.181Z",
-  "asOf": "2026-10-19",
+  "generatedAt": "2026-10-19T16:15:50.210Z",
+  "asOf": "2026-10-20",
   "edition": "MORNING",
   "heading": "今日見る材料",
   "counts": {
-    "fetchedToday": 0,
-    "newsMemoryTotal": 499,
-    "considered": 1,
-    "adoptedCards": 0,
+    "fetchedToday": 11,
+    "newsMemoryTotal": 510,
+    "considered": 5,
+    "adoptedCards": 4,
     "failedSources": 1
   },
   "sourceResults": [
@@ -15,36 +15,36 @@
       "source": "総務省統計局",
       "status": "FETCHED",
       "read": 15,
-      "added": 0,
-      "fetchedAt": "2026-10-19T00:15:28.181Z"
+      "added": 1,
+      "fetchedAt": "2026-10-19T16:15:50.210Z"
     },
     {
       "source": "日本銀行",
       "status": "FETCHED",
       "read": 76,
-      "added": 0,
-      "fetchedAt": "2026-10-19T00:15:28.181Z"
+      "added": 1,
+      "fetchedAt": "2026-10-19T16:15:50.210Z"
     },
     {
       "source": "金融庁",
       "status": "FETCHED",
       "read": 15,
-      "added": 0,
-      "fetchedAt": "2026-10-19T00:15:28.181Z"
+      "added": 1,
+      "fetchedAt": "2026-10-19T16:15:50.210Z"
     },
     {
       "source": "財務省",
       "status": "FETCHED",
       "read": 100,
-      "added": 0,
-      "fetchedAt": "2026-10-19T00:15:28.181Z"
+      "added": 8,
+      "fetchedAt": "2026-10-19T16:15:50.210Z"
     },
     {
       "source": "経済産業省",
       "status": "FAILED",
       "read": 0,
       "added": 0,
-      "fetchedAt": "2026-10-19T00:15:28.181Z",
+      "fetchedAt": "2026-10-19T16:15:50.210Z",
       "error": "HTTP 403"
     }
   ],
@@ -94,7 +94,107 @@
     "mode": "GEMINI_GROUNDED_EDITORIAL"
   },
   "summaryMode": "GEMINI_GROUNDED_EDITORIAL",
-  "cards": [],
-  "summary": [],
+  "cards": [
+    {
+      "id": "cd2d943fe9b8fba30338305056af4a142a0c52f20e02bb41bde1efd9d5b695ad",
+      "category": "財政・国債",
+      "title": "関税・外国為替等審議会が、中国や台湾等を原産地とするニッケル系ステンレス冷延鋼帯・冷延鋼板に対する不当廉売関税の課税について、諮問どおり行うことが適当であると財務大臣に答申した。",
+      "summary": "中国や台湾等を原産地とするニッケル系ステンレス冷延鋼帯・冷延鋼板への不当廉売関税課税に向けた答申が行われた。",
+      "whatHappened": "関税・外国為替等審議会が、中国や台湾等を原産地とするニッケル系ステンレス冷延鋼帯・冷延鋼板に対する不当廉売関税の課税について、諮問どおり行うことが適当であると財務大臣に答申した。",
+      "whatChanged": "中国や台湾等を原産地とするニッケル系ステンレス冷延鋼帯・冷延鋼板への不当廉売関税課税に向けた答申が行われた。",
+      "relatedThemes": [
+        "貿易",
+        "関税"
+      ],
+      "status": "NEW",
+      "source": "財務省",
+      "publishedAt": "2026-10-19T02:41:00.000Z",
+      "firstSeenAt": "2026-10-19T16:15:50.210Z",
+      "contentStatus": "VERIFIED_TEXT",
+      "links": [
+        {
+          "title": "中華人民共和国（香港地域及びマカオ地域を除く。）若しくは台湾、澎湖諸島、金門及び馬祖から成る独立の関税地域を原産地とするニッケル系ステンレス冷延鋼帯・冷延鋼板又はこれらの国若しくは地域から本邦に輸出されたニッケル系ステンレス冷延鋼帯・冷延鋼板に対して不当廉売関税を課することについての答申（令和8年10月19日）",
+          "url": "https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/report/20261019_toushin.html",
+          "source": "財務省"
+        }
+      ]
+    },
+    {
+      "id": "2d98d60904218ef563d352c9757f144f47e0be7f284711d320d9bc3e51cb3ed8",
+      "category": "財政・国債",
+      "title": "財務省が関税・外国為替等審議会関税分科会特殊関税部会の配付資料を公開し、中国産及び台湾産ニッケル系ステンレス冷延鋼帯・冷延鋼板に対する不当廉売関税の課税や、中国産二酸化チタンルチル型をもととした顔料等",
+      "summary": "特殊関税部会の開催に伴い、不当廉売関税や調査に関する資料が公開された。",
+      "whatHappened": "財務省が関税・外国為替等審議会関税分科会特殊関税部会の配付資料を公開し、中国産及び台湾産ニッケル系ステンレス冷延鋼帯・冷延鋼板に対する不当廉売関税の課税や、中国産二酸化チタンルチル型をもととした顔料等",
+      "whatChanged": "特殊関税部会の開催に伴い、不当廉売関税や調査に関する資料が公開された。",
+      "relatedThemes": [
+        "貿易",
+        "関税"
+      ],
+      "status": "NEW",
+      "source": "財務省",
+      "publishedAt": "2026-10-19T02:35:00.000Z",
+      "firstSeenAt": "2026-10-19T16:15:50.210Z",
+      "contentStatus": "VERIFIED_TEXT",
+      "links": [
+        {
+          "title": "関税・外国為替等審議会 関税分科会 特殊関税部会 （令和８年10月19日開催）配付資料",
+          "url": "https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/proceedings_tokusyu/material/kanb20261019.html",
+          "source": "財務省"
+        }
+      ]
+    },
+    {
+      "id": "22c94ab7b70edced6371c45d4d71706b7925721fba39a605fd20c39edcba888a",
+      "category": "財政・国債",
+      "title": "財務省が国庫短期証券（第1414回）の入札結果を公表した。価格競争入札の応募額は7兆6,050億円、募入決定額は1兆6,866億9,000万円となった。",
+      "summary": "国庫短期証券（第1414回）の入札が実施され、募入決定額や平均利回りが確定した。",
+      "whatHappened": "財務省が国庫短期証券（第1414回）の入札結果を公表した。価格競争入札の応募額は7兆6,050億円、募入決定額は1兆6,866億9,000万円となった。",
+      "whatChanged": "国庫短期証券（第1414回）の入札が実施され、募入決定額や平均利回りが確定した。",
+      "relatedThemes": [
+        "国債",
+        "入札"
+      ],
+      "status": "NEW",
+      "source": "財務省",
+      "publishedAt": "2026-10-19T03:30:00.000Z",
+      "firstSeenAt": "2026-10-19T16:15:50.210Z",
+      "contentStatus": "VERIFIED_TEXT",
+      "links": [
+        {
+          "title": "国庫短期証券（第1414回）の入札結果",
+          "url": "https://www.mof.go.jp/jgbs/auction/calendar/tbill/tbill_nyusatsu/resul20261019.htm",
+          "source": "財務省"
+        }
+      ]
+    },
+    {
+      "id": "36ab453bce89e07dba8164929a5a944c02c5f785286d7e5dda3fa8fe1e30e520",
+      "category": "財政・国債",
+      "title": "国庫短期証券（第1414回）の入札発行",
+      "summary": "記 1． 名称及び記号 国庫短期証券（第1414回） 2． 発行根拠法律 及びその条項 特別会計に関する法律（平成19年法律第23号）第46条第1項 3． 発行日 令和8年10月20日 4． 償還期限 令和9年10月20日 5． 発行予定額 額面金額で2兆2,000億円程度 --> 6． 入札及び募",
+      "whatHappened": "国庫短期証券（第1414回）の入札発行",
+      "whatChanged": "記 1． 名称及び記号 国庫短期証券（第1414回） 2． 発行根拠法律 及びその条項 特別会計に関する法律（平成19年法律第23号）第46条第1項 3． 発行日 令和8年10月20日 4． 償還期限 令和9年10月20日 5． 発行予定額 額面金額で2兆2,000億円程度 --> 6． 入札及び募",
+      "relatedThemes": [
+        "国債・円相場"
+      ],
+      "status": "NEW",
+      "source": "財務省",
+      "publishedAt": "2026-10-19T01:20:00.000Z",
+      "firstSeenAt": "2026-10-19T16:15:50.210Z",
+      "contentStatus": "VERIFIED_TEXT",
+      "links": [
+        {
+          "title": "国庫短期証券（第1414回）の入札発行",
+          "url": "https://www.mof.go.jp/jgbs/auction/calendar/tbill/tbill_nyusatsu/offer20261019.htm",
+          "source": "財務省"
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "中国や台湾等を原産地とするニッケル系ステンレス冷延鋼帯・冷延鋼板への不当廉売関税課税に向けた答申が行われた。",
+    "特殊関税部会の開催に伴い、不当廉売関税や調査に関する資料が公開された。",
+    "国庫短期証券（第1414回）の入札が実施され、募入決定額や平均利回りが確定した。"
+  ],
   "qualityNote": "NEWS MEMORYへの保存と表示用編集を分離。公式本文を確認できない情報は、見出し以上に補完しない。株価予想・売買推奨は行わない。"
 }
