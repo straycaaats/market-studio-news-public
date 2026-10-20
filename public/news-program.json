@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-10-19T16:55:51.608Z",
+  "generatedAt": "2026-10-20T00:45:17.657Z",
   "asOf": "2026-10-20",
   "edition": "MORNING",
   "heading": "今日見る材料",
   "counts": {
-    "fetchedToday": 11,
-    "newsMemoryTotal": 510,
-    "considered": 5,
-    "adoptedCards": 4,
+    "fetchedToday": 14,
+    "newsMemoryTotal": 513,
+    "considered": 4,
+    "adoptedCards": 3,
     "failedSources": 1
   },
   "sourceResults": [
@@ -16,35 +16,35 @@
       "status": "FETCHED",
       "read": 15,
       "added": 0,
-      "fetchedAt": "2026-10-19T16:55:51.608Z"
+      "fetchedAt": "2026-10-20T00:45:17.657Z"
     },
     {
       "source": "日本銀行",
       "status": "FETCHED",
       "read": 76,
-      "added": 0,
-      "fetchedAt": "2026-10-19T16:55:51.608Z"
+      "added": 2,
+      "fetchedAt": "2026-10-20T00:45:17.657Z"
     },
     {
       "source": "金融庁",
       "status": "FETCHED",
       "read": 15,
       "added": 0,
-      "fetchedAt": "2026-10-19T16:55:51.608Z"
+      "fetchedAt": "2026-10-20T00:45:17.657Z"
     },
     {
       "source": "財務省",
       "status": "FETCHED",
       "read": 100,
-      "added": 0,
-      "fetchedAt": "2026-10-19T16:55:51.608Z"
+      "added": 1,
+      "fetchedAt": "2026-10-20T00:45:17.657Z"
     },
     {
       "source": "経済産業省",
       "status": "FAILED",
       "read": 0,
       "added": 0,
-      "fetchedAt": "2026-10-19T16:55:51.608Z",
+      "fetchedAt": "2026-10-20T00:45:17.657Z",
       "error": "HTTP 403"
     }
   ],
@@ -96,108 +96,82 @@
   "summaryMode": "GEMINI_GROUNDED_EDITORIAL",
   "cards": [
     {
-      "id": "cd2d943fe9b8fba30338305056af4a142a0c52f20e02bb41bde1efd9d5b695ad",
-      "category": "財政・国債",
-      "title": "関税・外国為替等審議会が、中国や台湾などを原産地とするニッケル系ステンレス冷延鋼帯・冷延鋼板に対して不当廉売関税を課すことが適当であると財務大臣に答申した。",
-      "summary": "不当廉売関税の課税に向けた審議会の答申が行われた。",
-      "whatHappened": "関税・外国為替等審議会が、中国や台湾などを原産地とするニッケル系ステンレス冷延鋼帯・冷延鋼板に対して不当廉売関税を課すことが適当であると財務大臣に答申した。",
-      "whatChanged": "不当廉売関税の課税に向けた審議会の答申が行われた。",
+      "id": "d612c7de935b14d5353ad90b914e2f5f5a6d1fa6e2364a07435684e65e0b6962",
+      "category": "金融政策・市場",
+      "title": "日本銀行が令和8年11月分における報告省令レートを公表した。",
+      "summary": "11月中において適用される外国為替の取引等の報告に関する省令に基づく相場が定められた。",
+      "whatHappened": "日本銀行が令和8年11月分における報告省令レートを公表した。",
+      "whatChanged": "11月中において適用される外国為替の取引等の報告に関する省令に基づく相場が定められた。",
       "relatedThemes": [
-        "関税",
-        "貿易",
-        "財務省"
+        "為替",
+        "日本銀行"
       ],
       "status": "NEW",
-      "source": "財務省",
-      "publishedAt": "2026-10-19T02:41:00.000Z",
-      "firstSeenAt": "2026-10-19T16:15:50.210Z",
+      "source": "日本銀行",
+      "publishedAt": "2026-10-20T00:00:00.000Z",
+      "firstSeenAt": "2026-10-20T00:45:17.657Z",
       "contentStatus": "VERIFIED_TEXT",
       "links": [
         {
-          "title": "中華人民共和国（香港地域及びマカオ地域を除く。）若しくは台湾、澎湖諸島、金門及び馬祖から成る独立の関税地域を原産地とするニッケル系ステンレス冷延鋼帯・冷延鋼板又はこれらの国若しくは地域から本邦に輸出されたニッケル系ステンレス冷延鋼帯・冷延鋼板に対して不当廉売関税を課することについての答申（令和8年10月19日）",
-          "url": "https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/report/20261019_toushin.html",
-          "source": "財務省"
+          "title": "報告省令レート（11月分）",
+          "url": "https://www.boj.or.jp/about/services/tame/tame_rate/syorei/hou2611.htm",
+          "source": "日本銀行"
         }
       ]
     },
     {
-      "id": "2d98d60904218ef563d352c9757f144f47e0be7f284711d320d9bc3e51cb3ed8",
-      "category": "財政・国債",
-      "title": "関税・外国為替等審議会の関税分科会特殊関税部会が開催され、中国産・台湾産のニッケル系ステンレス冷延鋼帯・冷延鋼板に対する不当廉売関税の課税や、中国産二酸化チタンルチル型をもととした顔料等の調査開始に関",
-      "summary": "特殊関税部会の開催に伴う各種配付資料が公開された。",
-      "whatHappened": "関税・外国為替等審議会の関税分科会特殊関税部会が開催され、中国産・台湾産のニッケル系ステンレス冷延鋼帯・冷延鋼板に対する不当廉売関税の課税や、中国産二酸化チタンルチル型をもととした顔料等の調査開始に関",
-      "whatChanged": "特殊関税部会の開催に伴う各種配付資料が公開された。",
+      "id": "80fde8e4e0b722f8d042129c330c56a92008ca6cfdf0ded11c6861d9ea9e3698",
+      "category": "金融政策・市場",
+      "title": "日本銀行が令和8年11月中において適用される基準外国為替相場及び裁定外国為替相場を公表した。",
+      "summary": "11月中の基準外国為替相場として1米ドルにつき156円などが定められた。",
+      "whatHappened": "日本銀行が令和8年11月中において適用される基準外国為替相場及び裁定外国為替相場を公表した。",
+      "whatChanged": "11月中の基準外国為替相場として1米ドルにつき156円などが定められた。",
       "relatedThemes": [
-        "関税",
-        "貿易",
-        "財務省"
+        "為替",
+        "日本銀行"
       ],
       "status": "NEW",
-      "source": "財務省",
-      "publishedAt": "2026-10-19T02:35:00.000Z",
-      "firstSeenAt": "2026-10-19T16:15:50.210Z",
+      "source": "日本銀行",
+      "publishedAt": "2026-10-20T00:00:00.000Z",
+      "firstSeenAt": "2026-10-20T00:45:17.657Z",
       "contentStatus": "VERIFIED_TEXT",
       "links": [
         {
-          "title": "関税・外国為替等審議会 関税分科会 特殊関税部会 （令和８年10月19日開催）配付資料",
-          "url": "https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/proceedings_tokusyu/material/kanb20261019.html",
-          "source": "財務省"
+          "title": "基準外国為替相場及び裁定外国為替相場（11月分）",
+          "url": "https://www.boj.or.jp/about/services/tame/tame_rate/kijun/kiju2611.htm",
+          "source": "日本銀行"
         }
       ]
     },
     {
-      "id": "22c94ab7b70edced6371c45d4d71706b7925721fba39a605fd20c39edcba888a",
-      "category": "財政・国債",
-      "title": "財務省が国庫短期証券（第1414回）の入札結果を発表した。応募額は7兆6,050億円、募入決定額は総額で2兆2,000億円程度となった。",
-      "summary": "国庫短期証券の入札が実施され、募入価格や利回りが決定した。",
-      "whatHappened": "財務省が国庫短期証券（第1414回）の入札結果を発表した。応募額は7兆6,050億円、募入決定額は総額で2兆2,000億円程度となった。",
-      "whatChanged": "国庫短期証券の入札が実施され、募入価格や利回りが決定した。",
+      "id": "9ae199dfc303407f8d7093e842aed91c15d74be2e27170359dd34ff8eeaa7b13",
+      "category": "景気・企業",
+      "title": "日米政府による戦略的投資イニシアティブに関する協議委員会の会合がオンラインで開催された。",
+      "summary": "日本と米国の関係省庁や機関が参加し、プロジェクトの進展や今後の組成について協議し連携を確認した。",
+      "whatHappened": "日米政府による戦略的投資イニシアティブに関する協議委員会の会合がオンラインで開催された。",
+      "whatChanged": "日本と米国の関係省庁や機関が参加し、プロジェクトの進展や今後の組成について協議し連携を確認した。",
       "relatedThemes": [
-        "国債",
-        "財務省",
-        "金融市場"
+        "日米関係",
+        "投資"
       ],
       "status": "NEW",
       "source": "財務省",
-      "publishedAt": "2026-10-19T03:30:00.000Z",
-      "firstSeenAt": "2026-10-19T16:15:50.210Z",
+      "publishedAt": "2026-10-20T00:30:00.000Z",
+      "firstSeenAt": "2026-10-20T00:45:17.657Z",
       "contentStatus": "VERIFIED_TEXT",
       "links": [
         {
-          "title": "国庫短期証券（第1414回）の入札結果",
-          "url": "https://www.mof.go.jp/jgbs/auction/calendar/tbill/tbill_nyusatsu/resul20261019.htm",
-          "source": "財務省"
-        }
-      ]
-    },
-    {
-      "id": "36ab453bce89e07dba8164929a5a944c02c5f785286d7e5dda3fa8fe1e30e520",
-      "category": "財政・国債",
-      "title": "国庫短期証券（第1414回）の入札発行",
-      "summary": "記 1． 名称及び記号 国庫短期証券（第1414回） 2． 発行根拠法律 及びその条項 特別会計に関する法律（平成19年法律第23号）第46条第1項 3． 発行日 令和8年10月20日 4． 償還期限 令和9年10月20日 5． 発行予定額 額面金額で2兆2,000億円程度 --> 6． 入札及び募",
-      "whatHappened": "国庫短期証券（第1414回）の入札発行",
-      "whatChanged": "記 1． 名称及び記号 国庫短期証券（第1414回） 2． 発行根拠法律 及びその条項 特別会計に関する法律（平成19年法律第23号）第46条第1項 3． 発行日 令和8年10月20日 4． 償還期限 令和9年10月20日 5． 発行予定額 額面金額で2兆2,000億円程度 --> 6． 入札及び募",
-      "relatedThemes": [
-        "国債・円相場"
-      ],
-      "status": "NEW",
-      "source": "財務省",
-      "publishedAt": "2026-10-19T01:20:00.000Z",
-      "firstSeenAt": "2026-10-19T16:15:50.210Z",
-      "contentStatus": "VERIFIED_TEXT",
-      "links": [
-        {
-          "title": "国庫短期証券（第1414回）の入札発行",
-          "url": "https://www.mof.go.jp/jgbs/auction/calendar/tbill/tbill_nyusatsu/offer20261019.htm",
+          "title": "日米政府の戦略的投資イニシアティブに関する協議委員会の会合を開催 （令和8年10月20日）",
+          "url": "https://www.mof.go.jp/policy/international_policy/convention/dialogue/20261019212955.html",
           "source": "財務省"
         }
       ]
     }
   ],
   "summary": [
-    "不当廉売関税の課税に向けた審議会の答申が行われた。",
-    "特殊関税部会の開催に伴う各種配付資料が公開された。",
-    "国庫短期証券の入札が実施され、募入価格や利回りが決定した。"
+    "11月中において適用される外国為替の取引等の報告に関する省令に基づく相場が定められた。",
+    "11月中の基準外国為替相場として1米ドルにつき156円などが定められた。",
+    "日本と米国の関係省庁や機関が参加し、プロジェクトの進展や今後の組成について協議し連携を確認した。"
   ],
   "qualityNote": "NEWS MEMORYへの保存と表示用編集を分離。公式本文を確認できない情報は、見出し以上に補完しない。株価予想・売買推奨は行わない。"
 }
