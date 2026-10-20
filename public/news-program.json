@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-20T01:07:15.408Z",
+  "generatedAt": "2026-10-20T13:52:48.746Z",
   "asOf": "2026-10-20",
-  "edition": "MORNING",
-  "heading": "今日見る材料",
+  "edition": "EVENING",
+  "heading": "今日の振り返り",
   "counts": {
-    "fetchedToday": 16,
-    "newsMemoryTotal": 515,
+    "fetchedToday": 35,
+    "newsMemoryTotal": 534,
     "considered": 4,
     "adoptedCards": 3,
     "failedSources": 1
@@ -16,35 +16,35 @@
       "status": "FETCHED",
       "read": 15,
       "added": 0,
-      "fetchedAt": "2026-10-20T01:07:15.408Z"
+      "fetchedAt": "2026-10-20T13:52:48.746Z"
     },
     {
       "source": "日本銀行",
       "status": "FETCHED",
-      "read": 76,
-      "added": 0,
-      "fetchedAt": "2026-10-20T01:07:15.408Z"
+      "read": 75,
+      "added": 3,
+      "fetchedAt": "2026-10-20T13:52:48.746Z"
     },
     {
       "source": "金融庁",
       "status": "FETCHED",
       "read": 15,
-      "added": 0,
-      "fetchedAt": "2026-10-20T01:07:15.408Z"
+      "added": 6,
+      "fetchedAt": "2026-10-20T13:52:48.746Z"
     },
     {
       "source": "財務省",
       "status": "FETCHED",
       "read": 100,
-      "added": 2,
-      "fetchedAt": "2026-10-20T01:07:15.408Z"
+      "added": 10,
+      "fetchedAt": "2026-10-20T13:52:48.746Z"
     },
     {
       "source": "経済産業省",
       "status": "FAILED",
       "read": 0,
       "added": 0,
-      "fetchedAt": "2026-10-20T01:07:15.408Z",
+      "fetchedAt": "2026-10-20T13:52:48.746Z",
       "error": "HTTP 403"
     }
   ],
@@ -96,85 +96,83 @@
   "summaryMode": "GEMINI_GROUNDED_EDITORIAL",
   "cards": [
     {
-      "id": "d612c7de935b14d5353ad90b914e2f5f5a6d1fa6e2364a07435684e65e0b6962",
-      "category": "金融政策・市場",
-      "title": "「外国為替の取引等の報告に関する省令」に基づき、令和8年11月中において適用される換算レートが財務大臣公示として発表された。",
-      "summary": "11月分の報告省令レートが各種通貨について設定された。",
-      "whatHappened": "「外国為替の取引等の報告に関する省令」に基づき、令和8年11月中において適用される換算レートが財務大臣公示として発表された。",
-      "whatChanged": "11月分の報告省令レートが各種通貨について設定された。",
+      "id": "428e74792e43de53a226161bf2ce96d1e36c0d12a1a72c6ed6eaca640176a597",
+      "category": "財政・国債",
+      "title": "片山財務大臣が閣議後記者会見を行い、国会答弁回数やサイバーセキュリティ対策、金融機関の個人情報漏洩への対応などについて言及した。",
+      "summary": "政府として顧客情報の漏洩による金融被害への警戒や、金融機関に対するサイバーセキュリティ対策・取引における本人確認の徹底（ICチップ情報の読み取りなど）を求めていることが示された。",
+      "whatHappened": "片山財務大臣が閣議後記者会見を行い、国会答弁回数やサイバーセキュリティ対策、金融機関の個人情報漏洩への対応などについて言及した。",
+      "whatChanged": "政府として顧客情報の漏洩による金融被害への警戒や、金融機関に対するサイバーセキュリティ対策・取引における本人確認の徹底（ICチップ情報の読み取りなど）を求めていることが示された。",
       "relatedThemes": [
-        "外国為替",
-        "日本銀行",
-        "財務省"
-      ],
-      "status": "NEW",
-      "source": "日本銀行",
-      "publishedAt": "2026-10-20T00:00:00.000Z",
-      "firstSeenAt": "2026-10-20T00:45:17.657Z",
-      "contentStatus": "VERIFIED_TEXT",
-      "links": [
-        {
-          "title": "報告省令レート（11月分）",
-          "url": "https://www.boj.or.jp/about/services/tame/tame_rate/syorei/hou2611.htm",
-          "source": "日本銀行"
-        }
-      ]
-    },
-    {
-      "id": "80fde8e4e0b722f8d042129c330c56a92008ca6cfdf0ded11c6861d9ea9e3698",
-      "category": "金融政策・市場",
-      "title": "令和8年11月中において適用される基準外国為替相場及び裁定外国為替相場が公示された。",
-      "summary": "11月中に適用される米ドルやユーロなどの基準・裁定外国為替相場が新たに定められた。",
-      "whatHappened": "令和8年11月中において適用される基準外国為替相場及び裁定外国為替相場が公示された。",
-      "whatChanged": "11月中に適用される米ドルやユーロなどの基準・裁定外国為替相場が新たに定められた。",
-      "relatedThemes": [
-        "外国為替",
-        "日本銀行",
-        "財務省"
-      ],
-      "status": "NEW",
-      "source": "日本銀行",
-      "publishedAt": "2026-10-20T00:00:00.000Z",
-      "firstSeenAt": "2026-10-20T00:45:17.657Z",
-      "contentStatus": "VERIFIED_TEXT",
-      "links": [
-        {
-          "title": "基準外国為替相場及び裁定外国為替相場（11月分）",
-          "url": "https://www.boj.or.jp/about/services/tame/tame_rate/kijun/kiju2611.htm",
-          "source": "日本銀行"
-        }
-      ]
-    },
-    {
-      "id": "9ae199dfc303407f8d7093e842aed91c15d74be2e27170359dd34ff8eeaa7b13",
-      "category": "景気・企業",
-      "title": "日米政府による戦略的投資イニシアティブに関する協議委員会の会合がオンラインで開催された。",
-      "summary": "日米の関係機関が参加し、発表済みプロジェクトの進展や今後のプロジェクト組成について協議し、連携確認を行った。",
-      "whatHappened": "日米政府による戦略的投資イニシアティブに関する協議委員会の会合がオンラインで開催された。",
-      "whatChanged": "日米の関係機関が参加し、発表済みプロジェクトの進展や今後のプロジェクト組成について協議し、連携確認を行った。",
-      "relatedThemes": [
-        "財務省",
-        "外務省",
-        "経済産業省"
+        "財政・経済政策",
+        "サイバーセキュリティ",
+        "金融行政"
       ],
       "status": "NEW",
       "source": "財務省",
-      "publishedAt": "2026-10-20T00:30:00.000Z",
-      "firstSeenAt": "2026-10-20T00:45:17.657Z",
+      "publishedAt": "2026-10-20T09:15:00.000Z",
+      "firstSeenAt": "2026-10-20T13:52:48.746Z",
       "contentStatus": "VERIFIED_TEXT",
       "links": [
         {
-          "title": "日米政府の戦略的投資イニシアティブに関する協議委員会の会合を開催 （令和8年10月20日）",
-          "url": "https://www.mof.go.jp/policy/international_policy/convention/dialogue/20261019212955.html",
+          "title": "片山財務大臣兼内閣府特命担当大臣閣議後記者会見の概要(令和8年10月20日(火曜日))",
+          "url": "https://www.mof.go.jp/public_relations/conference/my20261020.html",
+          "source": "財務省"
+        }
+      ]
+    },
+    {
+      "id": "f7f42ef69b98fce3f78c84b5e24ca6449b2400e6d081984dd4f2c44905ab671b",
+      "category": "財政・国債",
+      "title": "財務省が20年利付国債（第198回）の第II非価格競争入札を実施し、募入決定額などの結果を公表した。",
+      "summary": "第II非価格競争入札における募入決定額（546億円）が決定された。",
+      "whatHappened": "財務省が20年利付国債（第198回）の第II非価格競争入札を実施し、募入決定額などの結果を公表した。",
+      "whatChanged": "第II非価格競争入札における募入決定額（546億円）が決定された。",
+      "relatedThemes": [
+        "国債入札",
+        "財務省"
+      ],
+      "status": "NEW",
+      "source": "財務省",
+      "publishedAt": "2026-10-20T06:15:00.000Z",
+      "firstSeenAt": "2026-10-20T13:52:48.746Z",
+      "contentStatus": "VERIFIED_TEXT",
+      "links": [
+        {
+          "title": "20年利付国債（第198回）の第II非価格競争入札結果（令和8年10月20日入札）",
+          "url": "https://www.mof.go.jp/jgbs/auction/calendar/nyusatsu/resul20261020a.htm",
+          "source": "財務省"
+        }
+      ]
+    },
+    {
+      "id": "4381e5b83d11b0eb9376904e0f0e1c0675dea72b8767db5b8ca12c9a29c438ed",
+      "category": "財政・国債",
+      "title": "財務省が20年利付国債（第198回）の価格競争入札および国債市場特別参加者・第I非価格競争入札を実施し、結果を公表した。",
+      "summary": "20年利付国債（第198回）の応募額や募入決定額、募入平均価格などが決定された。",
+      "whatHappened": "財務省が20年利付国債（第198回）の価格競争入札および国債市場特別参加者・第I非価格競争入札を実施し、結果を公表した。",
+      "whatChanged": "20年利付国債（第198回）の応募額や募入決定額、募入平均価格などが決定された。",
+      "relatedThemes": [
+        "国債入札",
+        "財務省"
+      ],
+      "status": "NEW",
+      "source": "財務省",
+      "publishedAt": "2026-10-20T03:35:00.000Z",
+      "firstSeenAt": "2026-10-20T13:52:48.746Z",
+      "contentStatus": "VERIFIED_TEXT",
+      "links": [
+        {
+          "title": "20年利付国債（第198回）の入札結果（令和8年10月20日入札）",
+          "url": "https://www.mof.go.jp/jgbs/auction/calendar/nyusatsu/resul20261020.htm",
           "source": "財務省"
         }
       ]
     }
   ],
   "summary": [
-    "11月分の報告省令レートが各種通貨について設定された。",
-    "11月中に適用される米ドルやユーロなどの基準・裁定外国為替相場が新たに定められた。",
-    "日米の関係機関が参加し、発表済みプロジェクトの進展や今後のプロジェクト組成について協議し、連携確認を行った。"
+    "政府として顧客情報の漏洩による金融被害への警戒や、金融機関に対するサイバーセキュリティ対策・取引における本人確認の徹底（ICチップ情報の読み取りなど）を求めていることが示された。",
+    "第II非価格競争入札における募入決定額（546億円）が決定された。",
+    "20年利付国債（第198回）の応募額や募入決定額、募入平均価格などが決定された。"
   ],
   "qualityNote": "NEWS MEMORYへの保存と表示用編集を分離。公式本文を確認できない情報は、見出し以上に補完しない。株価予想・売買推奨は行わない。"
 }
