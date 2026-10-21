@@ -1,57 +1,57 @@
 {
   "ok": true,
-  "generatedAt": "2026-10-20T14:58:00.328Z",
-  "asOf": "2026-10-20",
-  "edition": "EVENING",
+  "generatedAt": "2026-10-21T00:11:39.259Z",
+  "asOf": "2026-10-21",
+  "edition": "MORNING",
   "sourceResults": [
     {
       "source": "総務省統計局",
       "status": "FETCHED",
       "read": 15,
       "added": 0,
-      "fetchedAt": "2026-10-20T14:58:00.328Z"
+      "fetchedAt": "2026-10-21T00:11:39.259Z"
     },
     {
       "source": "日本銀行",
       "status": "FETCHED",
       "read": 75,
       "added": 0,
-      "fetchedAt": "2026-10-20T14:58:00.328Z"
+      "fetchedAt": "2026-10-21T00:11:39.259Z"
     },
     {
       "source": "金融庁",
       "status": "FETCHED",
       "read": 15,
       "added": 0,
-      "fetchedAt": "2026-10-20T14:58:00.328Z"
+      "fetchedAt": "2026-10-21T00:11:39.259Z"
     },
     {
       "source": "財務省",
       "status": "FETCHED",
       "read": 100,
-      "added": 0,
-      "fetchedAt": "2026-10-20T14:58:00.328Z"
+      "added": 1,
+      "fetchedAt": "2026-10-21T00:11:39.259Z"
     },
     {
       "source": "経済産業省",
       "status": "FAILED",
       "read": 0,
       "added": 0,
-      "fetchedAt": "2026-10-20T14:58:00.328Z",
+      "fetchedAt": "2026-10-21T00:11:39.259Z",
       "error": "HTTP 403"
     }
   ],
   "counts": {
-    "fetchedToday": 35,
-    "newsMemoryTotal": 534,
-    "considered": 4,
+    "fetchedToday": 1,
+    "newsMemoryTotal": 535,
+    "considered": 3,
     "adoptedCards": 2,
     "failedSources": 1
   },
   "aiStatus": {
     "configured": true,
-    "used": false,
+    "used": true,
     "model": "gemini-3.5-flash-lite",
-    "mode": "RULE_BASED_AFTER_GEMINI_FAILURE:Expected double-quoted property name in JSON at position 930 (line 30 column 5)"
+    "mode": "GEMINI_GROUNDED_EDITORIAL"
   }
 }
