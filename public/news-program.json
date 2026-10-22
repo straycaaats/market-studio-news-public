@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-10-22T00:45:04.229Z",
+  "generatedAt": "2026-10-22T14:12:04.695Z",
   "asOf": "2026-10-22",
-  "edition": "MORNING",
-  "heading": "今日見る材料",
+  "edition": "EVENING",
+  "heading": "今日の振り返り",
   "counts": {
-    "fetchedToday": 1,
-    "newsMemoryTotal": 538,
-    "considered": 1,
-    "adoptedCards": 0,
+    "fetchedToday": 15,
+    "newsMemoryTotal": 552,
+    "considered": 4,
+    "adoptedCards": 3,
     "failedSources": 1
   },
   "sourceResults": [
@@ -16,35 +16,35 @@
       "status": "FETCHED",
       "read": 15,
       "added": 0,
-      "fetchedAt": "2026-10-22T00:45:04.229Z"
+      "fetchedAt": "2026-10-22T14:12:04.695Z"
     },
     {
       "source": "日本銀行",
       "status": "FETCHED",
-      "read": 74,
-      "added": 0,
-      "fetchedAt": "2026-10-22T00:45:04.229Z"
+      "read": 78,
+      "added": 3,
+      "fetchedAt": "2026-10-22T14:12:04.695Z"
     },
     {
       "source": "金融庁",
       "status": "FETCHED",
       "read": 15,
-      "added": 0,
-      "fetchedAt": "2026-10-22T00:45:04.229Z"
+      "added": 3,
+      "fetchedAt": "2026-10-22T14:12:04.695Z"
     },
     {
       "source": "財務省",
       "status": "FETCHED",
       "read": 100,
-      "added": 0,
-      "fetchedAt": "2026-10-22T00:45:04.229Z"
+      "added": 8,
+      "fetchedAt": "2026-10-22T14:12:04.695Z"
     },
     {
       "source": "経済産業省",
       "status": "FAILED",
       "read": 0,
       "added": 0,
-      "fetchedAt": "2026-10-22T00:45:04.229Z",
+      "fetchedAt": "2026-10-22T14:12:04.695Z",
       "error": "HTTP 403"
     }
   ],
@@ -94,7 +94,86 @@
     "mode": "GEMINI_GROUNDED_EDITORIAL"
   },
   "summaryMode": "GEMINI_GROUNDED_EDITORIAL",
-  "cards": [],
-  "summary": [],
+  "cards": [
+    {
+      "id": "0222e285c8f107bc2db9a0a721da6fa846c90349a693860eaa6b25cde1ec6d37",
+      "category": "財政・国債",
+      "title": "日本銀行が日銀レビュー「企業の決算説明会テキストを用いた経済政策不確実性の考察」を公表した。",
+      "summary": "決算説明会のテキストデータから企業EPU指数を構築し、マクロ経済への影響分析や幅広い媒体点検の重要性を示した。",
+      "whatHappened": "日本銀行が日銀レビュー「企業の決算説明会テキストを用いた経済政策不確実性の考察」を公表した。",
+      "whatChanged": "決算説明会のテキストデータから企業EPU指数を構築し、マクロ経済への影響分析や幅広い媒体点検の重要性を示した。",
+      "relatedThemes": [
+        "日本銀行",
+        "経済政策不確実性",
+        "決算説明会"
+      ],
+      "status": "NEW",
+      "source": "日本銀行",
+      "publishedAt": "2026-10-22T07:00:00.000Z",
+      "firstSeenAt": "2026-10-22T14:12:04.695Z",
+      "contentStatus": "VERIFIED_TEXT",
+      "links": [
+        {
+          "title": "（日銀レビュー）企業の決算説明会テキストを用いた経済政策不確実性の考察",
+          "url": "https://www.boj.or.jp/research/wps_rev/rev_2026/rev26j14.htm",
+          "source": "日本銀行"
+        }
+      ]
+    },
+    {
+      "id": "7012f0db2151b59e34b863818c033e37683dbbb443ca108920c3d64d019763f0",
+      "category": "財政・国債",
+      "title": "財務省が交付税及び譲与税配付金特別会計の借入金の入札結果を公表した。",
+      "summary": "募入決定額1兆1,999億9,800万円、募入平均利率1.535％で入札が行われた。",
+      "whatHappened": "財務省が交付税及び譲与税配付金特別会計の借入金の入札結果を公表した。",
+      "whatChanged": "募入決定額1兆1,999億9,800万円、募入平均利率1.535％で入札が行われた。",
+      "relatedThemes": [
+        "財務省",
+        "入札結果",
+        "国債・借入金"
+      ],
+      "status": "NEW",
+      "source": "財務省",
+      "publishedAt": "2026-10-22T04:00:00.000Z",
+      "firstSeenAt": "2026-10-22T14:12:04.695Z",
+      "contentStatus": "VERIFIED_TEXT",
+      "links": [
+        {
+          "title": "交付税及び譲与税配付金特別会計の借入金の入札結果（令和8年10月22日入札）",
+          "url": "https://www.mof.go.jp/jgbs/auction/calendar/kariire/kari-result261022.htm",
+          "source": "財務省"
+        }
+      ]
+    },
+    {
+      "id": "4f1a0f7a6eaa37794f312f39e351f2913c183bd9359da312d692d46978f1a67e",
+      "category": "財政・国債",
+      "title": "財務省が第463回流動性供給入札の結果を公表した。",
+      "summary": "応募額1兆8,804億円に対し、募入決定額4,988億円で実施された。",
+      "whatHappened": "財務省が第463回流動性供給入札の結果を公表した。",
+      "whatChanged": "応募額1兆8,804億円に対し、募入決定額4,988億円で実施された。",
+      "relatedThemes": [
+        "財務省",
+        "流動性供給入札"
+      ],
+      "status": "NEW",
+      "source": "財務省",
+      "publishedAt": "2026-10-22T03:35:00.000Z",
+      "firstSeenAt": "2026-10-22T14:12:04.695Z",
+      "contentStatus": "VERIFIED_TEXT",
+      "links": [
+        {
+          "title": "流動性供給(第463回)入札結果",
+          "url": "https://www.mof.go.jp/jgbs/auction/calendar/nyusatsu/resul20261022.htm",
+          "source": "財務省"
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "決算説明会のテキストデータから企業EPU指数を構築し、マクロ経済への影響分析や幅広い媒体点検の重要性を示した。",
+    "募入決定額1兆1,999億9,800万円、募入平均利率1.535％で入札が行われた。",
+    "応募額1兆8,804億円に対し、募入決定額4,988億円で実施された。"
+  ],
   "qualityNote": "NEWS MEMORYへの保存と表示用編集を分離。公式本文を確認できない情報は、見出し以上に補完しない。株価予想・売買推奨は行わない。"
 }
