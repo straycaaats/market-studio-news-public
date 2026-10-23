@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-10-22T15:07:10.803Z",
+  "generatedAt": "2026-10-23T00:13:11.681Z",
   "asOf": "2026-10-23",
   "edition": "MORNING",
   "heading": "今日見る材料",
   "counts": {
     "fetchedToday": 0,
     "newsMemoryTotal": 552,
-    "considered": 6,
-    "adoptedCards": 5,
+    "considered": 2,
+    "adoptedCards": 1,
     "failedSources": 1
   },
   "sourceResults": [
@@ -16,35 +16,35 @@
       "status": "FETCHED",
       "read": 15,
       "added": 0,
-      "fetchedAt": "2026-10-22T15:07:10.803Z"
+      "fetchedAt": "2026-10-23T00:13:11.681Z"
     },
     {
       "source": "日本銀行",
       "status": "FETCHED",
       "read": 77,
       "added": 0,
-      "fetchedAt": "2026-10-22T15:07:10.803Z"
+      "fetchedAt": "2026-10-23T00:13:11.681Z"
     },
     {
       "source": "金融庁",
       "status": "FETCHED",
       "read": 15,
       "added": 0,
-      "fetchedAt": "2026-10-22T15:07:10.803Z"
+      "fetchedAt": "2026-10-23T00:13:11.681Z"
     },
     {
       "source": "財務省",
       "status": "FETCHED",
       "read": 100,
       "added": 0,
-      "fetchedAt": "2026-10-22T15:07:10.803Z"
+      "fetchedAt": "2026-10-23T00:13:11.681Z"
     },
     {
       "source": "経済産業省",
       "status": "FAILED",
       "read": 0,
       "added": 0,
-      "fetchedAt": "2026-10-22T15:07:10.803Z",
+      "fetchedAt": "2026-10-23T00:13:11.681Z",
       "error": "HTTP 403"
     }
   ],
@@ -89,23 +89,23 @@
   ],
   "aiStatus": {
     "configured": true,
-    "used": false,
+    "used": true,
     "model": "gemini-3.5-flash-lite",
-    "mode": "RULE_BASED_AFTER_GEMINI_FAILURE:Gemini HTTP 503"
+    "mode": "GEMINI_GROUNDED_EDITORIAL"
   },
-  "summaryMode": "RULE_BASED_AFTER_GEMINI_FAILURE:Gemini HTTP 503",
+  "summaryMode": "GEMINI_GROUNDED_EDITORIAL",
   "cards": [
     {
       "id": "0222e285c8f107bc2db9a0a721da6fa846c90349a693860eaa6b25cde1ec6d37",
       "category": "財政・国債",
-      "title": "（日銀レビュー）企業の決算説明会テキストを用いた経済政策不確実性の考察",
-      "summary": "時系列モデルを用いた分析からは、他の要因を考慮しても、企業EPU が上昇すると設備投資や雇用が減少することが示される。",
-      "whatHappened": "（日銀レビュー）企業の決算説明会テキストを用いた経済政策不確実性の考察",
-      "whatChanged": "時系列モデルを用いた分析からは、他の要因を考慮しても、企業EPU が上昇すると設備投資や雇用が減少することが示される。",
+      "title": "日本銀行は、企業の決算説明会テキストデータをもとに企業経済政策不確実性指数を構築し、その特徴とマクロ経済への影響を分析した日銀レビューを公表した。",
+      "summary": "企業EPUの上昇が設備投資や雇用を減少させることなどが示され、経済・物価情勢判断における幅広い媒体点検の重要性が示唆された。",
+      "whatHappened": "日本銀行は、企業の決算説明会テキストデータをもとに企業経済政策不確実性指数を構築し、その特徴とマクロ経済への影響を分析した日銀レビューを公表した。",
+      "whatChanged": "企業EPUの上昇が設備投資や雇用を減少させることなどが示され、経済・物価情勢判断における幅広い媒体点検の重要性が示唆された。",
       "relatedThemes": [
-        "銀行・保険",
-        "小売・消費",
-        "雇用"
+        "日銀レビュー",
+        "経済政策不確実性",
+        "マクロ経済分析"
       ],
       "status": "FOLLOW_UP",
       "source": "日本銀行",
@@ -119,106 +119,10 @@
           "source": "日本銀行"
         }
       ]
-    },
-    {
-      "id": "7012f0db2151b59e34b863818c033e37683dbbb443ca108920c3d64d019763f0",
-      "category": "財政・国債",
-      "title": "交付税及び譲与税配付金特別会計の借入金の入札結果（令和8年10月22日入札）",
-      "summary": "X ポスト 交付税及び譲与税配付金特別会計の 借入金の入札結果 令和8年10月22日 財務省 本日、借入金の入札について、下記のように募入の決定を行いました。",
-      "whatHappened": "交付税及び譲与税配付金特別会計の借入金の入札結果（令和8年10月22日入札）",
-      "whatChanged": "X ポスト 交付税及び譲与税配付金特別会計の 借入金の入札結果 令和8年10月22日 財務省 本日、借入金の入札について、下記のように募入の決定を行いました。",
-      "relatedThemes": [
-        "国債・円相場"
-      ],
-      "status": "FOLLOW_UP",
-      "source": "財務省",
-      "publishedAt": "2026-10-22T04:00:00.000Z",
-      "firstSeenAt": "2026-10-22T14:12:04.695Z",
-      "contentStatus": "VERIFIED_TEXT",
-      "links": [
-        {
-          "title": "交付税及び譲与税配付金特別会計の借入金の入札結果（令和8年10月22日入札）",
-          "url": "https://www.mof.go.jp/jgbs/auction/calendar/kariire/kari-result261022.htm",
-          "source": "財務省"
-        }
-      ]
-    },
-    {
-      "id": "4f1a0f7a6eaa37794f312f39e351f2913c183bd9359da312d692d46978f1a67e",
-      "category": "財政・国債",
-      "title": "流動性供給(第463回)入札結果",
-      "summary": "X ポスト --> 流動性供給（第463回）入札結果 令和8年10月22日 財務省 本日、入札参加者に対し流動性供給入札について、下記のように募入決定を行いました。",
-      "whatHappened": "流動性供給(第463回)入札結果",
-      "whatChanged": "X ポスト --> 流動性供給（第463回）入札結果 令和8年10月22日 財務省 本日、入札参加者に対し流動性供給入札について、下記のように募入決定を行いました。",
-      "relatedThemes": [
-        "国債・円相場"
-      ],
-      "status": "FOLLOW_UP",
-      "source": "財務省",
-      "publishedAt": "2026-10-22T03:35:00.000Z",
-      "firstSeenAt": "2026-10-22T14:12:04.695Z",
-      "contentStatus": "VERIFIED_TEXT",
-      "links": [
-        {
-          "title": "流動性供給(第463回)入札結果",
-          "url": "https://www.mof.go.jp/jgbs/auction/calendar/nyusatsu/resul20261022.htm",
-          "source": "財務省"
-        }
-      ]
-    },
-    {
-      "id": "cdb7e7212e7a57a39e2a8aa95b2c27affba90c96e98371358a96a4fe2c432867",
-      "category": "財政・国債",
-      "title": "流動性供給(第463回)入札",
-      "summary": "5． 応募額一口の金額 1億円又はその整数倍 6． 募入決定の方法 コンベンショナル方式 7． 申込締切日時 令和8年10月22日 午前11時50分 8． 募入決定通知日 令和8年10月22日 連絡・問い合わせ先 理財局国債業務課債務調整係 電話（代表）03(3581)4111（内線5431） 夜間",
-      "whatHappened": "流動性供給(第463回)入札",
-      "whatChanged": "5． 応募額一口の金額 1億円又はその整数倍 6． 募入決定の方法 コンベンショナル方式 7． 申込締切日時 令和8年10月22日 午前11時50分 8． 募入決定通知日 令和8年10月22日 連絡・問い合わせ先 理財局国債業務課債務調整係 電話（代表）03(3581)4111（内線5431） 夜間",
-      "relatedThemes": [
-        "国債・円相場"
-      ],
-      "status": "FOLLOW_UP",
-      "source": "財務省",
-      "publishedAt": "2026-10-22T01:30:00.000Z",
-      "firstSeenAt": "2026-10-22T14:12:04.695Z",
-      "contentStatus": "VERIFIED_TEXT",
-      "links": [
-        {
-          "title": "流動性供給(第463回)入札",
-          "url": "https://www.mof.go.jp/jgbs/auction/calendar/nyusatsu/offer20261022.htm",
-          "source": "財務省"
-        }
-      ]
-    },
-    {
-      "id": "d30bbf7b317e2c982ac9b40ccb550b29adcc25c53376fede81832d2d0951367f",
-      "category": "財政・国債",
-      "title": "営業毎旬報告（10月20日現在）",
-      "summary": "（別表1） 資産項目中の「国債」の内訳 （単位：千円） 長期国債 504,003,730,754 国庫短期証券 0 （別表2） 「貸出支援基金」の内訳 （単位：千円） 貸出増加を支援するための資金供給 35,664,500,000 合計 35,664,500,000 （別表3） 別表3 （単位：千円",
-      "whatHappened": "営業毎旬報告（10月20日現在）",
-      "whatChanged": "（別表1） 資産項目中の「国債」の内訳 （単位：千円） 長期国債 504,003,730,754 国庫短期証券 0 （別表2） 「貸出支援基金」の内訳 （単位：千円） 貸出増加を支援するための資金供給 35,664,500,000 合計 35,664,500,000 （別表3） 別表3 （単位：千円",
-      "relatedThemes": [
-        "銀行・保険",
-        "輸出・製造業",
-        "国債・円相場"
-      ],
-      "status": "FOLLOW_UP",
-      "source": "日本銀行",
-      "publishedAt": "2026-10-22T01:00:00.000Z",
-      "firstSeenAt": "2026-10-22T14:12:04.695Z",
-      "contentStatus": "VERIFIED_TEXT",
-      "links": [
-        {
-          "title": "営業毎旬報告（10月20日現在）",
-          "url": "https://www.boj.or.jp/statistics/boj/other/acmai/release/2026/ac261020.htm",
-          "source": "日本銀行"
-        }
-      ]
     }
   ],
   "summary": [
-    "時系列モデルを用いた分析からは、他の要因を考慮しても、企業EPU が上昇すると設備投資や雇用が減少することが示される。",
-    "X ポスト 交付税及び譲与税配付金特別会計の 借入金の入札結果 令和8年10月22日 財務省 本日、借入金の入札について、下記のように募入の決定を行いました。",
-    "X ポスト --> 流動性供給（第463回）入札結果 令和8年10月22日 財務省 本日、入札参加者に対し流動性供給入札について、下記のように募入決定を行いました。"
+    "企業EPUの上昇が設備投資や雇用を減少させることなどが示され、経済・物価情勢判断における幅広い媒体点検の重要性が示唆された。"
   ],
   "qualityNote": "NEWS MEMORYへの保存と表示用編集を分離。公式本文を確認できない情報は、見出し以上に補完しない。株価予想・売買推奨は行わない。"
 }
