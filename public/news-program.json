@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-10-24T00:49:38.206Z",
+  "generatedAt": "2026-10-24T12:56:57.664Z",
   "asOf": "2026-10-24",
-  "edition": "MORNING",
-  "heading": "今日見る材料",
+  "edition": "EVENING",
+  "heading": "今日の振り返り",
   "counts": {
     "fetchedToday": 0,
     "newsMemoryTotal": 566,
-    "considered": 5,
-    "adoptedCards": 4,
+    "considered": 1,
+    "adoptedCards": 0,
     "failedSources": 1
   },
   "sourceResults": [
@@ -16,35 +16,35 @@
       "status": "FETCHED",
       "read": 15,
       "added": 0,
-      "fetchedAt": "2026-10-24T00:49:38.206Z"
+      "fetchedAt": "2026-10-24T12:56:57.664Z"
     },
     {
       "source": "日本銀行",
       "status": "FETCHED",
       "read": 80,
       "added": 0,
-      "fetchedAt": "2026-10-24T00:49:38.206Z"
+      "fetchedAt": "2026-10-24T12:56:57.664Z"
     },
     {
       "source": "金融庁",
       "status": "FETCHED",
       "read": 15,
       "added": 0,
-      "fetchedAt": "2026-10-24T00:49:38.206Z"
+      "fetchedAt": "2026-10-24T12:56:57.664Z"
     },
     {
       "source": "財務省",
       "status": "FETCHED",
       "read": 100,
       "added": 0,
-      "fetchedAt": "2026-10-24T00:49:38.206Z"
+      "fetchedAt": "2026-10-24T12:56:57.664Z"
     },
     {
       "source": "経済産業省",
       "status": "FAILED",
       "read": 0,
       "added": 0,
-      "fetchedAt": "2026-10-24T00:49:38.206Z",
+      "fetchedAt": "2026-10-24T12:56:57.664Z",
       "error": "HTTP 403"
     }
   ],
@@ -94,108 +94,7 @@
     "mode": "GEMINI_GROUNDED_EDITORIAL"
   },
   "summaryMode": "GEMINI_GROUNDED_EDITORIAL",
-  "cards": [
-    {
-      "id": "174684cd7b336dde253667ed89c49f49dcd899928132b8409a4164791da5f41e",
-      "category": "財政・国債",
-      "title": "片山財務大臣の閣議後記者会見が開催され、PHPの脆弱性に関する金融機関の対応やコンテンツ産業支援の予算について述べられた。",
-      "summary": "PHPの脆弱性対応として多くの金融機関で予防的なシステム停止が実施され、円滑な対応が行われたことが報告された。",
-      "whatHappened": "片山財務大臣の閣議後記者会見が開催され、PHPの脆弱性に関する金融機関の対応やコンテンツ産業支援の予算について述べられた。",
-      "whatChanged": "PHPの脆弱性対応として多くの金融機関で予防的なシステム停止が実施され、円滑な対応が行われたことが報告された。",
-      "relatedThemes": [
-        "サイバーセキュリティ",
-        "財政・予算"
-      ],
-      "status": "FOLLOW_UP",
-      "source": "財務省",
-      "publishedAt": "2026-10-23T10:40:00.000Z",
-      "firstSeenAt": "2026-10-23T13:51:19.995Z",
-      "contentStatus": "VERIFIED_TEXT",
-      "links": [
-        {
-          "title": "片山財務大臣兼内閣府特命担当大臣閣議後記者会見の概要(令和8年10月23日(金曜日))",
-          "url": "https://www.mof.go.jp/public_relations/conference/my20261023.html",
-          "source": "財務省"
-        }
-      ]
-    },
-    {
-      "id": "521ca1489a0ff44551d1d0dbe87d79c67dcaba56943e1a9b48224dbe13cf1435",
-      "category": "暮らし・消費",
-      "title": "総務省統計局が2026年4～6月期の家計調査（貯蓄・負債編）の結果を公表した。",
-      "summary": "2026年4～6月期平均の結果データが利用可能となった。",
-      "whatHappened": "総務省統計局が2026年4～6月期の家計調査（貯蓄・負債編）の結果を公表した。",
-      "whatChanged": "2026年4～6月期平均の結果データが利用可能となった。",
-      "relatedThemes": [
-        "家計調査",
-        "統計"
-      ],
-      "status": "FOLLOW_UP",
-      "source": "総務省統計局",
-      "publishedAt": "2026-10-23",
-      "firstSeenAt": "2026-10-23T13:51:19.995Z",
-      "contentStatus": "VERIFIED_TEXT",
-      "links": [
-        {
-          "title": "家計調査（貯蓄・負債編）2026年（令和8年）4～6月期分",
-          "url": "https://www.stat.go.jp/data/sav/1.html",
-          "source": "総務省統計局"
-        }
-      ]
-    },
-    {
-      "id": "8b93b6da04fb06d7ef6685c355767544c778debf4b8f6a77d88b198a4aca7de1",
-      "category": "金融政策・市場",
-      "title": "日本銀行が政策委員会月報（令和8年8・9月号）を公表し、9月の金融政策決定会合等の議決事項が示された。",
-      "summary": "9月開催の金融政策決定会合における議決事項や補完当座預金制度の適用利率変更などの資料が公開された。",
-      "whatHappened": "日本銀行が政策委員会月報（令和8年8・9月号）を公表し、9月の金融政策決定会合等の議決事項が示された。",
-      "whatChanged": "9月開催の金融政策決定会合における議決事項や補完当座預金制度の適用利率変更などの資料が公開された。",
-      "relatedThemes": [
-        "日本銀行",
-        "金融政策"
-      ],
-      "status": "FOLLOW_UP",
-      "source": "日本銀行",
-      "publishedAt": "2026-10-23T07:30:00.000Z",
-      "firstSeenAt": "2026-10-23T13:51:19.995Z",
-      "contentStatus": "VERIFIED_TEXT",
-      "links": [
-        {
-          "title": "日本銀行政策委員会月報（令和8年8・9月号）",
-          "url": "https://www.boj.or.jp/about/organization/policyboard/pb_geppo/pbgp2609.htm",
-          "source": "日本銀行"
-        }
-      ]
-    },
-    {
-      "id": "c8a671e2fb09e2ad32e96e287312587b2d9eb67de1d02090fbe44bebc95a2ba4",
-      "category": "政策・公式発表",
-      "title": "バーゼル銀行監督委員会がG-SIB評価枠組みの改訂最終文書および市中協議文書を公表したことを日銀が紹介した。",
-      "summary": "G-SIB選定指標の多くが年間を通した平均値に変更されるなど、ウィンドウ・ドレッシング行動に対処するための評価枠組みが改訂された。",
-      "whatHappened": "バーゼル銀行監督委員会がG-SIB評価枠組みの改訂最終文書および市中協議文書を公表したことを日銀が紹介した。",
-      "whatChanged": "G-SIB選定指標の多くが年間を通した平均値に変更されるなど、ウィンドウ・ドレッシング行動に対処するための評価枠組みが改訂された。",
-      "relatedThemes": [
-        "銀行規制",
-        "バーゼル委員会"
-      ],
-      "status": "FOLLOW_UP",
-      "source": "日本銀行",
-      "publishedAt": "2026-10-23T08:00:00.000Z",
-      "firstSeenAt": "2026-10-23T13:51:19.995Z",
-      "contentStatus": "VERIFIED_TEXT",
-      "links": [
-        {
-          "title": "バーゼル銀行監督委員会による「グローバルなシステム上重要な銀行（G-SIB）-ウィンドウ・ドレッシング行動に対処するための評価枠組みの改訂」及び市中協議文書「G-SIB評価手法のレビュー」の公表について",
-          "url": "https://www.boj.or.jp/finsys/intlact_fs/kisei/kis261023a.htm",
-          "source": "日本銀行"
-        }
-      ]
-    }
-  ],
-  "summary": [
-    "PHPの脆弱性対応として多くの金融機関で予防的なシステム停止が実施され、円滑な対応が行われたことが報告された。",
-    "2026年4～6月期平均の結果データが利用可能となった。",
-    "9月開催の金融政策決定会合における議決事項や補完当座預金制度の適用利率変更などの資料が公開された。"
-  ],
+  "cards": [],
+  "summary": [],
   "qualityNote": "NEWS MEMORYへの保存と表示用編集を分離。公式本文を確認できない情報は、見出し以上に補完しない。株価予想・売買推奨は行わない。"
 }
