@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-24T13:57:27.027Z",
-  "asOf": "2026-10-24",
-  "edition": "EVENING",
-  "heading": "今日の振り返り",
+  "generatedAt": "2026-10-24T23:49:07.374Z",
+  "asOf": "2026-10-25",
+  "edition": "MORNING",
+  "heading": "今日見る材料",
   "counts": {
     "fetchedToday": 0,
     "newsMemoryTotal": 566,
@@ -16,35 +16,35 @@
       "status": "FETCHED",
       "read": 15,
       "added": 0,
-      "fetchedAt": "2026-10-24T13:57:27.027Z"
+      "fetchedAt": "2026-10-24T23:49:07.374Z"
     },
     {
       "source": "日本銀行",
       "status": "FETCHED",
       "read": 80,
       "added": 0,
-      "fetchedAt": "2026-10-24T13:57:27.027Z"
+      "fetchedAt": "2026-10-24T23:49:07.374Z"
     },
     {
       "source": "金融庁",
       "status": "FETCHED",
       "read": 15,
       "added": 0,
-      "fetchedAt": "2026-10-24T13:57:27.027Z"
+      "fetchedAt": "2026-10-24T23:49:07.374Z"
     },
     {
       "source": "財務省",
       "status": "FETCHED",
       "read": 100,
       "added": 0,
-      "fetchedAt": "2026-10-24T13:57:27.027Z"
+      "fetchedAt": "2026-10-24T23:49:07.374Z"
     },
     {
       "source": "経済産業省",
       "status": "FAILED",
       "read": 0,
       "added": 0,
-      "fetchedAt": "2026-10-24T13:57:27.027Z",
+      "fetchedAt": "2026-10-24T23:49:07.374Z",
       "error": "HTTP 403"
     }
   ],
@@ -89,11 +89,11 @@
   ],
   "aiStatus": {
     "configured": true,
-    "used": true,
+    "used": false,
     "model": "gemini-3.5-flash-lite",
-    "mode": "GEMINI_GROUNDED_EDITORIAL"
+    "mode": "RULE_BASED_AFTER_GEMINI_FAILURE:Gemini HTTP 503"
   },
-  "summaryMode": "GEMINI_GROUNDED_EDITORIAL",
+  "summaryMode": "RULE_BASED_AFTER_GEMINI_FAILURE:Gemini HTTP 503",
   "cards": [],
   "summary": [],
   "qualityNote": "NEWS MEMORYへの保存と表示用編集を分離。公式本文を確認できない情報は、見出し以上に補完しない。株価予想・売買推奨は行わない。"
