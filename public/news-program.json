@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-10-27T00:56:27.375Z",
+  "generatedAt": "2026-10-27T01:31:45.816Z",
   "asOf": "2026-10-27",
   "edition": "MORNING",
   "heading": "今日見る材料",
   "counts": {
-    "fetchedToday": 9,
-    "newsMemoryTotal": 575,
-    "considered": 1,
-    "adoptedCards": 0,
+    "fetchedToday": 10,
+    "newsMemoryTotal": 576,
+    "considered": 2,
+    "adoptedCards": 1,
     "failedSources": 1
   },
   "sourceResults": [
@@ -16,35 +16,35 @@
       "status": "FETCHED",
       "read": 15,
       "added": 0,
-      "fetchedAt": "2026-10-27T00:56:27.375Z"
+      "fetchedAt": "2026-10-27T01:31:45.816Z"
     },
     {
       "source": "日本銀行",
       "status": "FETCHED",
-      "read": 78,
-      "added": 1,
-      "fetchedAt": "2026-10-27T00:56:27.375Z"
+      "read": 76,
+      "added": 0,
+      "fetchedAt": "2026-10-27T01:31:45.816Z"
     },
     {
       "source": "金融庁",
       "status": "FETCHED",
       "read": 15,
       "added": 0,
-      "fetchedAt": "2026-10-27T00:56:27.375Z"
+      "fetchedAt": "2026-10-27T01:31:45.816Z"
     },
     {
       "source": "財務省",
       "status": "FETCHED",
       "read": 100,
-      "added": 0,
-      "fetchedAt": "2026-10-27T00:56:27.375Z"
+      "added": 1,
+      "fetchedAt": "2026-10-27T01:31:45.816Z"
     },
     {
       "source": "経済産業省",
       "status": "FAILED",
       "read": 0,
       "added": 0,
-      "fetchedAt": "2026-10-27T00:56:27.375Z",
+      "fetchedAt": "2026-10-27T01:31:45.816Z",
       "error": "HTTP 403"
     }
   ],
@@ -94,7 +94,35 @@
     "mode": "GEMINI_GROUNDED_EDITORIAL"
   },
   "summaryMode": "GEMINI_GROUNDED_EDITORIAL",
-  "cards": [],
-  "summary": [],
+  "cards": [
+    {
+      "id": "5f42667ba67eba734c2c302dc4f805979695d3c4fb0c35805bda41a2d6c02305",
+      "category": "財政・国債",
+      "title": "財務省が流動性供給（第464回）入札の実施を通知した。",
+      "summary": "発行予定総額2,500億円程度の流動性供給入札の申込締切や発行日等の概要が示された。",
+      "whatHappened": "財務省が流動性供給（第464回）入札の実施を通知した。",
+      "whatChanged": "発行予定総額2,500億円程度の流動性供給入札の申込締切や発行日等の概要が示された。",
+      "relatedThemes": [
+        "国債",
+        "財務省",
+        "市場調節"
+      ],
+      "status": "NEW",
+      "source": "財務省",
+      "publishedAt": "2026-10-27T01:30:00.000Z",
+      "firstSeenAt": "2026-10-27T01:31:45.816Z",
+      "contentStatus": "VERIFIED_TEXT",
+      "links": [
+        {
+          "title": "流動性供給(第464回)入札",
+          "url": "https://www.mof.go.jp/jgbs/auction/calendar/nyusatsu/offer20261027.htm",
+          "source": "財務省"
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "発行予定総額2,500億円程度の流動性供給入札の申込締切や発行日等の概要が示された。"
+  ],
   "qualityNote": "NEWS MEMORYへの保存と表示用編集を分離。公式本文を確認できない情報は、見出し以上に補完しない。株価予想・売買推奨は行わない。"
 }
