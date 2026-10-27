@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-10-27T01:31:45.816Z",
+  "generatedAt": "2026-10-27T14:56:59.592Z",
   "asOf": "2026-10-27",
-  "edition": "MORNING",
-  "heading": "今日見る材料",
+  "edition": "EVENING",
+  "heading": "今日の振り返り",
   "counts": {
-    "fetchedToday": 10,
-    "newsMemoryTotal": 576,
-    "considered": 2,
-    "adoptedCards": 1,
+    "fetchedToday": 20,
+    "newsMemoryTotal": 586,
+    "considered": 3,
+    "adoptedCards": 2,
     "failedSources": 1
   },
   "sourceResults": [
@@ -16,35 +16,35 @@
       "status": "FETCHED",
       "read": 15,
       "added": 0,
-      "fetchedAt": "2026-10-27T01:31:45.816Z"
+      "fetchedAt": "2026-10-27T14:56:59.592Z"
     },
     {
       "source": "日本銀行",
       "status": "FETCHED",
-      "read": 76,
-      "added": 0,
-      "fetchedAt": "2026-10-27T01:31:45.816Z"
+      "read": 70,
+      "added": 1,
+      "fetchedAt": "2026-10-27T14:56:59.592Z"
     },
     {
       "source": "金融庁",
       "status": "FETCHED",
       "read": 15,
-      "added": 0,
-      "fetchedAt": "2026-10-27T01:31:45.816Z"
+      "added": 5,
+      "fetchedAt": "2026-10-27T14:56:59.592Z"
     },
     {
       "source": "財務省",
       "status": "FETCHED",
       "read": 100,
-      "added": 1,
-      "fetchedAt": "2026-10-27T01:31:45.816Z"
+      "added": 4,
+      "fetchedAt": "2026-10-27T14:56:59.592Z"
     },
     {
       "source": "経済産業省",
       "status": "FAILED",
       "read": 0,
       "added": 0,
-      "fetchedAt": "2026-10-27T01:31:45.816Z",
+      "fetchedAt": "2026-10-27T14:56:59.592Z",
       "error": "HTTP 403"
     }
   ],
@@ -96,33 +96,59 @@
   "summaryMode": "GEMINI_GROUNDED_EDITORIAL",
   "cards": [
     {
-      "id": "5f42667ba67eba734c2c302dc4f805979695d3c4fb0c35805bda41a2d6c02305",
+      "id": "94419853033f2ea073320bbbc6a7ff5960beddf14afe1137784483972d899698",
       "category": "財政・国債",
-      "title": "財務省が流動性供給（第464回）入札の実施を通知した。",
-      "summary": "発行予定総額2,500億円程度の流動性供給入札の申込締切や発行日等の概要が示された。",
-      "whatHappened": "財務省が流動性供給（第464回）入札の実施を通知した。",
-      "whatChanged": "発行予定総額2,500億円程度の流動性供給入札の申込締切や発行日等の概要が示された。",
+      "title": "中国および台湾産のニッケル系ステンレス冷延鋼帯等に対する不当廉売関税の課税が閣議決定された。",
+      "summary": "令和8年10月31日から令和13年10月30日までの間、対象貨物に対して不当廉売関税が課されることになった。",
+      "whatHappened": "中国および台湾産のニッケル系ステンレス冷延鋼帯等に対する不当廉売関税の課税が閣議決定された。",
+      "whatChanged": "令和8年10月31日から令和13年10月30日までの間、対象貨物に対して不当廉売関税が課されることになった。",
       "relatedThemes": [
-        "国債",
-        "財務省",
-        "市場調節"
+        "関税",
+        "貿易",
+        "財務省"
       ],
       "status": "NEW",
       "source": "財務省",
-      "publishedAt": "2026-10-27T01:30:00.000Z",
-      "firstSeenAt": "2026-10-27T01:31:45.816Z",
+      "publishedAt": "2026-10-27T06:00:00.000Z",
+      "firstSeenAt": "2026-10-27T14:56:59.592Z",
       "contentStatus": "VERIFIED_TEXT",
       "links": [
         {
-          "title": "流動性供給(第464回)入札",
-          "url": "https://www.mof.go.jp/jgbs/auction/calendar/nyusatsu/offer20261027.htm",
+          "title": "中華人民共和国産若しくは台湾、澎湖諸島、金門及び馬祖から成る独立の関税地域産ニッケル系ステンレス冷延鋼帯及び冷延鋼板に対する不当廉売関税の課税を決定しました",
+          "url": "https://www.mof.go.jp/policy/customs_tariff/trade/plan/futou/ka20261027.html",
+          "source": "財務省"
+        }
+      ]
+    },
+    {
+      "id": "186d3bc32b98b1651354f98022bb4d1ad39023c7ecb130a3263b5a2e1678eed7",
+      "category": "財政・国債",
+      "title": "財務省が第464回流動性供給入札の結果を発表した。",
+      "summary": "応募額9,903億円に対して募入決定額2,489億円で入札が実施された。",
+      "whatHappened": "財務省が第464回流動性供給入札の結果を発表した。",
+      "whatChanged": "応募額9,903億円に対して募入決定額2,489億円で入札が実施された。",
+      "relatedThemes": [
+        "国債",
+        "財務省",
+        "金融市場"
+      ],
+      "status": "NEW",
+      "source": "財務省",
+      "publishedAt": "2026-10-27T03:35:00.000Z",
+      "firstSeenAt": "2026-10-27T14:56:59.592Z",
+      "contentStatus": "VERIFIED_TEXT",
+      "links": [
+        {
+          "title": "流動性供給(第464回)入札結果",
+          "url": "https://www.mof.go.jp/jgbs/auction/calendar/nyusatsu/resul20261027.htm",
           "source": "財務省"
         }
       ]
     }
   ],
   "summary": [
-    "発行予定総額2,500億円程度の流動性供給入札の申込締切や発行日等の概要が示された。"
+    "令和8年10月31日から令和13年10月30日までの間、対象貨物に対して不当廉売関税が課されることになった。",
+    "応募額9,903億円に対して募入決定額2,489億円で入札が実施された。"
   ],
   "qualityNote": "NEWS MEMORYへの保存と表示用編集を分離。公式本文を確認できない情報は、見出し以上に補完しない。株価予想・売買推奨は行わない。"
 }
