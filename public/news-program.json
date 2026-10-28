@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-10-27T15:50:29.874Z",
+  "generatedAt": "2026-10-28T00:46:38.755Z",
   "asOf": "2026-10-28",
   "edition": "MORNING",
   "heading": "今日見る材料",
   "counts": {
-    "fetchedToday": 0,
-    "newsMemoryTotal": 586,
-    "considered": 4,
-    "adoptedCards": 2,
+    "fetchedToday": 1,
+    "newsMemoryTotal": 587,
+    "considered": 1,
+    "adoptedCards": 0,
     "failedSources": 1
   },
   "sourceResults": [
@@ -16,35 +16,35 @@
       "status": "FETCHED",
       "read": 15,
       "added": 0,
-      "fetchedAt": "2026-10-27T15:50:29.874Z"
+      "fetchedAt": "2026-10-28T00:46:38.755Z"
     },
     {
       "source": "日本銀行",
       "status": "FETCHED",
       "read": 70,
       "added": 0,
-      "fetchedAt": "2026-10-27T15:50:29.874Z"
+      "fetchedAt": "2026-10-28T00:46:38.755Z"
     },
     {
       "source": "金融庁",
       "status": "FETCHED",
       "read": 15,
       "added": 0,
-      "fetchedAt": "2026-10-27T15:50:29.874Z"
+      "fetchedAt": "2026-10-28T00:46:38.755Z"
     },
     {
       "source": "財務省",
       "status": "FETCHED",
       "read": 100,
-      "added": 0,
-      "fetchedAt": "2026-10-27T15:50:29.874Z"
+      "added": 1,
+      "fetchedAt": "2026-10-28T00:46:38.755Z"
     },
     {
       "source": "経済産業省",
       "status": "FAILED",
       "read": 0,
       "added": 0,
-      "fetchedAt": "2026-10-27T15:50:29.874Z",
+      "fetchedAt": "2026-10-28T00:46:38.755Z",
       "error": "HTTP 403"
     }
   ],
@@ -94,60 +94,7 @@
     "mode": "GEMINI_GROUNDED_EDITORIAL"
   },
   "summaryMode": "GEMINI_GROUNDED_EDITORIAL",
-  "cards": [
-    {
-      "id": "94419853033f2ea073320bbbc6a7ff5960beddf14afe1137784483972d899698",
-      "category": "財政・国債",
-      "title": "中国および台湾産のニッケル系ステンレス冷延鋼帯等に対する不当廉売関税の課税が閣議決定された。",
-      "summary": "令和8年10月31日から令和13年10月30日までの間、当該製品に対して不当廉売関税が課されることになった。",
-      "whatHappened": "中国および台湾産のニッケル系ステンレス冷延鋼帯等に対する不当廉売関税の課税が閣議決定された。",
-      "whatChanged": "令和8年10月31日から令和13年10月30日までの間、当該製品に対して不当廉売関税が課されることになった。",
-      "relatedThemes": [
-        "関税",
-        "貿易",
-        "鉄鋼"
-      ],
-      "status": "FOLLOW_UP",
-      "source": "財務省",
-      "publishedAt": "2026-10-27T06:00:00.000Z",
-      "firstSeenAt": "2026-10-27T14:56:59.592Z",
-      "contentStatus": "VERIFIED_TEXT",
-      "links": [
-        {
-          "title": "中華人民共和国産若しくは台湾、澎湖諸島、金門及び馬祖から成る独立の関税地域産ニッケル系ステンレス冷延鋼帯及び冷延鋼板に対する不当廉売関税の課税を決定しました",
-          "url": "https://www.mof.go.jp/policy/customs_tariff/trade/plan/futou/ka20261027.html",
-          "source": "財務省"
-        }
-      ]
-    },
-    {
-      "id": "186d3bc32b98b1651354f98022bb4d1ad39023c7ecb130a3263b5a2e1678eed7",
-      "category": "財政・国債",
-      "title": "財務省が第464回流動性供給入札の結果を発表した。",
-      "summary": "応募額9,903億円に対して募入決定額2,489億円となった。",
-      "whatHappened": "財務省が第464回流動性供給入札の結果を発表した。",
-      "whatChanged": "応募額9,903億円に対して募入決定額2,489億円となった。",
-      "relatedThemes": [
-        "国債",
-        "財務省"
-      ],
-      "status": "FOLLOW_UP",
-      "source": "財務省",
-      "publishedAt": "2026-10-27T03:35:00.000Z",
-      "firstSeenAt": "2026-10-27T14:56:59.592Z",
-      "contentStatus": "VERIFIED_TEXT",
-      "links": [
-        {
-          "title": "流動性供給(第464回)入札結果",
-          "url": "https://www.mof.go.jp/jgbs/auction/calendar/nyusatsu/resul20261027.htm",
-          "source": "財務省"
-        }
-      ]
-    }
-  ],
-  "summary": [
-    "令和8年10月31日から令和13年10月30日までの間、当該製品に対して不当廉売関税が課されることになった。",
-    "応募額9,903億円に対して募入決定額2,489億円となった。"
-  ],
+  "cards": [],
+  "summary": [],
   "qualityNote": "NEWS MEMORYへの保存と表示用編集を分離。公式本文を確認できない情報は、見出し以上に補完しない。株価予想・売買推奨は行わない。"
 }
