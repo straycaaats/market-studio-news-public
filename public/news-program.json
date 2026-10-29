@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-10-28T16:34:27.790Z",
+  "generatedAt": "2026-10-29T01:18:54.335Z",
   "asOf": "2026-10-29",
   "edition": "MORNING",
   "heading": "今日見る材料",
   "counts": {
-    "fetchedToday": 14,
-    "newsMemoryTotal": 602,
-    "considered": 6,
-    "adoptedCards": 5,
+    "fetchedToday": 18,
+    "newsMemoryTotal": 606,
+    "considered": 5,
+    "adoptedCards": 4,
     "failedSources": 1
   },
   "sourceResults": [
@@ -16,35 +16,35 @@
       "status": "FETCHED",
       "read": 15,
       "added": 0,
-      "fetchedAt": "2026-10-28T16:34:27.790Z"
+      "fetchedAt": "2026-10-29T01:18:54.335Z"
     },
     {
       "source": "日本銀行",
       "status": "FETCHED",
       "read": 71,
       "added": 0,
-      "fetchedAt": "2026-10-28T16:34:27.790Z"
+      "fetchedAt": "2026-10-29T01:18:54.335Z"
     },
     {
       "source": "金融庁",
       "status": "FETCHED",
       "read": 15,
       "added": 0,
-      "fetchedAt": "2026-10-28T16:34:27.790Z"
+      "fetchedAt": "2026-10-29T01:18:54.335Z"
     },
     {
       "source": "財務省",
       "status": "FETCHED",
       "read": 100,
-      "added": 0,
-      "fetchedAt": "2026-10-28T16:34:27.790Z"
+      "added": 4,
+      "fetchedAt": "2026-10-29T01:18:54.335Z"
     },
     {
       "source": "経済産業省",
       "status": "FAILED",
       "read": 0,
       "added": 0,
-      "fetchedAt": "2026-10-28T16:34:27.790Z",
+      "fetchedAt": "2026-10-29T01:18:54.335Z",
       "error": "HTTP 403"
     }
   ],
@@ -96,16 +96,63 @@
   "summaryMode": "GEMINI_GROUNDED_EDITORIAL",
   "cards": [
     {
+      "id": "e3785764ddd1f2a19079097443edb91fcd081c97f4c94a3c6ffc13961f6d8b6f",
+      "category": "財政・国債",
+      "title": "財務省が令和8年11月1日以降適用される財政融資資金預託金利を公表した。",
+      "summary": "令和8年11月1日以降の預託金利の適用利率が示された。",
+      "whatHappened": "財務省が令和8年11月1日以降適用される財政融資資金預託金利を公表した。",
+      "whatChanged": "令和8年11月1日以降の預託金利の適用利率が示された。",
+      "relatedThemes": [
+        "財政",
+        "金利"
+      ],
+      "status": "NEW",
+      "source": "財務省",
+      "publishedAt": "2026-10-29T00:30:00.000Z",
+      "firstSeenAt": "2026-10-29T01:18:54.335Z",
+      "contentStatus": "VERIFIED_TEXT",
+      "links": [
+        {
+          "title": "財政融資資金預託金利（令和8年11月1日以降適用）",
+          "url": "https://www.mof.go.jp/policy/filp/reference/flf_interest_rate/kinrir8/yotaku20261029.html",
+          "source": "財務省"
+        }
+      ]
+    },
+    {
+      "id": "aaddbff0f2d0fa2654a8f1fb3aad381e4d57bb0a1db5bf225f261b10e4837693",
+      "category": "財政・国債",
+      "title": "財務省が令和8年11月1日以降適用される財政融資資金貸付金利を公表した。",
+      "summary": "令和8年11月1日以降の貸付金利の適用利率が示された。",
+      "whatHappened": "財務省が令和8年11月1日以降適用される財政融資資金貸付金利を公表した。",
+      "whatChanged": "令和8年11月1日以降の貸付金利の適用利率が示された。",
+      "relatedThemes": [
+        "財政",
+        "金利"
+      ],
+      "status": "NEW",
+      "source": "財務省",
+      "publishedAt": "2026-10-29T00:30:00.000Z",
+      "firstSeenAt": "2026-10-29T01:18:54.335Z",
+      "contentStatus": "VERIFIED_TEXT",
+      "links": [
+        {
+          "title": "財政融資資金貸付金利（令和8年11月1日以降適用）",
+          "url": "https://www.mof.go.jp/policy/filp/reference/flf_interest_rate/kinrir8/kashi20261029.html",
+          "source": "財務省"
+        }
+      ]
+    },
+    {
       "id": "6c22357d838b25fdacf1f09f6101c4cf09e163ec41e973fa5d97f3dde147cb23",
       "category": "産業・エネルギー",
-      "title": "財務省は、米州開発銀行（IDB）グループの人事担当者が来日し、11月16日から17日にかけてリクルート・ミッションを実施すると発表した。",
-      "summary": "IDBアジア事務所での個別相談会や説明会の開催スケジュールおよび申込方法が公開された。",
-      "whatHappened": "財務省は、米州開発銀行（IDB）グループの人事担当者が来日し、11月16日から17日にかけてリクルート・ミッションを実施すると発表した。",
-      "whatChanged": "IDBアジア事務所での個別相談会や説明会の開催スケジュールおよび申込方法が公開された。",
+      "title": "財務省が米州開発銀行（IDB）リクルート・ミッションの来日および関連イベントの開催を発表した。",
+      "summary": "IDBによる日本での人事担当者個別相談会や説明会の開催予定が案内された。",
+      "whatHappened": "財務省が米州開発銀行（IDB）リクルート・ミッションの来日および関連イベントの開催を発表した。",
+      "whatChanged": "IDBによる日本での人事担当者個別相談会や説明会の開催予定が案内された。",
       "relatedThemes": [
         "国際機関",
-        "中南米・カリブ地域",
-        "採用・キャリア"
+        "雇用・キャリア"
       ],
       "status": "NEW",
       "source": "財務省",
@@ -121,89 +168,15 @@
       ]
     },
     {
-      "id": "2ef363b89123b4a718bfaffabdaac491cfb578d0d12ee5ce2caea604852987ee",
-      "category": "金融政策・市場",
-      "title": "日本銀行は、金融市場調節取引の2026年度対象先公募の結果等を踏まえ、各オペの対象先の一覧を公表した。",
-      "summary": "2026年度の金融市場調節取引における対象先一覧が新たに公表された。",
-      "whatHappened": "日本銀行は、金融市場調節取引の2026年度対象先公募の結果等を踏まえ、各オペの対象先の一覧を公表した。",
-      "whatChanged": "2026年度の金融市場調節取引における対象先一覧が新たに公表された。",
-      "relatedThemes": [
-        "金融市場調節",
-        "日本銀行"
-      ],
-      "status": "NEW",
-      "source": "日本銀行",
-      "publishedAt": "2026-10-28T07:00:00.000Z",
-      "firstSeenAt": "2026-10-28T15:30:08.535Z",
-      "contentStatus": "VERIFIED_TEXT",
-      "links": [
-        {
-          "title": "金融市場調節取引の2026年度対象先公募の結果等について",
-          "url": "https://www.boj.or.jp/mopo/measures/select/s_release/srel261028a.htm",
-          "source": "日本銀行"
-        }
-      ]
-    },
-    {
-      "id": "2d179ec2726925e158ffac5e75b1b07369f1baf8f7cb5ba91b3a46709b633980",
-      "category": "財政・国債",
-      "title": "財務省は、交付税及び譲与税配付金特別会計の借入金に関する入札結果を発表した。",
-      "summary": "応募額4兆5,214億円に対し、募入決定額1兆2,000億円、募入平均利率1.546％で入札が実施された。",
-      "whatHappened": "財務省は、交付税及び譲与税配付金特別会計の借入金に関する入札結果を発表した。",
-      "whatChanged": "応募額4兆5,214億円に対し、募入決定額1兆2,000億円、募入平均利率1.546％で入札が実施された。",
-      "relatedThemes": [
-        "国債",
-        "特別会計",
-        "入札結果"
-      ],
-      "status": "NEW",
-      "source": "財務省",
-      "publishedAt": "2026-10-28T04:00:00.000Z",
-      "firstSeenAt": "2026-10-28T15:30:08.535Z",
-      "contentStatus": "VERIFIED_TEXT",
-      "links": [
-        {
-          "title": "交付税及び譲与税配付金特別会計の借入金の入札結果（令和8年10月28日入札）",
-          "url": "https://www.mof.go.jp/jgbs/auction/calendar/kariire/kari-result261028.htm",
-          "source": "財務省"
-        }
-      ]
-    },
-    {
-      "id": "de74394c23cc780322dc9c04340181b902e6e595887311688a01e714b045e26b",
-      "category": "政策・公式発表",
-      "title": "日本銀行は、バーゼル銀行監督委員会が公表した「AML/CFTに関する監督ニューズレター」について伝えた。",
-      "summary": "マネー・ローンダリング及びテロ資金供与対策に関するデータ収集やAI活用に関する調査結果の概要がまとまった。",
-      "whatHappened": "日本銀行は、バーゼル銀行監督委員会が公表した「AML/CFTに関する監督ニューズレター」について伝えた。",
-      "whatChanged": "マネー・ローンダリング及びテロ資金供与対策に関するデータ収集やAI活用に関する調査結果の概要がまとまった。",
-      "relatedThemes": [
-        "バーゼル委員会",
-        "AML/CFT",
-        "銀行監督"
-      ],
-      "status": "NEW",
-      "source": "日本銀行",
-      "publishedAt": "2026-10-28T02:00:00.000Z",
-      "firstSeenAt": "2026-10-28T15:30:08.535Z",
-      "contentStatus": "VERIFIED_TEXT",
-      "links": [
-        {
-          "title": "バーゼル銀行監督委員会による「AML/CFTに関する監督ニューズレター」の公表について",
-          "url": "https://www.boj.or.jp/finsys/intlact_fs/risk/ris261028a.htm",
-          "source": "日本銀行"
-        }
-      ]
-    },
-    {
       "id": "abcbb5080343cb2f4d46a3d85760113fd283dbce8cf5e38e12c87c7822e1da3c",
       "category": "金融制度・規制",
-      "title": "総務省統計局は、「2025年経済構造実態調査」の三次集計結果（産業横断調査・事業所に関する集計）を公表した。",
-      "summary": "2025年経済構造実態調査の三次集計に関する結果概要や統計表が利用可能となった。",
-      "whatHappened": "総務省統計局は、「2025年経済構造実態調査」の三次集計結果（産業横断調査・事業所に関する集計）を公表した。",
-      "whatChanged": "2025年経済構造実態調査の三次集計に関する結果概要や統計表が利用可能となった。",
+      "title": "総務統計局が「2025年経済構造実態調査」三次集計結果（産業横断調査・事業所に関する集計）を公表した。",
+      "summary": "2025年経済構造実態調査の三次集計結果のデータが利用可能になった。",
+      "whatHappened": "総務統計局が「2025年経済構造実態調査」三次集計結果（産業横断調査・事業所に関する集計）を公表した。",
+      "whatChanged": "2025年経済構造実態調査の三次集計結果のデータが利用可能になった。",
       "relatedThemes": [
-        "経済構造実態調査",
-        "統計情報"
+        "経済指標",
+        "統計調査"
       ],
       "status": "NEW",
       "source": "総務省統計局",
@@ -220,9 +193,9 @@
     }
   ],
   "summary": [
-    "IDBアジア事務所での個別相談会や説明会の開催スケジュールおよび申込方法が公開された。",
-    "2026年度の金融市場調節取引における対象先一覧が新たに公表された。",
-    "応募額4兆5,214億円に対し、募入決定額1兆2,000億円、募入平均利率1.546％で入札が実施された。"
+    "令和8年11月1日以降の預託金利の適用利率が示された。",
+    "令和8年11月1日以降の貸付金利の適用利率が示された。",
+    "IDBによる日本での人事担当者個別相談会や説明会の開催予定が案内された。"
   ],
   "qualityNote": "NEWS MEMORYへの保存と表示用編集を分離。公式本文を確認できない情報は、見出し以上に補完しない。株価予想・売買推奨は行わない。"
 }
