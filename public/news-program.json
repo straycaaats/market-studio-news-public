@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-10-29T01:52:09.540Z",
-  "asOf": "2026-10-29",
+  "generatedAt": "2026-10-29T15:37:44.874Z",
+  "asOf": "2026-10-30",
   "edition": "MORNING",
   "heading": "今日見る材料",
   "counts": {
-    "fetchedToday": 22,
-    "newsMemoryTotal": 610,
-    "considered": 7,
-    "adoptedCards": 5,
+    "fetchedToday": 9,
+    "newsMemoryTotal": 619,
+    "considered": 10,
+    "adoptedCards": 6,
     "failedSources": 1
   },
   "sourceResults": [
@@ -16,35 +16,35 @@
       "status": "FETCHED",
       "read": 15,
       "added": 0,
-      "fetchedAt": "2026-10-29T01:52:09.540Z"
+      "fetchedAt": "2026-10-29T15:37:44.874Z"
     },
     {
       "source": "日本銀行",
       "status": "FETCHED",
       "read": 71,
       "added": 0,
-      "fetchedAt": "2026-10-29T01:52:09.540Z"
+      "fetchedAt": "2026-10-29T15:37:44.874Z"
     },
     {
       "source": "金融庁",
       "status": "FETCHED",
       "read": 15,
-      "added": 0,
-      "fetchedAt": "2026-10-29T01:52:09.540Z"
+      "added": 3,
+      "fetchedAt": "2026-10-29T15:37:44.874Z"
     },
     {
       "source": "財務省",
       "status": "FETCHED",
       "read": 100,
-      "added": 4,
-      "fetchedAt": "2026-10-29T01:52:09.540Z"
+      "added": 6,
+      "fetchedAt": "2026-10-29T15:37:44.874Z"
     },
     {
       "source": "経済産業省",
       "status": "FAILED",
       "read": 0,
       "added": 0,
-      "fetchedAt": "2026-10-29T01:52:09.540Z",
+      "fetchedAt": "2026-10-29T15:37:44.874Z",
       "error": "HTTP 403"
     }
   ],
@@ -96,51 +96,121 @@
   "summaryMode": "GEMINI_GROUNDED_EDITORIAL",
   "cards": [
     {
-      "id": "e3785764ddd1f2a19079097443edb91fcd081c97f4c94a3c6ffc13961f6d8b6f",
+      "id": "86cd16e473665f19ac20cafc56a25b621e9b7d1b33c602f24dd823bbe334d112",
       "category": "財政・国債",
-      "title": "財務省が令和8年11月1日以降に適用される財政融資資金預託金利を発表した。",
-      "summary": "預託の約定期間に応じた新しい利率が11月1日以降に適用されることになった。",
-      "whatHappened": "財務省が令和8年11月1日以降に適用される財政融資資金預託金利を発表した。",
-      "whatChanged": "預託の約定期間に応じた新しい利率が11月1日以降に適用されることになった。",
+      "title": "片山財務大臣が記者会見でG20・G7等の国際会議への出席や、日韓通貨スワップの100億ドル規模での方針への同意について説明した。",
+      "summary": "日韓通貨スワップが100億ドル規模での方針に同意されたほか、G20での為替コミットメントの再確認や世銀の開発委員会新議長就任が公表された。",
+      "whatHappened": "片山財務大臣が記者会見でG20・G7等の国際会議への出席や、日韓通貨スワップの100億ドル規模での方針への同意について説明した。",
+      "whatChanged": "日韓通貨スワップが100億ドル規模での方針に同意されたほか、G20での為替コミットメントの再確認や世銀の開発委員会新議長就任が公表された。",
       "relatedThemes": [
-        "財政融資資金",
-        "財務省",
-        "金利"
+        "外国為替",
+        "国際金融",
+        "通貨スワップ"
       ],
       "status": "NEW",
       "source": "財務省",
-      "publishedAt": "2026-10-29T00:30:00.000Z",
-      "firstSeenAt": "2026-10-29T01:18:54.335Z",
+      "publishedAt": "2026-10-29T03:15:00.000Z",
+      "firstSeenAt": "2026-10-29T15:37:44.874Z",
       "contentStatus": "VERIFIED_TEXT",
       "links": [
         {
-          "title": "財政融資資金預託金利（令和8年11月1日以降適用）",
-          "url": "https://www.mof.go.jp/policy/filp/reference/flf_interest_rate/kinrir8/yotaku20261029.html",
+          "title": "片山財務大臣兼内閣府特命担当大臣記者会見の概要(令和8年10月15日(木曜日))",
+          "url": "https://www.mof.go.jp/public_relations/conference/my20261015.html",
           "source": "財務省"
         }
       ]
     },
     {
-      "id": "aaddbff0f2d0fa2654a8f1fb3aad381e4d57bb0a1db5bf225f261b10e4837693",
-      "category": "財政・国債",
-      "title": "財務省が令和8年11月1日以降に貸し付ける財政融資資金の貸付金利を発表した。",
-      "summary": "貸付期間および据置期間に応じた新しい利率が11月1日以降に適用されることになった。",
-      "whatHappened": "財務省が令和8年11月1日以降に貸し付ける財政融資資金の貸付金利を発表した。",
-      "whatChanged": "貸付期間および据置期間に応じた新しい利率が11月1日以降に適用されることになった。",
+      "id": "ddec7057a025fa771a2779c380d6bb8f209e9adeedc574ccb73ec1053e63a21c",
+      "category": "金融政策・市場",
+      "title": "財務省がタリバーン関係者等に対する資産凍結等の措置の対象者から3個人を削除することを発表した。",
+      "summary": "国連安全保障理事会制裁委員会が対象者を削除したことに伴い、該当者に対する資産凍結等の措置が解除される。",
+      "whatHappened": "財務省がタリバーン関係者等に対する資産凍結等の措置の対象者から3個人を削除することを発表した。",
+      "whatChanged": "国連安全保障理事会制裁委員会が対象者を削除したことに伴い、該当者に対する資産凍結等の措置が解除される。",
       "relatedThemes": [
-        "財政融資資金",
-        "財務省",
+        "資産凍結",
+        "外国為替及び外国貿易法"
+      ],
+      "status": "NEW",
+      "source": "財務省",
+      "publishedAt": "2026-10-29T09:00:00.000Z",
+      "firstSeenAt": "2026-10-29T15:37:44.874Z",
+      "contentStatus": "VERIFIED_TEXT",
+      "links": [
+        {
+          "title": "タリバーン関係者等に対する資産凍結等の措置の対象者の削除を実施します",
+          "url": "https://www.mof.go.jp/policy/international_policy/gaitame_kawase/gaitame/economic_sanctions/talibanhoudou_20261030.html",
+          "source": "財務省"
+        }
+      ]
+    },
+    {
+      "id": "52baae953748ec0ea5c8e405770e7c2fe7fe511ecdb2344cbdef936211fb04ba",
+      "category": "財政・国債",
+      "title": "2年利付国債（第490回）の第II非価格競争入札結果（令和8年10月29日入札）",
+      "summary": "X ポスト --> 2年利付国債（第490回）の第Ⅱ非価格競争入札結果 令和8年10月29日 財務省 本日、2年利付国債（第490回）の第Ⅱ非価格競争入札について、下記のように募入の決定を行いました。",
+      "whatHappened": "2年利付国債（第490回）の第II非価格競争入札結果（令和8年10月29日入札）",
+      "whatChanged": "X ポスト --> 2年利付国債（第490回）の第Ⅱ非価格競争入札結果 令和8年10月29日 財務省 本日、2年利付国債（第490回）の第Ⅱ非価格競争入札について、下記のように募入の決定を行いました。",
+      "relatedThemes": [
+        "国債・円相場"
+      ],
+      "status": "NEW",
+      "source": "財務省",
+      "publishedAt": "2026-10-29T06:15:00.000Z",
+      "firstSeenAt": "2026-10-29T15:37:44.874Z",
+      "contentStatus": "VERIFIED_TEXT",
+      "links": [
+        {
+          "title": "2年利付国債（第490回）の第II非価格競争入札結果（令和8年10月29日入札）",
+          "url": "https://www.mof.go.jp/jgbs/auction/calendar/nyusatsu/resul20261029a.htm",
+          "source": "財務省"
+        }
+      ]
+    },
+    {
+      "id": "9213fd7e951c3b394c8a4adc5ebcb4f79d665e12af5b1c142c54e8bff461ee38",
+      "category": "財政・国債",
+      "title": "財務省が2年利付国債（第490回）の入札結果を発表した。",
+      "summary": "表面利率1.9パーセントの2年利付国債の価格競争入札等における募入決定額や応募額が確定した。",
+      "whatHappened": "財務省が2年利付国債（第490回）の入札結果を発表した。",
+      "whatChanged": "表面利率1.9パーセントの2年利付国債の価格競争入札等における募入決定額や応募額が確定した。",
+      "relatedThemes": [
+        "国債入札",
         "金利"
       ],
       "status": "NEW",
       "source": "財務省",
-      "publishedAt": "2026-10-29T00:30:00.000Z",
-      "firstSeenAt": "2026-10-29T01:18:54.335Z",
+      "publishedAt": "2026-10-29T03:35:00.000Z",
+      "firstSeenAt": "2026-10-29T15:37:44.874Z",
       "contentStatus": "VERIFIED_TEXT",
       "links": [
         {
-          "title": "財政融資資金貸付金利（令和8年11月1日以降適用）",
-          "url": "https://www.mof.go.jp/policy/filp/reference/flf_interest_rate/kinrir8/kashi20261029.html",
+          "title": "2年利付国債（第490回）の入札結果（令和8年10月29日入札）",
+          "url": "https://www.mof.go.jp/jgbs/auction/calendar/nyusatsu/resul20261029.htm",
+          "source": "財務省"
+        }
+      ]
+    },
+    {
+      "id": "7d14a8b61a79e04d8a786fe50f5ab178700e75c52b1ffb69b47d2cd14f1b4f00",
+      "category": "財政・国債",
+      "title": "財務省が国庫短期証券（第1416回）の入札結果を発表した。",
+      "summary": "国庫短期証券の価格競争入札および非価格競争入札の募入が決定された。",
+      "whatHappened": "財務省が国庫短期証券（第1416回）の入札結果を発表した。",
+      "whatChanged": "国庫短期証券の価格競争入札および非価格競争入札の募入が決定された。",
+      "relatedThemes": [
+        "国庫短期証券",
+        "短期金融市場"
+      ],
+      "status": "NEW",
+      "source": "財務省",
+      "publishedAt": "2026-10-29T03:30:00.000Z",
+      "firstSeenAt": "2026-10-29T15:37:44.874Z",
+      "contentStatus": "VERIFIED_TEXT",
+      "links": [
+        {
+          "title": "国庫短期証券（第1416回）の入札結果",
+          "url": "https://www.mof.go.jp/jgbs/auction/calendar/tbill/tbill_nyusatsu/resul20261029.htm",
           "source": "財務省"
         }
       ]
@@ -148,16 +218,14 @@
     {
       "id": "c992bd526f35b915ba0a29c79ca386ab93998d159f1b85b1013508ec3030d150",
       "category": "財政・国債",
-      "title": "財務省が2年利付国債（第490回）の入札発行を実施することを通知した。",
-      "summary": "発行予定額2兆8,000億円程度の2年利付国債の入札が10月29日に行われることになった。",
-      "whatHappened": "財務省が2年利付国債（第490回）の入札発行を実施することを通知した。",
-      "whatChanged": "発行予定額2兆8,000億円程度の2年利付国債の入札が10月29日に行われることになった。",
+      "title": "2年利付国債（第490回）の入札発行（令和8年10月29日入札）",
+      "summary": "） 9． 応募額一口の金額 （1）価格競争入札 1億円又はその整数倍 （2）非競争入札 百万円又はその整数倍 （3）国債市場特別参加者 ・第Ⅰ非価格競争入札 1億円又はその整数倍 10． 募入決定の方法 （1）価格競争入札 コンベンショナル方式 （2）非競争入札 案分による割り当て （ただし、応募限",
+      "whatHappened": "2年利付国債（第490回）の入札発行（令和8年10月29日入札）",
+      "whatChanged": "） 9． 応募額一口の金額 （1）価格競争入札 1億円又はその整数倍 （2）非競争入札 百万円又はその整数倍 （3）国債市場特別参加者 ・第Ⅰ非価格競争入札 1億円又はその整数倍 10． 募入決定の方法 （1）価格競争入札 コンベンショナル方式 （2）非競争入札 案分による割り当て （ただし、応募限",
       "relatedThemes": [
-        "国債",
-        "財務省",
-        "入札発行"
+        "国債・円相場"
       ],
-      "status": "NEW",
+      "status": "FOLLOW_UP",
       "source": "財務省",
       "publishedAt": "2026-10-29T01:30:00.000Z",
       "firstSeenAt": "2026-10-29T01:52:09.540Z",
@@ -169,62 +237,12 @@
           "source": "財務省"
         }
       ]
-    },
-    {
-      "id": "698b7ee593249b9aabc4c54053c8f770a0fee50dbd87f456303969189cf243de",
-      "category": "財政・国債",
-      "title": "財務省が国庫短期証券（第1416回）の入札発行の実施を通知した。",
-      "summary": "発行予定額3兆3,000億円程度の国庫短期証券の入札が10月29日に実施されることになった。",
-      "whatHappened": "財務省が国庫短期証券（第1416回）の入札発行の実施を通知した。",
-      "whatChanged": "発行予定額3兆3,000億円程度の国庫短期証券の入札が10月29日に実施されることになった。",
-      "relatedThemes": [
-        "国庫短期証券",
-        "財務省",
-        "入札発行"
-      ],
-      "status": "NEW",
-      "source": "財務省",
-      "publishedAt": "2026-10-29T01:20:00.000Z",
-      "firstSeenAt": "2026-10-29T01:52:09.540Z",
-      "contentStatus": "VERIFIED_TEXT",
-      "links": [
-        {
-          "title": "国庫短期証券（第1416回）の入札発行",
-          "url": "https://www.mof.go.jp/jgbs/auction/calendar/tbill/tbill_nyusatsu/offer20261029.htm",
-          "source": "財務省"
-        }
-      ]
-    },
-    {
-      "id": "abcbb5080343cb2f4d46a3d85760113fd283dbce8cf5e38e12c87c7822e1da3c",
-      "category": "金融制度・規制",
-      "title": "総務省統計局が「2025年経済構造実態調査」の三次集計結果（産業横断調査）を公表した。",
-      "summary": "事業所に関する集計結果が新たに明らかにされた。",
-      "whatHappened": "総務省統計局が「2025年経済構造実態調査」の三次集計結果（産業横断調査）を公表した。",
-      "whatChanged": "事業所に関する集計結果が新たに明らかにされた。",
-      "relatedThemes": [
-        "統計調査",
-        "総務省",
-        "経済構造実態調査"
-      ],
-      "status": "NEW",
-      "source": "総務省統計局",
-      "publishedAt": "2026-10-28",
-      "firstSeenAt": "2026-10-28T15:30:08.535Z",
-      "contentStatus": "VERIFIED_TEXT",
-      "links": [
-        {
-          "title": "「2025年経済構造実態調査」三次集計結果 産業横断調査（事業所に関する集計）",
-          "url": "https://www.stat.go.jp/data/kkj/kekka/index.html",
-          "source": "総務省統計局"
-        }
-      ]
     }
   ],
   "summary": [
-    "預託の約定期間に応じた新しい利率が11月1日以降に適用されることになった。",
-    "貸付期間および据置期間に応じた新しい利率が11月1日以降に適用されることになった。",
-    "発行予定額2兆8,000億円程度の2年利付国債の入札が10月29日に行われることになった。"
+    "日韓通貨スワップが100億ドル規模での方針に同意されたほか、G20での為替コミットメントの再確認や世銀の開発委員会新議長就任が公表された。",
+    "国連安全保障理事会制裁委員会が対象者を削除したことに伴い、該当者に対する資産凍結等の措置が解除される。",
+    "X ポスト --> 2年利付国債（第490回）の第Ⅱ非価格競争入札結果 令和8年10月29日 財務省 本日、2年利付国債（第490回）の第Ⅱ非価格競争入札について、下記のように募入の決定を行いました。"
   ],
   "qualityNote": "NEWS MEMORYへの保存と表示用編集を分離。公式本文を確認できない情報は、見出し以上に補完しない。株価予想・売買推奨は行わない。"
 }
