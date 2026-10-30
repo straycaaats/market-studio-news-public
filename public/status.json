@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "generatedAt": "2026-10-30T15:22:10.665Z",
+  "generatedAt": "2026-10-30T16:02:10.868Z",
   "asOf": "2026-10-31",
   "edition": "MORNING",
   "sourceResults": [
@@ -8,36 +8,36 @@
       "source": "総務省統計局",
       "status": "FETCHED",
       "read": 15,
-      "added": 1,
-      "fetchedAt": "2026-10-30T15:22:10.665Z"
+      "added": 0,
+      "fetchedAt": "2026-10-30T16:02:10.868Z"
     },
     {
       "source": "日本銀行",
       "status": "FETCHED",
       "read": 79,
-      "added": 7,
-      "fetchedAt": "2026-10-30T15:22:10.665Z"
+      "added": 0,
+      "fetchedAt": "2026-10-30T16:02:10.868Z"
     },
     {
       "source": "金融庁",
       "status": "FETCHED",
       "read": 15,
-      "added": 6,
-      "fetchedAt": "2026-10-30T15:22:10.665Z"
+      "added": 0,
+      "fetchedAt": "2026-10-30T16:02:10.868Z"
     },
     {
       "source": "財務省",
       "status": "FETCHED",
       "read": 100,
-      "added": 4,
-      "fetchedAt": "2026-10-30T15:22:10.665Z"
+      "added": 0,
+      "fetchedAt": "2026-10-30T16:02:10.868Z"
     },
     {
       "source": "経済産業省",
       "status": "FAILED",
       "read": 0,
       "added": 0,
-      "fetchedAt": "2026-10-30T15:22:10.665Z",
+      "fetchedAt": "2026-10-30T16:02:10.868Z",
       "error": "HTTP 403"
     }
   ],
