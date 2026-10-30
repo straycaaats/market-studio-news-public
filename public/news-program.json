@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-10-29T16:52:04.562Z",
+  "generatedAt": "2026-10-30T01:22:50.965Z",
   "asOf": "2026-10-30",
   "edition": "MORNING",
   "heading": "今日見る材料",
   "counts": {
-    "fetchedToday": 9,
-    "newsMemoryTotal": 619,
-    "considered": 10,
-    "adoptedCards": 6,
+    "fetchedToday": 15,
+    "newsMemoryTotal": 625,
+    "considered": 3,
+    "adoptedCards": 2,
     "failedSources": 1
   },
   "sourceResults": [
@@ -15,36 +15,36 @@
       "source": "総務省統計局",
       "status": "FETCHED",
       "read": 15,
-      "added": 0,
-      "fetchedAt": "2026-10-29T16:52:04.562Z"
+      "added": 1,
+      "fetchedAt": "2026-10-30T01:22:50.965Z"
     },
     {
       "source": "日本銀行",
       "status": "FETCHED",
       "read": 71,
-      "added": 0,
-      "fetchedAt": "2026-10-29T16:52:04.562Z"
+      "added": 2,
+      "fetchedAt": "2026-10-30T01:22:50.965Z"
     },
     {
       "source": "金融庁",
       "status": "FETCHED",
       "read": 15,
       "added": 0,
-      "fetchedAt": "2026-10-29T16:52:04.562Z"
+      "fetchedAt": "2026-10-30T01:22:50.965Z"
     },
     {
       "source": "財務省",
       "status": "FETCHED",
       "read": 100,
-      "added": 0,
-      "fetchedAt": "2026-10-29T16:52:04.562Z"
+      "added": 3,
+      "fetchedAt": "2026-10-30T01:22:50.965Z"
     },
     {
       "source": "経済産業省",
       "status": "FAILED",
       "read": 0,
       "added": 0,
-      "fetchedAt": "2026-10-29T16:52:04.562Z",
+      "fetchedAt": "2026-10-30T01:22:50.965Z",
       "error": "HTTP 403"
     }
   ],
@@ -96,38 +96,14 @@
   "summaryMode": "GEMINI_GROUNDED_EDITORIAL",
   "cards": [
     {
-      "id": "86cd16e473665f19ac20cafc56a25b621e9b7d1b33c602f24dd823bbe334d112",
-      "category": "財政・国債",
-      "title": "片山財務大臣が記者会見を行い、世銀・IMF合同開発委員会での新議長就任やG20・G7での議論内容、各国財務相との面会結果について説明した。",
-      "summary": "片山財務大臣が世銀・IMF合同開発委員会の新議長に正式就任したほか、日韓通貨スワップについて現行の100億ドル規模での方針に同意した。",
-      "whatHappened": "片山財務大臣が記者会見を行い、世銀・IMF合同開発委員会での新議長就任やG20・G7での議論内容、各国財務相との面会結果について説明した。",
-      "whatChanged": "片山財務大臣が世銀・IMF合同開発委員会の新議長に正式就任したほか、日韓通貨スワップについて現行の100億ドル規模での方針に同意した。",
-      "relatedThemes": [
-        "為替・国際金融",
-        "国際会議",
-        "通貨スワップ"
-      ],
-      "status": "NEW",
-      "source": "財務省",
-      "publishedAt": "2026-10-29T03:15:00.000Z",
-      "firstSeenAt": "2026-10-29T15:37:44.874Z",
-      "contentStatus": "VERIFIED_TEXT",
-      "links": [
-        {
-          "title": "片山財務大臣兼内閣府特命担当大臣記者会見の概要(令和8年10月15日(木曜日))",
-          "url": "https://www.mof.go.jp/public_relations/conference/my20261015.html",
-          "source": "財務省"
-        }
-      ]
-    },
-    {
       "id": "ddec7057a025fa771a2779c380d6bb8f209e9adeedc574ccb73ec1053e63a21c",
       "category": "金融政策・市場",
-      "title": "財務省がタリバーン関係者等に対する資産凍結等の措置について対象者の削除を実施した。",
-      "summary": "国連安保理制裁委員会が指定を解除した3個人に対する我が国の資産凍結等の措置が解除された。",
-      "whatHappened": "財務省がタリバーン関係者等に対する資産凍結等の措置について対象者の削除を実施した。",
-      "whatChanged": "国連安保理制裁委員会が指定を解除した3個人に対する我が国の資産凍結等の措置が解除された。",
+      "title": "国連安全保障理事会制裁委員会が3個人を指定対象から削除したことに伴い、我が国がタリバーン関係者等に対する資産凍結等の措置を解除した。",
+      "summary": "タリバーン関係者等に対する資産凍結等の措置の対象者から3個人が削除され、措置が解除された。",
+      "whatHappened": "国連安全保障理事会制裁委員会が3個人を指定対象から削除したことに伴い、我が国がタリバーン関係者等に対する資産凍結等の措置を解除した。",
+      "whatChanged": "タリバーン関係者等に対する資産凍結等の措置の対象者から3個人が削除され、措置が解除された。",
       "relatedThemes": [
+        "財務省",
         "資産凍結",
         "外国為替及び外国貿易法"
       ],
@@ -145,105 +121,33 @@
       ]
     },
     {
-      "id": "e3785764ddd1f2a19079097443edb91fcd081c97f4c94a3c6ffc13961f6d8b6f",
-      "category": "財政・国債",
-      "title": "財務省が令和8年11月1日以降に適用される財政融資資金預託金利を公表した。",
-      "summary": "令和8年11月1日以降適用の財政融資資金預託金利の利率が決定された。",
-      "whatHappened": "財務省が令和8年11月1日以降に適用される財政融資資金預託金利を公表した。",
-      "whatChanged": "令和8年11月1日以降適用の財政融資資金預託金利の利率が決定された。",
+      "id": "a0b1ccf6c17fdbc96de09eddaba2173db652d6aeae179ebfc0e617bdd4034c07",
+      "category": "政策・公式発表",
+      "title": "閣議決定等に基づき、10月1日現在の「日本銀行の役員に就いている退職公務員等の状況等」が公表された。",
+      "summary": "10月1日時点の日本銀行の役員における退職公務員等の状況が新たに公表された。",
+      "whatHappened": "閣議決定等に基づき、10月1日現在の「日本銀行の役員に就いている退職公務員等の状況等」が公表された。",
+      "whatChanged": "10月1日時点の日本銀行の役員における退職公務員等の状況が新たに公表された。",
       "relatedThemes": [
-        "財政融資資金",
-        "金利"
-      ],
-      "status": "FOLLOW_UP",
-      "source": "財務省",
-      "publishedAt": "2026-10-29T00:30:00.000Z",
-      "firstSeenAt": "2026-10-29T01:18:54.335Z",
-      "contentStatus": "VERIFIED_TEXT",
-      "links": [
-        {
-          "title": "財政融資資金預託金利（令和8年11月1日以降適用）",
-          "url": "https://www.mof.go.jp/policy/filp/reference/flf_interest_rate/kinrir8/yotaku20261029.html",
-          "source": "財務省"
-        }
-      ]
-    },
-    {
-      "id": "52baae953748ec0ea5c8e405770e7c2fe7fe511ecdb2344cbdef936211fb04ba",
-      "category": "財政・国債",
-      "title": "2年利付国債（第490回）の第II非価格競争入札結果（令和8年10月29日入札）",
-      "summary": "X ポスト --> 2年利付国債（第490回）の第Ⅱ非価格競争入札結果 令和8年10月29日 財務省 本日、2年利付国債（第490回）の第Ⅱ非価格競争入札について、下記のように募入の決定を行いました。",
-      "whatHappened": "2年利付国債（第490回）の第II非価格競争入札結果（令和8年10月29日入札）",
-      "whatChanged": "X ポスト --> 2年利付国債（第490回）の第Ⅱ非価格競争入札結果 令和8年10月29日 財務省 本日、2年利付国債（第490回）の第Ⅱ非価格競争入札について、下記のように募入の決定を行いました。",
-      "relatedThemes": [
-        "国債・円相場"
+        "日本銀行",
+        "退職公務員"
       ],
       "status": "NEW",
-      "source": "財務省",
-      "publishedAt": "2026-10-29T06:15:00.000Z",
-      "firstSeenAt": "2026-10-29T15:37:44.874Z",
+      "source": "日本銀行",
+      "publishedAt": "2026-10-29T23:50:00.000Z",
+      "firstSeenAt": "2026-10-30T01:22:50.965Z",
       "contentStatus": "VERIFIED_TEXT",
       "links": [
         {
-          "title": "2年利付国債（第490回）の第II非価格競争入札結果（令和8年10月29日入札）",
-          "url": "https://www.mof.go.jp/jgbs/auction/calendar/nyusatsu/resul20261029a.htm",
-          "source": "財務省"
-        }
-      ]
-    },
-    {
-      "id": "9213fd7e951c3b394c8a4adc5ebcb4f79d665e12af5b1c142c54e8bff461ee38",
-      "category": "財政・国債",
-      "title": "財務省が2年利付国債（第490回）の価格競争入札等の結果を発表した。",
-      "summary": "2年利付国債（第490回）の募入平均価格が99円98銭9厘（募入平均利回り1.905％）に決定した。",
-      "whatHappened": "財務省が2年利付国債（第490回）の価格競争入札等の結果を発表した。",
-      "whatChanged": "2年利付国債（第490回）の募入平均価格が99円98銭9厘（募入平均利回り1.905％）に決定した。",
-      "relatedThemes": [
-        "国債入札",
-        "金利・債券"
-      ],
-      "status": "NEW",
-      "source": "財務省",
-      "publishedAt": "2026-10-29T03:35:00.000Z",
-      "firstSeenAt": "2026-10-29T15:37:44.874Z",
-      "contentStatus": "VERIFIED_TEXT",
-      "links": [
-        {
-          "title": "2年利付国債（第490回）の入札結果（令和8年10月29日入札）",
-          "url": "https://www.mof.go.jp/jgbs/auction/calendar/nyusatsu/resul20261029.htm",
-          "source": "財務省"
-        }
-      ]
-    },
-    {
-      "id": "7d14a8b61a79e04d8a786fe50f5ab178700e75c52b1ffb69b47d2cd14f1b4f00",
-      "category": "財政・国債",
-      "title": "財務省が国庫短期証券（第1416回）の入札結果を発表した。",
-      "summary": "国庫短期証券（第1416回）の募入平均価格が99円66銭0厘0毛（募入平均利回り1.2706％）に決定した。",
-      "whatHappened": "財務省が国庫短期証券（第1416回）の入札結果を発表した。",
-      "whatChanged": "国庫短期証券（第1416回）の募入平均価格が99円66銭0厘0毛（募入平均利回り1.2706％）に決定した。",
-      "relatedThemes": [
-        "国庫短期証券",
-        "短期金融市場"
-      ],
-      "status": "NEW",
-      "source": "財務省",
-      "publishedAt": "2026-10-29T03:30:00.000Z",
-      "firstSeenAt": "2026-10-29T15:37:44.874Z",
-      "contentStatus": "VERIFIED_TEXT",
-      "links": [
-        {
-          "title": "国庫短期証券（第1416回）の入札結果",
-          "url": "https://www.mof.go.jp/jgbs/auction/calendar/tbill/tbill_nyusatsu/resul20261029.htm",
-          "source": "財務省"
+          "title": "日本銀行の役員に就いている退職公務員等の状況等の公表について",
+          "url": "https://www.boj.or.jp/about/release_2026/rel261030a.htm",
+          "source": "日本銀行"
         }
       ]
     }
   ],
   "summary": [
-    "片山財務大臣が世銀・IMF合同開発委員会の新議長に正式就任したほか、日韓通貨スワップについて現行の100億ドル規模での方針に同意した。",
-    "国連安保理制裁委員会が指定を解除した3個人に対する我が国の資産凍結等の措置が解除された。",
-    "令和8年11月1日以降適用の財政融資資金預託金利の利率が決定された。"
+    "タリバーン関係者等に対する資産凍結等の措置の対象者から3個人が削除され、措置が解除された。",
+    "10月1日時点の日本銀行の役員における退職公務員等の状況が新たに公表された。"
   ],
   "qualityNote": "NEWS MEMORYへの保存と表示用編集を分離。公式本文を確認できない情報は、見出し以上に補完しない。株価予想・売買推奨は行わない。"
 }
