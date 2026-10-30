@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-10-30T02:01:21.834Z",
-  "asOf": "2026-10-30",
+  "generatedAt": "2026-10-30T15:22:10.665Z",
+  "asOf": "2026-10-31",
   "edition": "MORNING",
   "heading": "今日見る材料",
   "counts": {
-    "fetchedToday": 17,
-    "newsMemoryTotal": 627,
-    "considered": 3,
-    "adoptedCards": 2,
+    "fetchedToday": 18,
+    "newsMemoryTotal": 645,
+    "considered": 4,
+    "adoptedCards": 3,
     "failedSources": 1
   },
   "sourceResults": [
@@ -15,36 +15,36 @@
       "source": "総務省統計局",
       "status": "FETCHED",
       "read": 15,
-      "added": 0,
-      "fetchedAt": "2026-10-30T02:01:21.834Z"
+      "added": 1,
+      "fetchedAt": "2026-10-30T15:22:10.665Z"
     },
     {
       "source": "日本銀行",
       "status": "FETCHED",
-      "read": 72,
-      "added": 1,
-      "fetchedAt": "2026-10-30T02:01:21.834Z"
+      "read": 79,
+      "added": 7,
+      "fetchedAt": "2026-10-30T15:22:10.665Z"
     },
     {
       "source": "金融庁",
       "status": "FETCHED",
       "read": 15,
-      "added": 0,
-      "fetchedAt": "2026-10-30T02:01:21.834Z"
+      "added": 6,
+      "fetchedAt": "2026-10-30T15:22:10.665Z"
     },
     {
       "source": "財務省",
       "status": "FETCHED",
       "read": 100,
-      "added": 1,
-      "fetchedAt": "2026-10-30T02:01:21.834Z"
+      "added": 4,
+      "fetchedAt": "2026-10-30T15:22:10.665Z"
     },
     {
       "source": "経済産業省",
       "status": "FAILED",
       "read": 0,
       "added": 0,
-      "fetchedAt": "2026-10-30T02:01:21.834Z",
+      "fetchedAt": "2026-10-30T15:22:10.665Z",
       "error": "HTTP 403"
     }
   ],
@@ -96,25 +96,49 @@
   "summaryMode": "GEMINI_GROUNDED_EDITORIAL",
   "cards": [
     {
-      "id": "ddec7057a025fa771a2779c380d6bb8f209e9adeedc574ccb73ec1053e63a21c",
+      "id": "c2dc15023e76a0db673f3e6393cee4617a643c0ed7f0fffb2a662189037ada98",
       "category": "金融政策・市場",
-      "title": "国連安全保障理事会制裁委員会が指定を削除したことに伴い、タリバーン関係者等に対する資産凍結等の措置を解除した。",
-      "summary": "指定されていた3個人に対する資産凍結等の措置が解除された。",
-      "whatHappened": "国連安全保障理事会制裁委員会が指定を削除したことに伴い、タリバーン関係者等に対する資産凍結等の措置を解除した。",
-      "whatChanged": "指定されていた3個人に対する資産凍結等の措置が解除された。",
+      "title": "財務省は令和8年9月29日から10月28日までの外国為替平衡操作の実施状況を公表し、操作額が0円であったことを発表した。",
+      "summary": "同期間における外国為替平衡操作額が0円であることが明らかになった。",
+      "whatHappened": "財務省は令和8年9月29日から10月28日までの外国為替平衡操作の実施状況を公表し、操作額が0円であったことを発表した。",
+      "whatChanged": "同期間における外国為替平衡操作額が0円であることが明らかになった。",
       "relatedThemes": [
-        "外交・安全保障",
-        "資産凍結"
+        "為替",
+        "財務省"
       ],
       "status": "NEW",
       "source": "財務省",
-      "publishedAt": "2026-10-29T09:00:00.000Z",
-      "firstSeenAt": "2026-10-29T15:37:44.874Z",
+      "publishedAt": "2026-10-30T10:00:00.000Z",
+      "firstSeenAt": "2026-10-30T15:22:10.665Z",
       "contentStatus": "VERIFIED_TEXT",
       "links": [
         {
-          "title": "タリバーン関係者等に対する資産凍結等の措置の対象者の削除を実施します",
-          "url": "https://www.mof.go.jp/policy/international_policy/gaitame_kawase/gaitame/economic_sanctions/talibanhoudou_20261030.html",
+          "title": "外国為替平衡操作の実施状況(令和8年9月29日～令和8年10月28日)",
+          "url": "https://www.mof.go.jp/policy/international_policy/reference/feio/data/monthly/20261030.html",
+          "source": "財務省"
+        }
+      ]
+    },
+    {
+      "id": "7be2c53211d9a9b74670a0ff83edbedefde7a2174963f5e0292ad2c4d65c2671",
+      "category": "金融政策・市場",
+      "title": "財務省は「令和8年度財務省政策評価実施計画」および事前分析表の一部変更を公表した。",
+      "summary": "政府の方針等の設定や転換に伴い、政策評価実施計画および事前分析表の一部が変更された。",
+      "whatHappened": "財務省は「令和8年度財務省政策評価実施計画」および事前分析表の一部変更を公表した。",
+      "whatChanged": "政府の方針等の設定や転換に伴い、政策評価実施計画および事前分析表の一部が変更された。",
+      "relatedThemes": [
+        "財務省",
+        "政策評価"
+      ],
+      "status": "NEW",
+      "source": "財務省",
+      "publishedAt": "2026-10-30T08:00:00.000Z",
+      "firstSeenAt": "2026-10-30T15:22:10.665Z",
+      "contentStatus": "VERIFIED_TEXT",
+      "links": [
+        {
+          "title": "「令和8年度財務省政策評価実施計画」等の一部変更を公表します",
+          "url": "https://www.mof.go.jp/about_mof/policy_evaluation/mof/fy2026/plan/20261026143718.html",
           "source": "財務省"
         }
       ]
@@ -122,15 +146,15 @@
     {
       "id": "a0b1ccf6c17fdbc96de09eddaba2173db652d6aeae179ebfc0e617bdd4034c07",
       "category": "政策・公式発表",
-      "title": "10月1日現在の日本銀行の役員に就いている退職公務員等の状況等を公表した。",
-      "summary": "特になし",
-      "whatHappened": "10月1日現在の日本銀行の役員に就いている退職公務員等の状況等を公表した。",
-      "whatChanged": "特になし",
+      "title": "日本銀行は10月1日現在の役員に就いている退職公務員等の状況等を公表した。",
+      "summary": "10月1日時点の退職公務員等の役員就任状況が新たに公開された。",
+      "whatHappened": "日本銀行は10月1日現在の役員に就いている退職公務員等の状況等を公表した。",
+      "whatChanged": "10月1日時点の退職公務員等の役員就任状況が新たに公開された。",
       "relatedThemes": [
         "日本銀行",
-        "ガバナンス"
+        "人事"
       ],
-      "status": "NEW",
+      "status": "FOLLOW_UP",
       "source": "日本銀行",
       "publishedAt": "2026-10-29T23:50:00.000Z",
       "firstSeenAt": "2026-10-30T01:22:50.965Z",
@@ -145,8 +169,9 @@
     }
   ],
   "summary": [
-    "指定されていた3個人に対する資産凍結等の措置が解除された。",
-    "特になし"
+    "同期間における外国為替平衡操作額が0円であることが明らかになった。",
+    "政府の方針等の設定や転換に伴い、政策評価実施計画および事前分析表の一部が変更された。",
+    "10月1日時点の退職公務員等の役員就任状況が新たに公開された。"
   ],
   "qualityNote": "NEWS MEMORYへの保存と表示用編集を分離。公式本文を確認できない情報は、見出し以上に補完しない。株価予想・売買推奨は行わない。"
 }
