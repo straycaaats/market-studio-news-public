@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-10-31T01:40:13.173Z",
+  "generatedAt": "2026-10-31T14:50:10.425Z",
   "asOf": "2026-10-31",
-  "edition": "MORNING",
-  "heading": "今日見る材料",
+  "edition": "EVENING",
+  "heading": "今日の振り返り",
   "counts": {
     "fetchedToday": 18,
     "newsMemoryTotal": 645,
-    "considered": 3,
-    "adoptedCards": 2,
+    "considered": 1,
+    "adoptedCards": 0,
     "failedSources": 1
   },
   "sourceResults": [
@@ -16,35 +16,35 @@
       "status": "FETCHED",
       "read": 15,
       "added": 0,
-      "fetchedAt": "2026-10-31T01:40:13.173Z"
+      "fetchedAt": "2026-10-31T14:50:10.425Z"
     },
     {
       "source": "日本銀行",
       "status": "FETCHED",
       "read": 79,
       "added": 0,
-      "fetchedAt": "2026-10-31T01:40:13.173Z"
+      "fetchedAt": "2026-10-31T14:50:10.425Z"
     },
     {
       "source": "金融庁",
       "status": "FETCHED",
       "read": 15,
       "added": 0,
-      "fetchedAt": "2026-10-31T01:40:13.173Z"
+      "fetchedAt": "2026-10-31T14:50:10.425Z"
     },
     {
       "source": "財務省",
       "status": "FETCHED",
       "read": 100,
       "added": 0,
-      "fetchedAt": "2026-10-31T01:40:13.173Z"
+      "fetchedAt": "2026-10-31T14:50:10.425Z"
     },
     {
       "source": "経済産業省",
       "status": "FAILED",
       "read": 0,
       "added": 0,
-      "fetchedAt": "2026-10-31T01:40:13.173Z",
+      "fetchedAt": "2026-10-31T14:50:10.425Z",
       "error": "HTTP 403"
     }
   ],
@@ -94,59 +94,7 @@
     "mode": "GEMINI_GROUNDED_EDITORIAL"
   },
   "summaryMode": "GEMINI_GROUNDED_EDITORIAL",
-  "cards": [
-    {
-      "id": "c2dc15023e76a0db673f3e6393cee4617a643c0ed7f0fffb2a662189037ada98",
-      "category": "金融政策・市場",
-      "title": "財務省は令和8年9月29日から10月28日における外国為替平衡操作の実施状況を発表した。",
-      "summary": "期間中の外国為替平衡操作額は0円であった。",
-      "whatHappened": "財務省は令和8年9月29日から10月28日における外国為替平衡操作の実施状況を発表した。",
-      "whatChanged": "期間中の外国為替平衡操作額は0円であった。",
-      "relatedThemes": [
-        "為替",
-        "財務省"
-      ],
-      "status": "NEW",
-      "source": "財務省",
-      "publishedAt": "2026-10-30T10:00:00.000Z",
-      "firstSeenAt": "2026-10-30T15:22:10.665Z",
-      "contentStatus": "VERIFIED_TEXT",
-      "links": [
-        {
-          "title": "外国為替平衡操作の実施状況(令和8年9月29日～令和8年10月28日)",
-          "url": "https://www.mof.go.jp/policy/international_policy/reference/feio/data/monthly/20261030.html",
-          "source": "財務省"
-        }
-      ]
-    },
-    {
-      "id": "7be2c53211d9a9b74670a0ff83edbedefde7a2174963f5e0292ad2c4d65c2671",
-      "category": "金融政策・市場",
-      "title": "財務省は「令和8年度財務省政策評価実施計画」及び事前分析表の一部変更を公表した。",
-      "summary": "政府の方針等の設定・転換に伴い、政策評価実施計画等の内容が変更された。",
-      "whatHappened": "財務省は「令和8年度財務省政策評価実施計画」及び事前分析表の一部変更を公表した。",
-      "whatChanged": "政府の方針等の設定・転換に伴い、政策評価実施計画等の内容が変更された。",
-      "relatedThemes": [
-        "政策評価",
-        "財務省"
-      ],
-      "status": "NEW",
-      "source": "財務省",
-      "publishedAt": "2026-10-30T08:00:00.000Z",
-      "firstSeenAt": "2026-10-30T15:22:10.665Z",
-      "contentStatus": "VERIFIED_TEXT",
-      "links": [
-        {
-          "title": "「令和8年度財務省政策評価実施計画」等の一部変更を公表します",
-          "url": "https://www.mof.go.jp/about_mof/policy_evaluation/mof/fy2026/plan/20261026143718.html",
-          "source": "財務省"
-        }
-      ]
-    }
-  ],
-  "summary": [
-    "期間中の外国為替平衡操作額は0円であった。",
-    "政府の方針等の設定・転換に伴い、政策評価実施計画等の内容が変更された。"
-  ],
+  "cards": [],
+  "summary": [],
   "qualityNote": "NEWS MEMORYへの保存と表示用編集を分離。公式本文を確認できない情報は、見出し以上に補完しない。株価予想・売買推奨は行わない。"
 }
