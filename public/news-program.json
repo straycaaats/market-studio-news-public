@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-11-02T01:03:51.013Z",
+  "generatedAt": "2026-11-02T01:35:56.159Z",
   "asOf": "2026-11-02",
   "edition": "MORNING",
   "heading": "今日見る材料",
   "counts": {
-    "fetchedToday": 0,
-    "newsMemoryTotal": 645,
-    "considered": 1,
-    "adoptedCards": 0,
+    "fetchedToday": 4,
+    "newsMemoryTotal": 649,
+    "considered": 3,
+    "adoptedCards": 2,
     "failedSources": 1
   },
   "sourceResults": [
@@ -16,35 +16,35 @@
       "status": "FETCHED",
       "read": 15,
       "added": 0,
-      "fetchedAt": "2026-11-02T01:03:51.013Z"
+      "fetchedAt": "2026-11-02T01:35:56.159Z"
     },
     {
       "source": "日本銀行",
       "status": "FETCHED",
       "read": 72,
       "added": 0,
-      "fetchedAt": "2026-11-02T01:03:51.013Z"
+      "fetchedAt": "2026-11-02T01:35:56.159Z"
     },
     {
       "source": "金融庁",
       "status": "FETCHED",
       "read": 15,
       "added": 0,
-      "fetchedAt": "2026-11-02T01:03:51.013Z"
+      "fetchedAt": "2026-11-02T01:35:56.159Z"
     },
     {
       "source": "財務省",
       "status": "FETCHED",
       "read": 100,
-      "added": 0,
-      "fetchedAt": "2026-11-02T01:03:51.013Z"
+      "added": 4,
+      "fetchedAt": "2026-11-02T01:35:56.159Z"
     },
     {
       "source": "経済産業省",
       "status": "FAILED",
       "read": 0,
       "added": 0,
-      "fetchedAt": "2026-11-02T01:03:51.013Z",
+      "fetchedAt": "2026-11-02T01:35:56.159Z",
       "error": "HTTP 403"
     }
   ],
@@ -94,7 +94,61 @@
     "mode": "GEMINI_GROUNDED_EDITORIAL"
   },
   "summaryMode": "GEMINI_GROUNDED_EDITORIAL",
-  "cards": [],
-  "summary": [],
+  "cards": [
+    {
+      "id": "de6f4e5417d3653571d1dc280b6345f495e4fd33142fee7e5111aa8edd37e611",
+      "category": "産業・エネルギー",
+      "title": "財務省は、令和8年11月10日に実施予定のエネルギー対策特別会計の借入金入札の概要を公表した。",
+      "summary": "借入予定額が約6,505億円となる入札のスケジュールや条件が明らかになった。",
+      "whatHappened": "財務省は、令和8年11月10日に実施予定のエネルギー対策特別会計の借入金入札の概要を公表した。",
+      "whatChanged": "借入予定額が約6,505億円となる入札のスケジュールや条件が明らかになった。",
+      "relatedThemes": [
+        "エネルギー対策特別会計",
+        "国債・借入金",
+        "財務省"
+      ],
+      "status": "NEW",
+      "source": "財務省",
+      "publishedAt": "2026-11-02T01:30:00.000Z",
+      "firstSeenAt": "2026-11-02T01:35:56.159Z",
+      "contentStatus": "VERIFIED_TEXT",
+      "links": [
+        {
+          "title": "エネルギー対策特別会計の借入金の入札予定（令和8年11月2日公表）",
+          "url": "https://www.mof.go.jp/jgbs/auction/calendar/kariire/energy-offer261102.htm",
+          "source": "財務省"
+        }
+      ]
+    },
+    {
+      "id": "8c9bc9fa493fe6ba4ff8798019d13ac38a65b18d10195ca10846afbfedbd2a48",
+      "category": "財政・国債",
+      "title": "財務省は、5年クライメート・トランジション利付国債（第6回）の入札を実施した。",
+      "summary": "発行予定額約2,500億円のGX国債の入札が通知され、本日申込締切と募入決定が行われる。",
+      "whatHappened": "財務省は、5年クライメート・トランジション利付国債（第6回）の入札を実施した。",
+      "whatChanged": "発行予定額約2,500億円のGX国債の入札が通知され、本日申込締切と募入決定が行われる。",
+      "relatedThemes": [
+        "クライメート・トランジション利付国債",
+        "GX経済移行債",
+        "財務省"
+      ],
+      "status": "NEW",
+      "source": "財務省",
+      "publishedAt": "2026-11-02T01:30:00.000Z",
+      "firstSeenAt": "2026-11-02T01:35:56.159Z",
+      "contentStatus": "VERIFIED_TEXT",
+      "links": [
+        {
+          "title": "5年クライメート・トランジション利付国債（第6回）の入札発行（令和8年11月2日入札）",
+          "url": "https://www.mof.go.jp/jgbs/auction/calendar/nyusatsu/offer20261102.htm",
+          "source": "財務省"
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "借入予定額が約6,505億円となる入札のスケジュールや条件が明らかになった。",
+    "発行予定額約2,500億円のGX国債の入札が通知され、本日申込締切と募入決定が行われる。"
+  ],
   "qualityNote": "NEWS MEMORYへの保存と表示用編集を分離。公式本文を確認できない情報は、見出し以上に補完しない。株価予想・売買推奨は行わない。"
 }
