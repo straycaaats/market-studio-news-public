@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-11-02T20:15:56.210Z",
+  "generatedAt": "2026-11-03T03:06:26.194Z",
   "asOf": "2026-11-03",
-  "edition": "MORNING",
-  "heading": "今日見る材料",
+  "edition": "EVENING",
+  "heading": "今日の振り返り",
   "counts": {
     "fetchedToday": 19,
     "newsMemoryTotal": 668,
-    "considered": 6,
-    "adoptedCards": 4,
+    "considered": 1,
+    "adoptedCards": 0,
     "failedSources": 1
   },
   "sourceResults": [
@@ -16,35 +16,35 @@
       "status": "FETCHED",
       "read": 15,
       "added": 0,
-      "fetchedAt": "2026-11-02T20:15:56.210Z"
+      "fetchedAt": "2026-11-03T03:06:26.194Z"
     },
     {
       "source": "日本銀行",
       "status": "FETCHED",
-      "read": 73,
+      "read": 70,
       "added": 0,
-      "fetchedAt": "2026-11-02T20:15:56.210Z"
+      "fetchedAt": "2026-11-03T03:06:26.194Z"
     },
     {
       "source": "金融庁",
       "status": "FETCHED",
       "read": 15,
       "added": 0,
-      "fetchedAt": "2026-11-02T20:15:56.210Z"
+      "fetchedAt": "2026-11-03T03:06:26.194Z"
     },
     {
       "source": "財務省",
       "status": "FETCHED",
       "read": 100,
       "added": 0,
-      "fetchedAt": "2026-11-02T20:15:56.210Z"
+      "fetchedAt": "2026-11-03T03:06:26.194Z"
     },
     {
       "source": "経済産業省",
       "status": "FAILED",
       "read": 0,
       "added": 0,
-      "fetchedAt": "2026-11-02T20:15:56.210Z",
+      "fetchedAt": "2026-11-03T03:06:26.194Z",
       "error": "HTTP 403"
     }
   ],
@@ -94,112 +94,7 @@
     "mode": "GEMINI_GROUNDED_EDITORIAL"
   },
   "summaryMode": "GEMINI_GROUNDED_EDITORIAL",
-  "cards": [
-    {
-      "id": "15ce7d4c67230baee32d131dacd9af254e3024341c1413877f144570e1dc78a9",
-      "category": "財政・国債",
-      "title": "片山財務大臣が繰上げ閣議後会見を実施し、2027年度予算編成に向けた税収見積りの精度向上や為替市場の動向について言及した。",
-      "summary": "経済・物価見通しの変化を踏まえ、税収の適切な見積りと透明性向上のための説明に努める方針が示された。",
-      "whatHappened": "片山財務大臣が繰上げ閣議後会見を実施し、2027年度予算編成に向けた税収見積りの精度向上や為替市場の動向について言及した。",
-      "whatChanged": "経済・物価見通しの変化を踏まえ、税収の適切な見積りと透明性向上のための説明に努める方針が示された。",
-      "relatedThemes": [
-        "予算編成",
-        "税収見積り",
-        "為替動向"
-      ],
-      "status": "NEW",
-      "source": "財務省",
-      "publishedAt": "2026-11-02T08:40:00.000Z",
-      "firstSeenAt": "2026-11-02T18:52:48.776Z",
-      "contentStatus": "VERIFIED_TEXT",
-      "links": [
-        {
-          "title": "片山財務大臣兼内閣府特命担当大臣繰上げ閣議後記者会見の概要(令和8年11月2日(月曜日))",
-          "url": "https://www.mof.go.jp/public_relations/conference/my20261102.html",
-          "source": "財務省"
-        }
-      ]
-    },
-    {
-      "id": "f379d6c136032a1fa228c3af035490f43ce24e34ae08f1b9851dfd2ec5b96b32",
-      "category": "産業・エネルギー",
-      "title": "片山財務大臣の10月30日の閣議後会見の概要が公開され、消費税支援金法や外国人旅行者向け免税制度のリファンド方式への移行、ガソリン補助金の予備費使用などについて説明された。",
-      "summary": "外国人旅行者向けの免税制度がリファンド方式へ移行し、燃料油に対する激変緩和措置として予備費の使用が決定された。",
-      "whatHappened": "片山財務大臣の10月30日の閣議後会見の概要が公開され、消費税支援金法や外国人旅行者向け免税制度のリファンド方式への移行、ガソリン補助金の予備費使用などについて説明された。",
-      "whatChanged": "外国人旅行者向けの免税制度がリファンド方式へ移行し、燃料油に対する激変緩和措置として予備費の使用が決定された。",
-      "relatedThemes": [
-        "免税制度",
-        "物価高対策",
-        "補助金"
-      ],
-      "status": "NEW",
-      "source": "財務省",
-      "publishedAt": "2026-11-02T02:45:00.000Z",
-      "firstSeenAt": "2026-11-02T18:52:48.776Z",
-      "contentStatus": "VERIFIED_TEXT",
-      "links": [
-        {
-          "title": "片山財務大臣兼内閣府特命担当大臣閣議後記者会見の概要(令和8年10月30日(金曜日))",
-          "url": "https://www.mof.go.jp/public_relations/conference/my20261030.html",
-          "source": "財務省"
-        }
-      ]
-    },
-    {
-      "id": "d02134afaf75cd085edfab3a436052df21b6cd91b6f35b155416ce72833fbbc5",
-      "category": "財政・国債",
-      "title": "財務省が「国債のオンチェーン対応に関する研究会（第1回）」の議事要旨を公表した。",
-      "summary": "ブロックチェーンを活用した国債の取引・決済や資産側のトークン化に関して、メリット、課題、市場の分断などの論点について意見交換が行われた。",
-      "whatHappened": "財務省が「国債のオンチェーン対応に関する研究会（第1回）」の議事要旨を公表した。",
-      "whatChanged": "ブロックチェーンを活用した国債の取引・決済や資産側のトークン化に関して、メリット、課題、市場の分断などの論点について意見交換が行われた。",
-      "relatedThemes": [
-        "国債",
-        "オンチェーン",
-        "デジタル金融"
-      ],
-      "status": "NEW",
-      "source": "財務省",
-      "publishedAt": "2026-11-02T10:20:00.000Z",
-      "firstSeenAt": "2026-11-02T18:52:48.776Z",
-      "contentStatus": "VERIFIED_TEXT",
-      "links": [
-        {
-          "title": "国債のオンチェーン対応に関する研究会（第１回） 議事要旨",
-          "url": "https://www.mof.go.jp/about_mof/councils/study_on_chain/on_chain_giji1.html",
-          "source": "財務省"
-        }
-      ]
-    },
-    {
-      "id": "f640407591ef6a94b0a6b0657e98669e205f105979c222708a2fcf4ab488e0b7",
-      "category": "財政・国債",
-      "title": "財務省が5年クライメート・トランジション利付国債（第6回）の入札結果を公表した。",
-      "summary": "応募額9,599億円、募入決定額2,498億円、表面利率2.2パーセントで入札が実施された。",
-      "whatHappened": "財務省が5年クライメート・トランジション利付国債（第6回）の入札結果を公表した。",
-      "whatChanged": "応募額9,599億円、募入決定額2,498億円、表面利率2.2パーセントで入札が実施された。",
-      "relatedThemes": [
-        "国債入札",
-        "GX国債",
-        "クライメート・トランジション"
-      ],
-      "status": "NEW",
-      "source": "財務省",
-      "publishedAt": "2026-11-02T03:35:00.000Z",
-      "firstSeenAt": "2026-11-02T18:52:48.776Z",
-      "contentStatus": "VERIFIED_TEXT",
-      "links": [
-        {
-          "title": "5年クライメート・トランジション利付国債（第6回）の入札結果（令和8年11月2日入札）",
-          "url": "https://www.mof.go.jp/jgbs/auction/calendar/nyusatsu/resul20261102.htm",
-          "source": "財務省"
-        }
-      ]
-    }
-  ],
-  "summary": [
-    "経済・物価見通しの変化を踏まえ、税収の適切な見積りと透明性向上のための説明に努める方針が示された。",
-    "外国人旅行者向けの免税制度がリファンド方式へ移行し、燃料油に対する激変緩和措置として予備費の使用が決定された。",
-    "ブロックチェーンを活用した国債の取引・決済や資産側のトークン化に関して、メリット、課題、市場の分断などの論点について意見交換が行われた。"
-  ],
+  "cards": [],
+  "summary": [],
   "qualityNote": "NEWS MEMORYへの保存と表示用編集を分離。公式本文を確認できない情報は、見出し以上に補完しない。株価予想・売買推奨は行わない。"
 }
