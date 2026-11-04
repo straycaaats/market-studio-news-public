@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-11-03T17:43:32.447Z",
+  "generatedAt": "2026-11-04T01:43:48.730Z",
   "asOf": "2026-11-04",
   "edition": "MORNING",
   "heading": "今日見る材料",
   "counts": {
-    "fetchedToday": 0,
-    "newsMemoryTotal": 668,
-    "considered": 1,
-    "adoptedCards": 0,
+    "fetchedToday": 2,
+    "newsMemoryTotal": 670,
+    "considered": 2,
+    "adoptedCards": 1,
     "failedSources": 1
   },
   "sourceResults": [
@@ -16,35 +16,35 @@
       "status": "FETCHED",
       "read": 15,
       "added": 0,
-      "fetchedAt": "2026-11-03T17:43:32.447Z"
+      "fetchedAt": "2026-11-04T01:43:48.730Z"
     },
     {
       "source": "日本銀行",
       "status": "FETCHED",
-      "read": 68,
-      "added": 0,
-      "fetchedAt": "2026-11-03T17:43:32.447Z"
+      "read": 70,
+      "added": 1,
+      "fetchedAt": "2026-11-04T01:43:48.730Z"
     },
     {
       "source": "金融庁",
       "status": "FETCHED",
       "read": 15,
-      "added": 0,
-      "fetchedAt": "2026-11-03T17:43:32.447Z"
+      "added": 1,
+      "fetchedAt": "2026-11-04T01:43:48.730Z"
     },
     {
       "source": "財務省",
       "status": "FETCHED",
       "read": 100,
       "added": 0,
-      "fetchedAt": "2026-11-03T17:43:32.447Z"
+      "fetchedAt": "2026-11-04T01:43:48.730Z"
     },
     {
       "source": "経済産業省",
       "status": "FAILED",
       "read": 0,
       "added": 0,
-      "fetchedAt": "2026-11-03T17:43:32.447Z",
+      "fetchedAt": "2026-11-04T01:43:48.730Z",
       "error": "HTTP 403"
     }
   ],
@@ -94,7 +94,34 @@
     "mode": "GEMINI_GROUNDED_EDITORIAL"
   },
   "summaryMode": "GEMINI_GROUNDED_EDITORIAL",
-  "cards": [],
-  "summary": [],
+  "cards": [
+    {
+      "id": "e1ccc04653e51115a6268cb73292305babba2c355d78c3aafe5ecaed34de5d31",
+      "category": "財政・国債",
+      "title": "日本銀行が10月31日現在の営業毎旬報告を公表した。",
+      "summary": "資産合計や負債および純資産の合計が626,188,218,448千円など各勘定の金額が報告された。",
+      "whatHappened": "日本銀行が10月31日現在の営業毎旬報告を公表した。",
+      "whatChanged": "資産合計や負債および純資産の合計が626,188,218,448千円など各勘定の金額が報告された。",
+      "relatedThemes": [
+        "日本銀行",
+        "マネーサプライ"
+      ],
+      "status": "NEW",
+      "source": "日本銀行",
+      "publishedAt": "2026-11-04T01:00:00.000Z",
+      "firstSeenAt": "2026-11-04T01:43:48.730Z",
+      "contentStatus": "VERIFIED_TEXT",
+      "links": [
+        {
+          "title": "営業毎旬報告（10月31日現在）",
+          "url": "https://www.boj.or.jp/statistics/boj/other/acmai/release/2026/ac261031.htm",
+          "source": "日本銀行"
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "資産合計や負債および純資産の合計が626,188,218,448千円など各勘定の金額が報告された。"
+  ],
   "qualityNote": "NEWS MEMORYへの保存と表示用編集を分離。公式本文を確認できない情報は、見出し以上に補完しない。株価予想・売買推奨は行わない。"
 }
