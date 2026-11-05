@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-11-05T02:35:17.281Z",
-  "asOf": "2026-11-05",
+  "generatedAt": "2026-11-05T16:52:51.756Z",
+  "asOf": "2026-11-06",
   "edition": "MORNING",
   "heading": "今日見る材料",
   "counts": {
-    "fetchedToday": 12,
-    "newsMemoryTotal": 682,
-    "considered": 2,
-    "adoptedCards": 1,
+    "fetchedToday": 6,
+    "newsMemoryTotal": 688,
+    "considered": 5,
+    "adoptedCards": 4,
     "failedSources": 1
   },
   "sourceResults": [
@@ -16,35 +16,35 @@
       "status": "FETCHED",
       "read": 15,
       "added": 0,
-      "fetchedAt": "2026-11-05T02:35:17.281Z"
+      "fetchedAt": "2026-11-05T16:52:51.756Z"
     },
     {
       "source": "日本銀行",
       "status": "FETCHED",
-      "read": 75,
-      "added": 0,
-      "fetchedAt": "2026-11-05T02:35:17.281Z"
+      "read": 76,
+      "added": 1,
+      "fetchedAt": "2026-11-05T16:52:51.756Z"
     },
     {
       "source": "金融庁",
       "status": "FETCHED",
       "read": 15,
       "added": 0,
-      "fetchedAt": "2026-11-05T02:35:17.281Z"
+      "fetchedAt": "2026-11-05T16:52:51.756Z"
     },
     {
       "source": "財務省",
       "status": "FETCHED",
       "read": 100,
-      "added": 0,
-      "fetchedAt": "2026-11-05T02:35:17.281Z"
+      "added": 5,
+      "fetchedAt": "2026-11-05T16:52:51.756Z"
     },
     {
       "source": "経済産業省",
       "status": "FAILED",
       "read": 0,
       "added": 0,
-      "fetchedAt": "2026-11-05T02:35:17.281Z",
+      "fetchedAt": "2026-11-05T16:52:51.756Z",
       "error": "HTTP 403"
     }
   ],
@@ -96,6 +96,77 @@
   "summaryMode": "RULE_BASED_AFTER_GEMINI_FAILURE:Gemini HTTP 503",
   "cards": [
     {
+      "id": "4b3fc6fe1ec7eee4290b2a98cd9b36bb76f1a7556b190679f00be2605917aeee",
+      "category": "財政・国債",
+      "title": "10年利付国債（第384回）の入札結果（令和8年11月5日入札）",
+      "summary": "X ポスト --> 10年利付国債（第384回）の入札結果 令和8年11月5日 財務省 本日、10年利付国債（第384回）の価格競争入札、非競争入札及び国債市場特別参加者・第Ⅰ非価格競争入札について、下記のように募入の決定を行いました。",
+      "whatHappened": "10年利付国債（第384回）の入札結果（令和8年11月5日入札）",
+      "whatChanged": "X ポスト --> 10年利付国債（第384回）の入札結果 令和8年11月5日 財務省 本日、10年利付国債（第384回）の価格競争入札、非競争入札及び国債市場特別参加者・第Ⅰ非価格競争入札について、下記のように募入の決定を行いました。",
+      "relatedThemes": [
+        "銀行・保険",
+        "不動産",
+        "国債・円相場"
+      ],
+      "status": "NEW",
+      "source": "財務省",
+      "publishedAt": "2026-11-05T03:35:00.000Z",
+      "firstSeenAt": "2026-11-05T16:52:51.756Z",
+      "contentStatus": "VERIFIED_TEXT",
+      "links": [
+        {
+          "title": "10年利付国債（第384回）の入札結果（令和8年11月5日入札）",
+          "url": "https://www.mof.go.jp/jgbs/auction/calendar/nyusatsu/resul20261105.htm",
+          "source": "財務省"
+        }
+      ]
+    },
+    {
+      "id": "623c5f3203be481c6c862fdacb16c30d4cb0fe9a2e3b552186ee06e45c83e359",
+      "category": "財政・国債",
+      "title": "10年利付国債（第384回）の第II非価格競争入札結果（令和8年11月5日入札）",
+      "summary": "X ポスト --> 10年利付国債（第384回）の第Ⅱ非価格競争入札結果 令和8年11月5日 財務省 本日、10年利付国債（第384回）の第Ⅱ非価格競争入札について、下記のように募入の決定を行いました。",
+      "whatHappened": "10年利付国債（第384回）の第II非価格競争入札結果（令和8年11月5日入札）",
+      "whatChanged": "X ポスト --> 10年利付国債（第384回）の第Ⅱ非価格競争入札結果 令和8年11月5日 財務省 本日、10年利付国債（第384回）の第Ⅱ非価格競争入札について、下記のように募入の決定を行いました。",
+      "relatedThemes": [
+        "国債・円相場"
+      ],
+      "status": "NEW",
+      "source": "財務省",
+      "publishedAt": "2026-11-05T06:15:00.000Z",
+      "firstSeenAt": "2026-11-05T16:52:51.756Z",
+      "contentStatus": "VERIFIED_TEXT",
+      "links": [
+        {
+          "title": "10年利付国債（第384回）の第II非価格競争入札結果（令和8年11月5日入札）",
+          "url": "https://www.mof.go.jp/jgbs/auction/calendar/nyusatsu/resul20261105a.htm",
+          "source": "財務省"
+        }
+      ]
+    },
+    {
+      "id": "04b2e009f4aa1ca9af234e876cba33b2a39f5b4daaee7ada38ace380fc3a0744",
+      "category": "財政・国債",
+      "title": "交付税及び譲与税配付金特別会計の借入金の入札結果（令和8年11月5日入札）",
+      "summary": "X ポスト 交付税及び譲与税配付金特別会計の 借入金の入札結果 令和8年11月5日 財務省 本日、借入金の入札について、下記のように募入の決定を行いました。",
+      "whatHappened": "交付税及び譲与税配付金特別会計の借入金の入札結果（令和8年11月5日入札）",
+      "whatChanged": "X ポスト 交付税及び譲与税配付金特別会計の 借入金の入札結果 令和8年11月5日 財務省 本日、借入金の入札について、下記のように募入の決定を行いました。",
+      "relatedThemes": [
+        "国債・円相場"
+      ],
+      "status": "NEW",
+      "source": "財務省",
+      "publishedAt": "2026-11-05T04:00:00.000Z",
+      "firstSeenAt": "2026-11-05T16:52:51.756Z",
+      "contentStatus": "VERIFIED_TEXT",
+      "links": [
+        {
+          "title": "交付税及び譲与税配付金特別会計の借入金の入札結果（令和8年11月5日入札）",
+          "url": "https://www.mof.go.jp/jgbs/auction/calendar/kariire/kari-result261105.htm",
+          "source": "財務省"
+        }
+      ]
+    },
+    {
       "id": "549b80024454525cb49cab6db6ef2d8b87aea3664ee0de9e7181884049c12c67",
       "category": "財政・国債",
       "title": "10年利付国債（第384回）の入札発行（令和8年11月5日入札）",
@@ -105,7 +176,7 @@
       "relatedThemes": [
         "国債・円相場"
       ],
-      "status": "NEW",
+      "status": "FOLLOW_UP",
       "source": "財務省",
       "publishedAt": "2026-11-05T01:30:00.000Z",
       "firstSeenAt": "2026-11-05T01:52:06.921Z",
@@ -120,7 +191,9 @@
     }
   ],
   "summary": [
-    "） 9． 応募額一口の金額 （1）価格競争入札 1億円又はその整数倍 （2）非競争入札 百万円又はその整数倍 （3）国債市場特別参加者 ・第Ⅰ非価格競争入札 1億円又はその整数倍 10． 募入決定の方法 （1）価格競争入札 コンベンショナル方式 （2）非競争入札 案分による割り当て （ただし、応募限"
+    "X ポスト --> 10年利付国債（第384回）の入札結果 令和8年11月5日 財務省 本日、10年利付国債（第384回）の価格競争入札、非競争入札及び国債市場特別参加者・第Ⅰ非価格競争入札について、下記のように募入の決定を行いました。",
+    "X ポスト --> 10年利付国債（第384回）の第Ⅱ非価格競争入札結果 令和8年11月5日 財務省 本日、10年利付国債（第384回）の第Ⅱ非価格競争入札について、下記のように募入の決定を行いました。",
+    "X ポスト 交付税及び譲与税配付金特別会計の 借入金の入札結果 令和8年11月5日 財務省 本日、借入金の入札について、下記のように募入の決定を行いました。"
   ],
   "qualityNote": "NEWS MEMORYへの保存と表示用編集を分離。公式本文を確認できない情報は、見出し以上に補完しない。株価予想・売買推奨は行わない。"
 }
