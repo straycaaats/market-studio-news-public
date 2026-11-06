@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "generatedAt": "2026-11-06T16:20:27.302Z",
+  "generatedAt": "2026-11-06T16:50:51.919Z",
   "asOf": "2026-11-07",
   "edition": "MORNING",
   "sourceResults": [
@@ -9,35 +9,35 @@
       "status": "FETCHED",
       "read": 15,
       "added": 0,
-      "fetchedAt": "2026-11-06T16:20:27.302Z"
+      "fetchedAt": "2026-11-06T16:50:51.919Z"
     },
     {
       "source": "日本銀行",
       "status": "FETCHED",
       "read": 79,
-      "added": 3,
-      "fetchedAt": "2026-11-06T16:20:27.302Z"
+      "added": 0,
+      "fetchedAt": "2026-11-06T16:50:51.919Z"
     },
     {
       "source": "金融庁",
       "status": "FETCHED",
       "read": 15,
-      "added": 5,
-      "fetchedAt": "2026-11-06T16:20:27.302Z"
+      "added": 0,
+      "fetchedAt": "2026-11-06T16:50:51.919Z"
     },
     {
       "source": "財務省",
       "status": "FETCHED",
       "read": 100,
-      "added": 7,
-      "fetchedAt": "2026-11-06T16:20:27.302Z"
+      "added": 0,
+      "fetchedAt": "2026-11-06T16:50:51.919Z"
     },
     {
       "source": "経済産業省",
       "status": "FAILED",
       "read": 0,
       "added": 0,
-      "fetchedAt": "2026-11-06T16:20:27.302Z",
+      "fetchedAt": "2026-11-06T16:50:51.919Z",
       "error": "HTTP 403"
     }
   ],
@@ -45,13 +45,13 @@
     "fetchedToday": 15,
     "newsMemoryTotal": 715,
     "considered": 6,
-    "adoptedCards": 5,
+    "adoptedCards": 4,
     "failedSources": 1
   },
   "aiStatus": {
     "configured": true,
-    "used": true,
+    "used": false,
     "model": "gemini-3.5-flash-lite",
-    "mode": "GEMINI_GROUNDED_EDITORIAL"
+    "mode": "RULE_BASED_AFTER_GEMINI_FAILURE:Gemini HTTP 503"
   }
 }
