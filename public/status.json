@@ -1,7 +1,7 @@
 {
   "ok": true,
-  "generatedAt": "2026-11-07T02:01:51.525Z",
-  "asOf": "2026-11-07",
+  "generatedAt": "2026-11-07T15:13:40.046Z",
+  "asOf": "2026-11-08",
   "edition": "MORNING",
   "sourceResults": [
     {
@@ -9,43 +9,43 @@
       "status": "FETCHED",
       "read": 15,
       "added": 0,
-      "fetchedAt": "2026-11-07T02:01:51.525Z"
+      "fetchedAt": "2026-11-07T15:13:40.046Z"
     },
     {
       "source": "日本銀行",
       "status": "FETCHED",
-      "read": 79,
+      "read": 78,
       "added": 0,
-      "fetchedAt": "2026-11-07T02:01:51.525Z"
+      "fetchedAt": "2026-11-07T15:13:40.046Z"
     },
     {
       "source": "金融庁",
       "status": "FETCHED",
       "read": 15,
       "added": 0,
-      "fetchedAt": "2026-11-07T02:01:51.525Z"
+      "fetchedAt": "2026-11-07T15:13:40.046Z"
     },
     {
       "source": "財務省",
       "status": "FETCHED",
       "read": 100,
       "added": 0,
-      "fetchedAt": "2026-11-07T02:01:51.525Z"
+      "fetchedAt": "2026-11-07T15:13:40.046Z"
     },
     {
       "source": "経済産業省",
       "status": "FAILED",
       "read": 0,
       "added": 0,
-      "fetchedAt": "2026-11-07T02:01:51.525Z",
+      "fetchedAt": "2026-11-07T15:13:40.046Z",
       "error": "HTTP 403"
     }
   ],
   "counts": {
-    "fetchedToday": 15,
+    "fetchedToday": 0,
     "newsMemoryTotal": 715,
-    "considered": 2,
-    "adoptedCards": 1,
+    "considered": 1,
+    "adoptedCards": 0,
     "failedSources": 1
   },
   "aiStatus": {
