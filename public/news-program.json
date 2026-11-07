@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T01:19:37.321Z",
+  "generatedAt": "2026-11-07T02:01:51.525Z",
   "asOf": "2026-11-07",
   "edition": "MORNING",
   "heading": "今日見る材料",
@@ -16,35 +16,35 @@
       "status": "FETCHED",
       "read": 15,
       "added": 0,
-      "fetchedAt": "2026-11-07T01:19:37.321Z"
+      "fetchedAt": "2026-11-07T02:01:51.525Z"
     },
     {
       "source": "日本銀行",
       "status": "FETCHED",
       "read": 79,
       "added": 0,
-      "fetchedAt": "2026-11-07T01:19:37.321Z"
+      "fetchedAt": "2026-11-07T02:01:51.525Z"
     },
     {
       "source": "金融庁",
       "status": "FETCHED",
       "read": 15,
       "added": 0,
-      "fetchedAt": "2026-11-07T01:19:37.321Z"
+      "fetchedAt": "2026-11-07T02:01:51.525Z"
     },
     {
       "source": "財務省",
       "status": "FETCHED",
       "read": 100,
       "added": 0,
-      "fetchedAt": "2026-11-07T01:19:37.321Z"
+      "fetchedAt": "2026-11-07T02:01:51.525Z"
     },
     {
       "source": "経済産業省",
       "status": "FAILED",
       "read": 0,
       "added": 0,
-      "fetchedAt": "2026-11-07T01:19:37.321Z",
+      "fetchedAt": "2026-11-07T02:01:51.525Z",
       "error": "HTTP 403"
     }
   ],
@@ -89,23 +89,23 @@
   ],
   "aiStatus": {
     "configured": true,
-    "used": false,
+    "used": true,
     "model": "gemini-3.5-flash-lite",
-    "mode": "RULE_BASED_AFTER_GEMINI_FAILURE:Gemini HTTP 503"
+    "mode": "GEMINI_GROUNDED_EDITORIAL"
   },
-  "summaryMode": "RULE_BASED_AFTER_GEMINI_FAILURE:Gemini HTTP 503",
+  "summaryMode": "GEMINI_GROUNDED_EDITORIAL",
   "cards": [
     {
       "id": "535335f394b814725e696668bb6d219946f710bf85af5a024993f766db1dcd47",
       "category": "財政・国債",
-      "title": "片山財務大臣兼内閣府特命担当大臣閣議後記者会見の概要(令和8年11月6日(金曜日))",
-      "summary": "政府としては速やかにセキュリティ対策を進めていくために、先ほどの閣議において、総額100億円の予備費使用を決定いたしました。",
-      "whatHappened": "片山財務大臣兼内閣府特命担当大臣閣議後記者会見の概要(令和8年11月6日(金曜日))",
-      "whatChanged": "政府としては速やかにセキュリティ対策を進めていくために、先ほどの閣議において、総額100億円の予備費使用を決定いたしました。",
+      "title": "政府はサイバーセキュリティ対策強化のため総額100億円の予備費使用を閣議決定した。また、ロシアによるJT子会社資産の一時的管理下移行に対し、政府が抗議し撤回を求めていることを明らかにした。",
+      "summary": "政府機関のAIを活用した脆弱性点検や警察の資機材整備、デジタル庁システムのセキュリティ強化に向けて予備費が措置された。",
+      "whatHappened": "政府はサイバーセキュリティ対策強化のため総額100億円の予備費使用を閣議決定した。また、ロシアによるJT子会社資産の一時的管理下移行に対し、政府が抗議し撤回を求めていることを明らかにした。",
+      "whatChanged": "政府機関のAIを活用した脆弱性点検や警察の資機材整備、デジタル庁システムのセキュリティ強化に向けて予備費が措置された。",
       "relatedThemes": [
-        "銀行・保険",
-        "小売・消費",
-        "雇用"
+        "サイバーセキュリティ",
+        "財政・予備費",
+        "ロシア・JT"
       ],
       "status": "NEW",
       "source": "財務省",
@@ -122,7 +122,7 @@
     }
   ],
   "summary": [
-    "政府としては速やかにセキュリティ対策を進めていくために、先ほどの閣議において、総額100億円の予備費使用を決定いたしました。"
+    "政府機関のAIを活用した脆弱性点検や警察の資機材整備、デジタル庁システムのセキュリティ強化に向けて予備費が措置された。"
   ],
   "qualityNote": "NEWS MEMORYへの保存と表示用編集を分離。公式本文を確認できない情報は、見出し以上に補完しない。株価予想・売買推奨は行わない。"
 }
