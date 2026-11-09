@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-11-09T19:13:40.932Z",
+  "generatedAt": "2026-11-09T19:55:31.006Z",
   "asOf": "2026-11-10",
   "edition": "MORNING",
   "heading": "今日見る材料",
   "counts": {
     "fetchedToday": 5,
     "newsMemoryTotal": 728,
-    "considered": 3,
-    "adoptedCards": 2,
+    "considered": 2,
+    "adoptedCards": 1,
     "failedSources": 1
   },
   "sourceResults": [
@@ -16,35 +16,35 @@
       "status": "FETCHED",
       "read": 15,
       "added": 0,
-      "fetchedAt": "2026-11-09T19:13:40.932Z"
+      "fetchedAt": "2026-11-09T19:55:31.006Z"
     },
     {
       "source": "日本銀行",
       "status": "FETCHED",
       "read": 72,
       "added": 0,
-      "fetchedAt": "2026-11-09T19:13:40.932Z"
+      "fetchedAt": "2026-11-09T19:55:31.006Z"
     },
     {
       "source": "金融庁",
       "status": "FETCHED",
       "read": 15,
-      "added": 2,
-      "fetchedAt": "2026-11-09T19:13:40.932Z"
+      "added": 0,
+      "fetchedAt": "2026-11-09T19:55:31.006Z"
     },
     {
       "source": "財務省",
       "status": "FETCHED",
       "read": 100,
-      "added": 3,
-      "fetchedAt": "2026-11-09T19:13:40.932Z"
+      "added": 0,
+      "fetchedAt": "2026-11-09T19:55:31.006Z"
     },
     {
       "source": "経済産業省",
       "status": "FAILED",
       "read": 0,
       "added": 0,
-      "fetchedAt": "2026-11-09T19:13:40.932Z",
+      "fetchedAt": "2026-11-09T19:55:31.006Z",
       "error": "HTTP 403"
     }
   ],
@@ -89,21 +89,23 @@
   ],
   "aiStatus": {
     "configured": true,
-    "used": false,
+    "used": true,
     "model": "gemini-3.5-flash-lite",
-    "mode": "RULE_BASED_AFTER_GEMINI_FAILURE:Gemini HTTP 503"
+    "mode": "GEMINI_GROUNDED_EDITORIAL"
   },
-  "summaryMode": "RULE_BASED_AFTER_GEMINI_FAILURE:Gemini HTTP 503",
+  "summaryMode": "GEMINI_GROUNDED_EDITORIAL",
   "cards": [
     {
       "id": "859bc7d4a6af48bc037ca1a4ced81d95956ab48abb880018ecd21ee60e540744",
       "category": "財政・国債",
-      "title": "国庫短期証券（第1418回）の入札結果",
-      "summary": "X ポスト 国庫短期証券（第1418回）の入札結果 令和8年11月9日 財務省 本日実施した国庫短期証券（第1418回）の価格競争入札及び国債市場特別参加者・第Ⅰ非価格競争入札について、下記のように募入の決定を行いました。",
-      "whatHappened": "国庫短期証券（第1418回）の入札結果",
-      "whatChanged": "X ポスト 国庫短期証券（第1418回）の入札結果 令和8年11月9日 財務省 本日実施した国庫短期証券（第1418回）の価格競争入札及び国債市場特別参加者・第Ⅰ非価格競争入札について、下記のように募入の決定を行いました。",
+      "title": "財務省が国庫短期証券（第1418回）の入札結果を発表した。",
+      "summary": "応募額や募入決定額、募入平均利回り（1.3847％）などが決定した。",
+      "whatHappened": "財務省が国庫短期証券（第1418回）の入札結果を発表した。",
+      "whatChanged": "応募額や募入決定額、募入平均利回り（1.3847％）などが決定した。",
       "relatedThemes": [
-        "国債・円相場"
+        "国債",
+        "財務省",
+        "入札結果"
       ],
       "status": "NEW",
       "source": "財務省",
@@ -117,34 +119,10 @@
           "source": "財務省"
         }
       ]
-    },
-    {
-      "id": "adde2c02f846c7345efb193068faa5f8a91df56fbd26034496efb6e8401f9ddb",
-      "category": "財政・国債",
-      "title": "国庫短期証券（第1418回）の入札発行",
-      "summary": "） 8． 申込締切日時 令和8年11月9日 午前11時30分 9． 募入決定通知日 令和8年11月9日 10． 払込期日 令和8年11月10日 連絡・問い合わせ先 理財局国債業務課短期国債係 電話（代表）03(3581)4111 (内線5583） 夜間直通 03(3581)4159 財務省ホームペー",
-      "whatHappened": "国庫短期証券（第1418回）の入札発行",
-      "whatChanged": "） 8． 申込締切日時 令和8年11月9日 午前11時30分 9． 募入決定通知日 令和8年11月9日 10． 払込期日 令和8年11月10日 連絡・問い合わせ先 理財局国債業務課短期国債係 電話（代表）03(3581)4111 (内線5583） 夜間直通 03(3581)4159 財務省ホームペー",
-      "relatedThemes": [
-        "国債・円相場"
-      ],
-      "status": "FOLLOW_UP",
-      "source": "財務省",
-      "publishedAt": "2026-11-09T01:20:00.000Z",
-      "firstSeenAt": "2026-11-09T01:46:24.385Z",
-      "contentStatus": "VERIFIED_TEXT",
-      "links": [
-        {
-          "title": "国庫短期証券（第1418回）の入札発行",
-          "url": "https://www.mof.go.jp/jgbs/auction/calendar/tbill/tbill_nyusatsu/offer20261109.htm",
-          "source": "財務省"
-        }
-      ]
     }
   ],
   "summary": [
-    "X ポスト 国庫短期証券（第1418回）の入札結果 令和8年11月9日 財務省 本日実施した国庫短期証券（第1418回）の価格競争入札及び国債市場特別参加者・第Ⅰ非価格競争入札について、下記のように募入の決定を行いました。",
-    "） 8． 申込締切日時 令和8年11月9日 午前11時30分 9． 募入決定通知日 令和8年11月9日 10． 払込期日 令和8年11月10日 連絡・問い合わせ先 理財局国債業務課短期国債係 電話（代表）03(3581)4111 (内線5583） 夜間直通 03(3581)4159 財務省ホームペー"
+    "応募額や募入決定額、募入平均利回り（1.3847％）などが決定した。"
   ],
   "qualityNote": "NEWS MEMORYへの保存と表示用編集を分離。公式本文を確認できない情報は、見出し以上に補完しない。株価予想・売買推奨は行わない。"
 }
