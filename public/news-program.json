@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-11-09T01:46:24.385Z",
-  "asOf": "2026-11-09",
+  "generatedAt": "2026-11-09T19:13:40.932Z",
+  "asOf": "2026-11-10",
   "edition": "MORNING",
   "heading": "今日見る材料",
   "counts": {
-    "fetchedToday": 8,
-    "newsMemoryTotal": 723,
-    "considered": 5,
-    "adoptedCards": 3,
+    "fetchedToday": 5,
+    "newsMemoryTotal": 728,
+    "considered": 3,
+    "adoptedCards": 2,
     "failedSources": 1
   },
   "sourceResults": [
@@ -16,35 +16,35 @@
       "status": "FETCHED",
       "read": 15,
       "added": 0,
-      "fetchedAt": "2026-11-09T01:46:24.385Z"
+      "fetchedAt": "2026-11-09T19:13:40.932Z"
     },
     {
       "source": "日本銀行",
       "status": "FETCHED",
-      "read": 74,
+      "read": 72,
       "added": 0,
-      "fetchedAt": "2026-11-09T01:46:24.385Z"
+      "fetchedAt": "2026-11-09T19:13:40.932Z"
     },
     {
       "source": "金融庁",
       "status": "FETCHED",
       "read": 15,
-      "added": 0,
-      "fetchedAt": "2026-11-09T01:46:24.385Z"
+      "added": 2,
+      "fetchedAt": "2026-11-09T19:13:40.932Z"
     },
     {
       "source": "財務省",
       "status": "FETCHED",
       "read": 100,
-      "added": 2,
-      "fetchedAt": "2026-11-09T01:46:24.385Z"
+      "added": 3,
+      "fetchedAt": "2026-11-09T19:13:40.932Z"
     },
     {
       "source": "経済産業省",
       "status": "FAILED",
       "read": 0,
       "added": 0,
-      "fetchedAt": "2026-11-09T01:46:24.385Z",
+      "fetchedAt": "2026-11-09T19:13:40.932Z",
       "error": "HTTP 403"
     }
   ],
@@ -89,56 +89,31 @@
   ],
   "aiStatus": {
     "configured": true,
-    "used": true,
+    "used": false,
     "model": "gemini-3.5-flash-lite",
-    "mode": "GEMINI_GROUNDED_EDITORIAL"
+    "mode": "RULE_BASED_AFTER_GEMINI_FAILURE:Gemini HTTP 503"
   },
-  "summaryMode": "GEMINI_GROUNDED_EDITORIAL",
+  "summaryMode": "RULE_BASED_AFTER_GEMINI_FAILURE:Gemini HTTP 503",
   "cards": [
     {
-      "id": "2790942bbf43c77edd60b2fc63a7ca6362e4263436ba9a60be44b16c82e85594",
-      "category": "金融政策・市場",
-      "title": "財務省が令和8年10月末時点の外貨準備高を発表し、総額が1兆1,791億1,900万ドルとなり、9月末と比べて7億2,300万ドル増加した。",
-      "summary": "日本の外貨準備高の10月末時点の数値が更新された。",
-      "whatHappened": "財務省が令和8年10月末時点の外貨準備高を発表し、総額が1兆1,791億1,900万ドルとなり、9月末と比べて7億2,300万ドル増加した。",
-      "whatChanged": "日本の外貨準備高の10月末時点の数値が更新された。",
+      "id": "859bc7d4a6af48bc037ca1a4ced81d95956ab48abb880018ecd21ee60e540744",
+      "category": "財政・国債",
+      "title": "国庫短期証券（第1418回）の入札結果",
+      "summary": "X ポスト 国庫短期証券（第1418回）の入札結果 令和8年11月9日 財務省 本日実施した国庫短期証券（第1418回）の価格競争入札及び国債市場特別参加者・第Ⅰ非価格競争入札について、下記のように募入の決定を行いました。",
+      "whatHappened": "国庫短期証券（第1418回）の入札結果",
+      "whatChanged": "X ポスト 国庫短期証券（第1418回）の入札結果 令和8年11月9日 財務省 本日実施した国庫短期証券（第1418回）の価格競争入札及び国債市場特別参加者・第Ⅰ非価格競争入札について、下記のように募入の決定を行いました。",
       "relatedThemes": [
-        "外貨準備",
-        "財務省"
+        "国債・円相場"
       ],
       "status": "NEW",
       "source": "財務省",
-      "publishedAt": "2026-11-08T23:50:00.000Z",
-      "firstSeenAt": "2026-11-09T01:15:19.960Z",
+      "publishedAt": "2026-11-09T03:30:00.000Z",
+      "firstSeenAt": "2026-11-09T19:13:40.932Z",
       "contentStatus": "VERIFIED_TEXT",
       "links": [
         {
-          "title": "外貨準備等の状況（令和8年10月末現在）",
-          "url": "https://www.mof.go.jp/policy/international_policy/reference/official_reserve_assets/data/0810.html",
-          "source": "財務省"
-        }
-      ]
-    },
-    {
-      "id": "e186a739e0ba2c7e7fe2ae0854fb389b113ce38edbc4849ccdeb010497f303aa",
-      "category": "金融政策・市場",
-      "title": "財務省が令和8年7月～9月期における外国為替平衡操作の実施状況を公表し、期間中の総額が15兆3,993億円であったことを明らかにした。",
-      "summary": "7月30日、31日、8月3日に実施された米ドル売り・日本円買いの為替介入の具体的な日付と金額が公表された。",
-      "whatHappened": "財務省が令和8年7月～9月期における外国為替平衡操作の実施状況を公表し、期間中の総額が15兆3,993億円であったことを明らかにした。",
-      "whatChanged": "7月30日、31日、8月3日に実施された米ドル売り・日本円買いの為替介入の具体的な日付と金額が公表された。",
-      "relatedThemes": [
-        "為替介入",
-        "財務省"
-      ],
-      "status": "NEW",
-      "source": "財務省",
-      "publishedAt": "2026-11-08T23:50:00.000Z",
-      "firstSeenAt": "2026-11-09T01:15:19.960Z",
-      "contentStatus": "VERIFIED_TEXT",
-      "links": [
-        {
-          "title": "外国為替平衡操作の実施状況(令和8年7月～令和8年9月)",
-          "url": "https://www.mof.go.jp/policy/international_policy/reference/feio/data/quarter/2026_3Q.html",
+          "title": "国庫短期証券（第1418回）の入札結果",
+          "url": "https://www.mof.go.jp/jgbs/auction/calendar/tbill/tbill_nyusatsu/resul20261109.htm",
           "source": "財務省"
         }
       ]
@@ -146,15 +121,14 @@
     {
       "id": "adde2c02f846c7345efb193068faa5f8a91df56fbd26034496efb6e8401f9ddb",
       "category": "財政・国債",
-      "title": "財務省が国庫短期証券（第1418回）の入札発行の実施を通知し、発行予定額は額面金額で3兆円程度とした。",
-      "summary": "国庫短期証券の入札・発行スケジュールが示された。",
-      "whatHappened": "財務省が国庫短期証券（第1418回）の入札発行の実施を通知し、発行予定額は額面金額で3兆円程度とした。",
-      "whatChanged": "国庫短期証券の入札・発行スケジュールが示された。",
+      "title": "国庫短期証券（第1418回）の入札発行",
+      "summary": "） 8． 申込締切日時 令和8年11月9日 午前11時30分 9． 募入決定通知日 令和8年11月9日 10． 払込期日 令和8年11月10日 連絡・問い合わせ先 理財局国債業務課短期国債係 電話（代表）03(3581)4111 (内線5583） 夜間直通 03(3581)4159 財務省ホームペー",
+      "whatHappened": "国庫短期証券（第1418回）の入札発行",
+      "whatChanged": "） 8． 申込締切日時 令和8年11月9日 午前11時30分 9． 募入決定通知日 令和8年11月9日 10． 払込期日 令和8年11月10日 連絡・問い合わせ先 理財局国債業務課短期国債係 電話（代表）03(3581)4111 (内線5583） 夜間直通 03(3581)4159 財務省ホームペー",
       "relatedThemes": [
-        "国債",
-        "財務省"
+        "国債・円相場"
       ],
-      "status": "NEW",
+      "status": "FOLLOW_UP",
       "source": "財務省",
       "publishedAt": "2026-11-09T01:20:00.000Z",
       "firstSeenAt": "2026-11-09T01:46:24.385Z",
@@ -169,9 +143,8 @@
     }
   ],
   "summary": [
-    "日本の外貨準備高の10月末時点の数値が更新された。",
-    "7月30日、31日、8月3日に実施された米ドル売り・日本円買いの為替介入の具体的な日付と金額が公表された。",
-    "国庫短期証券の入札・発行スケジュールが示された。"
+    "X ポスト 国庫短期証券（第1418回）の入札結果 令和8年11月9日 財務省 本日実施した国庫短期証券（第1418回）の価格競争入札及び国債市場特別参加者・第Ⅰ非価格競争入札について、下記のように募入の決定を行いました。",
+    "） 8． 申込締切日時 令和8年11月9日 午前11時30分 9． 募入決定通知日 令和8年11月9日 10． 払込期日 令和8年11月10日 連絡・問い合わせ先 理財局国債業務課短期国債係 電話（代表）03(3581)4111 (内線5583） 夜間直通 03(3581)4159 財務省ホームペー"
   ],
   "qualityNote": "NEWS MEMORYへの保存と表示用編集を分離。公式本文を確認できない情報は、見出し以上に補完しない。株価予想・売買推奨は行わない。"
 }
