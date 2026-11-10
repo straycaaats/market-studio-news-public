@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-11-10T04:11:57.893Z",
-  "asOf": "2026-11-10",
-  "edition": "EVENING",
-  "heading": "今日の振り返り",
+  "generatedAt": "2026-11-10T16:37:43.691Z",
+  "asOf": "2026-11-11",
+  "edition": "MORNING",
+  "heading": "今日見る材料",
   "counts": {
-    "fetchedToday": 17,
-    "newsMemoryTotal": 740,
-    "considered": 7,
-    "adoptedCards": 5,
+    "fetchedToday": 6,
+    "newsMemoryTotal": 746,
+    "considered": 10,
+    "adoptedCards": 6,
     "failedSources": 1
   },
   "sourceResults": [
@@ -15,36 +15,36 @@
       "source": "総務省統計局",
       "status": "FETCHED",
       "read": 15,
-      "added": 0,
-      "fetchedAt": "2026-11-10T04:11:57.893Z"
+      "added": 1,
+      "fetchedAt": "2026-11-10T16:37:43.691Z"
     },
     {
       "source": "日本銀行",
       "status": "FETCHED",
-      "read": 73,
+      "read": 70,
       "added": 0,
-      "fetchedAt": "2026-11-10T04:11:57.893Z"
+      "fetchedAt": "2026-11-10T16:37:43.691Z"
     },
     {
       "source": "金融庁",
       "status": "FETCHED",
       "read": 15,
       "added": 0,
-      "fetchedAt": "2026-11-10T04:11:57.893Z"
+      "fetchedAt": "2026-11-10T16:37:43.691Z"
     },
     {
       "source": "財務省",
       "status": "FETCHED",
       "read": 100,
-      "added": 1,
-      "fetchedAt": "2026-11-10T04:11:57.893Z"
+      "added": 5,
+      "fetchedAt": "2026-11-10T16:37:43.691Z"
     },
     {
       "source": "経済産業省",
       "status": "FAILED",
       "read": 0,
       "added": 0,
-      "fetchedAt": "2026-11-10T04:11:57.893Z",
+      "fetchedAt": "2026-11-10T16:37:43.691Z",
       "error": "HTTP 403"
     }
   ],
@@ -91,10 +91,35 @@
     "configured": true,
     "used": false,
     "model": "gemini-3.5-flash-lite",
-    "mode": "RULE_BASED_AFTER_GEMINI_FAILURE:Expected double-quoted property name in JSON at position 238 (line 8 column 5)"
+    "mode": "RULE_BASED_AFTER_GEMINI_FAILURE:Gemini HTTP 503"
   },
-  "summaryMode": "RULE_BASED_AFTER_GEMINI_FAILURE:Expected double-quoted property name in JSON at position 238 (line 8 column 5)",
+  "summaryMode": "RULE_BASED_AFTER_GEMINI_FAILURE:Gemini HTTP 503",
   "cards": [
+    {
+      "id": "3205033dda34211529d996eabb94522dcae33a831a132e438feb35a5522694b2",
+      "category": "財政・国債",
+      "title": "片山財務大臣兼内閣府特命担当大臣閣議後記者会見の概要(令和8年11月10日(火曜日))",
+      "summary": "日銀が10月末の金融政策決定会合で売却加速を決めた際の資料によると、その時点で追加的な売却益は年間で１兆円規模になる計算でした。",
+      "whatHappened": "片山財務大臣兼内閣府特命担当大臣閣議後記者会見の概要(令和8年11月10日(火曜日))",
+      "whatChanged": "日銀が10月末の金融政策決定会合で売却加速を決めた際の資料によると、その時点で追加的な売却益は年間で１兆円規模になる計算でした。",
+      "relatedThemes": [
+        "銀行・保険",
+        "小売・消費",
+        "国債・円相場"
+      ],
+      "status": "NEW",
+      "source": "財務省",
+      "publishedAt": "2026-11-10T08:00:00.000Z",
+      "firstSeenAt": "2026-11-10T16:37:43.691Z",
+      "contentStatus": "VERIFIED_TEXT",
+      "links": [
+        {
+          "title": "片山財務大臣兼内閣府特命担当大臣閣議後記者会見の概要(令和8年11月10日(火曜日))",
+          "url": "https://www.mof.go.jp/public_relations/conference/my20261110.html",
+          "source": "財務省"
+        }
+      ]
+    },
     {
       "id": "ce4d86e022350c1a3bb2f906ecbbfb1bb6bf3ea36c6ba70c489892983a091df5",
       "category": "産業・エネルギー",
@@ -106,7 +131,7 @@
         "エネルギー",
         "国債・円相場"
       ],
-      "status": "NEW",
+      "status": "FOLLOW_UP",
       "source": "財務省",
       "publishedAt": "2026-11-10T04:00:00.000Z",
       "firstSeenAt": "2026-11-10T04:11:57.893Z",
@@ -131,7 +156,7 @@
         "輸出・製造業",
         "半導体"
       ],
-      "status": "NEW",
+      "status": "FOLLOW_UP",
       "source": "財務省",
       "publishedAt": "2026-11-09T23:50:00.000Z",
       "firstSeenAt": "2026-11-10T03:50:54.476Z",
@@ -156,7 +181,7 @@
         "輸出・製造業",
         "半導体"
       ],
-      "status": "NEW",
+      "status": "FOLLOW_UP",
       "source": "財務省",
       "publishedAt": "2026-11-09T23:50:00.000Z",
       "firstSeenAt": "2026-11-10T03:50:54.476Z",
@@ -179,7 +204,7 @@
       "relatedThemes": [
         "国債・円相場"
       ],
-      "status": "NEW",
+      "status": "FOLLOW_UP",
       "source": "財務省",
       "publishedAt": "2026-11-10T03:35:00.000Z",
       "firstSeenAt": "2026-11-10T03:50:54.476Z",
@@ -202,7 +227,7 @@
       "relatedThemes": [
         "小売・消費"
       ],
-      "status": "NEW",
+      "status": "FOLLOW_UP",
       "source": "総務省統計局",
       "publishedAt": "2026-11-10",
       "firstSeenAt": "2026-11-10T03:50:54.476Z",
@@ -217,9 +242,9 @@
     }
   ],
   "summary": [
+    "日銀が10月末の金融政策決定会合で売却加速を決めた際の資料によると、その時点で追加的な売却益は年間で１兆円規模になる計算でした。",
     "X ポスト エネルギー対策特別会計の借入金の入札結果 令和8年11月10日 財務省 本日、借入金の入札について、下記のように募入の決定を行いました。",
-    "X ポスト 令和8年11月10日 財務省 令和8年度上期中 国際収支状況（速報）の概要 Ⅰ 経常収支 経常収支の内訳 金 額 前年同期比 貿易・サービス収支 ▲2兆4,899億円 ▲5,845億円 (赤字幅拡大) 貿易収支 ▲1兆0,697億円 ▲1兆2,118億円 (赤字転化) 輸出 61兆7,9",
-    "X ポスト 令和8年11月10日 財務省 令和8年9月中 国際収支状況（速報）の概要 Ⅰ 経常収支 経常収支の内訳 金 額 前年同月比 貿易・サービス収支 ▲6,445億円 ▲6,369億円 (赤字幅拡大) 貿易収支 ▲1,875億円 ▲4,341億円 (赤字転化) 輸出 10兆7,283億円 ＋1"
+    "X ポスト 令和8年11月10日 財務省 令和8年度上期中 国際収支状況（速報）の概要 Ⅰ 経常収支 経常収支の内訳 金 額 前年同期比 貿易・サービス収支 ▲2兆4,899億円 ▲5,845億円 (赤字幅拡大) 貿易収支 ▲1兆0,697億円 ▲1兆2,118億円 (赤字転化) 輸出 61兆7,9"
   ],
   "qualityNote": "NEWS MEMORYへの保存と表示用編集を分離。公式本文を確認できない情報は、見出し以上に補完しない。株価予想・売買推奨は行わない。"
 }
