@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-11-10T03:50:54.476Z",
+  "generatedAt": "2026-11-10T04:11:57.893Z",
   "asOf": "2026-11-10",
   "edition": "EVENING",
   "heading": "今日の振り返り",
   "counts": {
-    "fetchedToday": 16,
-    "newsMemoryTotal": 739,
-    "considered": 6,
-    "adoptedCards": 4,
+    "fetchedToday": 17,
+    "newsMemoryTotal": 740,
+    "considered": 7,
+    "adoptedCards": 5,
     "failedSources": 1
   },
   "sourceResults": [
@@ -15,36 +15,36 @@
       "source": "総務省統計局",
       "status": "FETCHED",
       "read": 15,
-      "added": 1,
-      "fetchedAt": "2026-11-10T03:50:54.476Z"
+      "added": 0,
+      "fetchedAt": "2026-11-10T04:11:57.893Z"
     },
     {
       "source": "日本銀行",
       "status": "FETCHED",
-      "read": 74,
-      "added": 2,
-      "fetchedAt": "2026-11-10T03:50:54.476Z"
+      "read": 73,
+      "added": 0,
+      "fetchedAt": "2026-11-10T04:11:57.893Z"
     },
     {
       "source": "金融庁",
       "status": "FETCHED",
       "read": 15,
-      "added": 2,
-      "fetchedAt": "2026-11-10T03:50:54.476Z"
+      "added": 0,
+      "fetchedAt": "2026-11-10T04:11:57.893Z"
     },
     {
       "source": "財務省",
       "status": "FETCHED",
       "read": 100,
-      "added": 6,
-      "fetchedAt": "2026-11-10T03:50:54.476Z"
+      "added": 1,
+      "fetchedAt": "2026-11-10T04:11:57.893Z"
     },
     {
       "source": "経済産業省",
       "status": "FAILED",
       "read": 0,
       "added": 0,
-      "fetchedAt": "2026-11-10T03:50:54.476Z",
+      "fetchedAt": "2026-11-10T04:11:57.893Z",
       "error": "HTTP 403"
     }
   ],
@@ -89,12 +89,36 @@
   ],
   "aiStatus": {
     "configured": true,
-    "used": true,
+    "used": false,
     "model": "gemini-3.5-flash-lite",
-    "mode": "GEMINI_GROUNDED_EDITORIAL"
+    "mode": "RULE_BASED_AFTER_GEMINI_FAILURE:Expected double-quoted property name in JSON at position 238 (line 8 column 5)"
   },
-  "summaryMode": "GEMINI_GROUNDED_EDITORIAL",
+  "summaryMode": "RULE_BASED_AFTER_GEMINI_FAILURE:Expected double-quoted property name in JSON at position 238 (line 8 column 5)",
   "cards": [
+    {
+      "id": "ce4d86e022350c1a3bb2f906ecbbfb1bb6bf3ea36c6ba70c489892983a091df5",
+      "category": "産業・エネルギー",
+      "title": "エネルギー対策特別会計の借入金の入札結果（令和8年11月10日入札）",
+      "summary": "X ポスト エネルギー対策特別会計の借入金の入札結果 令和8年11月10日 財務省 本日、借入金の入札について、下記のように募入の決定を行いました。",
+      "whatHappened": "エネルギー対策特別会計の借入金の入札結果（令和8年11月10日入札）",
+      "whatChanged": "X ポスト エネルギー対策特別会計の借入金の入札結果 令和8年11月10日 財務省 本日、借入金の入札について、下記のように募入の決定を行いました。",
+      "relatedThemes": [
+        "エネルギー",
+        "国債・円相場"
+      ],
+      "status": "NEW",
+      "source": "財務省",
+      "publishedAt": "2026-11-10T04:00:00.000Z",
+      "firstSeenAt": "2026-11-10T04:11:57.893Z",
+      "contentStatus": "VERIFIED_TEXT",
+      "links": [
+        {
+          "title": "エネルギー対策特別会計の借入金の入札結果（令和8年11月10日入札）",
+          "url": "https://www.mof.go.jp/jgbs/auction/calendar/kariire/energy-result261110.htm",
+          "source": "財務省"
+        }
+      ]
+    },
     {
       "id": "3002e968e34e48b17523a1705c47560c0487c56d02c27e7fd20ac398978c81ef",
       "category": "産業・エネルギー",
@@ -193,9 +217,9 @@
     }
   ],
   "summary": [
+    "X ポスト エネルギー対策特別会計の借入金の入札結果 令和8年11月10日 財務省 本日、借入金の入札について、下記のように募入の決定を行いました。",
     "X ポスト 令和8年11月10日 財務省 令和8年度上期中 国際収支状況（速報）の概要 Ⅰ 経常収支 経常収支の内訳 金 額 前年同期比 貿易・サービス収支 ▲2兆4,899億円 ▲5,845億円 (赤字幅拡大) 貿易収支 ▲1兆0,697億円 ▲1兆2,118億円 (赤字転化) 輸出 61兆7,9",
-    "X ポスト 令和8年11月10日 財務省 令和8年9月中 国際収支状況（速報）の概要 Ⅰ 経常収支 経常収支の内訳 金 額 前年同月比 貿易・サービス収支 ▲6,445億円 ▲6,369億円 (赤字幅拡大) 貿易収支 ▲1,875億円 ▲4,341億円 (赤字転化) 輸出 10兆7,283億円 ＋1",
-    "X ポスト --> 30年利付国債（第92回）の入札結果 令和8年11月10日 財務省 本日、30年利付国債（第92回）の価格競争入札及び国債市場特別参加者・第Ⅰ非価格競争入札について、下記のように募入の決定を行いました。"
+    "X ポスト 令和8年11月10日 財務省 令和8年9月中 国際収支状況（速報）の概要 Ⅰ 経常収支 経常収支の内訳 金 額 前年同月比 貿易・サービス収支 ▲6,445億円 ▲6,369億円 (赤字幅拡大) 貿易収支 ▲1,875億円 ▲4,341億円 (赤字転化) 輸出 10兆7,283億円 ＋1"
   ],
   "qualityNote": "NEWS MEMORYへの保存と表示用編集を分離。公式本文を確認できない情報は、見出し以上に補完しない。株価予想・売買推奨は行わない。"
 }
