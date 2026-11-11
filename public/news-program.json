@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T17:16:46.462Z",
+  "generatedAt": "2026-11-11T17:50:58.197Z",
   "asOf": "2026-11-12",
   "edition": "MORNING",
   "heading": "今日見る材料",
@@ -16,35 +16,35 @@
       "status": "FETCHED",
       "read": 15,
       "added": 0,
-      "fetchedAt": "2026-11-11T17:16:46.462Z"
+      "fetchedAt": "2026-11-11T17:50:58.197Z"
     },
     {
       "source": "日本銀行",
       "status": "FETCHED",
       "read": 71,
       "added": 0,
-      "fetchedAt": "2026-11-11T17:16:46.462Z"
+      "fetchedAt": "2026-11-11T17:50:58.197Z"
     },
     {
       "source": "金融庁",
       "status": "FETCHED",
       "read": 15,
       "added": 0,
-      "fetchedAt": "2026-11-11T17:16:46.462Z"
+      "fetchedAt": "2026-11-11T17:50:58.197Z"
     },
     {
       "source": "財務省",
       "status": "FETCHED",
       "read": 100,
       "added": 0,
-      "fetchedAt": "2026-11-11T17:16:46.462Z"
+      "fetchedAt": "2026-11-11T17:50:58.197Z"
     },
     {
       "source": "経済産業省",
       "status": "FAILED",
       "read": 0,
       "added": 0,
-      "fetchedAt": "2026-11-11T17:16:46.462Z",
+      "fetchedAt": "2026-11-11T17:50:58.197Z",
       "error": "HTTP 403"
     }
   ],
@@ -89,22 +89,23 @@
   ],
   "aiStatus": {
     "configured": true,
-    "used": false,
+    "used": true,
     "model": "gemini-3.5-flash-lite",
-    "mode": "RULE_BASED_AFTER_GEMINI_FAILURE:Gemini HTTP 503"
+    "mode": "GEMINI_GROUNDED_EDITORIAL"
   },
-  "summaryMode": "RULE_BASED_AFTER_GEMINI_FAILURE:Gemini HTTP 503",
+  "summaryMode": "GEMINI_GROUNDED_EDITORIAL",
   "cards": [
     {
       "id": "37733510cbbe7901a1fa3002f415b88290c08ee0208ee3a21cff5d791da55f3f",
       "category": "財政・国債",
-      "title": "令和７事務年度の関税等の申告に係る輸入事後調査の結果",
-      "summary": "申告漏れ等に係る課税価格は約1,143億３千万円（同17.8％減）となった。",
-      "whatHappened": "令和７事務年度の関税等の申告に係る輸入事後調査の結果",
-      "whatChanged": "申告漏れ等に係る課税価格は約1,143億３千万円（同17.8％減）となった。",
+      "title": "財務省は令和７事務年度の輸入事後調査の結果を公表し、調査を実施した3,657者のうち2,645者に申告漏れ等があり、追徴税額は約127億円となった。",
+      "summary": "電気機器や医療用品、光学機器等、機械類、自動車等の5品目で納付不足税額の総額の約72％を占めた。",
+      "whatHappened": "財務省は令和７事務年度の輸入事後調査の結果を公表し、調査を実施した3,657者のうち2,645者に申告漏れ等があり、追徴税額は約127億円となった。",
+      "whatChanged": "電気機器や医療用品、光学機器等、機械類、自動車等の5品目で納付不足税額の総額の約72％を占めた。",
       "relatedThemes": [
-        "小売・消費",
-        "輸出・製造業"
+        "財務省",
+        "関税",
+        "税務調査"
       ],
       "status": "NEW",
       "source": "財務省",
@@ -121,7 +122,7 @@
     }
   ],
   "summary": [
-    "申告漏れ等に係る課税価格は約1,143億３千万円（同17.8％減）となった。"
+    "電気機器や医療用品、光学機器等、機械類、自動車等の5品目で納付不足税額の総額の約72％を占めた。"
   ],
   "qualityNote": "NEWS MEMORYへの保存と表示用編集を分離。公式本文を確認できない情報は、見出し以上に補完しない。株価予想・売買推奨は行わない。"
 }
