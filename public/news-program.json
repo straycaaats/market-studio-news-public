@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-11-11T01:59:31.526Z",
-  "asOf": "2026-11-11",
+  "generatedAt": "2026-11-11T16:39:33.827Z",
+  "asOf": "2026-11-12",
   "edition": "MORNING",
   "heading": "今日見る材料",
   "counts": {
-    "fetchedToday": 10,
-    "newsMemoryTotal": 750,
-    "considered": 3,
-    "adoptedCards": 2,
+    "fetchedToday": 8,
+    "newsMemoryTotal": 758,
+    "considered": 2,
+    "adoptedCards": 1,
     "failedSources": 1
   },
   "sourceResults": [
@@ -16,35 +16,35 @@
       "status": "FETCHED",
       "read": 15,
       "added": 0,
-      "fetchedAt": "2026-11-11T01:59:31.526Z"
+      "fetchedAt": "2026-11-11T16:39:33.827Z"
     },
     {
       "source": "日本銀行",
       "status": "FETCHED",
       "read": 71,
       "added": 0,
-      "fetchedAt": "2026-11-11T01:59:31.526Z"
+      "fetchedAt": "2026-11-11T16:39:33.827Z"
     },
     {
       "source": "金融庁",
       "status": "FETCHED",
       "read": 15,
-      "added": 0,
-      "fetchedAt": "2026-11-11T01:59:31.526Z"
+      "added": 6,
+      "fetchedAt": "2026-11-11T16:39:33.827Z"
     },
     {
       "source": "財務省",
       "status": "FETCHED",
       "read": 100,
-      "added": 0,
-      "fetchedAt": "2026-11-11T01:59:31.526Z"
+      "added": 2,
+      "fetchedAt": "2026-11-11T16:39:33.827Z"
     },
     {
       "source": "経済産業省",
       "status": "FAILED",
       "read": 0,
       "added": 0,
-      "fetchedAt": "2026-11-11T01:59:31.526Z",
+      "fetchedAt": "2026-11-11T16:39:33.827Z",
       "error": "HTTP 403"
     }
   ],
@@ -89,66 +89,39 @@
   ],
   "aiStatus": {
     "configured": true,
-    "used": true,
+    "used": false,
     "model": "gemini-3.5-flash-lite",
-    "mode": "GEMINI_GROUNDED_EDITORIAL"
+    "mode": "RULE_BASED_AFTER_GEMINI_FAILURE:Gemini HTTP 503"
   },
-  "summaryMode": "GEMINI_GROUNDED_EDITORIAL",
+  "summaryMode": "RULE_BASED_AFTER_GEMINI_FAILURE:Gemini HTTP 503",
   "cards": [
     {
-      "id": "3205033dda34211529d996eabb94522dcae33a831a132e438feb35a5522694b2",
+      "id": "37733510cbbe7901a1fa3002f415b88290c08ee0208ee3a21cff5d791da55f3f",
       "category": "財政・国債",
-      "title": "片山財務相が閣議後会見で、日銀のETF追加売却益（約1兆円規模）を成長戦略会議等での方針通り、新たな特別会計の財源に活用する考えを示した。",
-      "summary": "日銀のETF追加売却益を経済安保等の危機管理投資・成長投資の財源に充てる方針と、今後の予算編成過程での詳細な制度設計に向けた動きが明確になった。",
-      "whatHappened": "片山財務相が閣議後会見で、日銀のETF追加売却益（約1兆円規模）を成長戦略会議等での方針通り、新たな特別会計の財源に活用する考えを示した。",
-      "whatChanged": "日銀のETF追加売却益を経済安保等の危機管理投資・成長投資の財源に充てる方針と、今後の予算編成過程での詳細な制度設計に向けた動きが明確になった。",
+      "title": "令和７事務年度の関税等の申告に係る輸入事後調査の結果",
+      "summary": "申告漏れ等に係る課税価格は約1,143億３千万円（同17.8％減）となった。",
+      "whatHappened": "令和７事務年度の関税等の申告に係る輸入事後調査の結果",
+      "whatChanged": "申告漏れ等に係る課税価格は約1,143億３千万円（同17.8％減）となった。",
       "relatedThemes": [
-        "財政政策",
-        "日銀ETF",
-        "経済安全保障"
+        "小売・消費",
+        "輸出・製造業"
       ],
       "status": "NEW",
       "source": "財務省",
-      "publishedAt": "2026-11-10T08:00:00.000Z",
-      "firstSeenAt": "2026-11-10T16:37:43.691Z",
+      "publishedAt": "2026-11-11T05:00:00.000Z",
+      "firstSeenAt": "2026-11-11T16:39:33.827Z",
       "contentStatus": "VERIFIED_TEXT",
       "links": [
         {
-          "title": "片山財務大臣兼内閣府特命担当大臣閣議後記者会見の概要(令和8年11月10日(火曜日))",
-          "url": "https://www.mof.go.jp/public_relations/conference/my20261110.html",
+          "title": "令和７事務年度の関税等の申告に係る輸入事後調査の結果",
+          "url": "https://www.mof.go.jp/policy/customs_tariff/trade/collection/ka20261111.html",
           "source": "財務省"
-        }
-      ]
-    },
-    {
-      "id": "caba26852812657ceff47d15025e23b8df61de4b72db0ba5ef7167a73fb28acd",
-      "category": "物価・金利",
-      "title": "総務省が2026年9月および7～9月期の家計調査結果を公表した。9月の二人以上の世帯における消費支出は実質で前年同月比6.8%の減少となった。",
-      "summary": "最新の家計消費動向および実収入の数値が公表され、月次の消費支出や勤労者世帯の実収入の状況が明らかになった。",
-      "whatHappened": "総務省が2026年9月および7～9月期の家計調査結果を公表した。9月の二人以上の世帯における消費支出は実質で前年同月比6.8%の減少となった。",
-      "whatChanged": "最新の家計消費動向および実収入の数値が公表され、月次の消費支出や勤労者世帯の実収入の状況が明らかになった。",
-      "relatedThemes": [
-        "家計調査",
-        "個人消費",
-        "経済指標"
-      ],
-      "status": "FOLLOW_UP",
-      "source": "総務省統計局",
-      "publishedAt": "2026-11-10",
-      "firstSeenAt": "2026-11-10T03:50:54.476Z",
-      "contentStatus": "VERIFIED_TEXT",
-      "links": [
-        {
-          "title": "家計調査（2026年（令和8年）7～9月期分）",
-          "url": "https://www.stat.go.jp/data/kakei/sokuhou/tsuki/index.html#shihanki",
-          "source": "総務省統計局"
         }
       ]
     }
   ],
   "summary": [
-    "日銀のETF追加売却益を経済安保等の危機管理投資・成長投資の財源に充てる方針と、今後の予算編成過程での詳細な制度設計に向けた動きが明確になった。",
-    "最新の家計消費動向および実収入の数値が公表され、月次の消費支出や勤労者世帯の実収入の状況が明らかになった。"
+    "申告漏れ等に係る課税価格は約1,143億３千万円（同17.8％減）となった。"
   ],
   "qualityNote": "NEWS MEMORYへの保存と表示用編集を分離。公式本文を確認できない情報は、見出し以上に補完しない。株価予想・売買推奨は行わない。"
 }
