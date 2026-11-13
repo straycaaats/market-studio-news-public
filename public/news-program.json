@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T16:46:55.528Z",
+  "generatedAt": "2026-11-13T17:17:08.484Z",
   "asOf": "2026-11-14",
   "edition": "MORNING",
   "heading": "今日見る材料",
@@ -7,7 +7,7 @@
     "fetchedToday": 8,
     "newsMemoryTotal": 787,
     "considered": 3,
-    "adoptedCards": 2,
+    "adoptedCards": 1,
     "failedSources": 1
   },
   "sourceResults": [
@@ -16,35 +16,35 @@
       "status": "FETCHED",
       "read": 15,
       "added": 0,
-      "fetchedAt": "2026-11-13T16:46:55.528Z"
+      "fetchedAt": "2026-11-13T17:17:08.484Z"
     },
     {
       "source": "日本銀行",
       "status": "FETCHED",
       "read": 79,
-      "added": 2,
-      "fetchedAt": "2026-11-13T16:46:55.528Z"
+      "added": 0,
+      "fetchedAt": "2026-11-13T17:17:08.484Z"
     },
     {
       "source": "金融庁",
       "status": "FETCHED",
       "read": 15,
-      "added": 1,
-      "fetchedAt": "2026-11-13T16:46:55.528Z"
+      "added": 0,
+      "fetchedAt": "2026-11-13T17:17:08.484Z"
     },
     {
       "source": "財務省",
       "status": "FETCHED",
       "read": 100,
-      "added": 5,
-      "fetchedAt": "2026-11-13T16:46:55.528Z"
+      "added": 0,
+      "fetchedAt": "2026-11-13T17:17:08.484Z"
     },
     {
       "source": "経済産業省",
       "status": "FAILED",
       "read": 0,
       "added": 0,
-      "fetchedAt": "2026-11-13T16:46:55.528Z",
+      "fetchedAt": "2026-11-13T17:17:08.484Z",
       "error": "HTTP 403"
     }
   ],
@@ -99,13 +99,12 @@
       "id": "6c2d033257c4bc60f3498217bac7c842f90c1d85eff13facda977133a3d8a390",
       "category": "財政・国債",
       "title": "財務省が国庫短期証券（第1419回）の入札結果を公表した。",
-      "summary": "価格競争入札および国債市場特別参加者・第Ⅰ非価格競争入札の募入決定額や利回りが確定した。",
+      "summary": "価格競争入札および国債市場特別参加者・第Ⅰ非価格競争入札の募入が決定された。",
       "whatHappened": "財務省が国庫短期証券（第1419回）の入札結果を公表した。",
-      "whatChanged": "価格競争入札および国債市場特別参加者・第Ⅰ非価格競争入札の募入決定額や利回りが確定した。",
+      "whatChanged": "価格競争入札および国債市場特別参加者・第Ⅰ非価格競争入札の募入が決定された。",
       "relatedThemes": [
         "国債",
-        "財務省",
-        "入札結果"
+        "財務省"
       ],
       "status": "NEW",
       "source": "財務省",
@@ -119,36 +118,10 @@
           "source": "財務省"
         }
       ]
-    },
-    {
-      "id": "e11a3eee348836b26ed6aed55d8f1b2b3fa7214ec90f4252da109409cdb30fdc",
-      "category": "財政・国債",
-      "title": "財務省が国庫短期証券（第1419回）の入札発行の実施を通知した。",
-      "summary": "発行予定額や入札に関する概要が示された。",
-      "whatHappened": "財務省が国庫短期証券（第1419回）の入札発行の実施を通知した。",
-      "whatChanged": "発行予定額や入札に関する概要が示された。",
-      "relatedThemes": [
-        "国債",
-        "財務省",
-        "入札発行"
-      ],
-      "status": "FOLLOW_UP",
-      "source": "財務省",
-      "publishedAt": "2026-11-13T01:20:00.000Z",
-      "firstSeenAt": "2026-11-13T02:10:49.691Z",
-      "contentStatus": "VERIFIED_TEXT",
-      "links": [
-        {
-          "title": "国庫短期証券（第1419回）の入札発行",
-          "url": "https://www.mof.go.jp/jgbs/auction/calendar/tbill/tbill_nyusatsu/offer20261113.htm",
-          "source": "財務省"
-        }
-      ]
     }
   ],
   "summary": [
-    "価格競争入札および国債市場特別参加者・第Ⅰ非価格競争入札の募入決定額や利回りが確定した。",
-    "発行予定額や入札に関する概要が示された。"
+    "価格競争入札および国債市場特別参加者・第Ⅰ非価格競争入札の募入が決定された。"
   ],
   "qualityNote": "NEWS MEMORYへの保存と表示用編集を分離。公式本文を確認できない情報は、見出し以上に補完しない。株価予想・売買推奨は行わない。"
 }
