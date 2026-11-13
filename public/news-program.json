@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-11-13T02:41:59.510Z",
-  "asOf": "2026-11-13",
+  "generatedAt": "2026-11-13T16:46:55.528Z",
+  "asOf": "2026-11-14",
   "edition": "MORNING",
   "heading": "今日見る材料",
   "counts": {
-    "fetchedToday": 10,
-    "newsMemoryTotal": 779,
-    "considered": 2,
-    "adoptedCards": 1,
+    "fetchedToday": 8,
+    "newsMemoryTotal": 787,
+    "considered": 3,
+    "adoptedCards": 2,
     "failedSources": 1
   },
   "sourceResults": [
@@ -16,35 +16,35 @@
       "status": "FETCHED",
       "read": 15,
       "added": 0,
-      "fetchedAt": "2026-11-13T02:41:59.510Z"
+      "fetchedAt": "2026-11-13T16:46:55.528Z"
     },
     {
       "source": "日本銀行",
       "status": "FETCHED",
-      "read": 77,
-      "added": 0,
-      "fetchedAt": "2026-11-13T02:41:59.510Z"
+      "read": 79,
+      "added": 2,
+      "fetchedAt": "2026-11-13T16:46:55.528Z"
     },
     {
       "source": "金融庁",
       "status": "FETCHED",
       "read": 15,
-      "added": 0,
-      "fetchedAt": "2026-11-13T02:41:59.510Z"
+      "added": 1,
+      "fetchedAt": "2026-11-13T16:46:55.528Z"
     },
     {
       "source": "財務省",
       "status": "FETCHED",
       "read": 100,
-      "added": 0,
-      "fetchedAt": "2026-11-13T02:41:59.510Z"
+      "added": 5,
+      "fetchedAt": "2026-11-13T16:46:55.528Z"
     },
     {
       "source": "経済産業省",
       "status": "FAILED",
       "read": 0,
       "added": 0,
-      "fetchedAt": "2026-11-13T02:41:59.510Z",
+      "fetchedAt": "2026-11-13T16:46:55.528Z",
       "error": "HTTP 403"
     }
   ],
@@ -96,18 +96,43 @@
   "summaryMode": "GEMINI_GROUNDED_EDITORIAL",
   "cards": [
     {
-      "id": "e11a3eee348836b26ed6aed55d8f1b2b3fa7214ec90f4252da109409cdb30fdc",
+      "id": "6c2d033257c4bc60f3498217bac7c842f90c1d85eff13facda977133a3d8a390",
       "category": "財政・国債",
-      "title": "財務省は国庫短期証券（第1419回）の入札発行実施を通知し、発行予定額は額面金額で3兆1,000億円程度とした。",
-      "summary": "国庫短期証券（第1419回）の入札および発行スケジュール（申込締切11月13日、発行日11月16日）が決定・通知された。",
-      "whatHappened": "財務省は国庫短期証券（第1419回）の入札発行実施を通知し、発行予定額は額面金額で3兆1,000億円程度とした。",
-      "whatChanged": "国庫短期証券（第1419回）の入札および発行スケジュール（申込締切11月13日、発行日11月16日）が決定・通知された。",
+      "title": "財務省が国庫短期証券（第1419回）の入札結果を公表した。",
+      "summary": "価格競争入札および国債市場特別参加者・第Ⅰ非価格競争入札の募入決定額や利回りが確定した。",
+      "whatHappened": "財務省が国庫短期証券（第1419回）の入札結果を公表した。",
+      "whatChanged": "価格競争入札および国債市場特別参加者・第Ⅰ非価格競争入札の募入決定額や利回りが確定した。",
       "relatedThemes": [
         "国債",
         "財務省",
-        "国庫短期証券"
+        "入札結果"
       ],
       "status": "NEW",
+      "source": "財務省",
+      "publishedAt": "2026-11-13T03:30:00.000Z",
+      "firstSeenAt": "2026-11-13T16:46:55.528Z",
+      "contentStatus": "VERIFIED_TEXT",
+      "links": [
+        {
+          "title": "国庫短期証券（第1419回）の入札結果",
+          "url": "https://www.mof.go.jp/jgbs/auction/calendar/tbill/tbill_nyusatsu/resul20261113.htm",
+          "source": "財務省"
+        }
+      ]
+    },
+    {
+      "id": "e11a3eee348836b26ed6aed55d8f1b2b3fa7214ec90f4252da109409cdb30fdc",
+      "category": "財政・国債",
+      "title": "財務省が国庫短期証券（第1419回）の入札発行の実施を通知した。",
+      "summary": "発行予定額や入札に関する概要が示された。",
+      "whatHappened": "財務省が国庫短期証券（第1419回）の入札発行の実施を通知した。",
+      "whatChanged": "発行予定額や入札に関する概要が示された。",
+      "relatedThemes": [
+        "国債",
+        "財務省",
+        "入札発行"
+      ],
+      "status": "FOLLOW_UP",
       "source": "財務省",
       "publishedAt": "2026-11-13T01:20:00.000Z",
       "firstSeenAt": "2026-11-13T02:10:49.691Z",
@@ -122,7 +147,8 @@
     }
   ],
   "summary": [
-    "国庫短期証券（第1419回）の入札および発行スケジュール（申込締切11月13日、発行日11月16日）が決定・通知された。"
+    "価格競争入札および国債市場特別参加者・第Ⅰ非価格競争入札の募入決定額や利回りが確定した。",
+    "発行予定額や入札に関する概要が示された。"
   ],
   "qualityNote": "NEWS MEMORYへの保存と表示用編集を分離。公式本文を確認できない情報は、見出し以上に補完しない。株価予想・売買推奨は行わない。"
 }
