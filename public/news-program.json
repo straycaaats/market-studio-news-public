@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-11-16T01:26:51.613Z",
+  "generatedAt": "2026-11-16T02:15:04.500Z",
   "asOf": "2026-11-16",
   "edition": "MORNING",
   "heading": "今日見る材料",
   "counts": {
-    "fetchedToday": 5,
-    "newsMemoryTotal": 792,
-    "considered": 1,
-    "adoptedCards": 0,
+    "fetchedToday": 7,
+    "newsMemoryTotal": 794,
+    "considered": 3,
+    "adoptedCards": 2,
     "failedSources": 1
   },
   "sourceResults": [
@@ -16,35 +16,35 @@
       "status": "FETCHED",
       "read": 15,
       "added": 0,
-      "fetchedAt": "2026-11-16T01:26:51.613Z"
+      "fetchedAt": "2026-11-16T02:15:04.500Z"
     },
     {
       "source": "日本銀行",
       "status": "FETCHED",
       "read": 69,
       "added": 0,
-      "fetchedAt": "2026-11-16T01:26:51.613Z"
+      "fetchedAt": "2026-11-16T02:15:04.500Z"
     },
     {
       "source": "金融庁",
       "status": "FETCHED",
       "read": 15,
-      "added": 5,
-      "fetchedAt": "2026-11-16T01:26:51.613Z"
+      "added": 0,
+      "fetchedAt": "2026-11-16T02:15:04.500Z"
     },
     {
       "source": "財務省",
       "status": "FETCHED",
       "read": 100,
-      "added": 0,
-      "fetchedAt": "2026-11-16T01:26:51.613Z"
+      "added": 2,
+      "fetchedAt": "2026-11-16T02:15:04.500Z"
     },
     {
       "source": "経済産業省",
       "status": "FAILED",
       "read": 0,
       "added": 0,
-      "fetchedAt": "2026-11-16T01:26:51.613Z",
+      "fetchedAt": "2026-11-16T02:15:04.500Z",
       "error": "HTTP 403"
     }
   ],
@@ -94,7 +94,60 @@
     "mode": "GEMINI_GROUNDED_EDITORIAL"
   },
   "summaryMode": "GEMINI_GROUNDED_EDITORIAL",
-  "cards": [],
-  "summary": [],
+  "cards": [
+    {
+      "id": "2107628978e08f94bdda4ead9c5fa312107fe251aaac2237b27f3182a9bfb64c",
+      "category": "産業・エネルギー",
+      "title": "電気・ガスの負担軽減策の12月前倒しなどを盛り込んだ6,519億円の中東情勢等対応予備費の使用を閣議決定したほか、熊本県の復興基金に対する520億円の特別交付税措置などを公表した。",
+      "summary": "電気・ガスの負担軽減策が12月に前倒しされ、中東情勢等対応予備費6,519億円の使用が決定された。",
+      "whatHappened": "電気・ガスの負担軽減策の12月前倒しなどを盛り込んだ6,519億円の中東情勢等対応予備費の使用を閣議決定したほか、熊本県の復興基金に対する520億円の特別交付税措置などを公表した。",
+      "whatChanged": "電気・ガスの負担軽減策が12月に前倒しされ、中東情勢等対応予備費6,519億円の使用が決定された。",
+      "relatedThemes": [
+        "財政政策",
+        "物価対策",
+        "為替動向"
+      ],
+      "status": "NEW",
+      "source": "財務省",
+      "publishedAt": "2026-11-16T01:45:00.000Z",
+      "firstSeenAt": "2026-11-16T02:15:04.500Z",
+      "contentStatus": "VERIFIED_TEXT",
+      "links": [
+        {
+          "title": "片山財務大臣兼内閣府特命担当大臣閣議後記者会見の概要(令和8年11月13日(金曜日))",
+          "url": "https://www.mof.go.jp/public_relations/conference/my20261113.html",
+          "source": "財務省"
+        }
+      ]
+    },
+    {
+      "id": "a8f60c45e6b49fc8ecee5b973e8a71455e3a83472326c4305d9024af58694610",
+      "category": "財政・国債",
+      "title": "財務省が第31回10年物価連動国債の入札実施を通知し、発行予定額を額面金額で2,500億円程度とした。",
+      "summary": "第31回10年物価連動国債の入札日が設定され、発行手続きが進行した。",
+      "whatHappened": "財務省が第31回10年物価連動国債の入札実施を通知し、発行予定額を額面金額で2,500億円程度とした。",
+      "whatChanged": "第31回10年物価連動国債の入札日が設定され、発行手続きが進行した。",
+      "relatedThemes": [
+        "国債発行",
+        "債券市場"
+      ],
+      "status": "NEW",
+      "source": "財務省",
+      "publishedAt": "2026-11-16T01:30:00.000Z",
+      "firstSeenAt": "2026-11-16T02:15:04.500Z",
+      "contentStatus": "VERIFIED_TEXT",
+      "links": [
+        {
+          "title": "10年物価連動国債（第31回）の入札発行（令和8年11月16日入札）",
+          "url": "https://www.mof.go.jp/jgbs/auction/calendar/nyusatsu/offer20261116.htm",
+          "source": "財務省"
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "電気・ガスの負担軽減策が12月に前倒しされ、中東情勢等対応予備費6,519億円の使用が決定された。",
+    "第31回10年物価連動国債の入札日が設定され、発行手続きが進行した。"
+  ],
   "qualityNote": "NEWS MEMORYへの保存と表示用編集を分離。公式本文を確認できない情報は、見出し以上に補完しない。株価予想・売買推奨は行わない。"
 }
