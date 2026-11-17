@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-11-16T20:18:49.871Z",
+  "generatedAt": "2026-11-17T04:12:40.558Z",
   "asOf": "2026-11-17",
-  "edition": "MORNING",
-  "heading": "今日見る材料",
+  "edition": "EVENING",
+  "heading": "今日の振り返り",
   "counts": {
-    "fetchedToday": 6,
-    "newsMemoryTotal": 800,
-    "considered": 5,
-    "adoptedCards": 4,
+    "fetchedToday": 9,
+    "newsMemoryTotal": 803,
+    "considered": 2,
+    "adoptedCards": 1,
     "failedSources": 1
   },
   "sourceResults": [
@@ -16,35 +16,35 @@
       "status": "FETCHED",
       "read": 15,
       "added": 0,
-      "fetchedAt": "2026-11-16T20:18:49.871Z"
+      "fetchedAt": "2026-11-17T04:12:40.558Z"
     },
     {
       "source": "日本銀行",
       "status": "FETCHED",
-      "read": 70,
-      "added": 0,
-      "fetchedAt": "2026-11-16T20:18:49.871Z"
+      "read": 71,
+      "added": 1,
+      "fetchedAt": "2026-11-17T04:12:40.558Z"
     },
     {
       "source": "金融庁",
       "status": "FETCHED",
       "read": 15,
       "added": 0,
-      "fetchedAt": "2026-11-16T20:18:49.871Z"
+      "fetchedAt": "2026-11-17T04:12:40.558Z"
     },
     {
       "source": "財務省",
       "status": "FETCHED",
       "read": 100,
-      "added": 0,
-      "fetchedAt": "2026-11-16T20:18:49.871Z"
+      "added": 2,
+      "fetchedAt": "2026-11-17T04:12:40.558Z"
     },
     {
       "source": "経済産業省",
       "status": "FAILED",
       "read": 0,
       "added": 0,
-      "fetchedAt": "2026-11-16T20:18:49.871Z",
+      "fetchedAt": "2026-11-17T04:12:40.558Z",
       "error": "HTTP 403"
     }
   ],
@@ -96,110 +96,33 @@
   "summaryMode": "GEMINI_GROUNDED_EDITORIAL",
   "cards": [
     {
-      "id": "ddc9cde8d089eaa1cf9de24c6a145d9393eda3a9be8bbc0f5b8009f6456287ca",
-      "category": "産業・エネルギー",
-      "title": "日本銀行が2026年10月の展望レポートハイライトを公表し、日本経済は緩やかな成長を続け、基調的な物価上昇率は2％の目標と概ね整合的であるとの見解を示した。",
-      "summary": "経済・物価見通しや金融政策運営の方針（政策金利の引き上げ継続など）が改めて示された。",
-      "whatHappened": "日本銀行が2026年10月の展望レポートハイライトを公表し、日本経済は緩やかな成長を続け、基調的な物価上昇率は2％の目標と概ね整合的であるとの見解を示した。",
-      "whatChanged": "経済・物価見通しや金融政策運営の方針（政策金利の引き上げ継続など）が改めて示された。",
-      "relatedThemes": [
-        "日本経済",
-        "金融政策",
-        "物価動向"
-      ],
-      "status": "NEW",
-      "source": "日本銀行",
-      "publishedAt": "2026-11-16T08:00:00.000Z",
-      "firstSeenAt": "2026-11-16T18:57:26.203Z",
-      "contentStatus": "VERIFIED_TEXT",
-      "links": [
-        {
-          "title": "展望レポートのハイライト （2026年10月）",
-          "url": "https://www.boj.or.jp/mopo/outlook/highlight/ten202610.htm",
-          "source": "日本銀行"
-        }
-      ]
-    },
-    {
-      "id": "0ea3013d97680e7af2070e4485d51be0dea60e88fe75541a3f2ef99fc6c50418",
-      "category": "金融政策・市場",
-      "title": "バーゼル銀行監督委員会が銀行勘定の金利リスク（IRRBB）に関する追加的な第2の柱ガイダンスの市中協議文書を公表したと日本銀行が伝えた。",
-      "summary": "インフレや金利上昇局面における銀行の金利リスク管理やモデルリスク管理などの追加ガイダンスが提案された。",
-      "whatHappened": "バーゼル銀行監督委員会が銀行勘定の金利リスク（IRRBB）に関する追加的な第2の柱ガイダンスの市中協議文書を公表したと日本銀行が伝えた。",
-      "whatChanged": "インフレや金利上昇局面における銀行の金利リスク管理やモデルリスク管理などの追加ガイダンスが提案された。",
-      "relatedThemes": [
-        "銀行規制",
-        "金融リスク",
-        "バーゼル委員会"
-      ],
-      "status": "NEW",
-      "source": "日本銀行",
-      "publishedAt": "2026-11-16T08:00:00.000Z",
-      "firstSeenAt": "2026-11-16T18:57:26.203Z",
-      "contentStatus": "VERIFIED_TEXT",
-      "links": [
-        {
-          "title": "バーゼル銀行監督委員会による市中協議文書「銀行勘定の金利リスクに関する追加的な第2の柱ガイダンス」の公表について",
-          "url": "https://www.boj.or.jp/finsys/intlact_fs/kisei/kis261116a.htm",
-          "source": "日本銀行"
-        }
-      ]
-    },
-    {
-      "id": "30c49d64c55c082fd0a64b6a6335eb222674a46f970138a50c0c8514b6768b57",
-      "category": "金融政策・市場",
-      "title": "日本銀行の高田審議委員が徳島経済同友会で経済・物価情勢と金融政策に関する講演を行った。",
-      "summary": "わが国の経済・物価情勢やマネー・資本市場の転換に関する議論が提示された。",
-      "whatHappened": "日本銀行の高田審議委員が徳島経済同友会で経済・物価情勢と金融政策に関する講演を行った。",
-      "whatChanged": "わが国の経済・物価情勢やマネー・資本市場の転換に関する議論が提示された。",
-      "relatedThemes": [
-        "金融政策",
-        "日銀審議委員講演",
-        "資本市場"
-      ],
-      "status": "NEW",
-      "source": "日本銀行",
-      "publishedAt": "2026-11-16T04:00:00.000Z",
-      "firstSeenAt": "2026-11-16T18:57:26.203Z",
-      "contentStatus": "VERIFIED_TEXT",
-      "links": [
-        {
-          "title": "【講演】高田審議委員「わが国の経済・物価情勢と金融政策：日本のマネー・資本市場転換、山は動くか」（徳島経済同友会）",
-          "url": "https://www.boj.or.jp/about/press/koen_2026/ko261116a.htm",
-          "source": "日本銀行"
-        }
-      ]
-    },
-    {
-      "id": "228b55dea62c1eeea39ecb98d0b592f3cf019a42dd7235e712ccd2d7da65a362",
+      "id": "32dd2955df6df29b0ef72e39476d2a76d9de0aabe6ed92e08fe6df49b2cc086f",
       "category": "財政・国債",
-      "title": "財務省が第31回10年物価連動国債の入札結果を公表し、応募額6,735億円に対して募入決定額2,498億円となった。",
-      "summary": "表面利率年0.6％、募入最高利回り1.072％で発行が決定された。",
-      "whatHappened": "財務省が第31回10年物価連動国債の入札結果を公表し、応募額6,735億円に対して募入決定額2,498億円となった。",
-      "whatChanged": "表面利率年0.6％、募入最高利回り1.072％で発行が決定された。",
+      "title": "財務省は交付税及び譲与税配付金特別会計の借入金入札を実施し、結果を発表した。",
+      "summary": "応募額4兆4,003億円に対し、募入決定額1兆1,999億9,900万円、募入平均利率1.588％で決定された。",
+      "whatHappened": "財務省は交付税及び譲与税配付金特別会計の借入金入札を実施し、結果を発表した。",
+      "whatChanged": "応募額4兆4,003億円に対し、募入決定額1兆1,999億9,900万円、募入平均利率1.588％で決定された。",
       "relatedThemes": [
-        "国債入札",
-        "物価連動国債",
-        "財務省"
+        "国債・借入金",
+        "財務省",
+        "特別会計"
       ],
       "status": "NEW",
       "source": "財務省",
-      "publishedAt": "2026-11-16T03:35:00.000Z",
-      "firstSeenAt": "2026-11-16T18:57:26.203Z",
+      "publishedAt": "2026-11-17T04:00:00.000Z",
+      "firstSeenAt": "2026-11-17T04:12:40.558Z",
       "contentStatus": "VERIFIED_TEXT",
       "links": [
         {
-          "title": "10年物価連動国債（第31回）の入札結果（令和8年11月16日入札）",
-          "url": "https://www.mof.go.jp/jgbs/auction/calendar/nyusatsu/resul20261116.htm",
+          "title": "交付税及び譲与税配付金特別会計の借入金の入札結果（令和8年11月17日入札）",
+          "url": "https://www.mof.go.jp/jgbs/auction/calendar/kariire/kari-result261117.htm",
           "source": "財務省"
         }
       ]
     }
   ],
   "summary": [
-    "経済・物価見通しや金融政策運営の方針（政策金利の引き上げ継続など）が改めて示された。",
-    "インフレや金利上昇局面における銀行の金利リスク管理やモデルリスク管理などの追加ガイダンスが提案された。",
-    "わが国の経済・物価情勢やマネー・資本市場の転換に関する議論が提示された。"
+    "応募額4兆4,003億円に対し、募入決定額1兆1,999億9,900万円、募入平均利率1.588％で決定された。"
   ],
   "qualityNote": "NEWS MEMORYへの保存と表示用編集を分離。公式本文を確認できない情報は、見出し以上に補完しない。株価予想・売買推奨は行わない。"
 }
