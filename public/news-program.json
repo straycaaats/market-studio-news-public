@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-11-17T04:37:19.850Z",
-  "asOf": "2026-11-17",
-  "edition": "EVENING",
-  "heading": "今日の振り返り",
+  "generatedAt": "2026-11-17T17:55:31.633Z",
+  "asOf": "2026-11-18",
+  "edition": "MORNING",
+  "heading": "今日見る材料",
   "counts": {
-    "fetchedToday": 9,
-    "newsMemoryTotal": 803,
-    "considered": 2,
-    "adoptedCards": 1,
+    "fetchedToday": 10,
+    "newsMemoryTotal": 813,
+    "considered": 3,
+    "adoptedCards": 2,
     "failedSources": 1
   },
   "sourceResults": [
@@ -16,35 +16,35 @@
       "status": "FETCHED",
       "read": 15,
       "added": 0,
-      "fetchedAt": "2026-11-17T04:37:19.850Z"
+      "fetchedAt": "2026-11-17T17:55:31.633Z"
     },
     {
       "source": "日本銀行",
       "status": "FETCHED",
       "read": 70,
-      "added": 0,
-      "fetchedAt": "2026-11-17T04:37:19.850Z"
+      "added": 1,
+      "fetchedAt": "2026-11-17T17:55:31.633Z"
     },
     {
       "source": "金融庁",
       "status": "FETCHED",
       "read": 15,
-      "added": 0,
-      "fetchedAt": "2026-11-17T04:37:19.850Z"
+      "added": 6,
+      "fetchedAt": "2026-11-17T17:55:31.633Z"
     },
     {
       "source": "財務省",
       "status": "FETCHED",
       "read": 100,
-      "added": 0,
-      "fetchedAt": "2026-11-17T04:37:19.850Z"
+      "added": 3,
+      "fetchedAt": "2026-11-17T17:55:31.633Z"
     },
     {
       "source": "経済産業省",
       "status": "FAILED",
       "read": 0,
       "added": 0,
-      "fetchedAt": "2026-11-17T04:37:19.850Z",
+      "fetchedAt": "2026-11-17T17:55:31.633Z",
       "error": "HTTP 403"
     }
   ],
@@ -96,17 +96,43 @@
   "summaryMode": "GEMINI_GROUNDED_EDITORIAL",
   "cards": [
     {
-      "id": "32dd2955df6df29b0ef72e39476d2a76d9de0aabe6ed92e08fe6df49b2cc086f",
+      "id": "c5200f21989ecd9c06d645f58220debfcfe32738538afedaaaf2c653ab32cf9b",
       "category": "財政・国債",
-      "title": "財務省が交付税及び譲与税配付金特別会計の借入金入札の結果を発表した。",
-      "summary": "応募額4兆4,003億円に対して募入決定額1兆1,999億9,900万円、募入平均利率1.588％で決定された。",
-      "whatHappened": "財務省が交付税及び譲与税配付金特別会計の借入金入札の結果を発表した。",
-      "whatChanged": "応募額4兆4,003億円に対して募入決定額1兆1,999億9,900万円、募入平均利率1.588％で決定された。",
+      "title": "片山財務大臣兼内閣府特命担当大臣が閣議後記者会見を行い、行政事業レビューでの経済安保など4基金に関する国庫返納の指摘や、日本版DOGEにおける基金見直しの進捗、与党税調での租税特別措置の適正化について",
+      "summary": "行政事業レビューで4つの基金について個別返納目標の形式で議論されたことを受け、予算編成過程での見直し徹底に向けた方針が示された。",
+      "whatHappened": "片山財務大臣兼内閣府特命担当大臣が閣議後記者会見を行い、行政事業レビューでの経済安保など4基金に関する国庫返納の指摘や、日本版DOGEにおける基金見直しの進捗、与党税調での租税特別措置の適正化について",
+      "whatChanged": "行政事業レビューで4つの基金について個別返納目標の形式で議論されたことを受け、予算編成過程での見直し徹底に向けた方針が示された。",
       "relatedThemes": [
-        "財務省",
-        "国債・借入金"
+        "財政",
+        "行政改革",
+        "日本版DOGE"
       ],
       "status": "NEW",
+      "source": "財務省",
+      "publishedAt": "2026-11-17T08:00:00.000Z",
+      "firstSeenAt": "2026-11-17T17:55:31.633Z",
+      "contentStatus": "VERIFIED_TEXT",
+      "links": [
+        {
+          "title": "片山財務大臣兼内閣府特命担当大臣閣議後記者会見の概要(令和8年11月17日(火曜日))",
+          "url": "https://www.mof.go.jp/public_relations/conference/my20261117.html",
+          "source": "財務省"
+        }
+      ]
+    },
+    {
+      "id": "32dd2955df6df29b0ef72e39476d2a76d9de0aabe6ed92e08fe6df49b2cc086f",
+      "category": "財政・国債",
+      "title": "財務省が交付税及び譲与税配付金特別会計の借入金の入札結果を発表した。",
+      "summary": "募入決定額1兆1,999億9,900万円、募入平均利率1.588％で入札が行われた。",
+      "whatHappened": "財務省が交付税及び譲与税配付金特別会計の借入金の入札結果を発表した。",
+      "whatChanged": "募入決定額1兆1,999億9,900万円、募入平均利率1.588％で入札が行われた。",
+      "relatedThemes": [
+        "国債",
+        "財政",
+        "財務省"
+      ],
+      "status": "FOLLOW_UP",
       "source": "財務省",
       "publishedAt": "2026-11-17T04:00:00.000Z",
       "firstSeenAt": "2026-11-17T04:12:40.558Z",
@@ -121,7 +147,8 @@
     }
   ],
   "summary": [
-    "応募額4兆4,003億円に対して募入決定額1兆1,999億9,900万円、募入平均利率1.588％で決定された。"
+    "行政事業レビューで4つの基金について個別返納目標の形式で議論されたことを受け、予算編成過程での見直し徹底に向けた方針が示された。",
+    "募入決定額1兆1,999億9,900万円、募入平均利率1.588％で入札が行われた。"
   ],
   "qualityNote": "NEWS MEMORYへの保存と表示用編集を分離。公式本文を確認できない情報は、見出し以上に補完しない。株価予想・売買推奨は行わない。"
 }
