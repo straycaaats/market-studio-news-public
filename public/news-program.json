@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-11-19T03:41:00.905Z",
-  "asOf": "2026-11-19",
-  "edition": "EVENING",
-  "heading": "今日の振り返り",
+  "generatedAt": "2026-11-19T17:43:56.153Z",
+  "asOf": "2026-11-20",
+  "edition": "MORNING",
+  "heading": "今日見る材料",
   "counts": {
-    "fetchedToday": 4,
-    "newsMemoryTotal": 825,
-    "considered": 2,
-    "adoptedCards": 1,
+    "fetchedToday": 9,
+    "newsMemoryTotal": 834,
+    "considered": 7,
+    "adoptedCards": 3,
     "failedSources": 1
   },
   "sourceResults": [
@@ -16,35 +16,35 @@
       "status": "FETCHED",
       "read": 15,
       "added": 0,
-      "fetchedAt": "2026-11-19T03:41:00.905Z"
+      "fetchedAt": "2026-11-19T17:43:56.153Z"
     },
     {
       "source": "日本銀行",
       "status": "FETCHED",
       "read": 73,
       "added": 0,
-      "fetchedAt": "2026-11-19T03:41:00.905Z"
+      "fetchedAt": "2026-11-19T17:43:56.153Z"
     },
     {
       "source": "金融庁",
       "status": "FETCHED",
       "read": 15,
       "added": 0,
-      "fetchedAt": "2026-11-19T03:41:00.905Z"
+      "fetchedAt": "2026-11-19T17:43:56.153Z"
     },
     {
       "source": "財務省",
       "status": "FETCHED",
       "read": 100,
-      "added": 0,
-      "fetchedAt": "2026-11-19T03:41:00.905Z"
+      "added": 9,
+      "fetchedAt": "2026-11-19T17:43:56.153Z"
     },
     {
       "source": "経済産業省",
       "status": "FAILED",
       "read": 0,
       "added": 0,
-      "fetchedAt": "2026-11-19T03:41:00.905Z",
+      "fetchedAt": "2026-11-19T17:43:56.153Z",
       "error": "HTTP 403"
     }
   ],
@@ -96,31 +96,85 @@
   "summaryMode": "GEMINI_GROUNDED_EDITORIAL",
   "cards": [
     {
-      "id": "13056a6d4a30b07583f4c63bbfd14a01f54dc56ce57e6906f2969bdaa39177f9",
-      "category": "財政・国債",
-      "title": "財務省が通貨に対する信頼の維持を目的として、造幣局が製造した貨幣の量目を試験する第155次製造貨幣大試験を実施した。",
-      "summary": "すべての試験対象貨幣について基準を満たし適正であることが確認された。",
-      "whatHappened": "財務省が通貨に対する信頼の維持を目的として、造幣局が製造した貨幣の量目を試験する第155次製造貨幣大試験を実施した。",
-      "whatChanged": "すべての試験対象貨幣について基準を満たし適正であることが確認された。",
+      "id": "c733c98b20c16de961162113667ad7de29322035304f5620eb4a2a4a619a6275",
+      "category": "金融政策・市場",
+      "title": "財務省はイラク前政権の高官又はその関係者等に対する資産凍結等の措置の対象者の削除を実施した。",
+      "summary": "国連安全保障理事会制裁委員会が指定団体を削除したことに伴い、我が国でも該当する1団体への資産凍結措置を解除した。",
+      "whatHappened": "財務省はイラク前政権の高官又はその関係者等に対する資産凍結等の措置の対象者の削除を実施した。",
+      "whatChanged": "国連安全保障理事会制裁委員会が指定団体を削除したことに伴い、我が国でも該当する1団体への資産凍結措置を解除した。",
       "relatedThemes": [
-        "財政・通貨"
+        "資産凍結",
+        "外国為替及び外国貿易法",
+        "国際制裁"
       ],
       "status": "NEW",
       "source": "財務省",
-      "publishedAt": "2026-11-19T02:00:00.000Z",
-      "firstSeenAt": "2026-11-19T02:50:58.672Z",
+      "publishedAt": "2026-11-19T09:00:00.000Z",
+      "firstSeenAt": "2026-11-19T17:43:56.153Z",
       "contentStatus": "VERIFIED_TEXT",
       "links": [
         {
-          "title": "第155次製造貨幣大試験を実施しました",
-          "url": "https://www.mof.go.jp/policy/currency/coin/test/20261113.html",
+          "title": "イラク前政権の高官又はその関係者等に対する資産凍結等の措置の対象者の削除を実施します",
+          "url": "https://www.mof.go.jp/policy/international_policy/gaitame_kawase/gaitame/economic_sanctions/iraqhoudou_20261120.html",
+          "source": "財務省"
+        }
+      ]
+    },
+    {
+      "id": "564fed4d55502cf0162dcac23549bf4dd023c23e191a5f0f8e4875af1661cc61",
+      "category": "金融政策・市場",
+      "title": "財務省は、マネロン・テロ資金供与・拡散金融対策に関する行動計画（2027-2029年度）を決定した。",
+      "summary": "2027-2029年度の新行動計画が新たに策定され、政府一体および民間事業者との連携による対策強化が決定された。",
+      "whatHappened": "財務省は、マネロン・テロ資金供与・拡散金融対策に関する行動計画（2027-2029年度）を決定した。",
+      "whatChanged": "2027-2029年度の新行動計画が新たに策定され、政府一体および民間事業者との連携による対策強化が決定された。",
+      "relatedThemes": [
+        "マネロン対策",
+        "テロ資金供与対策",
+        "金融犯罪防止"
+      ],
+      "status": "NEW",
+      "source": "財務省",
+      "publishedAt": "2026-11-19T10:00:00.000Z",
+      "firstSeenAt": "2026-11-19T17:43:56.153Z",
+      "contentStatus": "VERIFIED_TEXT",
+      "links": [
+        {
+          "title": "「マネロン・テロ資金供与・拡散金融対策に関する行動計画（2027-2029年度）」を決定しました（令和8年11月19日）",
+          "url": "https://www.mof.go.jp/policy/international_policy/councils/aml_cft_policy/20261119_1.html",
+          "source": "財務省"
+        }
+      ]
+    },
+    {
+      "id": "0f16f982bb04d1d451d92e2462af0ba329b0e85188a89906316009b056bddd6d",
+      "category": "財政・国債",
+      "title": "財務省は交付税及び譲与税配付金特別会計の借入金の入札結果を公表した。",
+      "summary": "応募額4兆35億円のうち募入決定額1兆1,999億9,900万円、募入平均利率1.604％で借入金入札が実施された。",
+      "whatHappened": "財務省は交付税及び譲与税配付金特別会計の借入金の入札結果を公表した。",
+      "whatChanged": "応募額4兆35億円のうち募入決定額1兆1,999億9,900万円、募入平均利率1.604％で借入金入札が実施された。",
+      "relatedThemes": [
+        "国債",
+        "特別会計",
+        "借入金入札"
+      ],
+      "status": "NEW",
+      "source": "財務省",
+      "publishedAt": "2026-11-19T04:00:00.000Z",
+      "firstSeenAt": "2026-11-19T17:43:56.153Z",
+      "contentStatus": "VERIFIED_TEXT",
+      "links": [
+        {
+          "title": "交付税及び譲与税配付金特別会計の借入金の入札結果（令和8年11月19日入札）",
+          "url": "https://www.mof.go.jp/jgbs/auction/calendar/kariire/kari-result261119.htm",
           "source": "財務省"
         }
       ]
     }
   ],
   "summary": [
-    "すべての試験対象貨幣について基準を満たし適正であることが確認された。"
+    "国連安全保障理事会制裁委員会が指定団体を削除したことに伴い、我が国でも該当する1団体への資産凍結措置を解除した。",
+    "2027-2029年度の新行動計画が新たに策定され、政府一体および民間事業者との連携による対策強化が決定された。",
+    "応募額4兆35億円のうち募入決定額1兆1,999億9,900万円、募入平均利率1.604％で借入金入札が実施された。"
   ],
   "qualityNote": "NEWS MEMORYへの保存と表示用編集を分離。公式本文を確認できない情報は、見出し以上に補完しない。株価予想・売買推奨は行わない。"
 }
