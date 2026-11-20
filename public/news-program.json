@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-11-20T03:33:35.130Z",
-  "asOf": "2026-11-20",
-  "edition": "EVENING",
-  "heading": "今日の振り返り",
+  "generatedAt": "2026-11-20T17:21:16.133Z",
+  "asOf": "2026-11-21",
+  "edition": "MORNING",
+  "heading": "今日見る材料",
   "counts": {
-    "fetchedToday": 30,
-    "newsMemoryTotal": 855,
-    "considered": 10,
-    "adoptedCards": 6,
+    "fetchedToday": 18,
+    "newsMemoryTotal": 873,
+    "considered": 12,
+    "adoptedCards": 3,
     "failedSources": 1
   },
   "sourceResults": [
@@ -15,36 +15,36 @@
       "source": "総務省統計局",
       "status": "FETCHED",
       "read": 15,
-      "added": 0,
-      "fetchedAt": "2026-11-20T03:33:35.130Z"
+      "added": 3,
+      "fetchedAt": "2026-11-20T17:21:16.133Z"
     },
     {
       "source": "日本銀行",
       "status": "FETCHED",
-      "read": 75,
-      "added": 0,
-      "fetchedAt": "2026-11-20T03:33:35.130Z"
+      "read": 77,
+      "added": 2,
+      "fetchedAt": "2026-11-20T17:21:16.133Z"
     },
     {
       "source": "金融庁",
       "status": "FETCHED",
       "read": 15,
       "added": 0,
-      "fetchedAt": "2026-11-20T03:33:35.130Z"
+      "fetchedAt": "2026-11-20T17:21:16.133Z"
     },
     {
       "source": "財務省",
       "status": "FETCHED",
       "read": 100,
-      "added": 6,
-      "fetchedAt": "2026-11-20T03:33:35.130Z"
+      "added": 13,
+      "fetchedAt": "2026-11-20T17:21:16.133Z"
     },
     {
       "source": "経済産業省",
       "status": "FAILED",
       "read": 0,
       "added": 0,
-      "fetchedAt": "2026-11-20T03:33:35.130Z",
+      "fetchedAt": "2026-11-20T17:21:16.133Z",
       "error": "HTTP 403"
     }
   ],
@@ -89,167 +89,88 @@
   ],
   "aiStatus": {
     "configured": true,
-    "used": true,
+    "used": false,
     "model": "gemini-3.5-flash-lite",
-    "mode": "GEMINI_GROUNDED_EDITORIAL"
+    "mode": "RULE_BASED_AFTER_GEMINI_FAILURE:Gemini HTTP 503"
   },
-  "summaryMode": "GEMINI_GROUNDED_EDITORIAL",
+  "summaryMode": "RULE_BASED_AFTER_GEMINI_FAILURE:Gemini HTTP 503",
   "cards": [
     {
-      "id": "99d91a07fa56ee9116df486565152c5e3173d7f5b1c9632b858034567e0e0c64",
-      "category": "財政・国債",
-      "title": "財務省の関税・外国為替等審議会が韓国および中国を原産地とする水酸化カリウムに対する不当廉売関税を課する期間を延長する適当性を答申した。",
-      "summary": "不当廉売関税の課税期間延長に関する答申が行われた。",
-      "whatHappened": "財務省の関税・外国為替等審議会が韓国および中国を原産地とする水酸化カリウムに対する不当廉売関税を課する期間を延長する適当性を答申した。",
-      "whatChanged": "不当廉売関税の課税期間延長に関する答申が行われた。",
-      "relatedThemes": [
-        "財務省",
-        "関税",
-        "不当廉売関税"
-      ],
-      "status": "NEW",
-      "source": "財務省",
-      "publishedAt": "2026-11-20T03:05:00.000Z",
-      "firstSeenAt": "2026-11-20T03:33:35.130Z",
-      "contentStatus": "VERIFIED_TEXT",
-      "links": [
-        {
-          "title": "大韓民国及び中華人民共和国（香港地域及びマカオ地域を除く。）を原産地とする水酸化カリウムに対して不当廉売関税を課する期間を延長することについての答申 （令和8年11月20日）",
-          "url": "https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/report/20261120c_toushin.html",
-          "source": "財務省"
-        }
-      ]
-    },
-    {
-      "id": "59f458d5a9f9690a7c63817d78e2ccf10157622236521c7b143652a9911f7f74",
-      "category": "財政・国債",
-      "title": "財務省の関税・外国為替等審議会が韓国および台湾等を原産地とするビスフェノールAに対して不当廉売関税を課すことの適当性を答申した。",
-      "summary": "ビスフェノールAに対する不当廉売関税課税の答申が行われた。",
-      "whatHappened": "財務省の関税・外国為替等審議会が韓国および台湾等を原産地とするビスフェノールAに対して不当廉売関税を課すことの適当性を答申した。",
-      "whatChanged": "ビスフェノールAに対する不当廉売関税課税の答申が行われた。",
-      "relatedThemes": [
-        "財務省",
-        "関税",
-        "不当廉売関税"
-      ],
-      "status": "NEW",
-      "source": "財務省",
-      "publishedAt": "2026-11-20T03:04:00.000Z",
-      "firstSeenAt": "2026-11-20T03:33:35.130Z",
-      "contentStatus": "VERIFIED_TEXT",
-      "links": [
-        {
-          "title": "大韓民国並びに台湾、澎湖諸島、金門及び馬祖から成る独立の関税地域を原産地とするビスフェノールＡに対して不当廉売関税を課することについての答申 （令和8年11月20日）",
-          "url": "https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/report/20261120b_toushin.html",
-          "source": "財務省"
-        }
-      ]
-    },
-    {
-      "id": "c5c0ff4337bcd3c9169367b78fb05584c73ae6c67acdd908830614c2e5291183",
-      "category": "財政・国債",
-      "title": "財務省の関税・外国為替等審議会が韓国および中国を原産地とする溶融亜鉛めっき鋼帯及び鋼板に対して不当廉売関税を課することの適当性を答申した。",
-      "summary": "溶融亜鉛めっき鋼帯及び鋼板に対する不当廉売関税課税の答申が行われた。",
-      "whatHappened": "財務省の関税・外国為替等審議会が韓国および中国を原産地とする溶融亜鉛めっき鋼帯及び鋼板に対して不当廉売関税を課することの適当性を答申した。",
-      "whatChanged": "溶融亜鉛めっき鋼帯及び鋼板に対する不当廉売関税課税の答申が行われた。",
-      "relatedThemes": [
-        "財務省",
-        "関税",
-        "不当廉売関税"
-      ],
-      "status": "NEW",
-      "source": "財務省",
-      "publishedAt": "2026-11-20T03:03:00.000Z",
-      "firstSeenAt": "2026-11-20T03:33:35.130Z",
-      "contentStatus": "VERIFIED_TEXT",
-      "links": [
-        {
-          "title": "大韓民国及び中華人民共和国（香港地域及びマカオ地域を除く。）を原産地とする溶融亜鉛めっき鋼帯及び鋼板に対して不当廉売関税を課することについての答申 （令和8年11月20日）",
-          "url": "https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/report/20261120a_toushin.html",
-          "source": "財務省"
-        }
-      ]
-    },
-    {
-      "id": "0312816ad1a6f9f6fbeca6cacdc52538f7d86a172d4f601406b3717a542d9197",
+      "id": "94103fd42a08e4ed6358aaa73dc722048615917e6b2c7f054bc5da6879eaa2ef",
       "category": "金融政策・市場",
-      "title": "日本銀行が12月分の報告省令レートを発表した。",
-      "summary": "外国為替の取引等の報告に関する省令に基づく換算レートが示された。",
-      "whatHappened": "日本銀行が12月分の報告省令レートを発表した。",
-      "whatChanged": "外国為替の取引等の報告に関する省令に基づく換算レートが示された。",
+      "title": "（論文）家計のインフレ予想の形成メカニズム：インフレ実感とインフレ経験の役割",
+      "summary": "コロナ禍以降のインフレ予想の上昇局面についてみると、インフレ経験やインフレ実感のトレンド成分といった、相対的に緩やかに動く要因の寄与が拡大していることも示された。",
+      "whatHappened": "（論文）家計のインフレ予想の形成メカニズム：インフレ実感とインフレ経験の役割",
+      "whatChanged": "コロナ禍以降のインフレ予想の上昇局面についてみると、インフレ経験やインフレ実感のトレンド成分といった、相対的に緩やかに動く要因の寄与が拡大していることも示された。",
       "relatedThemes": [
-        "日本銀行",
-        "為替",
-        "省令レート"
+        "銀行・保険",
+        "小売・消費"
       ],
       "status": "NEW",
       "source": "日本銀行",
-      "publishedAt": "2026-11-20T00:00:00.000Z",
-      "firstSeenAt": "2026-11-20T02:41:12.872Z",
+      "publishedAt": "2026-11-20T07:00:00.000Z",
+      "firstSeenAt": "2026-11-20T17:21:16.133Z",
       "contentStatus": "VERIFIED_TEXT",
       "links": [
         {
-          "title": "報告省令レート（12月分）",
-          "url": "https://www.boj.or.jp/about/services/tame/tame_rate/syorei/hou2612.htm",
+          "title": "（論文）家計のインフレ予想の形成メカニズム：インフレ実感とインフレ経験の役割",
+          "url": "https://www.boj.or.jp/research/wps_rev/wps_2026/wp26j12.htm",
           "source": "日本銀行"
         }
       ]
     },
     {
-      "id": "01f7905a3ccb954b87068b1afa82e4275c71dd3ba722716ad435f1dd4d3f8cfc",
-      "category": "金融政策・市場",
-      "title": "日本銀行が12月分における基準外国為替相場及び裁定外国為替相場を発表した。",
-      "summary": "12月中において適用される基準外国為替相場（1米ドル＝158円など）が公示された。",
-      "whatHappened": "日本銀行が12月分における基準外国為替相場及び裁定外国為替相場を発表した。",
-      "whatChanged": "12月中において適用される基準外国為替相場（1米ドル＝158円など）が公示された。",
+      "id": "d58dda7690e4b17d1a8be48ddcf74c0ba229c619e5484c2205b5fd36bb66be4b",
+      "category": "財政・国債",
+      "title": "片山財務大臣兼内閣府特命担当大臣閣議後記者会見の概要(令和8年11月20日(金曜日))",
+      "summary": "X ポスト 【質疑応答】 問） 与党の税制調査会で来年度の税制改正に向けた議論が本格的にスタートしました。",
+      "whatHappened": "片山財務大臣兼内閣府特命担当大臣閣議後記者会見の概要(令和8年11月20日(金曜日))",
+      "whatChanged": "X ポスト 【質疑応答】 問） 与党の税制調査会で来年度の税制改正に向けた議論が本格的にスタートしました。",
       "relatedThemes": [
-        "日本銀行",
-        "為替相場",
-        "基準外国為替相場"
+        "銀行・保険",
+        "国債・円相場"
       ],
       "status": "NEW",
-      "source": "日本銀行",
-      "publishedAt": "2026-11-20T00:00:00.000Z",
-      "firstSeenAt": "2026-11-20T02:41:12.872Z",
+      "source": "財務省",
+      "publishedAt": "2026-11-20T09:55:00.000Z",
+      "firstSeenAt": "2026-11-20T17:21:16.133Z",
       "contentStatus": "VERIFIED_TEXT",
       "links": [
         {
-          "title": "基準外国為替相場及び裁定外国為替相場（12月分）",
-          "url": "https://www.boj.or.jp/about/services/tame/tame_rate/kijun/kiju2612.htm",
-          "source": "日本銀行"
+          "title": "片山財務大臣兼内閣府特命担当大臣閣議後記者会見の概要(令和8年11月20日(金曜日))",
+          "url": "https://www.mof.go.jp/public_relations/conference/my20261120.html",
+          "source": "財務省"
         }
       ]
     },
     {
-      "id": "06b4852181e1dd918b6e4c19fe5655e8b01ef85a50b19d40f6fd579d1e7372b1",
+      "id": "52c8c2de9729339922d1f5ae9d0876779b976156c490b9ca1a31c9b82089ac35",
       "category": "財政・国債",
-      "title": "財務省が国庫短期証券（第1421回）の入札結果を発表した。",
-      "summary": "国庫短期証券（第1421回）の価格競争入札および第Ⅰ非価格競争入札の募入が決定された。",
-      "whatHappened": "財務省が国庫短期証券（第1421回）の入札結果を発表した。",
-      "whatChanged": "国庫短期証券（第1421回）の価格競争入札および第Ⅰ非価格競争入札の募入が決定された。",
+      "title": "令和７年度決算の国会提出",
+      "summary": "」との平成１５年５月の参議院の要請を踏まえ、令和８年１１月２０日の閣議決定を経て、同日、国会へ提出しました。",
+      "whatHappened": "令和７年度決算の国会提出",
+      "whatChanged": "」との平成１５年５月の参議院の要請を踏まえ、令和８年１１月２０日の閣議決定を経て、同日、国会へ提出しました。",
       "relatedThemes": [
-        "国債",
-        "財務省",
-        "入札結果"
+        "国債・円相場"
       ],
       "status": "NEW",
       "source": "財務省",
-      "publishedAt": "2026-11-20T03:30:00.000Z",
-      "firstSeenAt": "2026-11-20T03:33:35.130Z",
+      "publishedAt": "2026-11-20T07:00:00.000Z",
+      "firstSeenAt": "2026-11-20T17:21:16.133Z",
       "contentStatus": "VERIFIED_TEXT",
       "links": [
         {
-          "title": "国庫短期証券（第1421回）の入札結果",
-          "url": "https://www.mof.go.jp/jgbs/auction/calendar/tbill/tbill_nyusatsu/resul20261120.htm",
+          "title": "令和７年度決算の国会提出",
+          "url": "https://www.mof.go.jp/policy/budget/budger_workflow/account/fy2025/ke0811.html",
           "source": "財務省"
         }
       ]
     }
   ],
   "summary": [
-    "不当廉売関税の課税期間延長に関する答申が行われた。",
-    "ビスフェノールAに対する不当廉売関税課税の答申が行われた。",
-    "溶融亜鉛めっき鋼帯及び鋼板に対する不当廉売関税課税の答申が行われた。"
+    "コロナ禍以降のインフレ予想の上昇局面についてみると、インフレ経験やインフレ実感のトレンド成分といった、相対的に緩やかに動く要因の寄与が拡大していることも示された。",
+    "X ポスト 【質疑応答】 問） 与党の税制調査会で来年度の税制改正に向けた議論が本格的にスタートしました。",
+    "」との平成１５年５月の参議院の要請を踏まえ、令和８年１１月２０日の閣議決定を経て、同日、国会へ提出しました。"
   ],
   "qualityNote": "NEWS MEMORYへの保存と表示用編集を分離。公式本文を確認できない情報は、見出し以上に補完しない。株価予想・売買推奨は行わない。"
 }
