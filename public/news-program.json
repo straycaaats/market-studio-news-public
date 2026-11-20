@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-20T02:41:12.872Z",
+  "generatedAt": "2026-11-20T03:33:35.130Z",
   "asOf": "2026-11-20",
-  "edition": "MORNING",
-  "heading": "今日見る材料",
+  "edition": "EVENING",
+  "heading": "今日の振り返り",
   "counts": {
-    "fetchedToday": 24,
-    "newsMemoryTotal": 849,
-    "considered": 9,
+    "fetchedToday": 30,
+    "newsMemoryTotal": 855,
+    "considered": 10,
     "adoptedCards": 6,
     "failedSources": 1
   },
@@ -16,35 +16,35 @@
       "status": "FETCHED",
       "read": 15,
       "added": 0,
-      "fetchedAt": "2026-11-20T02:41:12.872Z"
+      "fetchedAt": "2026-11-20T03:33:35.130Z"
     },
     {
       "source": "日本銀行",
       "status": "FETCHED",
-      "read": 76,
-      "added": 3,
-      "fetchedAt": "2026-11-20T02:41:12.872Z"
+      "read": 75,
+      "added": 0,
+      "fetchedAt": "2026-11-20T03:33:35.130Z"
     },
     {
       "source": "金融庁",
       "status": "FETCHED",
       "read": 15,
-      "added": 7,
-      "fetchedAt": "2026-11-20T02:41:12.872Z"
+      "added": 0,
+      "fetchedAt": "2026-11-20T03:33:35.130Z"
     },
     {
       "source": "財務省",
       "status": "FETCHED",
       "read": 100,
-      "added": 5,
-      "fetchedAt": "2026-11-20T02:41:12.872Z"
+      "added": 6,
+      "fetchedAt": "2026-11-20T03:33:35.130Z"
     },
     {
       "source": "経済産業省",
       "status": "FAILED",
       "read": 0,
       "added": 0,
-      "fetchedAt": "2026-11-20T02:41:12.872Z",
+      "fetchedAt": "2026-11-20T03:33:35.130Z",
       "error": "HTTP 403"
     }
   ],
@@ -96,15 +96,91 @@
   "summaryMode": "GEMINI_GROUNDED_EDITORIAL",
   "cards": [
     {
+      "id": "99d91a07fa56ee9116df486565152c5e3173d7f5b1c9632b858034567e0e0c64",
+      "category": "財政・国債",
+      "title": "財務省の関税・外国為替等審議会が韓国および中国を原産地とする水酸化カリウムに対する不当廉売関税を課する期間を延長する適当性を答申した。",
+      "summary": "不当廉売関税の課税期間延長に関する答申が行われた。",
+      "whatHappened": "財務省の関税・外国為替等審議会が韓国および中国を原産地とする水酸化カリウムに対する不当廉売関税を課する期間を延長する適当性を答申した。",
+      "whatChanged": "不当廉売関税の課税期間延長に関する答申が行われた。",
+      "relatedThemes": [
+        "財務省",
+        "関税",
+        "不当廉売関税"
+      ],
+      "status": "NEW",
+      "source": "財務省",
+      "publishedAt": "2026-11-20T03:05:00.000Z",
+      "firstSeenAt": "2026-11-20T03:33:35.130Z",
+      "contentStatus": "VERIFIED_TEXT",
+      "links": [
+        {
+          "title": "大韓民国及び中華人民共和国（香港地域及びマカオ地域を除く。）を原産地とする水酸化カリウムに対して不当廉売関税を課する期間を延長することについての答申 （令和8年11月20日）",
+          "url": "https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/report/20261120c_toushin.html",
+          "source": "財務省"
+        }
+      ]
+    },
+    {
+      "id": "59f458d5a9f9690a7c63817d78e2ccf10157622236521c7b143652a9911f7f74",
+      "category": "財政・国債",
+      "title": "財務省の関税・外国為替等審議会が韓国および台湾等を原産地とするビスフェノールAに対して不当廉売関税を課すことの適当性を答申した。",
+      "summary": "ビスフェノールAに対する不当廉売関税課税の答申が行われた。",
+      "whatHappened": "財務省の関税・外国為替等審議会が韓国および台湾等を原産地とするビスフェノールAに対して不当廉売関税を課すことの適当性を答申した。",
+      "whatChanged": "ビスフェノールAに対する不当廉売関税課税の答申が行われた。",
+      "relatedThemes": [
+        "財務省",
+        "関税",
+        "不当廉売関税"
+      ],
+      "status": "NEW",
+      "source": "財務省",
+      "publishedAt": "2026-11-20T03:04:00.000Z",
+      "firstSeenAt": "2026-11-20T03:33:35.130Z",
+      "contentStatus": "VERIFIED_TEXT",
+      "links": [
+        {
+          "title": "大韓民国並びに台湾、澎湖諸島、金門及び馬祖から成る独立の関税地域を原産地とするビスフェノールＡに対して不当廉売関税を課することについての答申 （令和8年11月20日）",
+          "url": "https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/report/20261120b_toushin.html",
+          "source": "財務省"
+        }
+      ]
+    },
+    {
+      "id": "c5c0ff4337bcd3c9169367b78fb05584c73ae6c67acdd908830614c2e5291183",
+      "category": "財政・国債",
+      "title": "財務省の関税・外国為替等審議会が韓国および中国を原産地とする溶融亜鉛めっき鋼帯及び鋼板に対して不当廉売関税を課することの適当性を答申した。",
+      "summary": "溶融亜鉛めっき鋼帯及び鋼板に対する不当廉売関税課税の答申が行われた。",
+      "whatHappened": "財務省の関税・外国為替等審議会が韓国および中国を原産地とする溶融亜鉛めっき鋼帯及び鋼板に対して不当廉売関税を課することの適当性を答申した。",
+      "whatChanged": "溶融亜鉛めっき鋼帯及び鋼板に対する不当廉売関税課税の答申が行われた。",
+      "relatedThemes": [
+        "財務省",
+        "関税",
+        "不当廉売関税"
+      ],
+      "status": "NEW",
+      "source": "財務省",
+      "publishedAt": "2026-11-20T03:03:00.000Z",
+      "firstSeenAt": "2026-11-20T03:33:35.130Z",
+      "contentStatus": "VERIFIED_TEXT",
+      "links": [
+        {
+          "title": "大韓民国及び中華人民共和国（香港地域及びマカオ地域を除く。）を原産地とする溶融亜鉛めっき鋼帯及び鋼板に対して不当廉売関税を課することについての答申 （令和8年11月20日）",
+          "url": "https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/report/20261120a_toushin.html",
+          "source": "財務省"
+        }
+      ]
+    },
+    {
       "id": "0312816ad1a6f9f6fbeca6cacdc52538f7d86a172d4f601406b3717a542d9197",
       "category": "金融政策・市場",
-      "title": "日本銀行国際局が外国為替の取引等の報告に関する省令に基づく換算レートを公表した。",
-      "summary": "令和8年12月中において適用される各国通貨と米ドルとの間の換算レートが示された。",
-      "whatHappened": "日本銀行国際局が外国為替の取引等の報告に関する省令に基づく換算レートを公表した。",
-      "whatChanged": "令和8年12月中において適用される各国通貨と米ドルとの間の換算レートが示された。",
+      "title": "日本銀行が12月分の報告省令レートを発表した。",
+      "summary": "外国為替の取引等の報告に関する省令に基づく換算レートが示された。",
+      "whatHappened": "日本銀行が12月分の報告省令レートを発表した。",
+      "whatChanged": "外国為替の取引等の報告に関する省令に基づく換算レートが示された。",
       "relatedThemes": [
-        "為替レート",
-        "日本銀行"
+        "日本銀行",
+        "為替",
+        "省令レート"
       ],
       "status": "NEW",
       "source": "日本銀行",
@@ -122,13 +198,14 @@
     {
       "id": "01f7905a3ccb954b87068b1afa82e4275c71dd3ba722716ad435f1dd4d3f8cfc",
       "category": "金融政策・市場",
-      "title": "日本銀行が令和8年12月中において適用される基準外国為替相場及び裁定外国為替相場を公表した。",
-      "summary": "基準外国為替相場として1米ドルにつき本邦通貨158円などが定められた。",
-      "whatHappened": "日本銀行が令和8年12月中において適用される基準外国為替相場及び裁定外国為替相場を公表した。",
-      "whatChanged": "基準外国為替相場として1米ドルにつき本邦通貨158円などが定められた。",
+      "title": "日本銀行が12月分における基準外国為替相場及び裁定外国為替相場を発表した。",
+      "summary": "12月中において適用される基準外国為替相場（1米ドル＝158円など）が公示された。",
+      "whatHappened": "日本銀行が12月分における基準外国為替相場及び裁定外国為替相場を発表した。",
+      "whatChanged": "12月中において適用される基準外国為替相場（1米ドル＝158円など）が公示された。",
       "relatedThemes": [
-        "外国為替",
-        "日本銀行"
+        "日本銀行",
+        "為替相場",
+        "基準外国為替相場"
       ],
       "status": "NEW",
       "source": "日本銀行",
@@ -144,106 +221,35 @@
       ]
     },
     {
-      "id": "c733c98b20c16de961162113667ad7de29322035304f5620eb4a2a4a619a6275",
-      "category": "金融政策・市場",
-      "title": "国連安保理制裁委員会が指定を削除したことに伴い、イラク前政権の高官等に関する資産凍結等の措置の対象者1団体に対する措置を解除した。",
-      "summary": "外国為替及び外国貿易法に基づく当該団体への資金移転防止措置が解除された。",
-      "whatHappened": "国連安保理制裁委員会が指定を削除したことに伴い、イラク前政権の高官等に関する資産凍結等の措置の対象者1団体に対する措置を解除した。",
-      "whatChanged": "外国為替及び外国貿易法に基づく当該団体への資金移転防止措置が解除された。",
-      "relatedThemes": [
-        "資産凍結",
-        "財務省"
-      ],
-      "status": "NEW",
-      "source": "財務省",
-      "publishedAt": "2026-11-19T09:00:00.000Z",
-      "firstSeenAt": "2026-11-19T17:43:56.153Z",
-      "contentStatus": "VERIFIED_TEXT",
-      "links": [
-        {
-          "title": "イラク前政権の高官又はその関係者等に対する資産凍結等の措置の対象者の削除を実施します",
-          "url": "https://www.mof.go.jp/policy/international_policy/gaitame_kawase/gaitame/economic_sanctions/iraqhoudou_20261120.html",
-          "source": "財務省"
-        }
-      ]
-    },
-    {
-      "id": "564fed4d55502cf0162dcac23549bf4dd023c23e191a5f0f8e4875af1661cc61",
-      "category": "金融政策・市場",
-      "title": "マネロン・テロ資金供与・拡散金融対策政策会議が「マネロン・テロ資金供与・拡散金融対策に関する行動計画（2027-2029年度）」を決定した。",
-      "summary": "新たな行動計画に基づき、政府一体および民間事業者連携による対策の一層の向上に取り組むこととなった。",
-      "whatHappened": "マネロン・テロ資金供与・拡散金融対策政策会議が「マネロン・テロ資金供与・拡散金融対策に関する行動計画（2027-2029年度）」を決定した。",
-      "whatChanged": "新たな行動計画に基づき、政府一体および民間事業者連携による対策の一層の向上に取り組むこととなった。",
-      "relatedThemes": [
-        "マネーロンダリング対策",
-        "財務省"
-      ],
-      "status": "NEW",
-      "source": "財務省",
-      "publishedAt": "2026-11-19T10:00:00.000Z",
-      "firstSeenAt": "2026-11-19T17:43:56.153Z",
-      "contentStatus": "VERIFIED_TEXT",
-      "links": [
-        {
-          "title": "「マネロン・テロ資金供与・拡散金融対策に関する行動計画（2027-2029年度）」を決定しました（令和8年11月19日）",
-          "url": "https://www.mof.go.jp/policy/international_policy/councils/aml_cft_policy/20261119_1.html",
-          "source": "財務省"
-        }
-      ]
-    },
-    {
-      "id": "12bc38471a942ebd93604995d546de14e9e0a099f0526596cbe64e43ae55325d",
+      "id": "06b4852181e1dd918b6e4c19fe5655e8b01ef85a50b19d40f6fd579d1e7372b1",
       "category": "財政・国債",
-      "title": "財務省が発行予定総額7,000億円程度の流動性供給（第465回）入札の実施を通知した。",
-      "summary": "2年、5年、10年、20年、30年国債を対象とした流動性供給入札の申込締切が本日午前11時50分に設定された。",
-      "whatHappened": "財務省が発行予定総額7,000億円程度の流動性供給（第465回）入札の実施を通知した。",
-      "whatChanged": "2年、5年、10年、20年、30年国債を対象とした流動性供給入札の申込締切が本日午前11時50分に設定された。",
+      "title": "財務省が国庫短期証券（第1421回）の入札結果を発表した。",
+      "summary": "国庫短期証券（第1421回）の価格競争入札および第Ⅰ非価格競争入札の募入が決定された。",
+      "whatHappened": "財務省が国庫短期証券（第1421回）の入札結果を発表した。",
+      "whatChanged": "国庫短期証券（第1421回）の価格競争入札および第Ⅰ非価格競争入札の募入が決定された。",
       "relatedThemes": [
-        "国債入札",
-        "財務省"
+        "国債",
+        "財務省",
+        "入札結果"
       ],
       "status": "NEW",
       "source": "財務省",
-      "publishedAt": "2026-11-20T01:30:00.000Z",
-      "firstSeenAt": "2026-11-20T02:41:12.872Z",
+      "publishedAt": "2026-11-20T03:30:00.000Z",
+      "firstSeenAt": "2026-11-20T03:33:35.130Z",
       "contentStatus": "VERIFIED_TEXT",
       "links": [
         {
-          "title": "流動性供給(第465回)入札",
-          "url": "https://www.mof.go.jp/jgbs/auction/calendar/nyusatsu/offer20261120.htm",
-          "source": "財務省"
-        }
-      ]
-    },
-    {
-      "id": "4e1463b1e5433b91d6ab25ce5c4edae46d1796a13de92a5221e94306f10132a6",
-      "category": "財政・国債",
-      "title": "財務省が国庫短期証券（第1421回）の価格競争入札及び第Ⅰ非価格競争入札の実施を通知した。",
-      "summary": "発行予定額が額面金額で3兆1,000億円程度、申込締切日時が本日午前11時30分に設定された。",
-      "whatHappened": "財務省が国庫短期証券（第1421回）の価格競争入札及び第Ⅰ非価格競争入札の実施を通知した。",
-      "whatChanged": "発行予定額が額面金額で3兆1,000億円程度、申込締切日時が本日午前11時30分に設定された。",
-      "relatedThemes": [
-        "国庫短期証券",
-        "財務省"
-      ],
-      "status": "NEW",
-      "source": "財務省",
-      "publishedAt": "2026-11-20T01:20:00.000Z",
-      "firstSeenAt": "2026-11-20T02:41:12.872Z",
-      "contentStatus": "VERIFIED_TEXT",
-      "links": [
-        {
-          "title": "国庫短期証券（第1421回）の入札発行",
-          "url": "https://www.mof.go.jp/jgbs/auction/calendar/tbill/tbill_nyusatsu/offer20261120.htm",
+          "title": "国庫短期証券（第1421回）の入札結果",
+          "url": "https://www.mof.go.jp/jgbs/auction/calendar/tbill/tbill_nyusatsu/resul20261120.htm",
           "source": "財務省"
         }
       ]
     }
   ],
   "summary": [
-    "令和8年12月中において適用される各国通貨と米ドルとの間の換算レートが示された。",
-    "基準外国為替相場として1米ドルにつき本邦通貨158円などが定められた。",
-    "外国為替及び外国貿易法に基づく当該団体への資金移転防止措置が解除された。"
+    "不当廉売関税の課税期間延長に関する答申が行われた。",
+    "ビスフェノールAに対する不当廉売関税課税の答申が行われた。",
+    "溶融亜鉛めっき鋼帯及び鋼板に対する不当廉売関税課税の答申が行われた。"
   ],
   "qualityNote": "NEWS MEMORYへの保存と表示用編集を分離。公式本文を確認できない情報は、見出し以上に補完しない。株価予想・売買推奨は行わない。"
 }
