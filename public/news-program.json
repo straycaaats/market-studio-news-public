@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-11-21T02:52:14.023Z",
+  "generatedAt": "2026-11-21T03:17:22.310Z",
   "asOf": "2026-11-21",
-  "edition": "MORNING",
-  "heading": "今日見る材料",
+  "edition": "EVENING",
+  "heading": "今日の振り返り",
   "counts": {
     "fetchedToday": 18,
     "newsMemoryTotal": 873,
-    "considered": 4,
-    "adoptedCards": 2,
+    "considered": 1,
+    "adoptedCards": 0,
     "failedSources": 1
   },
   "sourceResults": [
@@ -16,35 +16,35 @@
       "status": "FETCHED",
       "read": 15,
       "added": 0,
-      "fetchedAt": "2026-11-21T02:52:14.023Z"
+      "fetchedAt": "2026-11-21T03:17:22.310Z"
     },
     {
       "source": "日本銀行",
       "status": "FETCHED",
       "read": 74,
       "added": 0,
-      "fetchedAt": "2026-11-21T02:52:14.023Z"
+      "fetchedAt": "2026-11-21T03:17:22.310Z"
     },
     {
       "source": "金融庁",
       "status": "FETCHED",
       "read": 15,
       "added": 0,
-      "fetchedAt": "2026-11-21T02:52:14.023Z"
+      "fetchedAt": "2026-11-21T03:17:22.310Z"
     },
     {
       "source": "財務省",
       "status": "FETCHED",
       "read": 100,
       "added": 0,
-      "fetchedAt": "2026-11-21T02:52:14.023Z"
+      "fetchedAt": "2026-11-21T03:17:22.310Z"
     },
     {
       "source": "経済産業省",
       "status": "FAILED",
       "read": 0,
       "added": 0,
-      "fetchedAt": "2026-11-21T02:52:14.023Z",
+      "fetchedAt": "2026-11-21T03:17:22.310Z",
       "error": "HTTP 403"
     }
   ],
@@ -94,61 +94,7 @@
     "mode": "GEMINI_GROUNDED_EDITORIAL"
   },
   "summaryMode": "GEMINI_GROUNDED_EDITORIAL",
-  "cards": [
-    {
-      "id": "d58dda7690e4b17d1a8be48ddcf74c0ba229c619e5484c2205b5fd36bb66be4b",
-      "category": "財政・国債",
-      "title": "片山財務大臣が閣議後記者会見を行い、令和9年度税制改正や個人向け国債の税制優遇、楽天証券の情報漏洩事案に関する金融庁の対応などについて述べた。",
-      "summary": "楽天証券に対し、金商法及び個人情報保護法に基づく報告徴求命令が発出され、顧客保護に向けた対応や事実関係の確認が進められている。",
-      "whatHappened": "片山財務大臣が閣議後記者会見を行い、令和9年度税制改正や個人向け国債の税制優遇、楽天証券の情報漏洩事案に関する金融庁の対応などについて述べた。",
-      "whatChanged": "楽天証券に対し、金商法及び個人情報保護法に基づく報告徴求命令が発出され、顧客保護に向けた対応や事実関係の確認が進められている。",
-      "relatedThemes": [
-        "税制改正",
-        "個人向け国債",
-        "情報漏洩・金融庁対応"
-      ],
-      "status": "NEW",
-      "source": "財務省",
-      "publishedAt": "2026-11-20T09:55:00.000Z",
-      "firstSeenAt": "2026-11-20T17:21:16.133Z",
-      "contentStatus": "VERIFIED_TEXT",
-      "links": [
-        {
-          "title": "片山財務大臣兼内閣府特命担当大臣閣議後記者会見の概要(令和8年11月20日(金曜日))",
-          "url": "https://www.mof.go.jp/public_relations/conference/my20261120.html",
-          "source": "財務省"
-        }
-      ]
-    },
-    {
-      "id": "6ff3a78a2ffb332e0a458463c90fa75d57a76d5aa1430ff6785420f9a1ef2f75",
-      "category": "財政・国債",
-      "title": "関税・外国為替等審議会の第70回外国為替等分科会議事録が公表された。",
-      "summary": "最近の国際金融情勢やFATF第5次対日相互審査に向けた議論が行われた過去の議事録が正式に開示された。",
-      "whatHappened": "関税・外国為替等審議会の第70回外国為替等分科会議事録が公表された。",
-      "whatChanged": "最近の国際金融情勢やFATF第5次対日相互審査に向けた議論が行われた過去の議事録が正式に開示された。",
-      "relatedThemes": [
-        "為替",
-        "国際金融",
-        "マネロン対策"
-      ],
-      "status": "NEW",
-      "source": "財務省",
-      "publishedAt": "2026-11-20T09:00:00.000Z",
-      "firstSeenAt": "2026-11-20T17:21:16.133Z",
-      "contentStatus": "VERIFIED_TEXT",
-      "links": [
-        {
-          "title": "関税・外国為替等審議会 第70回外国為替等分科会議事録",
-          "url": "https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-foreign_exchange/proceedings/proceedings/20261118185608.html",
-          "source": "財務省"
-        }
-      ]
-    }
-  ],
-  "summary": [
-    "楽天証券に対し、金商法及び個人情報保護法に基づく報告徴求命令が発出され、顧客保護に向けた対応や事実関係の確認が進められている。",
-    "最近の国際金融情勢やFATF第5次対日相互審査に向けた議論が行われた過去の議事録が正式に開示された。"
-  ],
+  "cards": [],
+  "summary": [],
   "qualityNote": "NEWS MEMORYへの保存と表示用編集を分離。公式本文を確認できない情報は、見出し以上に補完しない。株価予想・売買推奨は行わない。"
 }
