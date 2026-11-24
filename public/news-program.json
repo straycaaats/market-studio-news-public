@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-24T06:10:01.344Z",
-  "asOf": "2026-11-24",
-  "edition": "EVENING",
-  "heading": "今日の振り返り",
+  "generatedAt": "2026-11-24T19:44:06.815Z",
+  "asOf": "2026-11-25",
+  "edition": "MORNING",
+  "heading": "今日見る材料",
   "counts": {
-    "fetchedToday": 6,
-    "newsMemoryTotal": 880,
-    "considered": 2,
+    "fetchedToday": 8,
+    "newsMemoryTotal": 888,
+    "considered": 4,
     "adoptedCards": 1,
     "failedSources": 1
   },
@@ -16,35 +16,35 @@
       "status": "FETCHED",
       "read": 15,
       "added": 0,
-      "fetchedAt": "2026-11-24T06:10:01.344Z"
+      "fetchedAt": "2026-11-24T19:44:06.815Z"
     },
     {
       "source": "日本銀行",
       "status": "FETCHED",
-      "read": 66,
-      "added": 0,
-      "fetchedAt": "2026-11-24T06:10:01.344Z"
+      "read": 65,
+      "added": 2,
+      "fetchedAt": "2026-11-24T19:44:06.815Z"
     },
     {
       "source": "金融庁",
       "status": "FETCHED",
       "read": 15,
       "added": 4,
-      "fetchedAt": "2026-11-24T06:10:01.344Z"
+      "fetchedAt": "2026-11-24T19:44:06.815Z"
     },
     {
       "source": "財務省",
       "status": "FETCHED",
       "read": 100,
-      "added": 0,
-      "fetchedAt": "2026-11-24T06:10:01.344Z"
+      "added": 2,
+      "fetchedAt": "2026-11-24T19:44:06.815Z"
     },
     {
       "source": "経済産業省",
       "status": "FAILED",
       "read": 0,
       "added": 0,
-      "fetchedAt": "2026-11-24T06:10:01.344Z",
+      "fetchedAt": "2026-11-24T19:44:06.815Z",
       "error": "HTTP 403"
     }
   ],
@@ -89,39 +89,40 @@
   ],
   "aiStatus": {
     "configured": true,
-    "used": true,
+    "used": false,
     "model": "gemini-3.5-flash-lite",
-    "mode": "GEMINI_GROUNDED_EDITORIAL"
+    "mode": "RULE_BASED_AFTER_GEMINI_FAILURE:Gemini HTTP 503"
   },
-  "summaryMode": "GEMINI_GROUNDED_EDITORIAL",
+  "summaryMode": "RULE_BASED_AFTER_GEMINI_FAILURE:Gemini HTTP 503",
   "cards": [
     {
-      "id": "22dbc3cbb3483e000efb18a0aa77426673011ed4065b308022c420eb41a5be6f",
-      "category": "政策・公式発表",
-      "title": "日本国政府とチェコ共和国政府の間で、所得に対する租税に関する二重課税の除去や脱税・租税回避の防止を目的とした新租税条約がプラハで署名された。",
-      "summary": "1978年発効の現行の租税条約が全面的に改正され、事業利得・投資所得に対する課税の改正や濫用防止措置、情報交換の拡充が行われることになった。",
-      "whatHappened": "日本国政府とチェコ共和国政府の間で、所得に対する租税に関する二重課税の除去や脱税・租税回避の防止を目的とした新租税条約がプラハで署名された。",
-      "whatChanged": "1978年発効の現行の租税条約が全面的に改正され、事業利得・投資所得に対する課税の改正や濫用防止措置、情報交換の拡充が行われることになった。",
+      "id": "608608ec29c078842e5f88528a3e2414335d24f43fd9fe1e62d3869ba70f7b46",
+      "category": "金融政策・市場",
+      "title": "日本銀行政策委員会月報（令和8年10月号）",
+      "summary": "日本銀行政策委員会月報 令和8年10月（第917号） 1．議決事項 （1）金融政策決定会合関係 案件名 金融市場調節方針の決定に関する件（10月29・30日）[PDF 52KB] 「指数連動型上場投資信託受益権等の処分の指針」の一部改正に関する件（10月29・30日）[PDF 122KB] 「当面の",
+      "whatHappened": "日本銀行政策委員会月報（令和8年10月号）",
+      "whatChanged": "日本銀行政策委員会月報 令和8年10月（第917号） 1．議決事項 （1）金融政策決定会合関係 案件名 金融市場調節方針の決定に関する件（10月29・30日）[PDF 52KB] 「指数連動型上場投資信託受益権等の処分の指針」の一部改正に関する件（10月29・30日）[PDF 122KB] 「当面の",
       "relatedThemes": [
-        "財政・税制",
-        "国際関係"
+        "銀行・保険",
+        "小売・消費",
+        "国債・円相場"
       ],
       "status": "NEW",
-      "source": "財務省",
-      "publishedAt": "2026-11-24T01:00:00.000Z",
-      "firstSeenAt": "2026-11-24T05:37:04.788Z",
+      "source": "日本銀行",
+      "publishedAt": "2026-11-24T07:30:00.000Z",
+      "firstSeenAt": "2026-11-24T19:44:06.815Z",
       "contentStatus": "VERIFIED_TEXT",
       "links": [
         {
-          "title": "チェコとの新租税条約が署名されました",
-          "url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/press_release/20261124cz.html",
-          "source": "財務省"
+          "title": "日本銀行政策委員会月報（令和8年10月号）",
+          "url": "https://www.boj.or.jp/about/organization/policyboard/pb_geppo/pbgp2610.htm",
+          "source": "日本銀行"
         }
       ]
     }
   ],
   "summary": [
-    "1978年発効の現行の租税条約が全面的に改正され、事業利得・投資所得に対する課税の改正や濫用防止措置、情報交換の拡充が行われることになった。"
+    "日本銀行政策委員会月報 令和8年10月（第917号） 1．議決事項 （1）金融政策決定会合関係 案件名 金融市場調節方針の決定に関する件（10月29・30日）[PDF 52KB] 「指数連動型上場投資信託受益権等の処分の指針」の一部改正に関する件（10月29・30日）[PDF 122KB] 「当面の"
   ],
   "qualityNote": "NEWS MEMORYへの保存と表示用編集を分離。公式本文を確認できない情報は、見出し以上に補完しない。株価予想・売買推奨は行わない。"
 }
