@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-11-23T21:59:30.068Z",
+  "generatedAt": "2026-11-24T05:37:04.788Z",
   "asOf": "2026-11-24",
-  "edition": "MORNING",
-  "heading": "今日見る材料",
+  "edition": "EVENING",
+  "heading": "今日の振り返り",
   "counts": {
-    "fetchedToday": 0,
-    "newsMemoryTotal": 874,
-    "considered": 1,
-    "adoptedCards": 0,
+    "fetchedToday": 2,
+    "newsMemoryTotal": 876,
+    "considered": 2,
+    "adoptedCards": 1,
     "failedSources": 1
   },
   "sourceResults": [
@@ -16,35 +16,35 @@
       "status": "FETCHED",
       "read": 15,
       "added": 0,
-      "fetchedAt": "2026-11-23T21:59:30.068Z"
+      "fetchedAt": "2026-11-24T05:37:04.788Z"
     },
     {
       "source": "日本銀行",
       "status": "FETCHED",
       "read": 67,
-      "added": 0,
-      "fetchedAt": "2026-11-23T21:59:30.068Z"
+      "added": 1,
+      "fetchedAt": "2026-11-24T05:37:04.788Z"
     },
     {
       "source": "金融庁",
       "status": "FETCHED",
       "read": 15,
       "added": 0,
-      "fetchedAt": "2026-11-23T21:59:30.068Z"
+      "fetchedAt": "2026-11-24T05:37:04.788Z"
     },
     {
       "source": "財務省",
       "status": "FETCHED",
       "read": 100,
-      "added": 0,
-      "fetchedAt": "2026-11-23T21:59:30.068Z"
+      "added": 1,
+      "fetchedAt": "2026-11-24T05:37:04.788Z"
     },
     {
       "source": "経済産業省",
       "status": "FAILED",
       "read": 0,
       "added": 0,
-      "fetchedAt": "2026-11-23T21:59:30.068Z",
+      "fetchedAt": "2026-11-24T05:37:04.788Z",
       "error": "HTTP 403"
     }
   ],
@@ -89,12 +89,36 @@
   ],
   "aiStatus": {
     "configured": true,
-    "used": true,
+    "used": false,
     "model": "gemini-3.5-flash-lite",
-    "mode": "GEMINI_GROUNDED_EDITORIAL"
+    "mode": "RULE_BASED_AFTER_GEMINI_FAILURE:Gemini HTTP 503"
   },
-  "summaryMode": "GEMINI_GROUNDED_EDITORIAL",
-  "cards": [],
-  "summary": [],
+  "summaryMode": "RULE_BASED_AFTER_GEMINI_FAILURE:Gemini HTTP 503",
+  "cards": [
+    {
+      "id": "22dbc3cbb3483e000efb18a0aa77426673011ed4065b308022c420eb41a5be6f",
+      "category": "政策・公式発表",
+      "title": "チェコとの新租税条約が署名されました",
+      "summary": "２ 本条約は、1978年に発効した現行の租税条約（所得に対する租税に関する二重課税の回避のための日本国とチェッコスロヴァキア社会主義共和国との間の条約）を全面的に改正するものであり、具体的には、事業利得及び投資所得に対する課税の改正のほか、本条約の濫用防止措置及び租税に関する情報交換の拡充等を行うも",
+      "whatHappened": "チェコとの新租税条約が署名されました",
+      "whatChanged": "２ 本条約は、1978年に発効した現行の租税条約（所得に対する租税に関する二重課税の回避のための日本国とチェッコスロヴァキア社会主義共和国との間の条約）を全面的に改正するものであり、具体的には、事業利得及び投資所得に対する課税の改正のほか、本条約の濫用防止措置及び租税に関する情報交換の拡充等を行うも",
+      "relatedThemes": [],
+      "status": "NEW",
+      "source": "財務省",
+      "publishedAt": "2026-11-24T01:00:00.000Z",
+      "firstSeenAt": "2026-11-24T05:37:04.788Z",
+      "contentStatus": "VERIFIED_TEXT",
+      "links": [
+        {
+          "title": "チェコとの新租税条約が署名されました",
+          "url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/press_release/20261124cz.html",
+          "source": "財務省"
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "２ 本条約は、1978年に発効した現行の租税条約（所得に対する租税に関する二重課税の回避のための日本国とチェッコスロヴァキア社会主義共和国との間の条約）を全面的に改正するものであり、具体的には、事業利得及び投資所得に対する課税の改正のほか、本条約の濫用防止措置及び租税に関する情報交換の拡充等を行うも"
+  ],
   "qualityNote": "NEWS MEMORYへの保存と表示用編集を分離。公式本文を確認できない情報は、見出し以上に補完しない。株価予想・売買推奨は行わない。"
 }
