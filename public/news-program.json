@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-24T05:37:04.788Z",
+  "generatedAt": "2026-11-24T06:10:01.344Z",
   "asOf": "2026-11-24",
   "edition": "EVENING",
   "heading": "今日の振り返り",
   "counts": {
-    "fetchedToday": 2,
-    "newsMemoryTotal": 876,
+    "fetchedToday": 6,
+    "newsMemoryTotal": 880,
     "considered": 2,
     "adoptedCards": 1,
     "failedSources": 1
@@ -16,35 +16,35 @@
       "status": "FETCHED",
       "read": 15,
       "added": 0,
-      "fetchedAt": "2026-11-24T05:37:04.788Z"
+      "fetchedAt": "2026-11-24T06:10:01.344Z"
     },
     {
       "source": "日本銀行",
       "status": "FETCHED",
-      "read": 67,
-      "added": 1,
-      "fetchedAt": "2026-11-24T05:37:04.788Z"
+      "read": 66,
+      "added": 0,
+      "fetchedAt": "2026-11-24T06:10:01.344Z"
     },
     {
       "source": "金融庁",
       "status": "FETCHED",
       "read": 15,
-      "added": 0,
-      "fetchedAt": "2026-11-24T05:37:04.788Z"
+      "added": 4,
+      "fetchedAt": "2026-11-24T06:10:01.344Z"
     },
     {
       "source": "財務省",
       "status": "FETCHED",
       "read": 100,
-      "added": 1,
-      "fetchedAt": "2026-11-24T05:37:04.788Z"
+      "added": 0,
+      "fetchedAt": "2026-11-24T06:10:01.344Z"
     },
     {
       "source": "経済産業省",
       "status": "FAILED",
       "read": 0,
       "added": 0,
-      "fetchedAt": "2026-11-24T05:37:04.788Z",
+      "fetchedAt": "2026-11-24T06:10:01.344Z",
       "error": "HTTP 403"
     }
   ],
@@ -89,20 +89,23 @@
   ],
   "aiStatus": {
     "configured": true,
-    "used": false,
+    "used": true,
     "model": "gemini-3.5-flash-lite",
-    "mode": "RULE_BASED_AFTER_GEMINI_FAILURE:Gemini HTTP 503"
+    "mode": "GEMINI_GROUNDED_EDITORIAL"
   },
-  "summaryMode": "RULE_BASED_AFTER_GEMINI_FAILURE:Gemini HTTP 503",
+  "summaryMode": "GEMINI_GROUNDED_EDITORIAL",
   "cards": [
     {
       "id": "22dbc3cbb3483e000efb18a0aa77426673011ed4065b308022c420eb41a5be6f",
       "category": "政策・公式発表",
-      "title": "チェコとの新租税条約が署名されました",
-      "summary": "２ 本条約は、1978年に発効した現行の租税条約（所得に対する租税に関する二重課税の回避のための日本国とチェッコスロヴァキア社会主義共和国との間の条約）を全面的に改正するものであり、具体的には、事業利得及び投資所得に対する課税の改正のほか、本条約の濫用防止措置及び租税に関する情報交換の拡充等を行うも",
-      "whatHappened": "チェコとの新租税条約が署名されました",
-      "whatChanged": "２ 本条約は、1978年に発効した現行の租税条約（所得に対する租税に関する二重課税の回避のための日本国とチェッコスロヴァキア社会主義共和国との間の条約）を全面的に改正するものであり、具体的には、事業利得及び投資所得に対する課税の改正のほか、本条約の濫用防止措置及び租税に関する情報交換の拡充等を行うも",
-      "relatedThemes": [],
+      "title": "日本国政府とチェコ共和国政府の間で、所得に対する租税に関する二重課税の除去や脱税・租税回避の防止を目的とした新租税条約がプラハで署名された。",
+      "summary": "1978年発効の現行の租税条約が全面的に改正され、事業利得・投資所得に対する課税の改正や濫用防止措置、情報交換の拡充が行われることになった。",
+      "whatHappened": "日本国政府とチェコ共和国政府の間で、所得に対する租税に関する二重課税の除去や脱税・租税回避の防止を目的とした新租税条約がプラハで署名された。",
+      "whatChanged": "1978年発効の現行の租税条約が全面的に改正され、事業利得・投資所得に対する課税の改正や濫用防止措置、情報交換の拡充が行われることになった。",
+      "relatedThemes": [
+        "財政・税制",
+        "国際関係"
+      ],
       "status": "NEW",
       "source": "財務省",
       "publishedAt": "2026-11-24T01:00:00.000Z",
@@ -118,7 +121,7 @@
     }
   ],
   "summary": [
-    "２ 本条約は、1978年に発効した現行の租税条約（所得に対する租税に関する二重課税の回避のための日本国とチェッコスロヴァキア社会主義共和国との間の条約）を全面的に改正するものであり、具体的には、事業利得及び投資所得に対する課税の改正のほか、本条約の濫用防止措置及び租税に関する情報交換の拡充等を行うも"
+    "1978年発効の現行の租税条約が全面的に改正され、事業利得・投資所得に対する課税の改正や濫用防止措置、情報交換の拡充が行われることになった。"
   ],
   "qualityNote": "NEWS MEMORYへの保存と表示用編集を分離。公式本文を確認できない情報は、見出し以上に補完しない。株価予想・売買推奨は行わない。"
 }
