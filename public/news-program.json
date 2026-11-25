@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-11-24T20:36:03.904Z",
+  "generatedAt": "2026-11-25T04:38:08.243Z",
   "asOf": "2026-11-25",
-  "edition": "MORNING",
-  "heading": "今日見る材料",
+  "edition": "EVENING",
+  "heading": "今日の振り返り",
   "counts": {
-    "fetchedToday": 8,
-    "newsMemoryTotal": 888,
-    "considered": 4,
-    "adoptedCards": 1,
+    "fetchedToday": 20,
+    "newsMemoryTotal": 900,
+    "considered": 5,
+    "adoptedCards": 2,
     "failedSources": 1
   },
   "sourceResults": [
@@ -16,35 +16,35 @@
       "status": "FETCHED",
       "read": 15,
       "added": 0,
-      "fetchedAt": "2026-11-24T20:36:03.904Z"
+      "fetchedAt": "2026-11-25T04:38:08.243Z"
     },
     {
       "source": "日本銀行",
       "status": "FETCHED",
-      "read": 65,
-      "added": 0,
-      "fetchedAt": "2026-11-24T20:36:03.904Z"
+      "read": 68,
+      "added": 3,
+      "fetchedAt": "2026-11-25T04:38:08.243Z"
     },
     {
       "source": "金融庁",
       "status": "FETCHED",
       "read": 15,
       "added": 0,
-      "fetchedAt": "2026-11-24T20:36:03.904Z"
+      "fetchedAt": "2026-11-25T04:38:08.243Z"
     },
     {
       "source": "財務省",
       "status": "FETCHED",
       "read": 100,
-      "added": 0,
-      "fetchedAt": "2026-11-24T20:36:03.904Z"
+      "added": 9,
+      "fetchedAt": "2026-11-25T04:38:08.243Z"
     },
     {
       "source": "経済産業省",
       "status": "FAILED",
       "read": 0,
       "added": 0,
-      "fetchedAt": "2026-11-24T20:36:03.904Z",
+      "fetchedAt": "2026-11-25T04:38:08.243Z",
       "error": "HTTP 403"
     }
   ],
@@ -96,33 +96,55 @@
   "summaryMode": "RULE_BASED_AFTER_GEMINI_FAILURE:Gemini HTTP 503",
   "cards": [
     {
-      "id": "608608ec29c078842e5f88528a3e2414335d24f43fd9fe1e62d3869ba70f7b46",
-      "category": "金融政策・市場",
-      "title": "日本銀行政策委員会月報（令和8年10月号）",
-      "summary": "日本銀行政策委員会月報 令和8年10月（第917号） 1．議決事項 （1）金融政策決定会合関係 案件名 金融市場調節方針の決定に関する件（10月29・30日）[PDF 52KB] 「指数連動型上場投資信託受益権等の処分の指針」の一部改正に関する件（10月29・30日）[PDF 122KB] 「当面の",
-      "whatHappened": "日本銀行政策委員会月報（令和8年10月号）",
-      "whatChanged": "日本銀行政策委員会月報 令和8年10月（第917号） 1．議決事項 （1）金融政策決定会合関係 案件名 金融市場調節方針の決定に関する件（10月29・30日）[PDF 52KB] 「指数連動型上場投資信託受益権等の処分の指針」の一部改正に関する件（10月29・30日）[PDF 122KB] 「当面の",
+      "id": "4c9e471af36aa2c13f25909259c942bbd210de1baa1307cfd457ad663f9cb29f",
+      "category": "財政・国債",
+      "title": "交付税及び譲与税配付金特別会計の借入金の入札結果（令和8年11月25日入札）",
+      "summary": "X ポスト 0 交付税及び譲与税配付金特別会計の 借入金の入札結果 令和8年11月25日 財務省 本日、借入金の入札について、下記のように募入の決定を行いました。",
+      "whatHappened": "交付税及び譲与税配付金特別会計の借入金の入札結果（令和8年11月25日入札）",
+      "whatChanged": "X ポスト 0 交付税及び譲与税配付金特別会計の 借入金の入札結果 令和8年11月25日 財務省 本日、借入金の入札について、下記のように募入の決定を行いました。",
       "relatedThemes": [
-        "銀行・保険",
-        "小売・消費",
         "国債・円相場"
       ],
       "status": "NEW",
-      "source": "日本銀行",
-      "publishedAt": "2026-11-24T07:30:00.000Z",
-      "firstSeenAt": "2026-11-24T19:44:06.815Z",
+      "source": "財務省",
+      "publishedAt": "2026-11-25T04:00:00.000Z",
+      "firstSeenAt": "2026-11-25T04:38:08.243Z",
       "contentStatus": "VERIFIED_TEXT",
       "links": [
         {
-          "title": "日本銀行政策委員会月報（令和8年10月号）",
-          "url": "https://www.boj.or.jp/about/organization/policyboard/pb_geppo/pbgp2610.htm",
-          "source": "日本銀行"
+          "title": "交付税及び譲与税配付金特別会計の借入金の入札結果（令和8年11月25日入札）",
+          "url": "https://www.mof.go.jp/jgbs/auction/calendar/kariire/kari-result261125.htm",
+          "source": "財務省"
+        }
+      ]
+    },
+    {
+      "id": "edfe676cf1a8a89993233db16ced93b3a1727405b14664e1a191be4920f8dfc1",
+      "category": "財政・国債",
+      "title": "40年利付国債（第19回）の入札結果（令和8年11月25日入札）",
+      "summary": "X ポスト 40年利付国債（第19回）の入札結果 令和8年11月25日 財務省 本日、40年利付国債（第19回）の入札について、下記のように募入の決定を行いました。",
+      "whatHappened": "40年利付国債（第19回）の入札結果（令和8年11月25日入札）",
+      "whatChanged": "X ポスト 40年利付国債（第19回）の入札結果 令和8年11月25日 財務省 本日、40年利付国債（第19回）の入札について、下記のように募入の決定を行いました。",
+      "relatedThemes": [
+        "国債・円相場"
+      ],
+      "status": "NEW",
+      "source": "財務省",
+      "publishedAt": "2026-11-25T03:35:00.000Z",
+      "firstSeenAt": "2026-11-25T04:38:08.243Z",
+      "contentStatus": "VERIFIED_TEXT",
+      "links": [
+        {
+          "title": "40年利付国債（第19回）の入札結果（令和8年11月25日入札）",
+          "url": "https://www.mof.go.jp/jgbs/auction/calendar/nyusatsu/resul20261125.htm",
+          "source": "財務省"
         }
       ]
     }
   ],
   "summary": [
-    "日本銀行政策委員会月報 令和8年10月（第917号） 1．議決事項 （1）金融政策決定会合関係 案件名 金融市場調節方針の決定に関する件（10月29・30日）[PDF 52KB] 「指数連動型上場投資信託受益権等の処分の指針」の一部改正に関する件（10月29・30日）[PDF 122KB] 「当面の"
+    "X ポスト 0 交付税及び譲与税配付金特別会計の 借入金の入札結果 令和8年11月25日 財務省 本日、借入金の入札について、下記のように募入の決定を行いました。",
+    "X ポスト 40年利付国債（第19回）の入札結果 令和8年11月25日 財務省 本日、40年利付国債（第19回）の入札について、下記のように募入の決定を行いました。"
   ],
   "qualityNote": "NEWS MEMORYへの保存と表示用編集を分離。公式本文を確認できない情報は、見出し以上に補完しない。株価予想・売買推奨は行わない。"
 }
