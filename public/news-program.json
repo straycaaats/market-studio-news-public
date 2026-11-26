@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-11-25T19:52:37.430Z",
+  "generatedAt": "2026-11-26T03:48:35.025Z",
   "asOf": "2026-11-26",
-  "edition": "MORNING",
-  "heading": "今日見る材料",
+  "edition": "EVENING",
+  "heading": "今日の振り返り",
   "counts": {
-    "fetchedToday": 2,
-    "newsMemoryTotal": 902,
-    "considered": 4,
-    "adoptedCards": 3,
+    "fetchedToday": 6,
+    "newsMemoryTotal": 906,
+    "considered": 2,
+    "adoptedCards": 1,
     "failedSources": 1
   },
   "sourceResults": [
@@ -16,35 +16,35 @@
       "status": "FETCHED",
       "read": 15,
       "added": 0,
-      "fetchedAt": "2026-11-25T19:52:37.430Z"
+      "fetchedAt": "2026-11-26T03:48:35.025Z"
     },
     {
       "source": "日本銀行",
       "status": "FETCHED",
-      "read": 69,
-      "added": 0,
-      "fetchedAt": "2026-11-25T19:52:37.430Z"
+      "read": 70,
+      "added": 1,
+      "fetchedAt": "2026-11-26T03:48:35.025Z"
     },
     {
       "source": "金融庁",
       "status": "FETCHED",
       "read": 15,
       "added": 0,
-      "fetchedAt": "2026-11-25T19:52:37.430Z"
+      "fetchedAt": "2026-11-26T03:48:35.025Z"
     },
     {
       "source": "財務省",
       "status": "FETCHED",
       "read": 100,
-      "added": 0,
-      "fetchedAt": "2026-11-25T19:52:37.430Z"
+      "added": 3,
+      "fetchedAt": "2026-11-26T03:48:35.025Z"
     },
     {
       "source": "経済産業省",
       "status": "FAILED",
       "read": 0,
       "added": 0,
-      "fetchedAt": "2026-11-25T19:52:37.430Z",
+      "fetchedAt": "2026-11-26T03:48:35.025Z",
       "error": "HTTP 403"
     }
   ],
@@ -89,86 +89,40 @@
   ],
   "aiStatus": {
     "configured": true,
-    "used": false,
+    "used": true,
     "model": "gemini-3.5-flash-lite",
-    "mode": "RULE_BASED_AFTER_GEMINI_FAILURE:Gemini HTTP 503"
+    "mode": "GEMINI_GROUNDED_EDITORIAL"
   },
-  "summaryMode": "RULE_BASED_AFTER_GEMINI_FAILURE:Gemini HTTP 503",
+  "summaryMode": "GEMINI_GROUNDED_EDITORIAL",
   "cards": [
     {
-      "id": "c16c90b10a152a81a6420e855207970f39108b5958cbc91f9e9e5ca8a0e68908",
-      "category": "財政・国債",
-      "title": "40年利付国債（第19回）の第II非価格競争入札結果（令和8年11月25日入札）",
-      "summary": "X ポスト --> 40年利付国債（第19回）の第Ⅱ非価格競争入札結果 令和8年11月25日 財務省 本日、40年利付国債（第19回）の第Ⅱ非価格競争入札について、下記のように募入の決定を行いました。",
-      "whatHappened": "40年利付国債（第19回）の第II非価格競争入札結果（令和8年11月25日入札）",
-      "whatChanged": "X ポスト --> 40年利付国債（第19回）の第Ⅱ非価格競争入札結果 令和8年11月25日 財務省 本日、40年利付国債（第19回）の第Ⅱ非価格競争入札について、下記のように募入の決定を行いました。",
+      "id": "d848c4cb4635cba0cf195823c3e70ae0fcee52f297e9d23f7686fffaec96f73e",
+      "category": "金融政策・市場",
+      "title": "日本銀行の田村審議委員が山梨県金融経済懇談会で挨拶を行った。",
+      "summary": "特になし",
+      "whatHappened": "日本銀行の田村審議委員が山梨県金融経済懇談会で挨拶を行った。",
+      "whatChanged": "特になし",
       "relatedThemes": [
-        "国債・円相場"
+        "日本銀行",
+        "金融政策",
+        "経済・物価情勢"
       ],
       "status": "NEW",
-      "source": "財務省",
-      "publishedAt": "2026-11-25T06:15:00.000Z",
-      "firstSeenAt": "2026-11-25T18:51:18.157Z",
+      "source": "日本銀行",
+      "publishedAt": "2026-11-26T01:00:00.000Z",
+      "firstSeenAt": "2026-11-26T03:48:35.025Z",
       "contentStatus": "VERIFIED_TEXT",
       "links": [
         {
-          "title": "40年利付国債（第19回）の第II非価格競争入札結果（令和8年11月25日入札）",
-          "url": "https://www.mof.go.jp/jgbs/auction/calendar/nyusatsu/resul20261125a.htm",
-          "source": "財務省"
-        }
-      ]
-    },
-    {
-      "id": "4c9e471af36aa2c13f25909259c942bbd210de1baa1307cfd457ad663f9cb29f",
-      "category": "財政・国債",
-      "title": "交付税及び譲与税配付金特別会計の借入金の入札結果（令和8年11月25日入札）",
-      "summary": "X ポスト 0 交付税及び譲与税配付金特別会計の 借入金の入札結果 令和8年11月25日 財務省 本日、借入金の入札について、下記のように募入の決定を行いました。",
-      "whatHappened": "交付税及び譲与税配付金特別会計の借入金の入札結果（令和8年11月25日入札）",
-      "whatChanged": "X ポスト 0 交付税及び譲与税配付金特別会計の 借入金の入札結果 令和8年11月25日 財務省 本日、借入金の入札について、下記のように募入の決定を行いました。",
-      "relatedThemes": [
-        "国債・円相場"
-      ],
-      "status": "FOLLOW_UP",
-      "source": "財務省",
-      "publishedAt": "2026-11-25T04:00:00.000Z",
-      "firstSeenAt": "2026-11-25T04:38:08.243Z",
-      "contentStatus": "VERIFIED_TEXT",
-      "links": [
-        {
-          "title": "交付税及び譲与税配付金特別会計の借入金の入札結果（令和8年11月25日入札）",
-          "url": "https://www.mof.go.jp/jgbs/auction/calendar/kariire/kari-result261125.htm",
-          "source": "財務省"
-        }
-      ]
-    },
-    {
-      "id": "edfe676cf1a8a89993233db16ced93b3a1727405b14664e1a191be4920f8dfc1",
-      "category": "財政・国債",
-      "title": "40年利付国債（第19回）の入札結果（令和8年11月25日入札）",
-      "summary": "X ポスト 40年利付国債（第19回）の入札結果 令和8年11月25日 財務省 本日、40年利付国債（第19回）の入札について、下記のように募入の決定を行いました。",
-      "whatHappened": "40年利付国債（第19回）の入札結果（令和8年11月25日入札）",
-      "whatChanged": "X ポスト 40年利付国債（第19回）の入札結果 令和8年11月25日 財務省 本日、40年利付国債（第19回）の入札について、下記のように募入の決定を行いました。",
-      "relatedThemes": [
-        "国債・円相場"
-      ],
-      "status": "FOLLOW_UP",
-      "source": "財務省",
-      "publishedAt": "2026-11-25T03:35:00.000Z",
-      "firstSeenAt": "2026-11-25T04:38:08.243Z",
-      "contentStatus": "VERIFIED_TEXT",
-      "links": [
-        {
-          "title": "40年利付国債（第19回）の入札結果（令和8年11月25日入札）",
-          "url": "https://www.mof.go.jp/jgbs/auction/calendar/nyusatsu/resul20261125.htm",
-          "source": "財務省"
+          "title": "【挨拶】田村審議委員「わが国の経済・物価情勢と金融政策」（山梨）",
+          "url": "https://www.boj.or.jp/about/press/koen_2026/ko261126a.htm",
+          "source": "日本銀行"
         }
       ]
     }
   ],
   "summary": [
-    "X ポスト --> 40年利付国債（第19回）の第Ⅱ非価格競争入札結果 令和8年11月25日 財務省 本日、40年利付国債（第19回）の第Ⅱ非価格競争入札について、下記のように募入の決定を行いました。",
-    "X ポスト 0 交付税及び譲与税配付金特別会計の 借入金の入札結果 令和8年11月25日 財務省 本日、借入金の入札について、下記のように募入の決定を行いました。",
-    "X ポスト 40年利付国債（第19回）の入札結果 令和8年11月25日 財務省 本日、40年利付国債（第19回）の入札について、下記のように募入の決定を行いました。"
+    "特になし"
   ],
   "qualityNote": "NEWS MEMORYへの保存と表示用編集を分離。公式本文を確認できない情報は、見出し以上に補完しない。株価予想・売買推奨は行わない。"
 }
