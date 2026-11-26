@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-11-26T04:12:35.308Z",
-  "asOf": "2026-11-26",
-  "edition": "EVENING",
-  "heading": "今日の振り返り",
+  "generatedAt": "2026-11-26T18:40:06.732Z",
+  "asOf": "2026-11-27",
+  "edition": "MORNING",
+  "heading": "今日見る材料",
   "counts": {
-    "fetchedToday": 6,
-    "newsMemoryTotal": 906,
-    "considered": 2,
-    "adoptedCards": 0,
+    "fetchedToday": 11,
+    "newsMemoryTotal": 917,
+    "considered": 4,
+    "adoptedCards": 1,
     "failedSources": 1
   },
   "sourceResults": [
@@ -16,35 +16,35 @@
       "status": "FETCHED",
       "read": 15,
       "added": 0,
-      "fetchedAt": "2026-11-26T04:12:35.308Z"
+      "fetchedAt": "2026-11-26T18:40:06.732Z"
     },
     {
       "source": "日本銀行",
       "status": "FETCHED",
-      "read": 70,
-      "added": 0,
-      "fetchedAt": "2026-11-26T04:12:35.308Z"
+      "read": 73,
+      "added": 3,
+      "fetchedAt": "2026-11-26T18:40:06.732Z"
     },
     {
       "source": "金融庁",
       "status": "FETCHED",
       "read": 15,
-      "added": 0,
-      "fetchedAt": "2026-11-26T04:12:35.308Z"
+      "added": 4,
+      "fetchedAt": "2026-11-26T18:40:06.732Z"
     },
     {
       "source": "財務省",
       "status": "FETCHED",
       "read": 100,
-      "added": 0,
-      "fetchedAt": "2026-11-26T04:12:35.308Z"
+      "added": 4,
+      "fetchedAt": "2026-11-26T18:40:06.732Z"
     },
     {
       "source": "経済産業省",
       "status": "FAILED",
       "read": 0,
       "added": 0,
-      "fetchedAt": "2026-11-26T04:12:35.308Z",
+      "fetchedAt": "2026-11-26T18:40:06.732Z",
       "error": "HTTP 403"
     }
   ],
@@ -94,7 +94,34 @@
     "mode": "RULE_BASED_AFTER_GEMINI_FAILURE:Gemini HTTP 503"
   },
   "summaryMode": "RULE_BASED_AFTER_GEMINI_FAILURE:Gemini HTTP 503",
-  "cards": [],
-  "summary": [],
+  "cards": [
+    {
+      "id": "fbf1a1284153d6f2ab7d790374e3a79113ffef970523f8116f534081e88f5888",
+      "category": "金融政策・市場",
+      "title": "外為法改正に伴う届出書及び報告書の取扱いについて（経過措置期間：令和9年1月4日～2月2日）",
+      "summary": "X ポスト 令和8年11月26日 財務省 外為法改正に伴う届出書及び報告書の取扱いについて（経過措置期間：令和9年1月4日～2月2日） 「外国為替及び外国貿易法の一部を改正する法律」による改正後の外国為替及び外国貿易法（以下「外為法」という。",
+      "whatHappened": "外為法改正に伴う届出書及び報告書の取扱いについて（経過措置期間：令和9年1月4日～2月2日）",
+      "whatChanged": "X ポスト 令和8年11月26日 財務省 外為法改正に伴う届出書及び報告書の取扱いについて（経過措置期間：令和9年1月4日～2月2日） 「外国為替及び外国貿易法の一部を改正する法律」による改正後の外国為替及び外国貿易法（以下「外為法」という。",
+      "relatedThemes": [
+        "輸出・製造業",
+        "国債・円相場"
+      ],
+      "status": "NEW",
+      "source": "財務省",
+      "publishedAt": "2026-11-26T07:00:00.000Z",
+      "firstSeenAt": "2026-11-26T18:40:06.732Z",
+      "contentStatus": "VERIFIED_TEXT",
+      "links": [
+        {
+          "title": "外為法改正に伴う届出書及び報告書の取扱いについて（経過措置期間：令和9年1月4日～2月2日）",
+          "url": "https://www.mof.go.jp/policy/international_policy/gaitame_kawase/fdi/20261124114759.html",
+          "source": "財務省"
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "X ポスト 令和8年11月26日 財務省 外為法改正に伴う届出書及び報告書の取扱いについて（経過措置期間：令和9年1月4日～2月2日） 「外国為替及び外国貿易法の一部を改正する法律」による改正後の外国為替及び外国貿易法（以下「外為法」という。"
+  ],
   "qualityNote": "NEWS MEMORYへの保存と表示用編集を分離。公式本文を確認できない情報は、見出し以上に補完しない。株価予想・売買推奨は行わない。"
 }
