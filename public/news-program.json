@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-11-26T19:31:15.897Z",
+  "generatedAt": "2026-11-27T03:50:06.340Z",
   "asOf": "2026-11-27",
-  "edition": "MORNING",
-  "heading": "今日見る材料",
+  "edition": "EVENING",
+  "heading": "今日の振り返り",
   "counts": {
-    "fetchedToday": 11,
-    "newsMemoryTotal": 917,
-    "considered": 3,
-    "adoptedCards": 2,
+    "fetchedToday": 21,
+    "newsMemoryTotal": 927,
+    "considered": 7,
+    "adoptedCards": 6,
     "failedSources": 1
   },
   "sourceResults": [
@@ -16,35 +16,35 @@
       "status": "FETCHED",
       "read": 15,
       "added": 0,
-      "fetchedAt": "2026-11-26T19:31:15.897Z"
+      "fetchedAt": "2026-11-27T03:50:06.340Z"
     },
     {
       "source": "日本銀行",
       "status": "FETCHED",
-      "read": 73,
-      "added": 0,
-      "fetchedAt": "2026-11-26T19:31:15.897Z"
+      "read": 74,
+      "added": 1,
+      "fetchedAt": "2026-11-27T03:50:06.340Z"
     },
     {
       "source": "金融庁",
       "status": "FETCHED",
       "read": 15,
       "added": 0,
-      "fetchedAt": "2026-11-26T19:31:15.897Z"
+      "fetchedAt": "2026-11-27T03:50:06.340Z"
     },
     {
       "source": "財務省",
       "status": "FETCHED",
       "read": 100,
-      "added": 0,
-      "fetchedAt": "2026-11-26T19:31:15.897Z"
+      "added": 9,
+      "fetchedAt": "2026-11-27T03:50:06.340Z"
     },
     {
       "source": "経済産業省",
       "status": "FAILED",
       "read": 0,
       "added": 0,
-      "fetchedAt": "2026-11-26T19:31:15.897Z",
+      "fetchedAt": "2026-11-27T03:50:06.340Z",
       "error": "HTTP 403"
     }
   ],
@@ -96,57 +96,152 @@
   "summaryMode": "GEMINI_GROUNDED_EDITORIAL",
   "cards": [
     {
-      "id": "fbf1a1284153d6f2ab7d790374e3a79113ffef970523f8116f534081e88f5888",
-      "category": "金融政策・市場",
-      "title": "財務省が、外為法改正に伴う届出書及び報告書の取扱いや経過措置期間（令和9年1月4日～2月2日）について公表した。",
-      "summary": "新旧制度の移行に伴い、対象行為を行う日に応じて使用する様式（旧様式・新様式）が異なる点などが示された。",
-      "whatHappened": "財務省が、外為法改正に伴う届出書及び報告書の取扱いや経過措置期間（令和9年1月4日～2月2日）について公表した。",
-      "whatChanged": "新旧制度の移行に伴い、対象行為を行う日に応じて使用する様式（旧様式・新様式）が異なる点などが示された。",
+      "id": "b6ef22fce7868079c6c0e4c590ff1d6c70226b2261fce57591d340eeddb504db",
+      "category": "財政・国債",
+      "title": "財務省が令和8年12月1日以降に適用される財政融資資金預託金利を発表した。",
+      "summary": "預託の約定期間に応じた適用利率が示された。",
+      "whatHappened": "財務省が令和8年12月1日以降に適用される財政融資資金預託金利を発表した。",
+      "whatChanged": "預託の約定期間に応じた適用利率が示された。",
       "relatedThemes": [
-        "外為法",
-        "財務省"
+        "財政融資資金",
+        "預託金利"
       ],
       "status": "NEW",
       "source": "財務省",
-      "publishedAt": "2026-11-26T07:00:00.000Z",
-      "firstSeenAt": "2026-11-26T18:40:06.732Z",
+      "publishedAt": "2026-11-27T00:30:00.000Z",
+      "firstSeenAt": "2026-11-27T03:50:06.340Z",
       "contentStatus": "VERIFIED_TEXT",
       "links": [
         {
-          "title": "外為法改正に伴う届出書及び報告書の取扱いについて（経過措置期間：令和9年1月4日～2月2日）",
-          "url": "https://www.mof.go.jp/policy/international_policy/gaitame_kawase/fdi/20261124114759.html",
+          "title": "財政融資資金預託金利（令和8年12月1日以降適用）",
+          "url": "https://www.mof.go.jp/policy/filp/reference/flf_interest_rate/kinrir8/yotaku20261127.html",
           "source": "財務省"
         }
       ]
     },
     {
-      "id": "2769a1408a76955bcc98f81b7f4d10404d844c0a522d50bd9649984ccdc532a1",
+      "id": "583a1c9baab8407687f73e4bf42c633c9d1c640993c92353c4ed0de3831d140f",
       "category": "財政・国債",
-      "title": "財務省が関税・外国為替等審議会 第71回外国為替等分科会の開催および会議資料を公開した。",
-      "summary": "国際金融情勢や対内直接投資審査制度、関連するガイドライン案などの資料が提示された。",
-      "whatHappened": "財務省が関税・外国為替等審議会 第71回外国為替等分科会の開催および会議資料を公開した。",
-      "whatChanged": "国際金融情勢や対内直接投資審査制度、関連するガイドライン案などの資料が提示された。",
+      "title": "財務省が令和8年12月1日以降に貸し付ける財政融資資金の貸付金利を発表した。",
+      "summary": "貸付期間および据置期間に応じた適用利率（年利）が示された。",
+      "whatHappened": "財務省が令和8年12月1日以降に貸し付ける財政融資資金の貸付金利を発表した。",
+      "whatChanged": "貸付期間および据置期間に応じた適用利率（年利）が示された。",
       "relatedThemes": [
-        "国際金融",
-        "対内直接投資"
+        "財政融資資金",
+        "貸付金利"
       ],
       "status": "NEW",
       "source": "財務省",
-      "publishedAt": "2026-11-26T09:00:00.000Z",
-      "firstSeenAt": "2026-11-26T18:40:06.732Z",
+      "publishedAt": "2026-11-27T00:30:00.000Z",
+      "firstSeenAt": "2026-11-27T03:50:06.340Z",
       "contentStatus": "VERIFIED_TEXT",
       "links": [
         {
-          "title": "関税・外国為替等審議会 第71回外国為替等分科会 資料",
-          "url": "https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-foreign_exchange/proceedings/material/20261120175045.html",
+          "title": "財政融資資金貸付金利（令和8年12月1日以降適用）",
+          "url": "https://www.mof.go.jp/policy/filp/reference/flf_interest_rate/kinrir8/kashi20261127.html",
+          "source": "財務省"
+        }
+      ]
+    },
+    {
+      "id": "e1b3a2e16ba6be92f4a026450369ffd10290c4141e1708f34a316cc5689aae3c",
+      "category": "財政・国債",
+      "title": "財務省が第466回流動性供給入札の募入決定結果を発表した。",
+      "summary": "流動性供給入札における応募額、募入決定額、募入平均利回格差などが決定した。",
+      "whatHappened": "財務省が第466回流動性供給入札の募入決定結果を発表した。",
+      "whatChanged": "流動性供給入札における応募額、募入決定額、募入平均利回格差などが決定した。",
+      "relatedThemes": [
+        "国債入札",
+        "流動性供給"
+      ],
+      "status": "NEW",
+      "source": "財務省",
+      "publishedAt": "2026-11-27T03:35:00.000Z",
+      "firstSeenAt": "2026-11-27T03:50:06.340Z",
+      "contentStatus": "VERIFIED_TEXT",
+      "links": [
+        {
+          "title": "流動性供給(第466回)入札結果",
+          "url": "https://www.mof.go.jp/jgbs/auction/calendar/nyusatsu/resul20261127.htm",
+          "source": "財務省"
+        }
+      ]
+    },
+    {
+      "id": "36bc7e31e61e357f73a679d54f14f319af41ae82b8347f2117fd9725fea2ae43",
+      "category": "財政・国債",
+      "title": "財務省が国庫短期証券（第1422回）の価格競争入札および非価格競争入札の募入決定結果を発表した。",
+      "summary": "国庫短期証券（第1422回）の応募額や募入決定額、募入平均利回りなどが確定した。",
+      "whatHappened": "財務省が国庫短期証券（第1422回）の価格競争入札および非価格競争入札の募入決定結果を発表した。",
+      "whatChanged": "国庫短期証券（第1422回）の応募額や募入決定額、募入平均利回りなどが確定した。",
+      "relatedThemes": [
+        "国債入札",
+        "国庫短期証券"
+      ],
+      "status": "NEW",
+      "source": "財務省",
+      "publishedAt": "2026-11-27T03:30:00.000Z",
+      "firstSeenAt": "2026-11-27T03:50:06.340Z",
+      "contentStatus": "VERIFIED_TEXT",
+      "links": [
+        {
+          "title": "国庫短期証券（第1422回）の入札結果",
+          "url": "https://www.mof.go.jp/jgbs/auction/calendar/tbill/tbill_nyusatsu/resul20261127.htm",
+          "source": "財務省"
+        }
+      ]
+    },
+    {
+      "id": "d8a26ba9b9247aafda9a2f39da2e7ebf65bbb0bd540f67720aa9e15de572ba3e",
+      "category": "財政・国債",
+      "title": "流動性供給(第466回)入札",
+      "summary": "5． 応募額一口の金額 1億円又はその整数倍 6． 募入決定の方法 コンベンショナル方式 7． 申込締切日時 令和8年11月27日 午前11時50分 8． 募入決定通知日 令和8年11月27日 連絡・問い合わせ先 理財局国債業務課債務調整係 電話（代表）03(3581)4111（内線5431） 夜間",
+      "whatHappened": "流動性供給(第466回)入札",
+      "whatChanged": "5． 応募額一口の金額 1億円又はその整数倍 6． 募入決定の方法 コンベンショナル方式 7． 申込締切日時 令和8年11月27日 午前11時50分 8． 募入決定通知日 令和8年11月27日 連絡・問い合わせ先 理財局国債業務課債務調整係 電話（代表）03(3581)4111（内線5431） 夜間",
+      "relatedThemes": [
+        "国債・円相場"
+      ],
+      "status": "NEW",
+      "source": "財務省",
+      "publishedAt": "2026-11-27T01:30:00.000Z",
+      "firstSeenAt": "2026-11-27T03:50:06.340Z",
+      "contentStatus": "VERIFIED_TEXT",
+      "links": [
+        {
+          "title": "流動性供給(第466回)入札",
+          "url": "https://www.mof.go.jp/jgbs/auction/calendar/nyusatsu/offer20261127.htm",
+          "source": "財務省"
+        }
+      ]
+    },
+    {
+      "id": "47c7e97ace624b05e332143c72541a77919b990b22602a12cf9f82d762c8dd8a",
+      "category": "財政・国債",
+      "title": "国庫短期証券（第1422回）の入札発行",
+      "summary": "） 8． 申込締切日時 令和8年11月27日 午前11時30分 9． 募入決定通知日 令和8年11月27日 10． 払込期日 令和8年11月30日 連絡・問い合わせ先 理財局国債業務課短期国債係 電話（代表）03(3581)4111 (内線5583） 夜間直通 03(3581)4159 財務省ホーム",
+      "whatHappened": "国庫短期証券（第1422回）の入札発行",
+      "whatChanged": "） 8． 申込締切日時 令和8年11月27日 午前11時30分 9． 募入決定通知日 令和8年11月27日 10． 払込期日 令和8年11月30日 連絡・問い合わせ先 理財局国債業務課短期国債係 電話（代表）03(3581)4111 (内線5583） 夜間直通 03(3581)4159 財務省ホーム",
+      "relatedThemes": [
+        "国債・円相場"
+      ],
+      "status": "NEW",
+      "source": "財務省",
+      "publishedAt": "2026-11-27T01:20:00.000Z",
+      "firstSeenAt": "2026-11-27T03:50:06.340Z",
+      "contentStatus": "VERIFIED_TEXT",
+      "links": [
+        {
+          "title": "国庫短期証券（第1422回）の入札発行",
+          "url": "https://www.mof.go.jp/jgbs/auction/calendar/tbill/tbill_nyusatsu/offer20261127.htm",
           "source": "財務省"
         }
       ]
     }
   ],
   "summary": [
-    "新旧制度の移行に伴い、対象行為を行う日に応じて使用する様式（旧様式・新様式）が異なる点などが示された。",
-    "国際金融情勢や対内直接投資審査制度、関連するガイドライン案などの資料が提示された。"
+    "預託の約定期間に応じた適用利率が示された。",
+    "貸付期間および据置期間に応じた適用利率（年利）が示された。",
+    "流動性供給入札における応募額、募入決定額、募入平均利回格差などが決定した。"
   ],
   "qualityNote": "NEWS MEMORYへの保存と表示用編集を分離。公式本文を確認できない情報は、見出し以上に補完しない。株価予想・売買推奨は行わない。"
 }
