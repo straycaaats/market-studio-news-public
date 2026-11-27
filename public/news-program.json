@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-27T04:20:04.224Z",
-  "asOf": "2026-11-27",
-  "edition": "EVENING",
-  "heading": "今日の振り返り",
+  "generatedAt": "2026-11-27T18:30:14.592Z",
+  "asOf": "2026-11-28",
+  "edition": "MORNING",
+  "heading": "今日見る材料",
   "counts": {
-    "fetchedToday": 21,
-    "newsMemoryTotal": 927,
-    "considered": 7,
+    "fetchedToday": 6,
+    "newsMemoryTotal": 933,
+    "considered": 9,
     "adoptedCards": 6,
     "failedSources": 1
   },
@@ -16,35 +16,35 @@
       "status": "FETCHED",
       "read": 15,
       "added": 0,
-      "fetchedAt": "2026-11-27T04:20:04.224Z"
+      "fetchedAt": "2026-11-27T18:30:14.592Z"
     },
     {
       "source": "日本銀行",
       "status": "FETCHED",
-      "read": 74,
-      "added": 0,
-      "fetchedAt": "2026-11-27T04:20:04.224Z"
+      "read": 75,
+      "added": 1,
+      "fetchedAt": "2026-11-27T18:30:14.592Z"
     },
     {
       "source": "金融庁",
       "status": "FETCHED",
       "read": 15,
       "added": 0,
-      "fetchedAt": "2026-11-27T04:20:04.224Z"
+      "fetchedAt": "2026-11-27T18:30:14.592Z"
     },
     {
       "source": "財務省",
       "status": "FETCHED",
       "read": 100,
-      "added": 0,
-      "fetchedAt": "2026-11-27T04:20:04.224Z"
+      "added": 5,
+      "fetchedAt": "2026-11-27T18:30:14.592Z"
     },
     {
       "source": "経済産業省",
       "status": "FAILED",
       "read": 0,
       "added": 0,
-      "fetchedAt": "2026-11-27T04:20:04.224Z",
+      "fetchedAt": "2026-11-27T18:30:14.592Z",
       "error": "HTTP 403"
     }
   ],
@@ -96,49 +96,101 @@
   "summaryMode": "GEMINI_GROUNDED_EDITORIAL",
   "cards": [
     {
-      "id": "b6ef22fce7868079c6c0e4c590ff1d6c70226b2261fce57591d340eeddb504db",
+      "id": "06f95a00dff8360e66024d5b78b03b2e3a961824d17209c87d2c3265d424b954",
       "category": "財政・国債",
-      "title": "財務省が令和8年12月1日以降適用分の財政融資資金預託金利を発表した。",
-      "summary": "令和8年12月1日以降の預託金利の適用利率が定められた。",
-      "whatHappened": "財務省が令和8年12月1日以降適用分の財政融資資金預託金利を発表した。",
-      "whatChanged": "令和8年12月1日以降の預託金利の適用利率が定められた。",
+      "title": "財務省は、韓国および中国産の水酸化カリウムに対する不当廉売関税の課税期間を延長する政令を閣議決定した。",
+      "summary": "課税期間が令和13年12月1日まで延長されることとなった。",
+      "whatHappened": "財務省は、韓国および中国産の水酸化カリウムに対する不当廉売関税の課税期間を延長する政令を閣議決定した。",
+      "whatChanged": "課税期間が令和13年12月1日まで延長されることとなった。",
       "relatedThemes": [
-        "財政融資資金",
-        "金利"
+        "関税",
+        "貿易",
+        "化学品"
       ],
       "status": "NEW",
       "source": "財務省",
-      "publishedAt": "2026-11-27T00:30:00.000Z",
-      "firstSeenAt": "2026-11-27T03:50:06.340Z",
+      "publishedAt": "2026-11-27T06:02:00.000Z",
+      "firstSeenAt": "2026-11-27T18:30:14.592Z",
       "contentStatus": "VERIFIED_TEXT",
       "links": [
         {
-          "title": "財政融資資金預託金利（令和8年12月1日以降適用）",
-          "url": "https://www.mof.go.jp/policy/filp/reference/flf_interest_rate/kinrir8/yotaku20261127.html",
+          "title": "大韓民国産及び中華人民共和国産水酸化カリウムに対する 不当廉売関税の課税期間の延長を決定しました",
+          "url": "https://www.mof.go.jp/policy/customs_tariff/trade/plan/futou/ka20261127-3.html",
           "source": "財務省"
         }
       ]
     },
     {
-      "id": "583a1c9baab8407687f73e4bf42c633c9d1c640993c92353c4ed0de3831d140f",
+      "id": "ac88406f11b1e2d80a38d16a997df3c426480f07b8ccfa5342aeff6fda3401f0",
       "category": "財政・国債",
-      "title": "財務省が令和8年12月1日以降適用分の財政融資資金貸付金利を発表した。",
-      "summary": "令和8年12月1日以降に貸し付ける財政融資資金の貸付金利率が定められた。",
-      "whatHappened": "財務省が令和8年12月1日以降適用分の財政融資資金貸付金利を発表した。",
-      "whatChanged": "令和8年12月1日以降に貸し付ける財政融資資金の貸付金利率が定められた。",
+      "title": "財務省は、韓国および台湾産のビスフェノールAに対し、期間5年の不当廉売関税を課す政令を閣議決定した。",
+      "summary": "令和8年12月3日から令和13年12月2日までの間、不当廉売関税が課されることとなった。",
+      "whatHappened": "財務省は、韓国および台湾産のビスフェノールAに対し、期間5年の不当廉売関税を課す政令を閣議決定した。",
+      "whatChanged": "令和8年12月3日から令和13年12月2日までの間、不当廉売関税が課されることとなった。",
       "relatedThemes": [
-        "財政融資資金",
-        "貸付金利"
+        "関税",
+        "貿易",
+        "化学品"
       ],
       "status": "NEW",
       "source": "財務省",
-      "publishedAt": "2026-11-27T00:30:00.000Z",
-      "firstSeenAt": "2026-11-27T03:50:06.340Z",
+      "publishedAt": "2026-11-27T06:01:00.000Z",
+      "firstSeenAt": "2026-11-27T18:30:14.592Z",
       "contentStatus": "VERIFIED_TEXT",
       "links": [
         {
-          "title": "財政融資資金貸付金利（令和8年12月1日以降適用）",
-          "url": "https://www.mof.go.jp/policy/filp/reference/flf_interest_rate/kinrir8/kashi20261127.html",
+          "title": "大韓民国産並びに台湾、澎湖諸島、金門及び馬祖から成る独立の関税地域産ビスフェノールＡに対する不当廉売関税の課税を決定しました",
+          "url": "https://www.mof.go.jp/policy/customs_tariff/trade/plan/futou/ka20261127-2.html",
+          "source": "財務省"
+        }
+      ]
+    },
+    {
+      "id": "7b2735ab5684521f64d6917245ef15d034424fbcee37155d9710c7ec27fc61ea",
+      "category": "財政・国債",
+      "title": "財務省は、韓国および中国産の溶融亜鉛めっき鋼帯・鋼板に対し、期間5年の不当廉売関税を課す政令を閣議決定した。",
+      "summary": "令和8年12月3日から令和13年12月2日まで不当廉売関税が課されることとなった。",
+      "whatHappened": "財務省は、韓国および中国産の溶融亜鉛めっき鋼帯・鋼板に対し、期間5年の不当廉売関税を課す政令を閣議決定した。",
+      "whatChanged": "令和8年12月3日から令和13年12月2日まで不当廉売関税が課されることとなった。",
+      "relatedThemes": [
+        "関税",
+        "貿易",
+        "鉄鋼"
+      ],
+      "status": "NEW",
+      "source": "財務省",
+      "publishedAt": "2026-11-27T06:00:00.000Z",
+      "firstSeenAt": "2026-11-27T18:30:14.592Z",
+      "contentStatus": "VERIFIED_TEXT",
+      "links": [
+        {
+          "title": "大韓民国産及び中華人民共和国産溶融亜鉛めっき鋼帯及び鋼板に対する不当廉売関税の課税を決定しました",
+          "url": "https://www.mof.go.jp/policy/customs_tariff/trade/plan/futou/ka20261127-1.html",
+          "source": "財務省"
+        }
+      ]
+    },
+    {
+      "id": "8b4cc61a11e0b776db54deae01185019719ee561e343103665118f95a9c6b33f",
+      "category": "財政・国債",
+      "title": "片山財務大臣が閣議後記者会見を行い、第2次補正予算案の編成方針や防衛費について言及した。",
+      "summary": "当初予算中心の計画的な財政運営を行う基本方針が示された。",
+      "whatHappened": "片山財務大臣が閣議後記者会見を行い、第2次補正予算案の編成方針や防衛費について言及した。",
+      "whatChanged": "当初予算中心の計画的な財政運営を行う基本方針が示された。",
+      "relatedThemes": [
+        "財政",
+        "予算",
+        "政府方針"
+      ],
+      "status": "NEW",
+      "source": "財務省",
+      "publishedAt": "2026-11-27T07:35:00.000Z",
+      "firstSeenAt": "2026-11-27T18:30:14.592Z",
+      "contentStatus": "VERIFIED_TEXT",
+      "links": [
+        {
+          "title": "片山財務大臣兼内閣府特命担当大臣閣議後記者会見の概要(令和8年11月27日(金曜日))",
+          "url": "https://www.mof.go.jp/public_relations/conference/my20261127.html",
           "source": "財務省"
         }
       ]
@@ -147,14 +199,14 @@
       "id": "e1b3a2e16ba6be92f4a026450369ffd10290c4141e1708f34a316cc5689aae3c",
       "category": "財政・国債",
       "title": "財務省が第466回流動性供給入札の結果を発表した。",
-      "summary": "応募額1兆9,437億円に対し、募入決定額4,991億円で入札が実施された。",
+      "summary": "募入決定額は額面金額で4,991億円となった。",
       "whatHappened": "財務省が第466回流動性供給入札の結果を発表した。",
-      "whatChanged": "応募額1兆9,437億円に対し、募入決定額4,991億円で入札が実施された。",
+      "whatChanged": "募入決定額は額面金額で4,991億円となった。",
       "relatedThemes": [
-        "国債入札",
-        "流動性供給入札"
+        "国債",
+        "入札"
       ],
-      "status": "NEW",
+      "status": "FOLLOW_UP",
       "source": "財務省",
       "publishedAt": "2026-11-27T03:35:00.000Z",
       "firstSeenAt": "2026-11-27T03:50:06.340Z",
@@ -171,14 +223,14 @@
       "id": "36bc7e31e61e357f73a679d54f14f319af41ae82b8347f2117fd9725fea2ae43",
       "category": "財政・国債",
       "title": "財務省が国庫短期証券（第1422回）の入札結果を発表した。",
-      "summary": "価格競争入札および非価格競争入札の募入決定額や平均価格・利回りが決定された。",
+      "summary": "価格競争入札の募入決定額は2兆3,927億8,000万円となった。",
       "whatHappened": "財務省が国庫短期証券（第1422回）の入札結果を発表した。",
-      "whatChanged": "価格競争入札および非価格競争入札の募入決定額や平均価格・利回りが決定された。",
+      "whatChanged": "価格競争入札の募入決定額は2兆3,927億8,000万円となった。",
       "relatedThemes": [
-        "国庫短期証券",
-        "入札結果"
+        "国債",
+        "入札"
       ],
-      "status": "NEW",
+      "status": "FOLLOW_UP",
       "source": "財務省",
       "publishedAt": "2026-11-27T03:30:00.000Z",
       "firstSeenAt": "2026-11-27T03:50:06.340Z",
@@ -190,58 +242,12 @@
           "source": "財務省"
         }
       ]
-    },
-    {
-      "id": "d8a26ba9b9247aafda9a2f39da2e7ebf65bbb0bd540f67720aa9e15de572ba3e",
-      "category": "財政・国債",
-      "title": "流動性供給(第466回)入札",
-      "summary": "5． 応募額一口の金額 1億円又はその整数倍 6． 募入決定の方法 コンベンショナル方式 7． 申込締切日時 令和8年11月27日 午前11時50分 8． 募入決定通知日 令和8年11月27日 連絡・問い合わせ先 理財局国債業務課債務調整係 電話（代表）03(3581)4111（内線5431） 夜間",
-      "whatHappened": "流動性供給(第466回)入札",
-      "whatChanged": "5． 応募額一口の金額 1億円又はその整数倍 6． 募入決定の方法 コンベンショナル方式 7． 申込締切日時 令和8年11月27日 午前11時50分 8． 募入決定通知日 令和8年11月27日 連絡・問い合わせ先 理財局国債業務課債務調整係 電話（代表）03(3581)4111（内線5431） 夜間",
-      "relatedThemes": [
-        "国債・円相場"
-      ],
-      "status": "NEW",
-      "source": "財務省",
-      "publishedAt": "2026-11-27T01:30:00.000Z",
-      "firstSeenAt": "2026-11-27T03:50:06.340Z",
-      "contentStatus": "VERIFIED_TEXT",
-      "links": [
-        {
-          "title": "流動性供給(第466回)入札",
-          "url": "https://www.mof.go.jp/jgbs/auction/calendar/nyusatsu/offer20261127.htm",
-          "source": "財務省"
-        }
-      ]
-    },
-    {
-      "id": "47c7e97ace624b05e332143c72541a77919b990b22602a12cf9f82d762c8dd8a",
-      "category": "財政・国債",
-      "title": "国庫短期証券（第1422回）の入札発行",
-      "summary": "） 8． 申込締切日時 令和8年11月27日 午前11時30分 9． 募入決定通知日 令和8年11月27日 10． 払込期日 令和8年11月30日 連絡・問い合わせ先 理財局国債業務課短期国債係 電話（代表）03(3581)4111 (内線5583） 夜間直通 03(3581)4159 財務省ホーム",
-      "whatHappened": "国庫短期証券（第1422回）の入札発行",
-      "whatChanged": "） 8． 申込締切日時 令和8年11月27日 午前11時30分 9． 募入決定通知日 令和8年11月27日 10． 払込期日 令和8年11月30日 連絡・問い合わせ先 理財局国債業務課短期国債係 電話（代表）03(3581)4111 (内線5583） 夜間直通 03(3581)4159 財務省ホーム",
-      "relatedThemes": [
-        "国債・円相場"
-      ],
-      "status": "NEW",
-      "source": "財務省",
-      "publishedAt": "2026-11-27T01:20:00.000Z",
-      "firstSeenAt": "2026-11-27T03:50:06.340Z",
-      "contentStatus": "VERIFIED_TEXT",
-      "links": [
-        {
-          "title": "国庫短期証券（第1422回）の入札発行",
-          "url": "https://www.mof.go.jp/jgbs/auction/calendar/tbill/tbill_nyusatsu/offer20261127.htm",
-          "source": "財務省"
-        }
-      ]
     }
   ],
   "summary": [
-    "令和8年12月1日以降の預託金利の適用利率が定められた。",
-    "令和8年12月1日以降に貸し付ける財政融資資金の貸付金利率が定められた。",
-    "応募額1兆9,437億円に対し、募入決定額4,991億円で入札が実施された。"
+    "課税期間が令和13年12月1日まで延長されることとなった。",
+    "令和8年12月3日から令和13年12月2日までの間、不当廉売関税が課されることとなった。",
+    "令和8年12月3日から令和13年12月2日まで不当廉売関税が課されることとなった。"
   ],
   "qualityNote": "NEWS MEMORYへの保存と表示用編集を分離。公式本文を確認できない情報は、見出し以上に補完しない。株価予想・売買推奨は行わない。"
 }
